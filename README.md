@@ -174,12 +174,12 @@
 ### Arctitecture
 
 * Describe the architecture of your last app.
-* Describe MVP.
+* Describe MVP. [Link](https://blog.mindorks.com/essential-guide-for-designing-your-android-app-architecture-mvp-part-1-74efaf1cda40)
 * What is presenter?
 * What is model?
 * Describe MVC.
 * What is controller?
-* Describe MVVM.
+* Describe MVVM. [Link](https://github.com/MindorksOpenSource/android-mvvm-architecture)
 * Tell something about clean code [Link](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
 
 
