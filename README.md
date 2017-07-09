@@ -8,6 +8,7 @@
 [![Mindorks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
 > Android Interview Questions - Your Cheat Sheet For Android Interview
 
+## We will be adding answers to the more questions on our Mindorks website. [Link of website](https://mindorks.com)
 
 ## Contents
  * [Data Structures And Algorithms](#data-structures-and-algorithms)
