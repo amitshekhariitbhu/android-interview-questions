@@ -14,7 +14,7 @@
  * [Data Structures And Algorithms](#data-structures-and-algorithms)
  * [Core Java](#core-java)
  * [Core Android](#core-android)
- * [Arctitecture](#arctitecture)
+ * [Architecture](#architecture)
  * [Design Problem](#design-problem)
  * [Tools And Technologies](#tools-and-technologies)
  * [Android Test Driven Development](#android-test-driven-development)
@@ -172,7 +172,7 @@
 * What is `SnapHelper`? [Link](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
 
 
-### Arctitecture
+### Architecture
 
 * Describe the architecture of your last app.
 * Describe MVP. [Link](https://blog.mindorks.com/essential-guide-for-designing-your-android-app-architecture-mvp-part-1-74efaf1cda40)
