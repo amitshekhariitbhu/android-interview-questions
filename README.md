@@ -67,7 +67,7 @@
 * Do objects get passed by reference or value in Java? Elaborate on that.
 * What is a ThreadPoolExecutor? [Link](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
 * What the difference between local, instance and class variables?
-* What is reflection?
+* What is reflection? [Link](http://tutorials.jenkov.com/java-reflection/index.html)
 * What are strong, soft and weak references in Java?
 * What is dependency injection? Can you name few libraries? Have you used any?
 * What does the keyword `synchronized` mean?
