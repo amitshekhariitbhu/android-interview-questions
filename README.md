@@ -91,7 +91,7 @@
 
 * Explain activity lifecycle.
 * Tell all the Android appplication components.
-* Service vs IntentService.
+* Service vs IntentService.[Link](https://stackoverflow.com/a/15772151/5153275)
 * What is the structure of an Android Application?
 * How to persist data in an Android app?
 * How would you perform a long-running operation in an application?
@@ -112,6 +112,7 @@
 * What is an Explicit Intent?
 * What is an AsyncTask?
 * What is a BroadcastReceiver?
+* What is a JobScheduler?[Link](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
 * What is DDMS and what can you do with it?
 * What is the support library? Why was it introduced?
 * What is a ContentProvider and what is it typically used for?
