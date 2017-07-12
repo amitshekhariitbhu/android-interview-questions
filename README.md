@@ -10,6 +10,8 @@
 
 ## We will be adding answers to the more questions on our [Mindorks website](https://mindorks.com).
 
+## Prepared and maintained by [Amit Shekhar](https://github.com/amitshekhariitbhu) who is having experience of taking interviews of many Android developers and cracking interviews of top companies.
+
 ## Contents
  * [Data Structures And Algorithms](#data-structures-and-algorithms)
  * [Core Java](#core-java)
