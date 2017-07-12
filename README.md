@@ -114,6 +114,7 @@
 * What is an Explicit Intent?
 * What is an AsyncTask?
 * What is a BroadcastReceiver?
+* What is a LocalBroadcastManager? [Link](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
 * What is a JobScheduler? [Link](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
 * What is DDMS and what can you do with it?
 * What is the support library? Why was it introduced?
@@ -205,6 +206,7 @@
 * RxJava. [Link](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
 * Dagger 2. [Link](https://medium.com/p/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
 * Android Development Useful Tools. [Link](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
+* Firebase. [Link](https://firebase.google.com/)
 
 
 ### Android Test Driven Development
