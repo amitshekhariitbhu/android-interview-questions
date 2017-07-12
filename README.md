@@ -133,7 +133,7 @@
 * What is a Sticky Intent?
 * What is AIDL? Enumerate the steps in creating a bounded service through AIDL.
 * What are the different protection levels in permission?
-* How would you preserve Activity state during a screen rotation?
+* How would you preserve Activity state during a screen rotation? [Link](https://stackoverflow.com/questions/3915952/how-to-save-state-during-orientation-change-in-android-if-the-state-is-made-of-m)
 * Relative Layout vs Linear Layout.
 * How to implement XML namespaces?
 * Difference between `View.GONE` and `View.INVISIBLE`?
