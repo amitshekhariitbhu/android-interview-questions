@@ -136,7 +136,7 @@
 * How would you preserve Activity state during a screen rotation?
 * Relative Layout vs Linear Layout.
 * How to implement XML namespaces?
-* Difference between View.GONE and View.INVISIBLE?
+* Difference between `View.GONE` and `View.INVISIBLE`?
 * What is the difference between a regular bitmap and a nine-patch image?
 * Tell about the bitmap pool. [Link](https://blog.mindorks.com/how-to-use-bitmap-pool-in-android-56c71a55533c)
 * How to avoid memory leaks in Android?
