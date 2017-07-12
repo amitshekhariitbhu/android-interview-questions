@@ -118,6 +118,8 @@
 * What is DDMS and what can you do with it?
 * What is the support library? Why was it introduced?
 * What is a ContentProvider and what is it typically used for?
+* What is Android Data Binding? [Link](https://developer.android.com/topic/libraries/data-binding/index.html)
+* What are Android Architecture Components? [Link](https://developer.android.com/topic/libraries/architecture/index.html)
 * What is ADB?
 * What is ANR? How can the ANR be prevented?
 * What is AndroidManifest.xml?
