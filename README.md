@@ -213,7 +213,7 @@
 * Explain unit test.
 * Explain instrumented test.
 * Have you done unit testing or automatic testing?
-* Why Mockito is used? [Link] (http://site.mockito.org/)
+* Why Mockito is used? [Link](http://site.mockito.org/)
 * Describe JUnit test.
 
 
