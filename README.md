@@ -101,7 +101,7 @@
 * Explain Android notification system?
 * How can two distinct Android apps interact?
 * What is Fragment?
-* Explain the lifecycle of a Fragment.
+* Explain the lifecycle of a Fragment. [Link](https://www.techsfo.com/blog/wp-content/uploads/2014/08/complete_android_fragment_lifecycle.png)
 * What is Dialog in Android?
 * What is View in Android?
 * Can you create custom views? How?
