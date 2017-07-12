@@ -101,7 +101,7 @@
 * Explain Android notification system?
 * How can two distinct Android apps interact?
 * What is Fragment?
-* Explain the lifecycle of a Fragment.
+* Explain the lifecycle of a Fragment. [Link](https://www.techsfo.com/blog/wp-content/uploads/2014/08/complete_android_fragment_lifecycle.png)
 * What is Dialog in Android?
 * What is View in Android?
 * Can you create custom views? How?
@@ -114,10 +114,13 @@
 * What is an Explicit Intent?
 * What is an AsyncTask?
 * What is a BroadcastReceiver?
+* What is a LocalBroadcastManager? [Link](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
 * What is a JobScheduler? [Link](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
 * What is DDMS and what can you do with it?
 * What is the support library? Why was it introduced?
 * What is a ContentProvider and what is it typically used for?
+* What is Android Data Binding? [Link](https://developer.android.com/topic/libraries/data-binding/index.html)
+* What are Android Architecture Components? [Link](https://developer.android.com/topic/libraries/architecture/index.html)
 * What is ADB?
 * What is ANR? How can the ANR be prevented?
 * What is AndroidManifest.xml?
@@ -203,6 +206,7 @@
 * RxJava. [Link](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
 * Dagger 2. [Link](https://medium.com/p/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
 * Android Development Useful Tools. [Link](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
+* Firebase. [Link](https://firebase.google.com/)
 
 
 ### Android Test Driven Development
@@ -213,7 +217,7 @@
 * Explain unit test.
 * Explain instrumented test.
 * Have you done unit testing or automatic testing?
-* Why Mockito is used? [Link] (http://site.mockito.org/)
+* Why Mockito is used? [Link](http://site.mockito.org/)
 * Describe JUnit test.
 
 
