@@ -232,7 +232,7 @@
 * What is proguard used for?
 * What is obfuscation? What is it used for? What about minification?
 * How do you build your apps for release?
-* APK Size Reduction. [Link](https://blog.mindorks.com/how-i-decreased-my-app-size-to-70-using-apk-analyser-4a6f79512072)
+* APK Size Reduction. [Link](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
 * Android Development Best Practices. [Link](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
 * Android Code Style And Guidelines. [Link](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
 * Have you tried Kotlin? [Link](https://medium.com/p/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
