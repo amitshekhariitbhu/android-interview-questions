@@ -109,7 +109,7 @@
 * What is the difference between a fragment and an activity? Explain the relationship between the two.
 * What is the difference between Serializable and Parcelable? Which is the best approach in Android?
 * What are "launch modes"? [Link](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
-* What are Intents?
+* What are Intents? [Link](https://stackoverflow.com/questions/6578051/what-is-an-intent-in-android)
 * What is an Implicit Intent?
 * What is an Explicit Intent?
 * What is an AsyncTask?
