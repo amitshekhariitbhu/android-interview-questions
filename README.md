@@ -29,6 +29,24 @@
 
 * Array
 * LinkedList
+    - A LinkedList, just like a tree and unlike an array, consists of a group of nodes which 
+    together represent a sequence. Each node contains data and a pointer. The data in a node can be 
+    anything, but the pointer is a reference to the next item in the LinkedList. A LinkedList 
+    contains both a head and a tail. The Head is the first item in the LinkedList, and the Tail is 
+    the last item. A LinkedList is not a circular data structure, so the tail does not have its 
+    pointer pointing at the Head, the pointer is just null. The run time complexity for each of 
+    the base methods are as follows:
+
+    
+    ╔═══════════╦═════════╦════════════╗
+    ║ Algorithm ║ Average ║ Worst Case ║
+    ╠═══════════╬═════════╬════════════╣
+    ║ Space     ║ O(n)    ║ O(n)       ║
+    ║ Search    ║ O(n)    ║ O(n)       ║
+    ║ Insert    ║ O(1)    ║ O(1)       ║
+    ║ Delete    ║ O(1)    ║ O(1)       ║
+    ╚═══════════╩═════════╩════════════╝
+            
 * DoublyLinkedList
 * Stack
 * Queue
