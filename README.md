@@ -47,10 +47,33 @@
 ### Core Java
 
 * Explain OOP Concept.
+    - Object-Oriented Programming is a methodology to design a program using classes, objects, 
+    [inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)),
+    [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)),
+    [abstraction](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)), and
+    [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)).
 * Differences between abstract classes and interfaces?
+    - An abstract class, is a class that contains both concrete and abstract methods 
+    (methods without implementations). An abstract method must be implemented by the abstract class
+     sub-classes. Abstract classes are extended.
+    - An interface is like a blueprint/contract of a class. It contains empty methods that 
+    represent what all of its subclasses should have in common. The subclasses provide the 
+    implementation for each of these methods. Interfaces are implemented.
 * What is serialization? How do you implement it?
+    - Serialization is the process of converting an object into a stream of bytes in order to store 
+    an object into memory so that it can be recreated at a later time while still keeping the 
+    objects original state and data. In Java there are two methods of doing this, one is by 
+    implementing Serializable or Parcelable. In Android, however, Serializable should never be used 
+    in Android. Parcelable was created to be more efficient then Serializable, and performs about 
+    10x faster then Serializable because Serializable uses reflection which is a slow process and 
+    tends to create a lot of temporary objects which may cause garbage collection to occur more often.
 * What is Singleton class?
-* What is anonymous classes?
+    - A singleton is a class that can only be instantiated once.[This singleton pattern restricts 
+    the instantiation of a class to one object. This is useful when exactly one object is needed 
+    to coordinate actions across the system. The concept is sometimes generalized to systems 
+    that operate more efficiently when only one object exists, or that restrict the instantiation 
+    to a certain number of objects.](https://en.wikipedia.org/wiki/Singleton_pattern)
+* What are anonymous classes?
 * What is the difference between using `==` and `.equals` on a string?
 * What is the `hashCode()` and `equals()` used for?
 * What are these `final`, `finally` and `finalize`?
