@@ -109,10 +109,10 @@
 * What is the difference between a fragment and an activity? Explain the relationship between the two.
 * What is the difference between Serializable and Parcelable? Which is the best approach in Android?
 * What are "launch modes"? [Link](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
-* What are Intents?
-* What is an Implicit Intent? [Link](https://www.javatpoint.com/android-intent-tutorial)
-* What is an Explicit Intent? [Link](https://www.javatpoint.com/android-intent-tutorial)
-* What is an AsyncTask? [Link](https://developer.android.com/reference/android/os/AsyncTask.html)
+* What are Intents? [Link](https://stackoverflow.com/questions/6578051/what-is-an-intent-in-android)
+* What is an Implicit Intent?
+* What is an Explicit Intent?
+* What is an AsyncTask?
 * What is a BroadcastReceiver? [Link](https://stackoverflow.com/questions/5296987/what-is-broadcastreceiver-and-when-we-use-it)
 * What is a LocalBroadcastManager? [Link](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
 * What is a JobScheduler? [Link](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
@@ -133,7 +133,7 @@
 * What is a Sticky Intent? [Link](http://www.androidinterview.com/what-is-a-sticky-intent/)
 * What is AIDL? Enumerate the steps in creating a bounded service through AIDL.
 * What are the different protection levels in permission?
-* How would you preserve Activity state during a screen rotation?
+* How would you preserve Activity state during a screen rotation? [Link](https://stackoverflow.com/questions/3915952/how-to-save-state-during-orientation-change-in-android-if-the-state-is-made-of-m)
 * Relative Layout vs Linear Layout.
 * How to implement XML namespaces?
 * Difference between `View.GONE` and `View.INVISIBLE`?
@@ -232,7 +232,9 @@
 * What is proguard used for?
 * What is obfuscation? What is it used for? What about minification?
 * How do you build your apps for release?
-* APK Size Reduction. [Link](https://blog.mindorks.com/how-i-decreased-my-app-size-to-70-using-apk-analyser-4a6f79512072)
+* How do you control the application version update to specific number of users?
+* Can we identify users who have uninstalled our application?
+* APK Size Reduction. [Link](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
 * Android Development Best Practices. [Link](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
 * Android Code Style And Guidelines. [Link](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
 * Have you tried Kotlin? [Link](https://medium.com/p/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
