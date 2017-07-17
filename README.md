@@ -51,7 +51,10 @@
     Stack is like a stack of books. In order to get to the first book that was added in the stack 
     (the bottom book), all of the books that were added after need to be removed first. Adding to a 
     Stack is called a Push, removing from a stack is called a Pop, and getting the last item 
-    inserted into the stack without removing it is called Top.
+    inserted into the stack without removing it is called Top. [The most common way to implement a
+     stack is by using a LinkedList, but there are also StackArray (implemented with an array) 
+     which does not replace null entries, and there is also a Vector implementation that does 
+     replace null entries.](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
 <table>
     <tr>
         <th>Algorithm</th>
