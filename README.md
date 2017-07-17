@@ -46,6 +46,49 @@
 
 * DoublyLinkedList
 * Stack
+    - A Stack is a basic data structure with a "Last-in-First-out" methodology.Which means that 
+    the last item that was added to the stack, is the first item that comes out. A Stack is 
+    exactly like a stack of books. In order to get to the first book 
+    that was added in the stack (the bottom book), all of the books before need to be removed. 
+    Adding to a Stack is called a Push, removing from a stack is called a Pop, and getting the 
+    last item inserted into the stack without removing it is called Top.
+<table>
+    <tr>
+        <th>Algorithm</th>
+        <th>Average</th>
+        <th>Worst Case</th>
+        <th>Image representation</th>
+    </tr>
+    <tr>
+        <td>Space</td>
+        <td>O(n)</td>
+        <td>O(n)</td>
+        <td rowspan="5">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/250px-Data_stack.svg.png"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Search</td>
+        <td>O(n)</td>
+        <td>O(n)</td>
+    </tr>
+    <tr>
+        <td>Insert (Push)</td>
+        <td>O(1)</td>
+        <td>O(1)</td>
+    </tr>
+    <tr>
+        <td>Delete (Pop)</td>
+        <td>O(1)</td>
+        <td>O(1)</td>
+    </tr>
+    <tr>
+      <td>Top</td>
+      <td>O(1)</td>
+      <td>O(1)</td>
+    </tr>
+</table>
+
 * Queue
 * PriorityQueue
 * Dynamic Programming
