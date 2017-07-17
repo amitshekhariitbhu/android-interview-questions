@@ -98,6 +98,10 @@
 * HashSet vs TreeSet.
 * Typecast in Java.
 * Difference between method overloading and overriding.
+
+<p align="center">
+<img alt="Overloading and Overriding" src="https://github.com/codeshef/android-interview-questions/blob/master/assets/overloading-vs-overriding.png">
+</p>
 * What are the access modifiers you know? What does each one do?
 * Can an Interface extend another Interface?
 * What does the `static` word mean in Java?
