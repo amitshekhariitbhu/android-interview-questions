@@ -113,7 +113,7 @@
 * What is an Implicit Intent?
 * What is an Explicit Intent?
 * What is an AsyncTask?
-* What is a BroadcastReceiver?
+* What is a BroadcastReceiver? [Link](https://stackoverflow.com/questions/5296987/what-is-broadcastreceiver-and-when-we-use-it)
 * What is a LocalBroadcastManager? [Link](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
 * What is a JobScheduler? [Link](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
 * What is DDMS and what can you do with it?
@@ -130,7 +130,7 @@
 * What is the Dalvik Virtual Machine?
 * What is the relationship between the life cycle of an AsyncTask and an Activity? What problems can this result in? How can these problems be avoided?
 * What is the function of an intent filter?
-* What is a Sticky Intent?
+* What is a Sticky Intent? [Link](http://www.androidinterview.com/what-is-a-sticky-intent/)
 * What is AIDL? Enumerate the steps in creating a bounded service through AIDL.
 * What are the different protection levels in permission?
 * How would you preserve Activity state during a screen rotation? [Link](https://stackoverflow.com/questions/3915952/how-to-save-state-during-orientation-change-in-android-if-the-state-is-made-of-m)
