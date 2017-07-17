@@ -49,9 +49,9 @@
     - A Stack is a basic data structure with a "Last-in-First-out" methodology. Which means that 
     the last item that was added to the stack, is the first item that comes out of the stack. A 
     Stack is like a stack of books. In order to get to the first book that was added in the stack 
-    (the bottom book), all of the books before need to be removed. Adding to a Stack is called a 
-    Push, removing from a stack is called a Pop, and getting the last item inserted into the 
-    stack without removing it is called Top.
+    (the bottom book), all of the books that were added after need to be removed first. Adding to a 
+    Stack is called a Push, removing from a stack is called a Pop, and getting the last item 
+    inserted into the stack without removing it is called Top.
 <table>
     <tr>
         <th>Algorithm</th>
