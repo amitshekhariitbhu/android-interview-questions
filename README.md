@@ -94,6 +94,10 @@
 * What are these `final`, `finally` and `finalize`?
 * What is memory leak and how does Java handle it?
 * What is garbage collector? How it works?
+  -All objects are allocated on the heap area managed by the JVM. 
+  As long as an object is being referenced, the JVM considers it  alive. 
+  Once an object is no longer referenced and therefore is not reachable by the application code,
+  the garbage collector removes it and reclaims the unused memory.
 * Arrays vs ArrayLists.
 * HashSet vs TreeSet.
 * Typecast in Java.
