@@ -153,7 +153,7 @@ Argument list should be different while doing method overloading. Argument list 
 ### Core Android
 
 * Explain activity lifecycle.
-* Tell all the Android appplication components.
+* Tell all the Android application components.
 * Service vs IntentService. [Link](https://stackoverflow.com/a/15772151/5153275)
 * What is the structure of an Android Application?
 * How to persist data in an Android app?
