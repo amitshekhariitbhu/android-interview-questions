@@ -37,13 +37,12 @@
     pointer pointing at the Head, the pointer is just null. The run time complexity for each of 
     the base methods are as follows:
 
-| Algorithm | Average | Worst Case |
-|:---------:|:-------:|:----------:|
-| Space     | O(n)    | O(n)       |
-| Search    | O(n)    | O(n)       |
-| Insert    | O(1)    | O(1)       |
-| Delete    | O(1)    | O(1)       |
-
+        | Algorithm | Average | Worst Case |
+        |:---------:|:-------:|:----------:|
+        | Space     | O(n)    | O(n)       |
+        | Search    | O(n)    | O(n)       |
+        | Insert    | O(1)    | O(1)       |
+        | Delete    | O(1)    | O(1)       |
 * DoublyLinkedList
 * Stack
     - A Stack is a basic data structure with a "Last-in-First-out" methodology. Which means that 
@@ -55,43 +54,42 @@
      stack is by using a LinkedList, but there are also StackArray (implemented with an array) 
      which does not replace null entries, and there is also a Vector implementation that does 
      replace null entries.](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
-<table>
-    <tr>
-        <th>Algorithm</th>
-        <th>Average</th>
-        <th>Worst Case</th>
-        <th>Image representation</th>
-    </tr>
-    <tr>
-        <td>Space</td>
-        <td>O(n)</td>
-        <td>O(n)</td>
-        <td rowspan="5">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/250px-Data_stack.svg.png"/>
-        </td>
-    </tr>
-    <tr>
-        <td>Search</td>
-        <td>O(n)</td>
-        <td>O(n)</td>
-    </tr>
-    <tr>
-        <td>Insert (Push)</td>
-        <td>O(1)</td>
-        <td>O(1)</td>
-    </tr>
-    <tr>
-        <td>Delete (Pop)</td>
-        <td>O(1)</td>
-        <td>O(1)</td>
-    </tr>
-    <tr>
-      <td>Top</td>
-      <td>O(1)</td>
-      <td>O(1)</td>
-    </tr>
-</table>
-
+        <table>
+            <tr>
+                <th>Algorithm</th>
+                <th>Average</th>
+                <th>Worst Case</th>
+                <th>Image representation</th>
+            </tr>
+            <tr>
+                <td>Space</td>
+                <td>O(n)</td>
+                <td>O(n)</td>
+                <td rowspan="5">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/250px-Data_stack.svg.png"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Search</td>
+                <td>O(n)</td>
+                <td>O(n)</td>
+            </tr>
+            <tr>
+                <td>Insert (Push)</td>
+                <td>O(1)</td>
+                <td>O(1)</td>
+            </tr>
+            <tr>
+                <td>Delete (Pop)</td>
+                <td>O(1)</td>
+                <td>O(1)</td>
+            </tr>
+            <tr>
+              <td>Top</td>
+              <td>O(1)</td>
+              <td>O(1)</td>
+            </tr>
+        </table>
 * Queue
 * PriorityQueue
 * Dynamic Programming
