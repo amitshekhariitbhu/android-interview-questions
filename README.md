@@ -54,6 +54,7 @@
      stack is by using a LinkedList, but there are also StackArray (implemented with an array) 
      which does not replace null entries, and there is also a Vector implementation that does 
      replace null entries.](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
+     
         <table>
             <tr>
                 <th>Algorithm</th>
