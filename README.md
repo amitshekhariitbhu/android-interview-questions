@@ -162,6 +162,8 @@ Argument list should be different while doing method overloading. Argument list 
 * Explain Android notification system?
 * How can two distinct Android apps interact?
 * What is Fragment?
+* Why is it recommended to use only the default constructor to create a fragment? [Link](https://stackoverflow.com/a/16042750/2809326)
+* Why Bundle class is used for data passing and why cannot we use simple Map data structure
 * Explain the lifecycle of a Fragment. [Link](https://www.techsfo.com/blog/wp-content/uploads/2014/08/complete_android_fragment_lifecycle.png)
 * What is Dialog in Android?
 * What is View in Android?
