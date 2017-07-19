@@ -67,7 +67,7 @@
     [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)),
     [abstraction](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)), and
     [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)).
-* Differences between abstract classes and interfaces?
+* Differences between abstract classes and interfaces? [link](https://arjun-sna.github.io/java/2017/02/02/abstractvsinterface/)
     - An abstract class, is a class that contains both concrete and abstract methods 
     (methods without implementations). An abstract method must be implemented by the abstract class
      sub-classes. Abstract classes are extended.
@@ -162,6 +162,8 @@ Argument list should be different while doing method overloading. Argument list 
 * Explain Android notification system?
 * How can two distinct Android apps interact?
 * What is Fragment?
+* Why is it recommended to use only the default constructor to create a fragment? [Link](https://stackoverflow.com/a/16042750/2809326)
+* Why Bundle class is used for data passing and why cannot we use simple Map data structure
 * Explain the lifecycle of a Fragment. [Link](https://www.techsfo.com/blog/wp-content/uploads/2014/08/complete_android_fragment_lifecycle.png)
 * What is Dialog in Android?
 * What is View in Android?
@@ -178,7 +180,7 @@ Argument list should be different while doing method overloading. Argument list 
 * What is a LocalBroadcastManager? [Link](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
 * What is a JobScheduler? [Link](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
 * What is DDMS and what can you do with it?
-* What is the support library? Why was it introduced?
+* What is the support library? Why was it introduced?[Link](http://martiancraft.com/blog/2015/06/android-support-library/)
 * What is a ContentProvider and what is it typically used for?
 * What is Android Data Binding? [Link](https://developer.android.com/topic/libraries/data-binding/index.html)
 * What are Android Architecture Components? [Link](https://developer.android.com/topic/libraries/architecture/index.html)
@@ -237,6 +239,7 @@ Argument list should be different while doing method overloading. Argument list 
 * Explain Looper, Handler and HandlerThread. [Link](https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a)
 * How to reduce battery usage in an android application? [Link](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
 * What is `SnapHelper`? [Link](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
+* How to handle multi-touch in android [link](https://arjun-sna.github.io/android/2016/07/20/multi-touch-android/)
 
 
 ### Architecture
