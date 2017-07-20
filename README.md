@@ -233,7 +233,7 @@ Argument list should be different while doing method overloading. Argument list 
 * What is ANR? How can the ANR be prevented?
 * What is `AndroidManifest.xml`?
 * Describe how broadcasts and intents work to be able to pass messages around your app?
-* How do you handle Bitmaps in Android as it takes too much memory?
+* How do you handle `Bitmaps` in Android as it takes too much memory?
 * What are different ways to store data in your Android app?
 * What is the Dalvik Virtual Machine?
 * What is the relationship between the life cycle of an AsyncTask and an Activity? What problems can this result in? How can these problems be avoided?
@@ -280,7 +280,7 @@ Argument list should be different while doing method overloading. Argument list 
 * FlatBuffers vs JSON. [Link](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
 * What are Annotations? [Link](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9), [Link](https://blog.mindorks.com/improve-your-android-coding-through-annotations-26b3273c137a)
 * Tell about Constraint Layout [Link](https://blog.mindorks.com/using-constraint-layout-in-android-531e68019cd)
-* HashMap, ArrayMap and SparseArray [Link](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
+* `HashMap`, `ArrayMap` and `SparseArray` [Link](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
 * Explain Looper, Handler and HandlerThread. [Link](https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a)
 * How to reduce battery usage in an android application? [Link](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
 * What is `SnapHelper`? [Link](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
