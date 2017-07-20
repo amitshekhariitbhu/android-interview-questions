@@ -143,8 +143,8 @@
   As long as an object is being referenced, the JVM considers it  alive. 
   Once an object is no longer referenced and therefore is not reachable by the application code,
   the garbage collector removes it and reclaims the unused memory.
-* Arrays vs ArrayLists.
-* HashSet vs TreeSet.
+* `Arrays` vs `ArrayLists`.
+* `HashSet` vs `TreeSet`.
 * Typecast in Java.
 * Difference between method overloading and overriding.
 <p align="center">
