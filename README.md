@@ -231,7 +231,7 @@ Argument list should be different while doing method overloading. Argument list 
 * What are Android Architecture Components? [Link](https://developer.android.com/topic/libraries/architecture/index.html)
 * What is ADB?
 * What is ANR? How can the ANR be prevented?
-* What is AndroidManifest.xml?
+* What is `AndroidManifest.xml`?
 * Describe how broadcasts and intents work to be able to pass messages around your app?
 * How do you handle Bitmaps in Android as it takes too much memory?
 * What are different ways to store data in your Android app?
@@ -261,8 +261,8 @@ Argument list should be different while doing method overloading. Argument list 
 * What is the NDK and why is it useful?
 * What is the StrictMode? [Link](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
 * What is Lint? What is it used for?
-* What is a SurfaceView?
-* What is the difference between ListView and RecyclerView?
+* What is a `SurfaceView`?
+* What is the difference between `ListView` and `RecyclerView`?
 * What is the ViewHolder pattern? Why should we use it?
 * What is a PendingIntent?
 * Can you manually call the Garbage collector?
