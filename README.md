@@ -275,6 +275,7 @@ Argument list should be different while doing method overloading. Argument list 
 * Is it possible to run an Android app in multiple processes? How?
 * How does the OutOfMemory happens?
 * What is a `spannable`?
+* What is `overdraw`? [Link](https://developer.android.com/topic/performance/rendering/overdraw.html)
 * What is renderscript? [Link](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
 * What are the differences between Dalvik and ART?
 * FlatBuffers vs JSON. [Link](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
