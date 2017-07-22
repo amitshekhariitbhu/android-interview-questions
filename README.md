@@ -28,6 +28,15 @@
 > The level of questions asked on Data Structures And Algorithms totally depends on the company for which you are applying.
 
 * Array
+    - A Array consists of a group of same data type. It storage on continuous memory space, use index could find address of the element. Array include one dimensional array and multi-dimensional array,one dimensional array is the simplest data structures, and also most commonly used. 
+
+        | Algorithm | Average | Worst Case |
+        |:---------:|:-------:|:----------:|
+        | Space     | O(n)    | O(n)       |    
+        | Search    | O(n)    | O(n)       |
+        | Insert    | O(n)    | O(n)       |
+        | Delete    | O(n)    | O(n)       |
+
 * LinkedList
     - A LinkedList, just like a tree and unlike an array, consists of a group of nodes which 
     together represent a sequence. Each node contains data and a pointer. The data in a node can be 
@@ -43,7 +52,18 @@
         | Search    | O(n)    | O(n)       |
         | Insert    | O(1)    | O(1)       |
         | Delete    | O(1)    | O(1)       |
+
 * DoublyLinkedList
+   - A DoublyLinkedList firstly is a LinkedList, but there have two pointer in each node, previous pointer reference to previous node and next pointer reference to next node.  DoublyLinkedList also has a head node, head node's next pointer  reference to first node.The last node's next pointer reference  to NULL, but if last node's next pointer reference to first node called Circular DoublyLinkedList.DoublyLinkedList is very convenient to find previous and next node from each node. 
+  
+       ![DoublyLinkedList](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)
+            
+        | Algorithm | Average | Worst Case |
+        |:---------:|:-------:|:----------:|
+        | Space     | O(n)    | O(n)       |
+        | Search    | O(n)    | O(n)       |
+        | Insert    | O(1)    | O(1)       |
+        | Delete    | O(1)    | O(1)       |
 * Stack
     - A Stack is a basic data structure with a "Last-in-First-out" methodology. Which means that 
     the last item that was added to the stack, is the first item that comes out of the stack. A 
