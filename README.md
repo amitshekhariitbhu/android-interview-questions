@@ -144,7 +144,7 @@
     an object into memory so that it can be recreated at a later time while still keeping the 
     objects original state and data. In Java there are two methods of doing this, one is by 
     implementing Serializable or Parcelable. In Android, however, Serializable should never be used 
-    in Android. Parcelable was created to be more efficient then Serializable, and performs about 
+    in Android. Parcelable was created to be more efficient than Serializable, and performs about 
     10x faster then Serializable because Serializable uses reflection which is a slow process and 
     tends to create a lot of temporary objects which may cause garbage collection to occur more often.
 * What is Singleton class?
