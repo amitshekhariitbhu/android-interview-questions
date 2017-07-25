@@ -255,7 +255,7 @@
 
     ```
 
-    Note: For a full explanation of the describeContents method see <a href="https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799">HERE</a>.
+    Note: For a full explanation of the <b>describeContents()</b> method see <a href="https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799">HERE</a>.
     In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good to try and understand everything that is happening.
 
 * What is Singleton class?
