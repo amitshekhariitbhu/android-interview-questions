@@ -143,7 +143,6 @@
     - Serialization is the process of converting an object into a stream of bytes in order to store 
     an object into memory so that it can be recreated at a later time while still keeping the 
     objects original state and data. In Android you may use either the Serializable or Parcelable interface.
-
     Even though Serializable is much easier to implement, in Android it is highly recommended to use Parcelable
     instead, as Parcelable was created exclusively for Android which performs about 10x faster then Serializable
     because Serializable uses reflection which is a slow process and tends to create a lot of
