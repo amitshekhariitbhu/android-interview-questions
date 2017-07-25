@@ -28,7 +28,7 @@
 > The level of questions asked on Data Structures And Algorithms totally depends on the company for which you are applying.
 
 * Array
-    - A Array consists of a group of same data type. It storage on continuous memory space, use index could find address of the element. Array include one dimensional array and multi-dimensional array,one dimensional array is the simplest data structures, and also most commonly used. 
+    - An Array consists of a group of same data type. It storage on continuous memory space, use index could find address of the element. Array include one dimensional array and multi-dimensional array,one dimensional array is the simplest data structures, and also most commonly used.
 
         | Algorithm | Average | Worst Case |
         |:---------:|:-------:|:----------:|
@@ -142,11 +142,119 @@
 * What is serialization? How do you implement it?
     - Serialization is the process of converting an object into a stream of bytes in order to store 
     an object into memory so that it can be recreated at a later time while still keeping the 
-    objects original state and data. In Java there are two methods of doing this, one is by 
-    implementing Serializable or Parcelable. In Android, however, Serializable should never be used 
-    in Android. Parcelable was created to be more efficient than Serializable, and performs about 
-    10x faster then Serializable because Serializable uses reflection which is a slow process and 
-    tends to create a lot of temporary objects which may cause garbage collection to occur more often.
+    objects original state and data. In Android you may use either the Serializable or Parcelable interface.
+
+    Even though Serializable is much easier to implement, in Android it is highly recommended to use Parcelable
+    instead, as Parcelable was created exclusively for Android which performs about 10x faster then Serializable
+    because Serializable uses reflection which is a slow process and tends to create a lot of
+    temporary objects which may cause garbage collection to occur more often.
+
+    To use Serializable all you have to do is implement the interface.
+
+    Serializable Example:
+
+    ```java
+        public class User implements Serializable { // this is all that is required
+
+            private String name;
+            private String email;
+
+            public String getName() {
+                return name;
+            }
+
+            public void setName(final String name) {
+                this.name = name;
+            }
+
+            public String getEmail() {
+                return email;
+            }
+
+            public void setEmail(final String email) {
+                this.email = email;
+            }
+        }
+    ```
+
+    Parcelable requires a bit more work.
+
+    Parcelable Example:
+
+    ```java
+        public class User implements Parcelable {
+
+            private String name;
+            private String email;
+
+            /**
+             * Interface that must be implemented and provided as a public CREATOR field that generates
+             * instances of your Parcelable class from a Parcel.
+             */
+            public static final Creator<User> CREATOR = new Creator<User>() {
+                /**
+                 * Creates a new USer object from the Parcel. This is the reason why the constructor that
+                 * takes a Parcel is needed.
+                 */
+                @Override
+                public User createFromParcel(Parcel in) {
+                    return new User(in);
+                }
+
+                /**
+                 * Create a new array of the Parcelable class.
+                 * @return an array of the Parcelable class, with every entry initialized to null.
+                 */
+                @Override
+                public User[] newArray(int size) {
+                    return new User[size];
+                }
+            };
+
+            /**
+             * Parcel constructor required for Parcelable implementation used in the CREATOR
+             */
+            private User(Parcel in) {
+                name = in.readString();
+                email = in.readString();
+            }
+
+            public String getName() {
+                return name;
+            }
+
+            public void setName(final String name) {
+                this.name = name;
+            }
+
+            public String getEmail() {
+                return email;
+            }
+
+            public void setEmail(final String email) {
+                this.email = email;
+            }
+
+            @Override
+            public int describeContents() {
+                return 0;
+            }
+
+            /**
+             * This is where the parcel is performed.
+             */
+            @Override
+            public void writeToParcel(final Parcel parcel, final int i) {
+                parcel.writeString(name);
+                parcel.writeString(email);
+            }
+        }
+
+    ```
+
+    Note: For a full explanation of the describeContents method see <a href="https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799">HERE</a>.
+    In Android Studio, you can have all of the parcelable code generated for you, but like with everything else, it is always a good to try and understand everything that is happening.
+
 * What is Singleton class?
     - A singleton is a class that can only be instantiated once.[This singleton pattern restricts 
     the instantiation of a class to one object. This is useful when exactly one object is needed 
