@@ -162,6 +162,9 @@
             private String name;
             private String email;
 
+            public User() {
+            }
+
             public String getName() {
                 return name;
             }
@@ -214,8 +217,11 @@
                 }
             };
 
+            public User() {
+            }
+
             /**
-             * Parcel constructor required for Parcelable implementation used in the CREATOR
+             * Parcel overloaded constructor required for Parcelable implementation used in the CREATOR
              */
             private User(Parcel in) {
                 name = in.readString();
