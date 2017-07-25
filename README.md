@@ -154,7 +154,10 @@
     Serializable Example:
 
     ```java
-        public class User implements Serializable { // this is all that is required
+        /**
+         *  Implementing the Serializeable interface is all that is required
+         */
+        public class User implements Serializable {
 
             private String name;
             private String email;
@@ -253,7 +256,7 @@
     ```
 
     Note: For a full explanation of the describeContents method see <a href="https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799">HERE</a>.
-    In Android Studio, you can have all of the parcelable code generated for you, but like with everything else, it is always a good to try and understand everything that is happening.
+    In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good to try and understand everything that is happening.
 
 * What is Singleton class?
     - A singleton is a class that can only be instantiated once.[This singleton pattern restricts 
