@@ -28,7 +28,7 @@
 > The level of questions asked on the topic of Data Structures And Algorithms totally depends on the company for which you are applying.
 
 * Array
-    - An Array consists of a group of elements of the same data type. It is stored continuously in memory, by using its' index, you can find the underlying data. Arrays can be one dimensional and multi-dimensional. One dimensional array is the simplest data structure, and also most commonly used.
+    - An Array consists of a group of elements of the same data type. It is stored continuously in memory and by using its' index, you can find the underlying data. Arrays can be one dimensional and multi-dimensional. One dimensional array is the simplest data structure, and also most commonly used.
 
         | Algorithm | Average | Worst Case |
         |:---------:|:-------:|:----------:|
@@ -54,7 +54,7 @@
         | Delete    | O(1)    | O(1)       |
 
 * DoublyLinkedList
-   - A DoublyLinkedList is based on a LinkedList, but there is two pointers in each node, "previous" pointer holds reference to the previous node and "next" pointer holds reference to the next node.  DoublyLinkedList also has a Head node, head node's next pointer references the first node in this DoublyLinkedList. The last node's next pointer reference  to NULL, but if last node's next pointer reference to first node called Circular DoublyLinkedList.DoublyLinkedList is very convenient to find previous and next node from each node. 
+   - A DoublyLinkedList is based on a LinkedList, but there is two pointers in each node, "previous" pointer holds reference to the previous node and "next" pointer holds reference to the next node.  DoublyLinkedList also has a Head node, head node's next pointer references the first node in this DoublyLinkedList. The last node's "next" reference points to NULL, but if last node's next pointer points to the first node, such DoublyLinkedList is called "Circular DoublyLinkedList". This data structure is very convenient if you need to be able to traverse stored elements in both directions. 
   
        ![DoublyLinkedList](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)
             
@@ -65,13 +65,13 @@
         | Insert    | O(1)    | O(1)       |
         | Delete    | O(1)    | O(1)       |
 * Stack
-    - A Stack is a basic data structure with a "Last-in-First-out" methodology. Which means that 
-    the last item that was added to the stack, is the first item that comes out of the stack. A 
-    Stack is like a stack of books. In order to get to the first book that was added in the stack 
+    - A Stack is a basic data structure with a "Last-in-First-out" (LIFO) semantics. This means that 
+    the last item that was added to the stack is the first item that comes out of the stack. A 
+    Stack is like a stack of books in that in order to get to the first book that was added in the stack 
     (the bottom book), all of the books that were added after need to be removed first. Adding to a 
-    Stack is called a Push, removing from a stack is called a Pop, and getting the last item 
-    inserted into the stack without removing it is called Top. [The most common way to implement a
-     stack is by using a LinkedList, but there are also StackArray (implemented with an array) 
+    Stack is called "Push", removing from a stack is called "Pop", and getting the last item 
+    inserted into the stack without removing it is called "Top". [The most common way to implement a
+     stack is by using a LinkedList, but there is also StackArray (implemented with an array) 
      which does not replace null entries, and there is also a Vector implementation that does 
      replace null entries.](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
      
@@ -126,8 +126,8 @@
 
 ### Core Java
 
-* Explain OOP Concept.
-    - Object-Oriented Programming is a methodology to design a program using classes, objects, 
+* Explain OOP Concepts.
+    - Object-Oriented Programming is a methodology of designing a program using classes, objects, 
     [inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)),
     [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)),
     [abstraction](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)), and
@@ -135,15 +135,15 @@
 * Differences between abstract classes and interfaces? [link](https://arjun-sna.github.io/java/2017/02/02/abstractvsinterface/)
     - An abstract class, is a class that contains both concrete and abstract methods 
     (methods without implementations). An abstract method must be implemented by the abstract class
-     sub-classes. Abstract classes are extended.
-    - An interface is like a blueprint/contract of a class. It contains empty methods that 
-    represent what all of its subclasses should have in common. The subclasses provide the 
+     sub-classes. Abstract classes need to be extended to be used.
+    - An interface is like a blueprint/contract of a class (or it may be thought of as a class with methods, but without their implementation). It contains empty methods that 
+    represent, what all of its subclasses should have in common. The subclasses provide the 
     implementation for each of these methods. Interfaces are implemented.
 * What is serialization? How do you implement it?
     - Serialization is the process of converting an object into a stream of bytes in order to store 
-    an object into memory so that it can be recreated at a later time while still keeping the 
-    objects original state and data. In Android you may use either the Serializable or Parcelable interface.
-    Even though Serializable is much easier to implement, in Android it is highly recommended to use Parcelable
+    an object into memory, so that it can be recreated at a later time, while still keeping the 
+    object's original state and data. In Android you may use either the Serializable, Externalizable or Parcelable interfaces.
+    Serializable is the easiest to implement, Externalizable in Android it is highly recommended to use Parcelable
     instead, as Parcelable was created exclusively for Android which performs about 10x faster then Serializable
     because Serializable uses reflection which is a slow process and tends to create a lot of
     temporary objects which may cause garbage collection to occur more often.
