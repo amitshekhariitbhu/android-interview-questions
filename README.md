@@ -42,7 +42,7 @@
     together represent a sequence. Each node contains data and a pointer. The data in a node can be 
     anything, but the pointer is a reference to the next item in the LinkedList. A LinkedList 
     contains both a head and a tail. The "Head" is the first item in the LinkedList, while the "Tail" is 
-    the last item. A LinkedList is not a circular data structure, therefore the tail does not have its' 
+    the last item. It is not a circular data structure, therefore the tail does not have its' 
     pointer pointing at the Head - the pointer is just NULL. The run time complexity for each of 
     the base methods are as follows:
 
@@ -54,7 +54,7 @@
         | Delete    | O(1)    | O(1)       |
 
 * DoublyLinkedList
-   - A DoublyLinkedList is based on a LinkedList, but there is two pointers in each node, "previous" pointer holds reference to the previous node and "next" pointer holds reference to the next node.  DoublyLinkedList also has a Head node, head node's next pointer references the first node in this DoublyLinkedList. The last node's "next" reference points to NULL, but if last node's next pointer points to the first node, such DoublyLinkedList is called "Circular DoublyLinkedList". This data structure is very convenient if you need to be able to traverse stored elements in both directions. 
+   - A DoublyLinkedList is based on a LinkedList, but there is two pointers in each node, "previous" pointer holds reference to the previous node and "next" pointer holds reference to the next node. It also has a Head node, head node's next pointer references the first node in this DoublyLinkedList. The last node's "next" reference points to NULL, but if last node's next pointer points to the first node, such DoublyLinkedList is called "Circular DoublyLinkedList". This data structure is very convenient if you need to be able to traverse stored elements in both directions. 
   
        ![DoublyLinkedList](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)
             
@@ -143,10 +143,10 @@
     - Serialization is the process of converting an object into a stream of bytes in order to store 
     an object into memory, so that it can be recreated at a later time, while still keeping the 
     object's original state and data. In Android you may use either the Serializable, Externalizable or Parcelable interfaces.
-    Serializable is the easiest to implement, Externalizable in Android it is highly recommended to use Parcelable
-    instead, as Parcelable was created exclusively for Android which performs about 10x faster then Serializable
-    because Serializable uses reflection which is a slow process and tends to create a lot of
-    temporary objects which may cause garbage collection to occur more often.
+    While Serializable is the easiest to implement, Externalizable may be used if you need to insert custom logic into the process of serialization (although it is almost never used nowadays as it may be considered a relic from early versions of Java). But it is highly recommended to use Parcelable in Android 
+    instead, as Parcelable was created exclusively for Android and it performs about 10x faster than Serializable,
+    because Serializable uses reflection, which is a slow process and tends to create a lot of
+    temporary objects and it may cause garbage collection to occur more often.
 
     To use Serializable all you have to do is implement the interface.
 
@@ -261,7 +261,7 @@
     ```
 
     Note: For a full explanation of the <b>describeContents()</b> method see <a href="https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799">HERE</a>.
-    In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good to try and understand everything that is happening.
+    In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good thing to try and understand everything that is happening.
 
 * What is Singleton class?
     - A singleton is a class that can only be instantiated once.[This singleton pattern restricts 
