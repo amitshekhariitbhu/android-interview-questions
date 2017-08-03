@@ -385,6 +385,10 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 ### Core Android
 
 * Explain activity lifecycle.
+<p align="center">
+<img alt="Simplified activity lifecycle" src="https://developer.android.com/guide/components/images/activity_lifecycle.png">
+</p>
+
 * Tell all the Android application components.
 * Service vs IntentService. [Link](https://stackoverflow.com/a/15772151/5153275)
 * What is the structure of an Android Application?
