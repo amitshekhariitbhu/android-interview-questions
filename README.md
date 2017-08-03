@@ -321,9 +321,11 @@ public class Cat extends Animal {
 ```
 Will output: 
 ```
-The static method in Cat // testClassMethod() is called from "Cat" reference
+The static method in Cat    // testClassMethod() is called from "Cat" reference
+
 The static method in Animal // testClassMethod() is called from "Animal" reference, 
                             // ignoring actual object inside it (Cat)
+                            
 The instance method in Cat  // testInstanceMethod() is called from "Animal" reference,
                             // but from "Cat" object underneath
 ```
