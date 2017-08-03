@@ -32,10 +32,10 @@
 
         | Algorithm | Average | Worst Case |
         |:---------:|:-------:|:----------:|
-        | Space     | O(n)    | O(n)       |    
-        | Search    | O(n)    | O(n)       |
-        | Insert    | O(n)    | O(n)       |
-        | Delete    | O(n)    | O(n)       |
+        | Space     | Θ(n)    | O(n)       |    
+        | Search    | Θ(n)    | O(n)       |
+        | Insert    | Θ(n)    | O(n)       |
+        | Delete    | Θ(n)    | O(n)       |
 
 * LinkedList
     - A LinkedList, just like a tree and unlike an array, consists of a group of nodes which 
@@ -48,10 +48,10 @@
 
         | Algorithm | Average | Worst Case |
         |:---------:|:-------:|:----------:|
-        | Space     | O(n)    | O(n)       |
-        | Search    | O(n)    | O(n)       |
-        | Insert    | O(1)    | O(1)       |
-        | Delete    | O(1)    | O(1)       |
+        | Space     | Θ(n)    | O(n)       |
+        | Search    | Θ(n)    | O(n)       |
+        | Insert    | Θ(1)    | O(1)       |
+        | Delete    | Θ(1)    | O(1)       |
 
 * DoublyLinkedList
    - A DoublyLinkedList is based on a LinkedList, but there is two pointers in each node, "previous" pointer holds reference to the previous node and "next" pointer holds reference to the next node. It also has a Head node, head node's next pointer references the first node in this DoublyLinkedList. The last node's "next" reference points to NULL, but if last node's next pointer points to the first node, such DoublyLinkedList is called "Circular DoublyLinkedList". This data structure is very convenient if you need to be able to traverse stored elements in both directions. 
@@ -60,10 +60,10 @@
             
         | Algorithm | Average | Worst Case |
         |:---------:|:-------:|:----------:|
-        | Space     | O(n)    | O(n)       |
-        | Search    | O(n)    | O(n)       |
-        | Insert    | O(1)    | O(1)       |
-        | Delete    | O(1)    | O(1)       |
+        | Space     | Θ(n)    | O(n)       |
+        | Search    | Θ(n)    | O(n)       |
+        | Insert    | Θ(1)    | O(1)       |
+        | Delete    | Θ(1)    | O(1)       |
 * Stack
     - A Stack is a basic data structure with a "Last-in-First-out" (LIFO) semantics. This means that 
     the last item that was added to the stack is the first item that comes out of the stack. A 
@@ -84,7 +84,7 @@
             </tr>
             <tr>
                 <td>Space</td>
-                <td>O(n)</td>
+                <td>Θ(n)</td>
                 <td>O(n)</td>
                 <td rowspan="5">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/250px-Data_stack.svg.png"/>
@@ -92,22 +92,22 @@
             </tr>
             <tr>
                 <td>Search</td>
-                <td>O(n)</td>
+                <td>Θ(n)</td>
                 <td>O(n)</td>
             </tr>
             <tr>
                 <td>Insert (Push)</td>
-                <td>O(1)</td>
+                <td>Θ(1)</td>
                 <td>O(1)</td>
             </tr>
             <tr>
                 <td>Delete (Pop)</td>
-                <td>O(1)</td>
+                <td>Θ(1)</td>
                 <td>O(1)</td>
             </tr>
             <tr>
               <td>Top</td>
-              <td>O(1)</td>
+              <td>Θ(1)</td>
               <td>O(1)</td>
             </tr>
         </table>
@@ -135,15 +135,15 @@
 * Differences between abstract classes and interfaces? [link](https://arjun-sna.github.io/java/2017/02/02/abstractvsinterface/)
     - An abstract class, is a class that contains both concrete and abstract methods 
     (methods without implementations). An abstract method must be implemented by the abstract class
-     sub-classes. Abstract classes need to be extended to be used.
+     sub-classes. Abstract classes cannot be instantiated and need to be extended to be used.
     - An interface is like a blueprint/contract of a class (or it may be thought of as a class with methods, but without their implementation). It contains empty methods that 
     represent, what all of its subclasses should have in common. The subclasses provide the 
     implementation for each of these methods. Interfaces are implemented.
 * What is serialization? How do you implement it?
     - Serialization is the process of converting an object into a stream of bytes in order to store 
     an object into memory, so that it can be recreated at a later time, while still keeping the 
-    object's original state and data. In Android you may use either the Serializable, Externalizable or Parcelable interfaces.
-    While Serializable is the easiest to implement, Externalizable may be used if you need to insert custom logic into the process of serialization (although it is almost never used nowadays as it may be considered a relic from early versions of Java). But it is highly recommended to use Parcelable in Android 
+    object's original state and data. In Android you may use either the Serializable, Externalizable (implements Serializable) or Parcelable interfaces.
+    While Serializable is the easiest to implement, Externalizable may be used if you need to insert custom logic into the process of serialization (although it is almost never used nowadays as it is considered a relic from early versions of Java). But it is highly recommended to use Parcelable in Android 
     instead, as Parcelable was created exclusively for Android and it performs about 10x faster than Serializable,
     because Serializable uses reflection, which is a slow process and tends to create a lot of
     temporary objects and it may cause garbage collection to occur more often.
@@ -264,7 +264,7 @@
     In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good thing to try and understand everything that is happening.
 
 * What is Singleton class?
-    - A singleton is a class that can only be instantiated once.[This singleton pattern restricts 
+    - A singleton is a class that can only be instantiated once. [This singleton pattern restricts 
     the instantiation of a class to one object. This is useful when exactly one object is needed 
     to coordinate actions across the system. The concept is sometimes generalized to systems 
     that operate more efficiently when only one object exists, or that restrict the instantiation 
@@ -274,9 +274,9 @@
 * What is the `hashCode()` and `equals()` used for?
 * What are these `final`, `finally` and `finalize`?
 * What is memory leak and how does Java handle it?
-* What is garbage collector? How it works?
-  -All objects are allocated on the heap area managed by the JVM. 
-  As long as an object is being referenced, the JVM considers it  alive. 
+* What is garbage collector? How does it work?
+  - All objects are allocated on the heap area managed by the JVM. 
+  As long as an object is being referenced, the JVM considers it alive. 
   Once an object is no longer referenced and therefore is not reachable by the application code,
   the garbage collector removes it and reclaims the unused memory.
 * `Arrays` vs `ArrayLists`.
