@@ -322,8 +322,10 @@ public class Cat extends Animal {
 Will output: 
 ```
 The static method in Cat // testClassMethod() is called from "Cat" reference
-The static method in Animal // testClassMethod() is called from "Animal" reference, ignoring actual object inside
-The instance method in Cat // testInstanceMethod() is called from "Animal" reference, but from "Cat" object underneath
+The static method in Animal // testClassMethod() is called from "Animal" reference, 
+                            // ignoring actual object inside it (Cat)
+The instance method in Cat  // testInstanceMethod() is called from "Animal" reference,
+                            // but from "Cat" object underneath
 ```
 
 The most basic difference is that overloading is being done in the same class while for overriding base and child classes are required. Overriding is all about giving a specific implementation to the inherited method of parent class.
