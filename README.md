@@ -288,9 +288,39 @@
 </p>
 
 Overloading happens at compile-time while Overriding happens at runtime: The binding of overloaded method call to its definition has happens at compile-time however binding of overridden method call to its definition happens at runtime.
-More info on static vs. dynamic binding: <a href="https://stackoverflow.com/questions/19017258/static-vs-dynamic-binding-in-java">StackOverflow</a>
+More info on static vs. dynamic binding: <a href="https://stackoverflow.com/questions/19017258/static-vs-dynamic-binding-in-java">StackOverflow</a>.
 
-Static methods can be overloaded which means a class can have more than one static method of same name. Static methods cannot be overridden, even if you declare a same static method in child class it has nothing to do with the same method of parent class.
+Static methods can be overloaded which means a class can have more than one static method of same name. Static methods cannot be overridden, even if you declare a same static method in child class it has nothing to do with the same method of parent class as overridden static methods are chosen by the reference class and not by the class of the object.
+```public class Animal {
+    public static void testClassMethod() {
+        System.out.println("The static method in Animal");
+    }
+    public void testInstanceMethod() {
+        System.out.println("The instance method in Animal");
+    }
+}
+
+public class Cat extends Animal {
+    public static void testClassMethod() {
+        System.out.println("The static method in Cat");
+    }
+    public void testInstanceMethod() {
+        System.out.println("The instance method in Cat");
+    }
+
+    public static void main(String[] args) {
+        Cat myCat = new Cat();
+        myCat.testClassMethod();
+        Animal myAnimal = myCat;
+        myAnimal.testClassMethod();
+        myAnimal.testInstanceMethod();
+    }
+}
+```
+Will output 
+```The static method in Cat
+The static method in Animal
+The instance method in Cat```
 
 The most basic difference is that overloading is being done in the same class while for overriding base and child classes are required. Overriding is all about giving a specific implementation to the inherited method of parent class.
 
