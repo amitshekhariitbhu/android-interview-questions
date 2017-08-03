@@ -28,7 +28,7 @@
 > The level of questions asked on the topic of Data Structures And Algorithms totally depends on the company for which you are applying.
 
 * Array
-    - An Array consists of a group of elements of the same data type. It is stored continuously in memory and by using its' index, you can find the underlying data. Arrays can be one dimensional and multi-dimensional. One dimensional array is the simplest data structure, and also most commonly used.
+    - An Array consists of a group of elements of the same data type. It is stored continuously in memory and by using its' index, you can find the underlying data. Arrays can be one dimensional and multi-dimensional. One dimensional array is the simplest data structure, and also most commonly used. It is worth noting that in Java language multi-dimensional array are implemented as arrays of arrays. For example int[10][5] is actually one array with its' cells pointing to ten 5-element arrays.    
 
         | Algorithm | Average | Worst Case |
         |:---------:|:-------:|:----------:|
