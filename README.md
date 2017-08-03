@@ -329,11 +329,11 @@ The instance method in Cat // testInstanceMethod() is called from "Animal" refer
 The most basic difference is that overloading is being done in the same class while for overriding base and child classes are required. Overriding is all about giving a specific implementation to the inherited method of parent class.
 
 Static binding is being used for overloaded methods and dynamic binding is being used for overridden/overriding methods.
-Performance: Overloading gives better performance compared to overriding. The reason is that the binding of overridden methods is being done at runtime.
+Performance: Overloading gives better performance compared to overriding. The reason is that the binding of overridden methods is being done at runtime through reflection.
 
 Private and final methods can be overloaded but they cannot be overridden. It means a class can have more than one private/final methods of same name but a child class cannot override the private/final methods of their base class.
 
-Return type of method does not matter in case of method overloading, it can be same or different. However in case of method overriding the overriding method can have more specific return type (refer this).
+Return type of method does not matter in case of method overloading, it can be same or different. However in case of method overriding the overriding method can have more specific return type (meaning if, for example, base method return an instance of Number class, all overriding methods can return any class that is extended from Number, but not a class that is higher in the hierarchy, like, for example, Object is in this case).
 
 Argument list should be different while doing method overloading. Argument list should be same in method Overriding.
 
