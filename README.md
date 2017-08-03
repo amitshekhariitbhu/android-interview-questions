@@ -347,19 +347,19 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What are the access modifiers you know? What does each one do?
 There are four access modifiers in Java language (from strictest to the most lenient):
 
-1. `private` variables, methods, constructors or classes are only visible to its' containing class and its' methods. This modifier is most commonly used, for example, to allow variable access only through getters and setters or to hide underlying implementation of classes that should not be used by user and therefore maintain encapsulation. `private` is also used in Singleton implementation on constuctor to avoid unwanted instantiation from outside.
+1. `private` *variables*, *methods*, *constructors* or *inner classes* are only visible to its' containing class and its' methods. This modifier is most commonly used, for example, to allow variable access only through getters and setters or to hide underlying implementation of classes that should not be used by user and therefore maintain encapsulation. Singleton constructor is also marked `private` to avoid unwanted instantiation from outside.
 
-2. `protected` can be used on variables, methods and constructors therefore allowing access only to subclasses and classes that are inside the same package as protected members' class.
+2. `protected` can be used on *variables*, *methods* and *constructors* therefore allowing access only to subclasses and classes that are inside the same package as protected members' class.
 
-3. Default (no keyword is used) this modifier can be applied to classes, variables, constructors and methods and allows access from classes and methods inside the same package.
+3. Default (no keyword is used) this modifier can be applied to *classes*, *variables*, *constructors* and *methods* and allows access from classes and methods inside the same package.
 
-4. `public` modifier is widely-used on classes, variables, constructors and methods to grant access from any class and method anywhere. It should not be used everywhere as it implies that data marked with `public` is not sensitive and can not be used to harm the program.
+4. `public` modifier is widely-used on *classes*, *variables*, *constructors* and *methods* to grant access from any class and method anywhere. It should not be used everywhere as it implies that data marked with `public` is not sensitive and can not be used to harm the program.
 
 * Can an Interface extend another Interface?
 * What does the `static` word mean in Java?
-    - In case of `static` variable it means that this variable (its' value or the object it references) spans across all instances of encapsulating class (changing it in one instance affects all other), while in case of `static` methods it means that these methods can be invoked without an instance of their encapsulating class. It is useful, when you create utils classes that need not be instantiated every time you want to use them.
+    - In case of `static` variable it means that this variable (its' value or the object it references) spans across all instances of encapsulating class (changing it in one instance affects all others), while in case of `static` methods it means that these methods can be invoked without an instance of their encapsulating class. It is useful, for example, when you create utils classes that need not be instantiated every time you want to use them.
 * Can a `static` method be overridden in Java?
-    - While child class can override a static method with another static method with the same signature ()
+    - While child class can override a static method with another static method with the same signature (return type can be downcasted)
 * What is Polymorphism? What about Inheritance?
 * What is the difference between an Integer and int?
     - `int` is a primitive data type (with `byte`, `short`, `long`, `float` and `double`), while `Integer` (with `Byte`, `Short`,`Long`, `Float` and `Double`) is a [wrapper](https://docs.oracle.com/javase/tutorial/java/data/numberclasses.html) class that encapsulates primitive data type, while providing useful methods to perform different tasks with it.
