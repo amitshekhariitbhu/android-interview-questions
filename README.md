@@ -343,7 +343,7 @@ Private and final methods can be overloaded but they cannot be overridden. It me
 Return type of method does not matter in case of method overloading, it can be same or different. However in case of method overriding the overriding method can have more specific return type (meaning if, for example, base method returns an instance of Number class, all overriding methods can return any class that is extended from Number, but not a class that is higher in the hierarchy, like, for example, Object is in this particular case).
 
 Argument list should be different while doing method overloading. Argument list should be same in method Overriding.
-It is also a good practice to annotate overridden methods with @Override to make the compiler check be able to notify you if child is, indeed, overriding parent's class method.
+It is also a good practice to annotate overridden methods with @Override to make the compiler be able to notify you if child is, indeed, overriding parent's class method during compile-time.
 
 * What are the access modifiers you know? What does each one do?
 * Can an Interface extend another Interface?
