@@ -343,9 +343,23 @@ Private and final methods can be overloaded but they cannot be overridden. It me
 Return type of method does not matter in case of method overloading, it can be same or different. However in case of method overriding the overriding method can have more specific return type (meaning if, for example, base method returns an instance of Number class, all overriding methods can return any class that is extended from Number, but not a class that is higher in the hierarchy, like, for example, Object is in this particular case).
 
 Argument list should be different while doing method overloading. Argument list should be same in method Overriding.
-It is also a good practice to annotate overridden methods with @Override to make the compiler be able to notify you if child is, indeed, overriding parent's class method during compile-time.
+It is also a good practice to annotate overridden methods with `@Override` to make the compiler be able to notify you if child is, indeed, overriding parent's class method during compile-time.
 
 * What are the access modifiers you know? What does each one do?
+There are four access modifiers in Java language (from strictest to the most lenient):
+
+1. `private` field, method, constructor or class is only visible to its' containing class and its' methods. This modifier is most commonly used, for example, to limit field access to getters and setters only or to hide underlying implementation of classes and therefore maintain incapsulation. `private` is also used in Singleton implementation on constuctor to avoid unwanted instantiation from outside.
+
+2. `protected` can be used on variables, methods and constructors therefore allowing access only to subclasses and classes that are inside the same package as protected members' class.
+
+3. Default (no keyword is used)
+
+   Most commonly
+
+4. Public
+
+   This modifier 
+
 * Can an Interface extend another Interface?
 * What does the `static` word mean in Java?
 * Can a `static` method be overridden in Java?
