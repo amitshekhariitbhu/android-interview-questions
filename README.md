@@ -291,6 +291,7 @@ Overloading happens at compile-time while Overriding happens at runtime: The bin
 More info on static vs. dynamic binding: <a href="https://stackoverflow.com/questions/19017258/static-vs-dynamic-binding-in-java">StackOverflow</a>.
 
 Static methods can be overloaded which means a class can have more than one static method of same name. Static methods cannot be overridden, even if you declare a same static method in child class it has nothing to do with the same method of parent class as overridden static methods are chosen by the reference class and not by the class of the object.
+So, for example:
 
 ```
 public class Animal {
