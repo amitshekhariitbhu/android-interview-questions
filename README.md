@@ -25,53 +25,53 @@
 
 ### Data Structures And Algorithms
 
-> The level of questions asked on Data Structures And Algorithms totally depends on the company for which you are applying.
+> The level of questions asked on the topic of Data Structures And Algorithms totally depends on the company for which you are applying.
 
 * Array
-    - An Array consists of a group of same data type. It storage on continuous memory space, use index could find address of the element. Array include one dimensional array and multi-dimensional array,one dimensional array is the simplest data structures, and also most commonly used.
+    - An Array consists of a group of elements of the same data type. It is stored continuously in memory and by using its' index, you can find the underlying data. Arrays can be one dimensional and multi-dimensional. One dimensional array is the simplest data structure, and also most commonly used. It is worth noting that in Java language multi-dimensional array are implemented as arrays of arrays. For example, int[10][5] is actually one array with its' cells pointing to ten 5-element arrays.    
 
         | Algorithm | Average | Worst Case |
         |:---------:|:-------:|:----------:|
-        | Space     | O(n)    | O(n)       |    
-        | Search    | O(n)    | O(n)       |
-        | Insert    | O(n)    | O(n)       |
-        | Delete    | O(n)    | O(n)       |
+        | Space     | Θ(n)    | O(n)       |    
+        | Search    | Θ(n)    | O(n)       |
+        | Insert    | Θ(n)    | O(n)       |
+        | Delete    | Θ(n)    | O(n)       |
 
 * LinkedList
     - A LinkedList, just like a tree and unlike an array, consists of a group of nodes which 
     together represent a sequence. Each node contains data and a pointer. The data in a node can be 
     anything, but the pointer is a reference to the next item in the LinkedList. A LinkedList 
-    contains both a head and a tail. The Head is the first item in the LinkedList, and the Tail is 
-    the last item. A LinkedList is not a circular data structure, so the tail does not have its 
-    pointer pointing at the Head, the pointer is just null. The run time complexity for each of 
+    contains both a head and a tail. The "Head" is the first item in the LinkedList, while the "Tail" is 
+    the last item. It is not a circular data structure, therefore the tail does not have its' 
+    pointer pointing at the Head - the pointer is just NULL. The run time complexity for each of 
     the base methods are as follows:
 
         | Algorithm | Average | Worst Case |
         |:---------:|:-------:|:----------:|
-        | Space     | O(n)    | O(n)       |
-        | Search    | O(n)    | O(n)       |
-        | Insert    | O(1)    | O(1)       |
-        | Delete    | O(1)    | O(1)       |
+        | Space     | Θ(n)    | O(n)       |
+        | Search    | Θ(n)    | O(n)       |
+        | Insert    | Θ(1)    | O(1)       |
+        | Delete    | Θ(1)    | O(1)       |
 
 * DoublyLinkedList
-   - A DoublyLinkedList firstly is a LinkedList, but there have two pointer in each node, previous pointer reference to previous node and next pointer reference to next node.  DoublyLinkedList also has a head node, head node's next pointer  reference to first node.The last node's next pointer reference  to NULL, but if last node's next pointer reference to first node called Circular DoublyLinkedList.DoublyLinkedList is very convenient to find previous and next node from each node. 
+   - A DoublyLinkedList is based on a LinkedList, but there is two pointers in each node, "previous" pointer holds reference to the previous node and "next" pointer holds reference to the next node. It also has a Head node, head node's next pointer references the first node in this DoublyLinkedList. The last node's "next" reference points to NULL, but if last node's next pointer points to the first node, such DoublyLinkedList is called "Circular DoublyLinkedList". This data structure is very convenient if you need to be able to traverse stored elements in both directions. 
   
        ![DoublyLinkedList](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)
             
         | Algorithm | Average | Worst Case |
         |:---------:|:-------:|:----------:|
-        | Space     | O(n)    | O(n)       |
-        | Search    | O(n)    | O(n)       |
-        | Insert    | O(1)    | O(1)       |
-        | Delete    | O(1)    | O(1)       |
+        | Space     | Θ(n)    | O(n)       |
+        | Search    | Θ(n)    | O(n)       |
+        | Insert    | Θ(1)    | O(1)       |
+        | Delete    | Θ(1)    | O(1)       |
 * Stack
-    - A Stack is a basic data structure with a "Last-in-First-out" methodology. Which means that 
-    the last item that was added to the stack, is the first item that comes out of the stack. A 
-    Stack is like a stack of books. In order to get to the first book that was added in the stack 
+    - A Stack is a basic data structure with a "Last-in-First-out" (LIFO) semantics. This means that 
+    the last item that was added to the stack is the first item that comes out of the stack. A 
+    Stack is like a stack of books in that in order to get to the first book that was added in the stack 
     (the bottom book), all of the books that were added after need to be removed first. Adding to a 
-    Stack is called a Push, removing from a stack is called a Pop, and getting the last item 
-    inserted into the stack without removing it is called Top. [The most common way to implement a
-     stack is by using a LinkedList, but there are also StackArray (implemented with an array) 
+    Stack is called "Push", removing from a stack is called "Pop", and getting the last item 
+    inserted into the stack without removing it is called "Top". [The most common way to implement a
+     stack is by using a LinkedList, but there is also StackArray (implemented with an array) 
      which does not replace null entries, and there is also a Vector implementation that does 
      replace null entries.](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
      
@@ -84,7 +84,7 @@
             </tr>
             <tr>
                 <td>Space</td>
-                <td>O(n)</td>
+                <td>Θ(n)</td>
                 <td>O(n)</td>
                 <td rowspan="5">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/250px-Data_stack.svg.png"/>
@@ -92,22 +92,22 @@
             </tr>
             <tr>
                 <td>Search</td>
-                <td>O(n)</td>
+                <td>Θ(n)</td>
                 <td>O(n)</td>
             </tr>
             <tr>
                 <td>Insert (Push)</td>
-                <td>O(1)</td>
+                <td>Θ(1)</td>
                 <td>O(1)</td>
             </tr>
             <tr>
                 <td>Delete (Pop)</td>
-                <td>O(1)</td>
+                <td>Θ(1)</td>
                 <td>O(1)</td>
             </tr>
             <tr>
               <td>Top</td>
-              <td>O(1)</td>
+              <td>Θ(1)</td>
               <td>O(1)</td>
             </tr>
         </table>
@@ -126,8 +126,8 @@
 
 ### Core Java
 
-* Explain OOP Concept.
-    - Object-Oriented Programming is a methodology to design a program using classes, objects, 
+* Explain OOP Concepts.
+    - Object-Oriented Programming is a methodology of designing a program using classes, objects, 
     [inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)),
     [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)),
     [abstraction](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)), and
@@ -135,18 +135,18 @@
 * Differences between abstract classes and interfaces? [link](https://arjun-sna.github.io/java/2017/02/02/abstractvsinterface/)
     - An abstract class, is a class that contains both concrete and abstract methods 
     (methods without implementations). An abstract method must be implemented by the abstract class
-     sub-classes. Abstract classes are extended.
-    - An interface is like a blueprint/contract of a class. It contains empty methods that 
-    represent what all of its subclasses should have in common. The subclasses provide the 
+     sub-classes. Abstract classes cannot be instantiated and need to be extended to be used.
+    - An interface is like a blueprint/contract of a class (or it may be thought of as a class with methods, but without their implementation). It contains empty methods that 
+    represent, what all of its subclasses should have in common. The subclasses provide the 
     implementation for each of these methods. Interfaces are implemented.
 * What is serialization? How do you implement it?
     - Serialization is the process of converting an object into a stream of bytes in order to store 
-    an object into memory so that it can be recreated at a later time while still keeping the 
-    objects original state and data. In Android you may use either the Serializable or Parcelable interface.
-    Even though Serializable is much easier to implement, in Android it is highly recommended to use Parcelable
-    instead, as Parcelable was created exclusively for Android which performs about 10x faster then Serializable
-    because Serializable uses reflection which is a slow process and tends to create a lot of
-    temporary objects which may cause garbage collection to occur more often.
+    an object into memory, so that it can be recreated at a later time, while still keeping the 
+    object's original state and data. In Android you may use either the Serializable, Externalizable (implements Serializable) or Parcelable interfaces.
+    While Serializable is the easiest to implement, Externalizable may be used if you need to insert custom logic into the process of serialization (although it is almost never used nowadays as it is considered a relic from early versions of Java). But it is highly recommended to use Parcelable in Android 
+    instead, as Parcelable was created exclusively for Android and it performs about 10x faster than Serializable,
+    because Serializable uses reflection, which is a slow process and tends to create a lot of
+    temporary objects and it may cause garbage collection to occur more often.
 
     To use Serializable all you have to do is implement the interface.
 
@@ -261,10 +261,10 @@
     ```
 
     Note: For a full explanation of the <b>describeContents()</b> method see <a href="https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799">HERE</a>.
-    In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good to try and understand everything that is happening.
+    In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good thing to try and understand everything that is happening.
 
 * What is Singleton class?
-    - A singleton is a class that can only be instantiated once.[This singleton pattern restricts 
+    - A singleton is a class that can only be instantiated once. [This singleton pattern restricts 
     the instantiation of a class to one object. This is useful when exactly one object is needed 
     to coordinate actions across the system. The concept is sometimes generalized to systems 
     that operate more efficiently when only one object exists, or that restrict the instantiation 
@@ -274,9 +274,9 @@
 * What is the `hashCode()` and `equals()` used for?
 * What are these `final`, `finally` and `finalize`?
 * What is memory leak and how does Java handle it?
-* What is garbage collector? How it works?
-  -All objects are allocated on the heap area managed by the JVM. 
-  As long as an object is being referenced, the JVM considers it  alive. 
+* What is garbage collector? How does it work?
+  - All objects are allocated on the heap area managed by the JVM. 
+  As long as an object is being referenced, the JVM considers it alive. 
   Once an object is no longer referenced and therefore is not reachable by the application code,
   the garbage collector removes it and reclaims the unused memory.
 * `Arrays` vs `ArrayLists`.
@@ -286,28 +286,79 @@
 <p align="center">
 <img alt="Overloading and Overriding" src="https://github.com/codeshef/android-interview-questions/blob/master/assets/overloading-vs-overriding.png">
 </p>
-
 Overloading happens at compile-time while Overriding happens at runtime: The binding of overloaded method call to its definition has happens at compile-time however binding of overridden method call to its definition happens at runtime.
 
-Static methods can be overloaded which means a class can have more than one static method of same name. Static methods cannot be overridden, even if you declare a same static method in child class it has nothing to do with the same method of parent class.
+More info on static vs. dynamic binding: <a href="https://stackoverflow.com/questions/19017258/static-vs-dynamic-binding-in-java">StackOverflow</a>.
+
+Static methods can be overloaded which means a class can have more than one static method of same name. Static methods cannot be overridden, even if you declare a same static method in child class it has nothing to do with the same method of parent class as overridden static methods are chosen by the reference class and not by the class of the object.
+
+So, for example:
+
+```java
+public class Animal {
+    public static void testClassMethod() {
+        System.out.println("The static method in Animal");
+    }
+    public void testInstanceMethod() {
+        System.out.println("The instance method in Animal");
+    }
+}
+
+public class Cat extends Animal {
+    public static void testClassMethod() {
+        System.out.println("The static method in Cat");
+    }
+    public void testInstanceMethod() {
+        System.out.println("The instance method in Cat");
+    }
+
+    public static void main(String[] args) {
+        Cat myCat = new Cat();
+        myCat.testClassMethod();
+        Animal myAnimal = myCat;
+        myAnimal.testClassMethod();
+        myAnimal.testInstanceMethod();
+    }
+}
+```
+Will output: 
+```
+The static method in Cat    // testClassMethod() is called from "Cat" reference
+
+The static method in Animal // testClassMethod() is called from "Animal" reference, 
+                            // ignoring actual object inside it (Cat)
+                            
+The instance method in Cat  // testInstanceMethod() is called from "Animal" reference,
+                            // but from "Cat" object underneath
+```
 
 The most basic difference is that overloading is being done in the same class while for overriding base and child classes are required. Overriding is all about giving a specific implementation to the inherited method of parent class.
 
 Static binding is being used for overloaded methods and dynamic binding is being used for overridden/overriding methods.
-Performance: Overloading gives better performance compared to overriding. The reason is that the binding of overridden methods is being done at runtime.
+Performance: Overloading gives better performance compared to overriding. The reason is that the binding of overridden methods is being done at runtime through reflection.
 
 Private and final methods can be overloaded but they cannot be overridden. It means a class can have more than one private/final methods of same name but a child class cannot override the private/final methods of their base class.
 
-Return type of method does not matter in case of method overloading, it can be same or different. However in case of method overriding the overriding method can have more specific return type (refer this).
+Return type of method does not matter in case of method overloading, it can be same or different. However in case of method overriding the overriding method can have more specific return type (meaning if, for example, base method returns an instance of Number class, all overriding methods can return any class that is extended from Number, but not a class that is higher in the hierarchy, like, for example, Object is in this particular case).
 
 Argument list should be different while doing method overloading. Argument list should be same in method Overriding.
+It is also a good practice to annotate overridden methods with `@Override` to make the compiler be able to notify you if child is, indeed, overriding parent's class method during compile-time.
 
-* What are the access modifiers you know? What does each one do?
+* What are the access modifiers you know? What does each one do? <br>
+   - There are four access modifiers in Java language (from strictest to the most lenient):
+   1. `private` *variables*, *methods*, *constructors* or *inner classes* are only visible to its' containing class and its' methods. This modifier is most commonly used, for example, to allow variable access only through getters and setters or to hide underlying implementation of classes that should not be used by user and therefore maintain encapsulation. Singleton constructor is also marked `private` to avoid unwanted instantiation from outside.
+   2. `protected` can be used on *variables*, *methods* and *constructors* therefore allowing access only to subclasses and classes that are inside the same package as protected members' class.
+   3. Default (no keyword is used) this modifier can be applied to *classes*, *variables*, *constructors* and *methods* and allows access from classes and methods inside the same package.
+   4. `public` modifier is widely-used on *classes*, *variables*, *constructors* and *methods* to grant access from any class and method anywhere. It should not be used everywhere as it implies that data marked with `public` is not sensitive and can not be used to harm the program.
+
 * Can an Interface extend another Interface?
 * What does the `static` word mean in Java?
+    - In case of `static` variable it means that this variable (its' value or the object it references) spans across all instances of encapsulating class (changing it in one instance affects all others), while in case of `static` methods it means that these methods can be invoked without an instance of their encapsulating class. It is useful, for example, when you create util classes that need not be instantiated every time you want to use them.
 * Can a `static` method be overridden in Java?
+    - While child class can override a static method with another static method with the same signature (return type can be downcasted), it is not truly overridden - it becomes "hidden", but both methods can still be accessed under right circumstances (see question about overloading/overriding above).
 * What is Polymorphism? What about Inheritance?
 * What is the difference between an Integer and int?
+    - `int` is a primitive data type (with `byte`, `short`, `long`, `float` and `double`), while `Integer` (with `Byte`, `Short`,`Long`, `Float` and `Double`) is a [wrapper](https://docs.oracle.com/javase/tutorial/java/data/numberclasses.html) class that encapsulates primitive data type, while providing useful methods to perform different tasks with it.
 * Do objects get passed by reference or value in Java? Elaborate on that.
 * What is a ThreadPoolExecutor? [Link](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
 * What the difference between local, instance and class variables?
@@ -334,6 +385,10 @@ Argument list should be different while doing method overloading. Argument list 
 ### Core Android
 
 * Explain activity lifecycle.
+<p align="center">
+<img alt="Simplified activity lifecycle" src="https://developer.android.com/guide/components/images/activity_lifecycle.png">
+</p>
+
 * Tell all the Android application components.
 * Service vs IntentService. [Link](https://stackoverflow.com/a/15772151/5153275)
 * What is the structure of an Android Application?
