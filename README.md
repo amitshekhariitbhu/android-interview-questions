@@ -273,7 +273,6 @@
 * What is the difference between using `==` and `.equals` on a string?
 * What is the `hashCode()` and `equals()` used for?
 * What are these `final`, `finally` and `finalize`?
-* What is memory leak and how does Java handle it?
 * What is garbage collector? How does it work?
   - All objects are allocated on the heap area managed by the JVM. 
   As long as an object is being referenced, the JVM considers it alive. 
@@ -371,9 +370,23 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What does it means to say that a `String` is immutable?
 * What are `transient` and `volatile` modifiers?
 * What is the `finalize()` method?
-* How does the `try{}finally{}` works?
+* How does the `try{} catch {} finally{}` works?
 * What is the difference between instantiation and initialization of an object?
-    - Initialization 
+    - Initialization is the process of the memory allocation, when a new variable is created. Variables should be explicitly given a value, otherwise they may contain a random value that remained from the previous variable that was using the same memory space. To avoid this problem Java language assigns default (right after initialization) values to some data types:
+        * `boolean` defaults to `false`;
+        * `byte` defaults to `0`;
+        * `short` defaults to `0`;
+        * `int` defaults to `0`;
+        * `long` defaults to `0L`;
+        * `char` defaults to `\u0000`;
+        * `float` defaults to `0.0f`;
+        * `double` defaults to `0.0d`;
+        * `object` defaults to `null`.
+    - Instantiation is the process of assigning definitive value to a declared variable:
+    ``` 
+        int j;  // Initialized variable (int defaults to 0 right after)
+        j = 10; // Instantiated variable
+    ```
 * When is a `static` block run?
 * Explain Generics in Java?
 * Difference between `StringBuffer` and `StringBuilder`?
@@ -382,6 +395,8 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What’s the difference between an Enumeration and an Iterator?
 * What is the difference between fail-fast and fail safe in Java?
 * What is Java priority queue?
+* What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized?
+* What is memory leak and how does Java handle it?
 * What are the design patterns? [GitHub](https://github.com/iluwatar/java-design-patterns)
 
 
