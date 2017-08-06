@@ -278,6 +278,7 @@
 * What are anonymous classes?
 * What is the difference between using `==` and `.equals` on a string?
 * How is `String` class constructed? Why was it made immutable?
+* What is `String.intern()`, why and when should it be used?
 * What is the `hashCode()` and `equals()` used for?
 * What are these `final`, `finally` and `finalize` keywords?
 * What is garbage collector? How does it work?
