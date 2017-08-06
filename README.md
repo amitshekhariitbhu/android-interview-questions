@@ -277,8 +277,9 @@
     to a certain number of objects. [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
 * What are anonymous classes?
 * What is the difference between using `==` and `.equals` on a string?
+* How is `String` class constructed? Why was it made immutable?
 * What is the `hashCode()` and `equals()` used for?
-* What are these `final`, `finally` and `finalize`?
+* What are these `final`, `finally` and `finalize` keywords?
 * What is garbage collector? How does it work?
   - All objects are allocated on the heap area managed by the JVM. 
   As long as an object is being referenced, the JVM considers it alive. 
