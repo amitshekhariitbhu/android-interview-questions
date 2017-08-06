@@ -414,7 +414,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 ### Core Android
 
-* Explain Activity and Fragment lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle))
+* Explain Activity and Fragment lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle), simplified diagram for [Activity](https://developer.android.com/guide/components/activities/activity-lifecycle.html#alc), [Fragment](https://developer.android.com/guide/components/fragments.html#Lifecycle))
 * Tell all the Android application components.
 * Service vs IntentService. [StackOverflow](https://stackoverflow.com/a/15772151/5153275)
 * What is the structure of an Android Application?
