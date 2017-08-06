@@ -149,23 +149,16 @@
     - Serialization is the process of converting an object into a stream of bytes in order to store 
     an object into memory, so that it can be recreated at a later time, while still keeping the 
     object's original state and data. In Android you may use either the Serializable, Externalizable (implements Serializable) or Parcelable interfaces.
-    While Serializable is the easiest to implement, Externalizable may be used if you need to insert custom logic into the process of serialization (although it is almost never used nowadays as it is considered a relic from early versions of Java). But it is highly recommended to use Parcelable in Android 
-    instead, as Parcelable was created exclusively for Android and it performs about 10x faster than Serializable,
-    because Serializable uses reflection, which is a slow process and tends to create a lot of
-    temporary objects and it may cause garbage collection to occur more often.
-
-    To use Serializable all you have to do is implement the interface.
-
-    Serializable Example:
-
+    - While Serializable is the easiest to implement, Externalizable may be used if you need to insert custom logic into the process of serialization (although it is almost never used nowadays as it is considered a relic from early versions of Java). But it is highly recommended to use Parcelable in Android instead, as Parcelable was created exclusively for Android and it performs about 10x faster than Serializable, because Serializable uses reflection, which is a slow process and tends to create a lot of temporary objects and it may cause garbage collection to occur more often.  
+    - To use Serializable all you have to do is implement the interface:
     ```java
-        /**
-         *  Implementing the Serializeable interface is all that is required
-         */
-        public class User implements Serializable {
+    /**
+    *  Implementing the Serializeable interface is all that is required
+    */
+    public class User implements Serializable {
 
-            private String name;
-            private String email;
+        private String name;
+        private String email;
 
             public User() {
             }
@@ -277,8 +270,21 @@
     to a certain number of objects. [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
 * What are anonymous classes?
 * What is the difference between using `==` and `.equals` on a string?
-* How is `String` class constructed? Why was it made immutable?
-* What is `String.intern()`, why and when should it be used?
+* How is `String` class implemented? Why was it made immutable?
+  - There is no primitive variant of `String` class in Java language - all strings are just wrappers around underlying array of characters, which are declared `final`. This means that, once a `String` object is instantiated, it cannot be changed through normal tools of the language (Reflection still can mess things up horribly, because in Java no object is truly immutable). This is why `String` variables in classes are the first candidates to be used, when you want to override `hashCode()` and `equals()` of your class - you can be sure, that all their required contracts will be satisfied.  
+    > Note: The String class is immutable, so that once it is created a String object cannot be changed. The String class  has a number of methods, some of which will be discussed below, that appear to modify strings. Since strings are  immutable, what these methods really do is create and return a new string that contains the result of the operation. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/data/strings.html))   
+    
+    This class is also unique in a sense, that, when you create an instance like this: 
+    ```java
+    String helloWorld = "Hello, World!";
+    ```
+    `"Hello, World!"` is called a *literal* and compiler creates a `String` object with its' value. So 
+    ```java
+    String capital = "Hello, World!".toUpperCase();
+    ```   
+    is a valid statement, that, firstly, will create an object with literal value "Hello, World!" and then will create and return another object with value "HELLO, WORLD!"
+  - `String` was made immutable to prevent malicious manipulation of data, when, for example, user login or other sensitive data is being send to a server.
+* What is `String.intern()`? When and why should it be used?
 * What is the `hashCode()` and `equals()` used for?
 * What are these `final`, `finally` and `finalize` keywords?
 * What is garbage collector? How does it work?
