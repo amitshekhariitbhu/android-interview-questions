@@ -390,7 +390,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
         * `float` defaults to `0.0f`;
         * `double` defaults to `0.0d`;
         * `object` defaults to `null`.
-    - Instantiation is the process of assigning definitive value to a declared variable:
+    - Instantiation is the process of explicitly assigning definitive value to a declared variable:
     ```java
         int j;  // Initialized variable (int defaults to 0 right after)
         j = 10; // Instantiated variable
