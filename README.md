@@ -294,65 +294,64 @@
 * `HashSet` vs `TreeSet`.
 * Typecast in Java.
 * Difference between method overloading and overriding.
-<p align="center">
-<img alt="Overloading and Overriding" src="https://github.com/codeshef/android-interview-questions/blob/master/assets/overloading-vs-overriding.png">
-</p>
-Overloading happens at compile-time while Overriding happens at runtime: The binding of overloaded method call to its definition has happens at compile-time however binding of overridden method call to its definition happens at runtime.
+        <p align="center">
+        <img alt="Overloading and Overriding" src="https://github.com/codeshef/android-interview-questions/blob/master/assets/overloading-vs-overriding.png">
+        </p>  
+    - Overloading happens at compile-time while Overriding happens at runtime: The binding of overloaded method call to its definition has happens at compile-time however binding of overridden method call to its definition happens at runtime. 
+    More info on static vs. dynamic binding: [StackOverflow](https://stackoverflow.com/questions/19017258/static-vs-dynamic-binding-in-java). 
+    - Static methods can be overloaded which means a class can have more than one static method of same name. Static methods cannot be overridden, even if you declare a same static method in child class it has nothing to do with the same method of parent class as overridden static methods are chosen by the reference class and not by the class of the object. 
+    
+        So, for example: 
+        ```java
+        public class Animal {
+            public static void testClassMethod() {
+                System.out.println("The static method in Animal");
+            }
 
-More info on static vs. dynamic binding: [StackOverflow](https://stackoverflow.com/questions/19017258/static-vs-dynamic-binding-in-java).
+            public void testInstanceMethod() {
+                System.out.println("The instance method in Animal");
+            }
+        }
 
-Static methods can be overloaded which means a class can have more than one static method of same name. Static methods cannot be overridden, even if you declare a same static method in child class it has nothing to do with the same method of parent class as overridden static methods are chosen by the reference class and not by the class of the object.
+        public class Cat extends Animal {
+            public static void testClassMethod() {
+                System.out.println("The static method in Cat");
+            }
 
-So, for example:
+            public void testInstanceMethod() {
+                System.out.println("The instance method in Cat");
+            }
 
-```java
-public class Animal {
-    public static void testClassMethod() {
-        System.out.println("The static method in Animal");
-    }
-    public void testInstanceMethod() {
-        System.out.println("The instance method in Animal");
-    }
-}
+            public static void main(String[] args) {
+                Cat myCat = new Cat();
+                myCat.testClassMethod();
+                Animal myAnimal = myCat;
+                myAnimal.testClassMethod();
+                myAnimal.testInstanceMethod();
+            }
+        }
+        ```
+        Will output: 
+        ```java
+        The static method in Cat    // testClassMethod() is called from "Cat" reference
 
-public class Cat extends Animal {
-    public static void testClassMethod() {
-        System.out.println("The static method in Cat");
-    }
-    public void testInstanceMethod() {
-        System.out.println("The instance method in Cat");
-    }
-
-    public static void main(String[] args) {
-        Cat myCat = new Cat();
-        myCat.testClassMethod();
-        Animal myAnimal = myCat;
-        myAnimal.testClassMethod();
-        myAnimal.testInstanceMethod();
-    }
-}
-```
-Will output: 
-```java
-The static method in Cat    // testClassMethod() is called from "Cat" reference
-
-The static method in Animal // testClassMethod() is called from "Animal" reference, 
-                            // ignoring actual object inside it (Cat)
+        The static method in Animal // testClassMethod() is called from "Animal" reference, 
+                                    // ignoring actual object inside it (Cat)
                             
-The instance method in Cat  // testInstanceMethod() is called from "Animal" reference,
-                            // but from "Cat" object underneath
-```
+        The instance method in Cat  // testInstanceMethod() is called from "Animal" reference,
+                                    // but from "Cat" object underneath
+        ```
 
-The most basic difference is that overloading is being done in the same class while for overriding base and child classes are required. Overriding is all about giving a specific implementation to the inherited method of parent class.
+        The most basic difference is that overloading is being done in the same class while for overriding base and child classes are required. Overriding is all about giving a specific implementation to the inherited method of parent class.
 
-Static binding is being used for overloaded methods and dynamic binding is being used for overridden/overriding methods.
-Performance: Overloading gives better performance compared to overriding. The reason is that the binding of overridden methods is being done at runtime.
+        Static binding is being used for overloaded methods and dynamic binding is being used for overridden/overriding methods.
+        Performance: Overloading gives better performance compared to overriding. The reason is that the binding of overridden methods is being done at runtime.
 
-Private and final methods can be overloaded but they cannot be overridden. It means a class can have more than one private/final methods of same name but a child class cannot override the private/final methods of their base class.
+        Private and final methods can be overloaded but they cannot be overridden. It means a class can have more than one private/final methods of same name but a child class cannot override the private/final methods of their base class.
 
-Return type of method does not matter in case of method overloading, it can be same or different. However in case of method overriding the overriding method can have more specific return type (meaning if, for example, base method returns an instance of Number class, all overriding methods can return any class that is extended from Number, but not a class that is higher in the hierarchy, like, for example, Object is in this particular case).
+        Return type of method does not matter in case of method overloading, it can be same or different. However in case of method overriding the overriding method can have more specific return type (meaning if, for example, base method returns an instance of Number class, all overriding methods can return any class that is extended from Number, but not a class that is higher in the hierarchy, like, for example, Object is in this particular case).
 
-Argument list should be different while doing method overloading. Argument list should be same in method Overriding.
+        Argument list should be different while doing method overloading. Argument list should be same in method Overriding.
 It is also a good practice to annotate overridden methods with `@Override` to make the compiler be able to notify you if child is, indeed, overriding parent's class method during compile-time.
 
 * What are the access modifiers you know? What does each one do? <br>
@@ -399,10 +398,10 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
         * `double` defaults to `0.0d`;
         * `object` defaults to `null`.
     - Instantiation is the process of explicitly assigning definitive value to a declared variable:
-    ```java
-        int j;  // Initialized variable (int defaults to 0 right after)
-        j = 10; // Instantiated variable
-    ```
+        ```java
+            int j;  // Initialized variable (int defaults to 0 right after)
+            j = 10; // Instantiated variable
+        ```
 * When is a `static` block run?
 * Explain Generics in Java?
 * Difference between `StringBuffer` and `StringBuilder`?
