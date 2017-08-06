@@ -400,7 +400,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * Difference between `StringBuffer` and `StringBuilder`?
 * How is a `StringBuilder` implemented to avoid the immutable string allocation problem?
 * What is Autoboxing and Unboxing?
-  - Autoboxing and Unboxing is the process of automatic wrapping (putting in a box) and unwrapping (getting the value out) of primitive data types, that have "wrapper" classes. So `int` and `Integer` can (almost always) be used interchangeably in Java language, meaning a method `giveMeInt(int i) { ... }` can take `int` as well as `Integer` as a parameter.
+  - Autoboxing and Unboxing is the process of automatic wrapping (putting in a box) and unwrapping (getting the value out) of primitive data types, that have "wrapper" classes. So `int` and `Integer` can (almost always) be used interchangeably in Java language, meaning a method `void giveMeInt(int i) { ... }` can take `int` as well as `Integer` as a parameter.
 * What’s the difference between an Enumeration and an Iterator?
 * What is the difference between fail-fast and fail safe in Java?
 * What is Java priority queue?
