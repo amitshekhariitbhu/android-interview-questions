@@ -362,17 +362,20 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What does the `static` word mean in Java?
     - In case of `static` variable it means that this variable (its' value or the object it references) spans across all instances of enclosing class (changing it in one instance affects all others), while in case of `static` methods it means that these methods can be invoked without an instance of their enclosing class. It is useful, for example, when you create util classes that need not be instantiated every time you want to use them.
 * Can a `static` method be overridden in Java?
-    - While child class can override a static method with another static method with the same signature (return type can be downcasted), it is not truly overridden - it becomes "hidden", but both methods can still be accessed under right circumstances (see question about overloading/overriding above).
+  - While child class can override a static method with another static method with the same signature (return type can be downcasted), it is not truly overridden - it becomes "hidden", but both methods can still be accessed under right circumstances (see question about overloading/overriding above).
 * What is Polymorphism? What about Inheritance?
 * What is the difference between an Integer and int?
-    - `int` is a primitive data type (with `boolean`, `byte`, `char`, `short`, `long`, `float` and `double`), while `Integer` (with `Boolean`, `Byte`, `Character`, `Short`,`Long`, `Float` and `Double`) is a [wrapper](https://docs.oracle.com/javase/tutorial/java/data/numberclasses.html) class that encapsulates primitive data type, while providing useful methods to perform different tasks with it.
+  - `int` is a primitive data type (with `boolean`, `byte`, `char`, `short`, `long`, `float` and `double`), while `Integer` (with `Boolean`, `Byte`, `Character`, `Short`,`Long`, `Float` and `Double`) is a [wrapper](https://docs.oracle.com/javase/tutorial/java/data/numberclasses.html) class that encapsulates primitive data type, while providing useful methods to perform different tasks with it.
 * Do objects get passed by reference or value in Java? Elaborate on that.
 * What is a ThreadPoolExecutor? [Mindorks](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
 * What the difference between local, instance and class variables?
+  - Local variables exist only in methods that created them, they are stored separately in their respected Thread Stack (for more information, see question about Java Memory Model) and cannot have their reference passed outside of the method scope.
+  - Instance variables are the ones, that are declared in classes and their value can be different from one instance of the class to another, but they always require that class' instance to exist.
+  - Class variables are those, that are marked with `static` keyword in their class' declaration. They can only have one value across all instances of that class and can even be retrieved without that class' instance (if their access modifier allows it).
 * What is reflection? [Jenkov](http://tutorials.jenkov.com/java-reflection/index.html)
 * What are strong, soft, weak and phantom references in Java?
 * What is Dependency Injection?  Can you name few libraries? Have you used any?
-    - Dependency injection is a very powerful technique, where you relay the task of providing object with its' dependencies on instances of other objects (OOP Composition, [Wikipedia](https://en.wikipedia.org/wiki/Object_composition?oldformat=true)) to a separate class. This allows for fewer constructors, setters, factories and builders as all those functions are taken care of by the DI framework that you use. Also, and it may seem as a minor advantage, but if you use DI framework you need not worry about going through the project and changing all of (example names) `YourCustomInterface customInterfaceObject = new YourCustomClass();` to a new implementaion, as long as your new class (in place of `YourCustomClass`) still implements `CustomInterface` - you can just tweak the DI factory class to produce new class and voila - this new class will be automatically instantiated throughout your code. This allows for better maintenence and control over the program. Another example of DI usage is unit-testing - it allows to conveniently inject all needed dependencies and keep the amount of written code at a lower level.
+  - Dependency injection is a very powerful technique, where you relay the task of providing object with its' dependencies on instances of other objects (OOP Composition, [Wikipedia](https://en.wikipedia.org/wiki/Object_composition?oldformat=true)) to a separate class. This allows for fewer constructors, setters, factories and builders as all those functions are taken care of by the DI framework that you use. Also, and it may seem as a minor advantage, but if you use DI framework you need not worry about going through the project and changing all of (example names) `YourCustomInterface customInterfaceObject = new YourCustomClass();` to a new implementaion, as long as your new class (in place of `YourCustomClass`) still implements `CustomInterface` - you can just tweak the DI factory class to produce new class and voila - this new class will be automatically instantiated throughout your code. This allows for better maintenence and control over the program. Another example of DI usage is unit-testing - it allows to conveniently inject all needed dependencies and keep the amount of written code at a lower level.
     - One of the most popular libraries for DI for Android is Dagger 2. [Mindorks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
 * What does the keyword `synchronized` mean?
 * What does it means to say that a `String` is immutable?
@@ -404,18 +407,14 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What’s the difference between an Enumeration and an Iterator?
 * What is the difference between fail-fast and fail safe in Java?
 * What is Java priority queue?
-* What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized?
+* What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized? [Jenkov](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
 * What is memory leak and how does Java handle it?
 * What are the design patterns? [GitHub](https://github.com/iluwatar/java-design-patterns)
 
 
 ### Core Android
 
-* Explain activity lifecycle.
-<p align="center">
-<img alt="Simplified activity lifecycle" src="https://developer.android.com/guide/components/images/activity_lifecycle.png">
-</p>
-
+* Explain Activity and Fragment lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle))
 * Tell all the Android application components.
 * Service vs IntentService. [StackOverflow](https://stackoverflow.com/a/15772151/5153275)
 * What is the structure of an Android Application?
@@ -427,7 +426,6 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is Fragment?
 * Why is it recommended to use only the default constructor to create a fragment? [StackOverflow](https://stackoverflow.com/a/16042750/2809326)
 * Why Bundle class is used for data passing and why cannot we use simple Map data structure
-* Explain the lifecycle of a Fragment. [Techsfo](https://www.techsfo.com/blog/wp-content/uploads/2014/08/complete_android_fragment_lifecycle.png)
 * What is Dialog in Android?
 * What is View in Android?
 * Can you create custom views? How?
