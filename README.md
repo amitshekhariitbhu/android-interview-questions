@@ -73,7 +73,7 @@
     inserted into the stack without removing it is called "Top". The most common way to implement a
      stack is by using a LinkedList, but there is also StackArray (implemented with an array) 
      which does not replace null entries, and there is also a Vector implementation that does 
-     replace null entries.[Wikipedia](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
+     replace null entries. [Wikipedia](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
      
         <table>
             <tr>
@@ -379,7 +379,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is the `finalize()` method?
 * How does the `try{} catch {} finally{}` works?
 * What is the difference between instantiation and initialization of an object?
-    - Initialization is the process of the memory allocation, when a new variable is created. Variables should be explicitly given a value, otherwise they may contain a random value that remained from the previous variable that was using the same memory space. To avoid this problem Java language assigns default (right after initialization) values to some data types:
+    - Initialization is the process of the memory allocation, when a new variable is created. Variables should be explicitly given a value, otherwise they may contain a random value that remained from the previous variable that was using the same memory space. To avoid this problem, Java language assigns default (right after initialization) values to some data types:
         * `boolean` defaults to `false`;
         * `byte` defaults to `0`;
         * `short` defaults to `0`;
@@ -399,6 +399,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * Difference between `StringBuffer` and `StringBuilder`?
 * How is a `StringBuilder` implemented to avoid the immutable string allocation problem?
 * What is Autoboxing and Unboxing?
+  - Autoboxing and Unboxing is the process of automatic wrapping (putting in a box) and unwrapping (getting the value out) of primitive data types, that have "wrapper" classes. So `int` and `Integer` can (almost always) be used interchangeably in Java language, meaning a method `giveMeInt(int i) { ... }` can take `int` as well as `Integer` as a parameter.
 * What’s the difference between an Enumeration and an Iterator?
 * What is the difference between fail-fast and fail safe in Java?
 * What is Java priority queue?
