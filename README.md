@@ -182,7 +182,7 @@
             </tr>
             </table>
     * Merge sort
-    - This is a "divide and conquer" algorithm, meaning it "divides" given array in to smaller parts (up to 1 element) and then sorts those parts, combining them with each other. This approach allows merge sort to acieve very high speed, while  doubling required space, of course, but today memory space is more availible than it was a couple of years ago, so this trade-off is considered acceptable.   
+        - This is a "divide and conquer" algorithm, meaning it "divides" given array in to smaller parts (up to 1 element) and then sorts those parts, combining them with each other. This approach allows merge sort to acieve very high speed, while  doubling required space, of course, but today memory space is more availible than it was a couple of years ago, so this trade-off is considered acceptable.   
             <table>
             <tr>
                 <th colspan="3" align="center">Time Complexity</th>
