@@ -467,6 +467,13 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
         ```
 * When is a `static` block run?
 * Explain Generics in Java?
+    > In a nutshell, generics enable types (classes and interfaces) to be parameters when defining classes, interfaces and methods. Much like the more familiar formal parameters used in method declarations, type parameters provide a way for you to re-use the same code with different inputs. The difference is that the inputs to formal parameters are values, while the inputs to type parameters are types. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/generics/why.html)) 
+    - This means that, for example, you can define:
+        ```java
+        List<Integer> list = new ArrayList<>();
+        ``` 
+        And let the compiler take care of noticing, if you put some object, of type other than `Integer` into this list and warn you.
+    
 * Difference between `StringBuffer` and `StringBuilder`?
 * How is a `StringBuilder` implemented to avoid the immutable string allocation problem?
 * What is Autoboxing and Unboxing?
