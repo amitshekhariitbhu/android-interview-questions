@@ -114,7 +114,7 @@
 * PriorityQueue
 * Dynamic Programming
 * String Manipulation
-* Binary Tree
+* Binary Tree [Wikipedia](https://en.wikipedia.org/wiki/Binary_tree?oldformat=true) 
 * Binary Search Tree
 * Sorting Algorithms [Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm?oldformat=true)
     - Using the most efficient sorting algorithm (and correct data structures that implement it) is vital for any program, because data manipulation can be one of the most significant bottlenecks in case of performance and the main purpose of spending time, determining the best algorithm for the job, is to drastically improve said performance. The efficiency of an algorithm is measured in its' "Big O" ([StackOverflow](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)) score. Really good algorithms perform important actions in O(n log n) or even O(log n) time and some of them can even perform certain actions in O(1) time (HashTable insertion, for example). But there is always a trade-off - if some algorithm is really good at adding a new element to a data structure, it is, most certainly, much worse at data access than some other algorithm. If you are proficient with math, you may notice that "Big O" notation has many similarities with "limits", and you would be right - it measures best, worst and average performances of an algorithm in question, by looking at its' function limit. It should be noted that, when we are speaking about O(1) - constant time - we are not saying that this algorithm performs an action in one operation, rather that it can perform this action with the same number of operations (roughly), regrardless of the amount of elements it has to take into account. Thankfully, a lot of "Big O" scores have been already calculated, so you don't have to guess, which algorithm or data structure will perform better in your project. ["Big O" cheat sheet](http://bigocheatsheet.com/)
@@ -203,7 +203,7 @@
             </tr>
             </table>
     * Quicksort [Wikipedia](https://en.wikipedia.org/wiki/Quicksort?oldformat=true)
-        - Quicksort is considered, well, quite quick. When implemented correctly for the task at hand it can be a significant number of times faster than its' main competitors. This algorithm is also of "divide and conquer" family and the first step is to choose a "pivot" element (choosing it randomly, statistically, minimizes the chance to get the worst performance), then by comparing elements to this pivot, find its' final place, while moving elements that are bigger to the right side of it and smaller elements to the left. After it is done, repeat this process for both subarrays on each side and do so recursively, until the array is sorted.
+        - Quicksort is considered, well, quite quick. When implemented correctly, it can be a significant number of times faster than its' main competitors. This algorithm is also of "divide and conquer" family and its' first step is to choose a "pivot" element (choosing it randomly, statistically, minimizes the chance to get the worst performance), then by comparing elements to this pivot, moving it closer and closer to its' final place. During this process, the elements that are bigger are moved to the right side of it and smaller elements to the left. After this is done, quicksort repeats this process for  subarrays on each side of placed pivot (does first step recursively), until the array is sorted.
                 <table>
             <tr>
                 <th colspan="3" align="center">Time Complexity</th>
