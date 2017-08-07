@@ -380,6 +380,61 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is the difference between an Integer and int?
   - `int` is a primitive data type (with `boolean`, `byte`, `char`, `short`, `long`, `float` and `double`), while `Integer` (with `Boolean`, `Byte`, `Character`, `Short`,`Long`, `Float` and `Double`) is a [wrapper](https://docs.oracle.com/javase/tutorial/java/data/numberclasses.html) class that encapsulates primitive data type, while providing useful methods to perform different tasks with it.
 * Do objects get passed by reference or value in Java? Elaborate on that.
+    - In Java all primitives and objects are passed by reference, meaning that their copy will be manipulated in receiving method. But there is a caveat - when you pass an object reference into a method, a *copy of this reference* is made, so it still points to the same object. This means, that any changes that you make to the insides of this object are retained, when the method exits.
+        ```java
+        public class Pointer {
+
+            int innerField;
+
+            public Pointer(int a) {
+                this.innerField = a;
+            }
+        }
+        ```  
+        ```java
+            public class ValueAndReference {
+
+            public static void main(String[] args) {
+
+                Pointer a = new Pointer(0);
+                int b = 1;
+
+                print("Before:");
+                print("b = " + b);
+                print("a.innerField = " + a.innerField);
+                exampleMethod(a, b);
+                print("After:");
+                print("b = " + b);
+                print("a.innerField = " + a.innerField);
+            }
+
+            static void exampleMethod(Pointer a, int b) {
+                a.innerField = 2;
+                b = 10;
+            }
+
+            static void print(String text) {
+                System.out.println(text);
+            }
+        }
+        ```
+        Will output: 
+        ```java
+            Before:
+            
+            b = 1
+            
+            a.innerField = 0
+            
+            After:
+            
+            b = 1        // a new local int variable was created and operated on, so "b" didn't change
+            
+            a.innerField = 2 // Pointer a got its' innerField variable changed
+                             //  from 0 to 2, because method was operating on
+                             //  the same reference to an instance 
+        ```
+
 * What is a ThreadPoolExecutor? [Mindorks](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
 * What the difference between local, instance and class variables?
   - Local variables exist only in methods that created them, they are stored separately in their respected Thread Stack (for more information, see question about Java Memory Model) and cannot have their reference passed outside of the method scope. That also means that they cannot be assigned any access modifier or made `static` - because they only exist during enclosing method's execution and those modifiers just do not make sense, since no other outside method can get them anyway.
