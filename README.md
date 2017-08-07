@@ -28,7 +28,7 @@
 > The level of questions asked on the topic of Data Structures And Algorithms totally depends on the company for which you are applying.
 
 * Array
-    - An Array consists of a group of elements of the same data type. It is stored continuously in memory and by using its' index, you can find the underlying data. Arrays can be one dimensional and multi-dimensional. One dimensional array is the simplest data structure, and also most commonly used. It is worth noting that in Java language multi-dimensional array are implemented as arrays of arrays. For example, int[10][5] is actually one array with its' cells pointing to ten 5-element arrays.    
+    - An Array consists of a group of elements of the same data type. It is stored continuously in memory and by using its' index, you can find the underlying data. Arrays can be one dimensional and multi-dimensional. One dimensional array is the simplest data structure, and also most commonly used. It is worth noting that in Java language multi-dimensional array are implemented as arrays of arrays. For example, `int[10][5]` is actually one array with its' cells pointing to ten 5-element arrays.    
 
         | Algorithm | Average | Worst Case |
         |:---------:|:-------:|:----------:|
@@ -43,7 +43,7 @@
     anything, but the pointer is a reference to the next item in the LinkedList. A LinkedList 
     contains both a head and a tail. The "Head" is the first item in the LinkedList, while the "Tail" is 
     the last item. It is not a circular data structure, therefore the tail does not have its' 
-    pointer pointing at the Head - the pointer is just NULL. The run time complexity for each of 
+    pointer pointing at the Head - the pointer is just `null`. The run time complexity for each of 
     the base methods are as follows:
 
         | Algorithm | Average | Worst Case |
@@ -54,7 +54,7 @@
         | Delete    | Θ(1)    | O(1)       |
 
 * DoublyLinkedList
-   - A DoublyLinkedList is based on a LinkedList, but there is two pointers in each node, "previous" pointer holds reference to the previous node and "next" pointer holds reference to the next node. It also has a Head node, head node's next pointer references the first node in this DoublyLinkedList. The last node's "next" reference points to NULL, but if last node's next pointer points to the first node, such DoublyLinkedList is called "Circular DoublyLinkedList". This data structure is very convenient if you need to be able to traverse stored elements in both directions. 
+   - A DoublyLinkedList is based on a LinkedList, but there is two pointers in each node, "previous" pointer holds reference to the previous node and "next" pointer holds reference to the next node. It also has a Head node, head node's next pointer references the first node in this DoublyLinkedList. The last node's "next" reference points to `null`, but if last node's next pointer points to the first node, such DoublyLinkedList is called "Circular DoublyLinkedList". This data structure is very convenient if you need to be able to traverse stored elements in both directions. 
   
        ![DoublyLinkedList](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)
             
@@ -65,7 +65,7 @@
         | Insert    | Θ(1)    | O(1)       |
         | Delete    | Θ(1)    | O(1)       |
 * Stack
-    - A Stack is a basic data structure with a "Last-in-First-out" (LIFO) semantics. This means that 
+   - A Stack is a basic data structure with a "Last-in-First-out" (LIFO) semantics. This means that 
     the last item that was added to the stack is the first item that comes out of the stack. A 
     Stack is like a stack of books in that in order to get to the first book that was added in the stack 
     (the bottom book), all of the books that were added after need to be removed first. Adding to a 
@@ -74,7 +74,6 @@
      stack is by using a LinkedList, but there is also StackArray (implemented with an array) 
      which does not replace null entries, and there is also a Vector implementation that does 
      replace null entries. [Wikipedia](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
-     
         <table>
             <tr>
                 <th>Algorithm</th>
@@ -161,7 +160,7 @@
                 </td>
             </tr>
             </table>
-    * Insertion sort
+    * Insertion sort [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort?oldformat=true)
             <table>
             <tr>
                 <th colspan="3" align="center">Time Complexity</th>
