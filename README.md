@@ -181,8 +181,8 @@
                 </td>
             </tr>
             </table>
-    * Merge sort
-        - This is a "divide and conquer" algorithm, meaning it "divides" given array in to smaller parts (up to 1 element) and then sorts those parts, combining them with each other. This approach allows merge sort to acieve very high speed, while  doubling required space, of course, but today memory space is more availible than it was a couple of years ago, so this trade-off is considered acceptable.   
+    * Merge sort [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort?oldformat=true)
+        - This is a "divide and conquer" algorithm, meaning it recursively "divides" given array in to smaller parts (up to 1 element) and then sorts those parts, combining them with each other. This approach allows merge sort to acieve very high speed, while  doubling required space, of course, but today memory space is more availible than it was a couple of years ago, so this trade-off is considered acceptable.   
             <table>
             <tr>
                 <th colspan="3" align="center">Time Complexity</th>
@@ -202,7 +202,8 @@
                 </td>
             </tr>
             </table>
-    * Quicksort
+    * Quicksort [Wikipedia](https://en.wikipedia.org/wiki/Quicksort?oldformat=true)
+        - Quicksort is considered, well, quite quick. When implemented correctly for the task at hand it can be a significant number of times faster than its' main competitors. This algorithm is also of "divide and conquer" family and the first step is to choose a "pivot" element (choosing it randomly, statistically, minimizes the chance to get the worst performance), then by comparing elements to this pivot, find its' final place, while moving elements that are bigger to the right side of it and smaller elements to the left. After it is done, repeat this process for both subarrays on each side and do this recursively, until the array is sorted.
                 <table>
             <tr>
                 <th colspan="3" align="center">Time Complexity</th>
