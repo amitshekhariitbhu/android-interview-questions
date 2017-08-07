@@ -73,7 +73,7 @@
     inserted into the stack without removing it is called "Top". The most common way to implement a
      stack is by using a LinkedList, but there is also StackArray (implemented with an array) 
      which does not replace null entries, and there is also a Vector implementation that does 
-     replace null entries. [Wikipedia](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
+     replace `null` entries. [Wikipedia](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
         <table>
             <tr>
                 <th>Algorithm</th>
@@ -181,7 +181,8 @@
                 </td>
             </tr>
             </table>
-    * Mergesort
+    * Merge sort
+    - This is a "divide and conquer" algorithm, meaning it "divides" given array in to smaller parts (up to 1 element) and then sorts those parts, combining them with each other. This approach allows merge sort to acieve very high speed, while  doubling required space, of course, but today memory space is more availible than it was a couple of years ago, so this trade-off is considered acceptable.   
             <table>
             <tr>
                 <th colspan="3" align="center">Time Complexity</th>
