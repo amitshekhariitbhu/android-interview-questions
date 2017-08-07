@@ -73,7 +73,7 @@
     inserted into the stack without removing it is called "Top". The most common way to implement a
      stack is by using a LinkedList, but there is also StackArray (implemented with an array) 
      which does not replace null entries, and there is also a Vector implementation that does 
-     replace null entries.[Wikipedia](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
+     replace null entries. [Wikipedia](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
      
         <table>
             <tr>
@@ -117,7 +117,13 @@
 * String Manipulation
 * Binary Tree
 * Binary Search Tree
-* Sorting Algorithms
+* Sorting Algorithms [Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm?oldformat=true)
+    - Using the most efficient sorting algorithm (and correct data structures that implement it) is vital for any program, because data manipulation can be one of the most significant bottlenecks in case of performance and the main purpose of spending time, determining the best algorithm for the job, is to drastically improve said performance. The efficiency of an algorithm is measured in its' "Big O" ([StackOverflow](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)) score. Really good algorithms perform important actions in O(n log n) or even O(log n) time and some of them can even perform certain actions in O(1) time (HashTable insertion, for example). But there is always a trade-off - if some algorithm is really good at adding a new element to a data structure, it is, most certainly, much worse at data access than some other algorithm. If you are proficient with math, you may notice that "Big O" notation has many similarities with "limits", and you would be right - it measures best, worst and average performances of an algorithm in question, by looking at its' function limit. It should be noted that, when we are speaking about O(1) - constant time - we are not saying that this algorithm performs an action in one operation, rather that it can perform this action with the same number of operations (roughly), regrardless of the amount of elements it has to take into account. Thankfully, a lot of "Big O" scores have been already calculated, so you don't have to guess, which algorithm or data structure will perform better in your project. ["Big O" cheat sheet](http://bigocheatsheet.com/)
+    * Bubble sort
+    * Selection sort
+    * Insertion sort
+    * Merge sort
+    * Quick sort
 * Hash Table or Hash Map
 * Breadth First Search
 * Depth First Search
@@ -143,125 +149,116 @@
     - Serialization is the process of converting an object into a stream of bytes in order to store 
     an object into memory, so that it can be recreated at a later time, while still keeping the 
     object's original state and data. In Android you may use either the Serializable, Externalizable (implements Serializable) or Parcelable interfaces.
-    While Serializable is the easiest to implement, Externalizable may be used if you need to insert custom logic into the process of serialization (although it is almost never used nowadays as it is considered a relic from early versions of Java). But it is highly recommended to use Parcelable in Android 
-    instead, as Parcelable was created exclusively for Android and it performs about 10x faster than Serializable,
-    because Serializable uses reflection, which is a slow process and tends to create a lot of
-    temporary objects and it may cause garbage collection to occur more often.
-
-    To use Serializable all you have to do is implement the interface.
-
-    Serializable Example:
-
-    ```java
+    - While Serializable is the easiest to implement, Externalizable may be used if you need to insert custom logic into the process of serialization (although it is almost never used nowadays as it is considered a relic from early versions of Java). But it is highly recommended to use Parcelable in Android instead, as Parcelable was created exclusively for Android and it performs about 10x faster than Serializable, because Serializable uses reflection, which is a slow process and tends to create a lot of temporary objects and it may cause garbage collection to occur more often.  
+    - To use Serializable all you have to do is implement the interface: 
+    
+        ```java
         /**
-         *  Implementing the Serializeable interface is all that is required
-         */
+        *  Implementing the Serializeable interface is all that is required
+        */
         public class User implements Serializable {
-
+        
             private String name;
             private String email;
-
-            public User() {
+            
+                public User() {
+                }
+                
+                public String getName() {
+                    return name;
+                }
+                
+                public void setName(final String name) {
+                    this.name = name;
+                }
+                
+                public String getEmail() {
+                    return email;
+                }
+                
+                public void setEmail(final String email) {
+                    this.email = email;
+                }
             }
-
-            public String getName() {
-                return name;
-            }
-
-            public void setName(final String name) {
-                this.name = name;
-            }
-
-            public String getEmail() {
-                return email;
-            }
-
-            public void setEmail(final String email) {
-                this.email = email;
-            }
-        }
-    ```
-
-    Parcelable requires a bit more work.
-
-    Parcelable Example:
-
-    ```java
-        public class User implements Parcelable {
-
-            private String name;
-            private String email;
-
-            /**
-             * Interface that must be implemented and provided as a public CREATOR field that generates
-             * instances of your Parcelable class from a Parcel.
-             */
-            public static final Creator<User> CREATOR = new Creator<User>() {
+        ```
+    - Parcelable requires a bit more work:
+        ```java
+            public class User implements Parcelable {
+            
+                private String name;
+                private String email;
+                
                 /**
-                 * Creates a new USer object from the Parcel. This is the reason why the constructor that
-                 * takes a Parcel is needed.
+                 * Interface that must be implemented and provided as a public CREATOR field 
+                 * that generates instances of your Parcelable class from a Parcel.
+                 */
+                public static final Creator<User> CREATOR = new Creator<User>() {
+                
+                    /**
+                     * Creates a new USer object from the Parcel. This is the reason why 
+                     * the constructor that takes a Parcel is needed.
+                     */
+                    @Override
+                    public User createFromParcel(Parcel in) {
+                        return new User(in);
+                    }
+                    
+                    /**
+                     * Create a new array of the Parcelable class.
+                     * @return an array of the Parcelable class,
+                     * with every entry initialized to null.
+                     */
+                    @Override
+                    public User[] newArray(int size) {
+                        return new User[size];
+                    }
+                };
+                
+                public User() {
+                }
+                
+                /**
+                 * Parcel overloaded constructor required for 
+                 * Parcelable implementation used in the CREATOR
+                 */
+                private User(Parcel in) {
+                    name = in.readString();
+                    email = in.readString();
+                }
+                
+                public String getName() {
+                    return name;
+                }
+                
+                public void setName(final String name) {
+                    this.name = name;
+                }
+                
+                public String getEmail() {
+                    return email;
+                }
+                
+                public void setEmail(final String email) {
+                    this.email = email;
+                }
+                
+                @Override
+                public int describeContents() {
+                    return 0;
+                }
+                
+                /**
+                 * This is where the parcel is performed.
                  */
                 @Override
-                public User createFromParcel(Parcel in) {
-                    return new User(in);
+                public void writeToParcel(final Parcel parcel, final int i) {
+                    parcel.writeString(name);
+                    parcel.writeString(email);
                 }
-
-                /**
-                 * Create a new array of the Parcelable class.
-                 * @return an array of the Parcelable class, with every entry initialized to null.
-                 */
-                @Override
-                public User[] newArray(int size) {
-                    return new User[size];
-                }
-            };
-
-            public User() {
             }
-
-            /**
-             * Parcel overloaded constructor required for Parcelable implementation used in the CREATOR
-             */
-            private User(Parcel in) {
-                name = in.readString();
-                email = in.readString();
-            }
-
-            public String getName() {
-                return name;
-            }
-
-            public void setName(final String name) {
-                this.name = name;
-            }
-
-            public String getEmail() {
-                return email;
-            }
-
-            public void setEmail(final String email) {
-                this.email = email;
-            }
-
-            @Override
-            public int describeContents() {
-                return 0;
-            }
-
-            /**
-             * This is where the parcel is performed.
-             */
-            @Override
-            public void writeToParcel(final Parcel parcel, final int i) {
-                parcel.writeString(name);
-                parcel.writeString(email);
-            }
-        }
-
-    ```
-
-    Note: For a full explanation of the <b>describeContents()</b> method see [StackOverflow](https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799).
-    In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good thing to try and understand everything that is happening.
+        ```
+        Note: For a full explanation of the <b>describeContents()</b> method see [StackOverflow](https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799).
+        In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good thing to try and understand everything that is happening.
 
 * What is Singleton class?
     - A singleton is a class that can only be instantiated once. This singleton pattern restricts 
@@ -271,8 +268,23 @@
     to a certain number of objects. [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
 * What are anonymous classes?
 * What is the difference between using `==` and `.equals` on a string?
+* How is `String` class implemented? Why was it made immutable?
+  - There is no primitive variant of `String` class in Java language - all strings are just wrappers around underlying array of characters, which are declared `final`. This means that, once a `String` object is instantiated, it cannot be changed through normal tools of the language (Reflection still can mess things up horribly, because in Java no object is truly immutable). This is why `String` variables in classes are the first candidates to be used, when you want to override `hashCode()` and `equals()` of your class - you can be sure, that all their required contracts will be satisfied.  
+    > Note: The String class is immutable, so that once it is created a String object cannot be changed. The String class  has a number of methods, some of which will be discussed below, that appear to modify strings. Since strings are  immutable, what these methods really do is create and return a new string that contains the result of the operation. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/data/strings.html))   
+    
+    This class is also unique in a sense, that, when you create an instance like this: 
+    ```java
+    String helloWorld = "Hello, World!";
+    ```
+    `"Hello, World!"` is called a *literal* and compiler creates a `String` object with its' value. So 
+    ```java
+    String capital = "Hello, World!".toUpperCase();
+    ```   
+    is a valid statement, that, firstly, will create an object with literal value "Hello, World!" and then will create and return another object with value "HELLO, WORLD!"
+  - `String` was made immutable to prevent malicious manipulation of data, when, for example, user login or other sensitive data is being send to a server.
+* What is `String.intern()`? When and why should it be used?
 * What is the `hashCode()` and `equals()` used for?
-* What are these `final`, `finally` and `finalize`?
+* What are these `final`, `finally` and `finalize` keywords?
 * What is garbage collector? How does it work?
   - All objects are allocated on the heap area managed by the JVM. 
   As long as an object is being referenced, the JVM considers it alive. 
@@ -282,65 +294,64 @@
 * `HashSet` vs `TreeSet`.
 * Typecast in Java.
 * Difference between method overloading and overriding.
-<p align="center">
-<img alt="Overloading and Overriding" src="https://github.com/codeshef/android-interview-questions/blob/master/assets/overloading-vs-overriding.png">
-</p>
-Overloading happens at compile-time while Overriding happens at runtime: The binding of overloaded method call to its definition has happens at compile-time however binding of overridden method call to its definition happens at runtime.
+        <p align="center">
+        <img alt="Overloading and Overriding" src="https://github.com/codeshef/android-interview-questions/blob/master/assets/overloading-vs-overriding.png">
+        </p>  
+    - Overloading happens at compile-time while Overriding happens at runtime: The binding of overloaded method call to its definition has happens at compile-time however binding of overridden method call to its definition happens at runtime. 
+    More info on static vs. dynamic binding: [StackOverflow](https://stackoverflow.com/questions/19017258/static-vs-dynamic-binding-in-java). 
+    - Static methods can be overloaded which means a class can have more than one static method of same name. Static methods cannot be overridden, even if you declare a same static method in child class it has nothing to do with the same method of parent class as overridden static methods are chosen by the reference class and not by the class of the object. 
+    
+        So, for example: 
+        ```java
+        public class Animal {
+            public static void testClassMethod() {
+                System.out.println("The static method in Animal");
+            }
 
-More info on static vs. dynamic binding: [StackOverflow](https://stackoverflow.com/questions/19017258/static-vs-dynamic-binding-in-java).
+            public void testInstanceMethod() {
+                System.out.println("The instance method in Animal");
+            }
+        }
 
-Static methods can be overloaded which means a class can have more than one static method of same name. Static methods cannot be overridden, even if you declare a same static method in child class it has nothing to do with the same method of parent class as overridden static methods are chosen by the reference class and not by the class of the object.
+        public class Cat extends Animal {
+            public static void testClassMethod() {
+                System.out.println("The static method in Cat");
+            }
 
-So, for example:
+            public void testInstanceMethod() {
+                System.out.println("The instance method in Cat");
+            }
 
-```java
-public class Animal {
-    public static void testClassMethod() {
-        System.out.println("The static method in Animal");
-    }
-    public void testInstanceMethod() {
-        System.out.println("The instance method in Animal");
-    }
-}
+            public static void main(String[] args) {
+                Cat myCat = new Cat();
+                myCat.testClassMethod();
+                Animal myAnimal = myCat;
+                myAnimal.testClassMethod();
+                myAnimal.testInstanceMethod();
+            }
+        }
+        ```
+        Will output: 
+        ```java
+        The static method in Cat    // testClassMethod() is called from "Cat" reference
 
-public class Cat extends Animal {
-    public static void testClassMethod() {
-        System.out.println("The static method in Cat");
-    }
-    public void testInstanceMethod() {
-        System.out.println("The instance method in Cat");
-    }
-
-    public static void main(String[] args) {
-        Cat myCat = new Cat();
-        myCat.testClassMethod();
-        Animal myAnimal = myCat;
-        myAnimal.testClassMethod();
-        myAnimal.testInstanceMethod();
-    }
-}
-```
-Will output: 
-```
-The static method in Cat    // testClassMethod() is called from "Cat" reference
-
-The static method in Animal // testClassMethod() is called from "Animal" reference, 
-                            // ignoring actual object inside it (Cat)
+        The static method in Animal // testClassMethod() is called from "Animal" reference, 
+                                    // ignoring actual object inside it (Cat)
                             
-The instance method in Cat  // testInstanceMethod() is called from "Animal" reference,
-                            // but from "Cat" object underneath
-```
+        The instance method in Cat  // testInstanceMethod() is called from "Animal" reference,
+                                    // but from "Cat" object underneath
+        ```
 
-The most basic difference is that overloading is being done in the same class while for overriding base and child classes are required. Overriding is all about giving a specific implementation to the inherited method of parent class.
+        The most basic difference is that overloading is being done in the same class while for overriding base and child classes are required. Overriding is all about giving a specific implementation to the inherited method of parent class.
 
-Static binding is being used for overloaded methods and dynamic binding is being used for overridden/overriding methods.
-Performance: Overloading gives better performance compared to overriding. The reason is that the binding of overridden methods is being done at runtime through reflection.
+        Static binding is being used for overloaded methods and dynamic binding is being used for overridden/overriding methods.
+        Performance: Overloading gives better performance compared to overriding. The reason is that the binding of overridden methods is being done at runtime.
 
-Private and final methods can be overloaded but they cannot be overridden. It means a class can have more than one private/final methods of same name but a child class cannot override the private/final methods of their base class.
+        Private and final methods can be overloaded but they cannot be overridden. It means a class can have more than one private/final methods of same name but a child class cannot override the private/final methods of their base class.
 
-Return type of method does not matter in case of method overloading, it can be same or different. However in case of method overriding the overriding method can have more specific return type (meaning if, for example, base method returns an instance of Number class, all overriding methods can return any class that is extended from Number, but not a class that is higher in the hierarchy, like, for example, Object is in this particular case).
+        Return type of method does not matter in case of method overloading, it can be same or different. However in case of method overriding the overriding method can have more specific return type (meaning if, for example, base method returns an instance of Number class, all overriding methods can return any class that is extended from Number, but not a class that is higher in the hierarchy, like, for example, Object is in this particular case).
 
-Argument list should be different while doing method overloading. Argument list should be same in method Overriding.
+        Argument list should be different while doing method overloading. Argument list should be same in method Overriding.
 It is also a good practice to annotate overridden methods with `@Override` to make the compiler be able to notify you if child is, indeed, overriding parent's class method during compile-time.
 
 * What are the access modifiers you know? What does each one do? <br>
@@ -350,21 +361,25 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
    3. Default (no keyword is used) this modifier can be applied to *classes*, *variables*, *constructors* and *methods* and allows access from classes and methods inside the same package.
    4. `public` modifier is widely-used on *classes*, *variables*, *constructors* and *methods* to grant access from any class and method anywhere. It should not be used everywhere as it implies that data marked with `public` is not sensitive and can not be used to harm the program.
 
-* Can an Interface extend another Interface?
+* Can an Interface implement another Interface?
+  - Yes, an interface can implement another interface (and more than one), but it needs to use `extends`, rather than `implements` keyword. And while you can not remove methods from parent interface, you can add new ones freely to your subinterface.
 * What does the `static` word mean in Java?
-    - In case of `static` variable it means that this variable (its' value or the object it references) spans across all instances of encapsulating class (changing it in one instance affects all others), while in case of `static` methods it means that these methods can be invoked without an instance of their encapsulating class. It is useful, for example, when you create util classes that need not be instantiated every time you want to use them.
+    - In case of `static` variable it means that this variable (its' value or the object it references) spans across all instances of enclosing class (changing it in one instance affects all others), while in case of `static` methods it means that these methods can be invoked without an instance of their enclosing class. It is useful, for example, when you create util classes that need not be instantiated every time you want to use them.
 * Can a `static` method be overridden in Java?
-    - While child class can override a static method with another static method with the same signature (return type can be downcasted), it is not truly overridden - it becomes "hidden", but both methods can still be accessed under right circumstances (see question about overloading/overriding above).
+  - While child class can override a static method with another static method with the same signature (return type can be downcasted), it is not truly overridden - it becomes "hidden", but both methods can still be accessed under right circumstances (see question about overloading/overriding above).
 * What is Polymorphism? What about Inheritance?
 * What is the difference between an Integer and int?
-    - `int` is a primitive data type (with `byte`, `short`, `long`, `float` and `double`), while `Integer` (with `Byte`, `Short`,`Long`, `Float` and `Double`) is a [wrapper](https://docs.oracle.com/javase/tutorial/java/data/numberclasses.html) class that encapsulates primitive data type, while providing useful methods to perform different tasks with it.
+  - `int` is a primitive data type (with `boolean`, `byte`, `char`, `short`, `long`, `float` and `double`), while `Integer` (with `Boolean`, `Byte`, `Character`, `Short`,`Long`, `Float` and `Double`) is a [wrapper](https://docs.oracle.com/javase/tutorial/java/data/numberclasses.html) class that encapsulates primitive data type, while providing useful methods to perform different tasks with it.
 * Do objects get passed by reference or value in Java? Elaborate on that.
 * What is a ThreadPoolExecutor? [Mindorks](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
 * What the difference between local, instance and class variables?
+  - Local variables exist only in methods that created them, they are stored separately in their respected Thread Stack (for more information, see question about Java Memory Model) and cannot have their reference passed outside of the method scope. That also means that they cannot be assigned any access modifier or made `static` - because they only exist during enclosing method's execution and those modifiers just do not make sense, since no other outside method can get them anyway.
+  - Instance variables are the ones, that are declared in classes and their value can be different from one instance of the class to another, but they always require that class' instance to exist.
+  - Class variables are those, that are marked with `static` keyword in their class' body. They can only have one value across all instances of that class (changing it in one place will change it in their class and, therefore, in all instances) and can even be retrieved without that class' instance (if their access modifier allows it).
 * What is reflection? [Jenkov](http://tutorials.jenkov.com/java-reflection/index.html)
-* What are strong, soft and weak references in Java?
+* What are strong, soft, weak and phantom references in Java?
 * What is Dependency Injection?  Can you name few libraries? Have you used any?
-    - Dependency injection is a very powerful technique, where you relay the task of providing object with its' dependencies on instances of other objects (OOP Composition, [Wikipedia](https://en.wikipedia.org/wiki/Object_composition?oldformat=true)) to a separate class. This allows for fewer constructors, setters, factories and builders as all those functions are taken care of by the DI framework that you use. Also, and it may seem as a minor advantage, if you use DI frameworkyou need not worry about going through the project and changing all of `YourCustomInterface customInterfaceObject = new YourCustomClass();` to a new implementaion, as long as your new class (in place of `YourCustomClass`) still implements `CustomInterface` - you can just tweak the DI factory class to produce new class and voila - this new class will be automatically instantiated throughout your code. This allows for better maintenence and control over the program. Another example of DI usage is unit-testing - it allows to conveniently inject all needed dependencies and keep the amount of written code at a lower level.
+  - Dependency injection is a very powerful technique, where you relay the task of providing object with its' dependencies on instances of other objects (OOP Composition, [Wikipedia](https://en.wikipedia.org/wiki/Object_composition?oldformat=true)) to a separate class. This allows for fewer constructors, setters, factories and builders as all those functions are taken care of by the DI framework that you use. Also, and it may seem as a minor advantage, but if you use DI framework you need not worry about going through the project and changing all of (example names) `YourCustomInterface customInterfaceObject = new YourCustomClass();` to a new implementaion, as long as your new class (in place of `YourCustomClass`) still implements `CustomInterface` - you can just tweak the DI factory class to produce new class and voila - this new class will be automatically instantiated throughout your code. This allows for better maintenence and control over the program. Another example of DI usage is unit-testing - it allows to conveniently inject all needed dependencies and keep the amount of written code at a lower level.
     - One of the most popular libraries for DI for Android is Dagger 2. [Mindorks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
 * What does the keyword `synchronized` mean?
 * What does it means to say that a `String` is immutable?
@@ -372,7 +387,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is the `finalize()` method?
 * How does the `try{} catch {} finally{}` works?
 * What is the difference between instantiation and initialization of an object?
-    - Initialization is the process of the memory allocation, when a new variable is created. Variables should be explicitly given a value, otherwise they may contain a random value that remained from the previous variable that was using the same memory space. To avoid this problem Java language assigns default (right after initialization) values to some data types:
+    - Initialization is the process of the memory allocation, when a new variable is created. Variables should be explicitly given a value, otherwise they may contain a random value that remained from the previous variable that was using the same memory space. To avoid this problem, Java language assigns default (right after initialization) values to some data types:
         * `boolean` defaults to `false`;
         * `byte` defaults to `0`;
         * `short` defaults to `0`;
@@ -382,31 +397,28 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
         * `float` defaults to `0.0f`;
         * `double` defaults to `0.0d`;
         * `object` defaults to `null`.
-    - Instantiation is the process of assigning definitive value to a declared variable:
-    ``` 
-        int j;  // Initialized variable (int defaults to 0 right after)
-        j = 10; // Instantiated variable
-    ```
+    - Instantiation is the process of explicitly assigning definitive value to a declared variable:
+        ```java
+            int j;  // Initialized variable (int defaults to 0 right after)
+            j = 10; // Instantiated variable
+        ```
 * When is a `static` block run?
 * Explain Generics in Java?
 * Difference between `StringBuffer` and `StringBuilder`?
 * How is a `StringBuilder` implemented to avoid the immutable string allocation problem?
 * What is Autoboxing and Unboxing?
+  - Autoboxing and Unboxing is the process of automatic wrapping (putting in a box) and unwrapping (getting the value out) of primitive data types, that have "wrapper" classes. So `int` and `Integer` can (almost always) be used interchangeably in Java language, meaning a method `void giveMeInt(int i) { ... }` can take `int` as well as `Integer` as a parameter.
 * What’s the difference between an Enumeration and an Iterator?
 * What is the difference between fail-fast and fail safe in Java?
 * What is Java priority queue?
-* What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized?
+* What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized? [Jenkov](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
 * What is memory leak and how does Java handle it?
 * What are the design patterns? [GitHub](https://github.com/iluwatar/java-design-patterns)
 
 
 ### Core Android
 
-* Explain activity lifecycle.
-<p align="center">
-<img alt="Simplified activity lifecycle" src="https://developer.android.com/guide/components/images/activity_lifecycle.png">
-</p>
-
+* Explain Activity and Fragment lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle), simplified diagram for [Activity](https://developer.android.com/guide/components/activities/activity-lifecycle.html#alc), [Fragment](https://developer.android.com/guide/components/fragments.html#Lifecycle))
 * Tell all the Android application components.
 * Service vs IntentService. [StackOverflow](https://stackoverflow.com/a/15772151/5153275)
 * What is the structure of an Android Application?
@@ -418,7 +430,6 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is Fragment?
 * Why is it recommended to use only the default constructor to create a fragment? [StackOverflow](https://stackoverflow.com/a/16042750/2809326)
 * Why Bundle class is used for data passing and why cannot we use simple Map data structure
-* Explain the lifecycle of a Fragment. [Techsfo](https://www.techsfo.com/blog/wp-content/uploads/2014/08/complete_android_fragment_lifecycle.png)
 * What is Dialog in Android?
 * What is View in Android?
 * Can you create custom views? How?
