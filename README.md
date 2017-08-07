@@ -120,10 +120,105 @@
 * Sorting Algorithms [Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm?oldformat=true)
     - Using the most efficient sorting algorithm (and correct data structures that implement it) is vital for any program, because data manipulation can be one of the most significant bottlenecks in case of performance and the main purpose of spending time, determining the best algorithm for the job, is to drastically improve said performance. The efficiency of an algorithm is measured in its' "Big O" ([StackOverflow](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)) score. Really good algorithms perform important actions in O(n log n) or even O(log n) time and some of them can even perform certain actions in O(1) time (HashTable insertion, for example). But there is always a trade-off - if some algorithm is really good at adding a new element to a data structure, it is, most certainly, much worse at data access than some other algorithm. If you are proficient with math, you may notice that "Big O" notation has many similarities with "limits", and you would be right - it measures best, worst and average performances of an algorithm in question, by looking at its' function limit. It should be noted that, when we are speaking about O(1) - constant time - we are not saying that this algorithm performs an action in one operation, rather that it can perform this action with the same number of operations (roughly), regrardless of the amount of elements it has to take into account. Thankfully, a lot of "Big O" scores have been already calculated, so you don't have to guess, which algorithm or data structure will perform better in your project. ["Big O" cheat sheet](http://bigocheatsheet.com/)
     * Bubble sort
+        <table>
+            <tr>
+                <th colspan="3" align="center">Time Complexity</th>
+                <th align="center">Space Complexity</th>
+            </tr>
+            <tr>
+                <th align="center">Best</th>
+                <th align="center">Avegage</th>
+                <th align="center">Worst</th>
+                <th align="center">Worst</th>
+            </tr>
+            <tr>
+                <td align="center">Ω(n)</td>
+                <td align="center">Θ(n^2)</td>
+                <td align="center">O(n^2)</td>
+                <td align="center">O(1)</td>
+                </td>
+            </tr>
+        </table>
     * Selection sort
+            <table>
+            <tr>
+                <th colspan="3" align="center">Time Complexity</th>
+                <th align="center">Space Complexity</th>
+            </tr>
+            <tr>
+                <th align="center">Best</th>
+                <th align="center">Avegage</th>
+                <th align="center">Worst</th>
+                <th align="center">Worst</th>
+            </tr>
+            <tr>
+                <td align="center">Ω(n^2)</td>
+                <td align="center">Θ(n^2)</td>
+                <td align="center">O(n^2)</td>
+                <td align="center">O(1)</td>
+                </td>
+            </tr>
+        </table>
     * Insertion sort
+                <table>
+            <tr>
+                <th colspan="3" align="center">Time Complexity</th>
+                <th align="center">Space Complexity</th>
+            </tr>
+            <tr>
+                <th align="center">Best</th>
+                <th align="center">Avegage</th>
+                <th align="center">Worst</th>
+                <th align="center">Worst</th>
+            </tr>
+            <tr>
+                <td align="center">Ω(n)</td>
+                <td align="center">Θ(n^2)</td>
+                <td align="center">O(n^2)</td>
+                <td align="center">O(1)</td>
+                </td>
+            </tr>
+        </table>
     * Merge sort
+                <table>
+            <tr>
+                <th colspan="3" align="center">Time Complexity</th>
+                <th align="center">Space Complexity</th>
+            </tr>
+            <tr>
+                <th align="center">Best</th>
+                <th align="center">Avegage</th>
+                <th align="center">Worst</th>
+                <th align="center">Worst</th>
+            </tr>
+            <tr>
+                <td align="center">Ω(n log(n))</td>
+                <td align="center">Θ(n log(n))</td>
+                <td align="center">O(n log(n))</td>
+                <td align="center">O(n)</td>
+                </td>
+            </tr>
+        </table>
     * Quick sort
+                <table>
+            <tr>
+                <th colspan="3" align="center">Time Complexity</th>
+                <th align="center">Space Complexity</th>
+            </tr>
+            <tr>
+                <th align="center">Best</th>
+                <th align="center">Avegage</th>
+                <th align="center">Worst</th>
+                <th align="center">Worst</th>
+            </tr>
+            <tr>
+                <td align="center">Ω(n^2)</td>
+                <td align="center">Θ(n^2)</td>
+                <td align="center">O(n^2)</td>
+                <td align="center">O(1)</td>
+                </td>
+            </tr>
+        </table>
 * Hash Table or Hash Map
 * Breadth First Search
 * Depth First Search
