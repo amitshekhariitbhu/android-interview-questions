@@ -203,7 +203,7 @@
             </tr>
             </table>
     * Quicksort [Wikipedia](https://en.wikipedia.org/wiki/Quicksort?oldformat=true)
-        - Quicksort is considered, well, quite quick. When implemented correctly for the task at hand it can be a significant number of times faster than its' main competitors. This algorithm is also of "divide and conquer" family and the first step is to choose a "pivot" element (choosing it randomly, statistically, minimizes the chance to get the worst performance), then by comparing elements to this pivot, find its' final place, while moving elements that are bigger to the right side of it and smaller elements to the left. After it is done, repeat this process for both subarrays on each side and do this recursively, until the array is sorted.
+        - Quicksort is considered, well, quite quick. When implemented correctly for the task at hand it can be a significant number of times faster than its' main competitors. This algorithm is also of "divide and conquer" family and the first step is to choose a "pivot" element (choosing it randomly, statistically, minimizes the chance to get the worst performance), then by comparing elements to this pivot, find its' final place, while moving elements that are bigger to the right side of it and smaller elements to the left. After it is done, repeat this process for both subarrays on each side and do so recursively, until the array is sorted.
                 <table>
             <tr>
                 <th colspan="3" align="center">Time Complexity</th>
