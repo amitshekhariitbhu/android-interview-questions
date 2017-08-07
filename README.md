@@ -564,13 +564,16 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
         ```
 * When is a `static` block run?
 * Explain Generics in Java?
-    > In a nutshell, generics enable types (classes and interfaces) to be parameters when defining classes, interfaces and methods. Much like the more familiar formal parameters used in method declarations, type parameters provide a way for you to re-use the same code with different inputs. The difference is that the inputs to formal parameters are values, while the inputs to type parameters are types. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/generics/why.html)) 
-    - This means that, for example, you can define:
+    - Generics were included in Java language to provide stronger type checks, by allowing the programmer to define, which classes can be used with other classes 
+    > In a nutshell, generics enable types (classes and interfaces) to be parameters when defining classes, interfaces and methods. Much like the more familiar formal parameters used in method declarations, type parameters provide a way for you to re-use the same code with different inputs. The difference is that the inputs to formal parameters are values, while the inputs to type parameters are types. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/generics/why.html))  
+    
+    - This means that, for example, you can define: 
         ```java
         List<Integer> list = new ArrayList<>();
         ``` 
         And let the compiler take care of noticing, if you put some object, of type other than `Integer` into this list and warn you.
-    
+    - It should be noted that standard class hierarchy *does not* apply to generic types. It means that `Integer` in `List<Integer>` is not inherited from `<Number>` - it is actually inherited directly from `<Object>`. You can still put some constraints on what classes can be passed as a parameter into a generic by using [wildcards](https://docs.oracle.com/javase/tutorial/extra/generics/wildcards.html) like `<?>`, `<? extends MyCustomClass>` or `<? super Number>`.
+    - While generics are very useful, late inclusion into Java language has put some restraints on their implementation - backward compatibility required them to remain just "syntactic sugar" - they are erased ([type erasure](https://docs.oracle.com/javase/tutorial/java/generics/erasure.html)) during compile-time and replaced with `object` class.
 * Difference between `StringBuffer` and `StringBuilder`?
 * How is a `StringBuilder` implemented to avoid the immutable string allocation problem?
 * What is Autoboxing and Unboxing?
