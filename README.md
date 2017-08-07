@@ -282,6 +282,8 @@
     ```   
     is a valid statement, that, firstly, will create an object with literal value "Hello, World!" and then will create and return another object with value "HELLO, WORLD!"
   - `String` was made immutable to prevent malicious manipulation of data, when, for example, user login or other sensitive data is being send to a server.
+* What does it means to say that a `String` is immutable?
+    - It means that once created, `String` object's `char[]` (its' containing value) is declared `final` and, therefore, it can not be changed during runtime.
 * What is `String.intern()`? When and why should it be used?
 * What is the `hashCode()` and `equals()` used for?
 * What are these `final`, `finally` and `finalize` keywords?
@@ -293,6 +295,13 @@
 * `Arrays` vs `ArrayLists`.
 * `HashSet` vs `TreeSet`.
 * Typecast in Java.
+    - In Java, you can use casts to polymorph one class into another, compatible one. For example:
+        ```java
+            long i = 10l;
+            int j = (int) i; 
+            long k = j;
+        ```
+        Here we see, that, while narrowing (`long i` -> `int j`) requires an explicit cast to make sure the programmer realizes, that there may be some data or precision loss, widening (`int j` -> `long k`) does not require an explicit cast, because there can be no data loss (`long` can take larger numbers than `int` allows). 
 * Difference between method overloading and overriding.
         <p align="center">
         <img alt="Overloading and Overriding" src="https://github.com/codeshef/android-interview-questions/blob/master/assets/overloading-vs-overriding.png">
@@ -356,10 +365,10 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What are the access modifiers you know? What does each one do? <br>
    - There are four access modifiers in Java language (from strictest to the most lenient):
-   1. `private` *variables*, *methods*, *constructors* or *inner classes* are only visible to its' containing class and its' methods. This modifier is most commonly used, for example, to allow variable access only through getters and setters or to hide underlying implementation of classes that should not be used by user and therefore maintain encapsulation. Singleton constructor is also marked `private` to avoid unwanted instantiation from outside.
-   2. `protected` can be used on *variables*, *methods* and *constructors* therefore allowing access only to subclasses and classes that are inside the same package as protected members' class.
-   3. Default (no keyword is used) this modifier can be applied to *classes*, *variables*, *constructors* and *methods* and allows access from classes and methods inside the same package.
-   4. `public` modifier is widely-used on *classes*, *variables*, *constructors* and *methods* to grant access from any class and method anywhere. It should not be used everywhere as it implies that data marked with `public` is not sensitive and can not be used to harm the program.
+        1. `private` *variables*, *methods*, *constructors* or *inner classes* are only visible to its' containing class and its' methods. This modifier is most commonly used, for example, to allow variable access only through getters and setters or to hide underlying implementation of classes that should not be used by user and therefore maintain encapsulation. Singleton constructor is also marked `private` to avoid unwanted instantiation from outside.
+        2. `protected` can be used on *variables*, *methods* and *constructors* therefore allowing access only to subclasses and classes that are inside the same package as protected members' class.
+        3. Default (no keyword is used) this modifier can be applied to *classes*, *variables*, *constructors* and *methods* and allows access from classes and methods inside the same package.
+        4. `public` modifier is widely-used on *classes*, *variables*, *constructors* and *methods* to grant access from any class and method anywhere. It should not be used everywhere as it implies that data marked with `public` is not sensitive and can not be used to harm the program.
 
 * Can an Interface implement another Interface?
   - Yes, an interface can implement another interface (and more than one), but it needs to use `extends`, rather than `implements` keyword. And while you can not remove methods from parent interface, you can add new ones freely to your subinterface.
@@ -382,7 +391,6 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
   - Dependency injection is a very powerful technique, where you relay the task of providing object with its' dependencies on instances of other objects (OOP Composition, [Wikipedia](https://en.wikipedia.org/wiki/Object_composition?oldformat=true)) to a separate class. This allows for fewer constructors, setters, factories and builders as all those functions are taken care of by the DI framework that you use. Also, and it may seem as a minor advantage, but if you use DI framework you need not worry about going through the project and changing all of (example names) `YourCustomInterface customInterfaceObject = new YourCustomClass();` to a new implementaion, as long as your new class (in place of `YourCustomClass`) still implements `CustomInterface` - you can just tweak the DI factory class to produce new class and voila - this new class will be automatically instantiated throughout your code. This allows for better maintenence and control over the program. Another example of DI usage is unit-testing - it allows to conveniently inject all needed dependencies and keep the amount of written code at a lower level.
     - One of the most popular libraries for DI for Android is Dagger 2. [Mindorks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
 * What does the keyword `synchronized` mean?
-* What does it means to say that a `String` is immutable?
 * What are `transient` and `volatile` modifiers?
 * What is the `finalize()` method?
 * How does the `try{} catch {} finally{}` works?
