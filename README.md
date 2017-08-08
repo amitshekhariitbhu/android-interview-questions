@@ -136,7 +136,6 @@
                     <td align="center">Θ(n^2)</td>
                     <td align="center">O(n^2)</td>
                     <td align="center">O(1)</td>
-                    </td>
                 </tr>
             </table>
     - Selection sort [Wikipedia](https://www.wikiwand.com/en/Selection_sort) 
@@ -157,7 +156,6 @@
                 <td align="center">Θ(n^2)</td>
                 <td align="center">O(n^2)</td>
                 <td align="center">O(1)</td>
-                </td>
             </tr>
             </table>
     - Insertion sort [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort?oldformat=true)
@@ -178,12 +176,11 @@
                 <td align="center">Θ(n^2)</td>
                 <td align="center">O(n^2)</td>
                 <td align="center">O(1)</td>
-                </td>
             </tr>
             </table>
     - Merge sort [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort?oldformat=true)
         - This is a "divide and conquer" algorithm, meaning it recursively "divides" given array in to smaller parts (up to 1 element) and then sorts those parts, combining them with each other. This approach allows merge sort to acieve very high speed, while  doubling required space, of course, but today memory space is more availible than it was a couple of years ago, so this trade-off is considered acceptable.   
-            <table>
+                <table>
             <tr>
                 <th colspan="3" align="center">Time Complexity</th>
                 <th align="center">Space Complexity</th>
@@ -199,30 +196,28 @@
                 <td align="center">Θ(n log(n))</td>
                 <td align="center">O(n log(n))</td>
                 <td align="center">O(n)</td>
-                </td>
             </tr>
             </table>
     - Quicksort [Wikipedia](https://en.wikipedia.org/wiki/Quicksort?oldformat=true)
         - Quicksort is considered, well, quite quick. When implemented correctly, it can be a significant number of times faster than its' main competitors. This algorithm is also of "divide and conquer" family and its' first step is to choose a "pivot" element (choosing it randomly, statistically, minimizes the chance to get the worst performance), then by comparing elements to this pivot, moving it closer and closer to its' final place. During this process, the elements that are bigger are moved to the right side of it and smaller elements to the left. After this is done, quicksort repeats this process for  subarrays on each side of placed pivot (does first step recursively), until the array is sorted.
-        <table>
-        <tr>
-            <th colspan="3" align="center">Time Complexity</th>
-            <th align="center">Space Complexity</th>
-        </tr>
-        <tr>
-            <th align="center">Best</th>
-            <th align="center">Avegage</th>
-            <th align="center">Worst</th>
-            <th align="center">Worst</th>
-        </tr>
-        <tr>
-            <td align="center">Ω(n^2)</td>
-            <td align="center">Θ(n^2)</td>
-            <td align="center">O(n^2)</td>
-            <td align="center">O(1)</td>
-            </td>
-        </tr>
-            </table>
+                <table>
+                <tr>
+                    <th colspan="3" align="center">Time Complexity</th>
+                    <th align="center">Space Complexity</th>
+                </tr>
+                <tr>
+                    <th align="center">Best</th>
+                    <th align="center">Avegage</th>
+                    <th align="center">Worst</th>
+                    <th align="center">Worst</th>
+                </tr>
+                <tr>
+                    <td align="center">Ω(n^2)</td>
+                    <td align="center">Θ(n^2)</td>
+                    <td align="center">O(n^2)</td>
+                    <td align="center">O(1)</td>
+                </tr>
+                </table>  
     - There are, of course, more sorting algorithms and their modifications. We strongly recommend all readers to familiarize themselves with a couple more, because knowing algorithms is very important quality of a candidate, applying for a job and it shows understanding of what is happening "under the hood".
         
  * Hash Table or Hash Map
