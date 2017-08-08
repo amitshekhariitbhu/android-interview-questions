@@ -363,13 +363,6 @@
         ```
         Note: For a full explanation of the <b>describeContents()</b> method see [StackOverflow](https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799).
         In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good thing to try and understand everything that is happening.
-
-* What is Singleton class?
-    - A singleton is a class that can only be instantiated once. This singleton pattern restricts 
-    the instantiation of a class to one object. This is useful when exactly one object is needed 
-    to coordinate actions across the system. The concept is sometimes generalized to systems 
-    that operate more efficiently when only one object exists, or that restrict the instantiation 
-    to a certain number of objects. [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
 * What are anonymous classes?
 * What is the difference between using `==` and `.equals` on a string?
 * How is `String` class implemented? Why was it made immutable?
@@ -591,6 +584,19 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized? [Jenkov](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
 * What is memory leak and how does Java handle it?
 * What are the design patterns? [GitHub](https://github.com/iluwatar/java-design-patterns)
+    - Creational patterns
+        - Builder [Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern?oldformat=true)  
+        - Factory [Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern?oldformat=true)  
+        - Singleton [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)  
+          A singleton is a class that can only be instantiated once. This singleton pattern restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system. The concept is sometimes generalized to systems that operate more efficiently when only one object exists, or that restrict the instantiation to a certain number of objects.
+    - Structural patterns
+        - Adapter [Wikipedia](https://en.wikipedia.org/wiki/Adapter_pattern?oldformat=true)  
+        - Decorator [Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern?oldformat=true)  
+        - Facade [Wikipedia](https://en.wikipedia.org/wiki/Facade_pattern?oldformat=true)  
+    - Behavioural patterns
+        - Chain of responsibility [Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern?oldformat=true) 
+        - Iterator [Wikipedia](https://en.wikipedia.org/wiki/Iterator_pattern?oldformat=true)  
+        - Strategy [Wikipedia](https://en.wikipedia.org/wiki/Strategy_pattern?oldformat=true)  
 
 
 ### Core Android
