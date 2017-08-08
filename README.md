@@ -565,7 +565,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * When is a `static` block run?
 * Explain Generics in Java?
     - Generics were included in Java language to provide stronger type checks, by allowing the programmer to define, which classes can be used with other classes 
-    > In a nutshell, generics enable types (classes and interfaces) to be parameters when defining classes, interfaces and methods. Much like the more familiar formal parameters used in method declarations, type parameters provide a way for you to re-use the same code with different inputs. The difference is that the inputs to formal parameters are values, while the inputs to type parameters are types. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/generics/why.html))  
+        > In a nutshell, generics enable types (classes and interfaces) to be parameters when defining classes, interfaces and methods. Much like the more familiar formal parameters used in method declarations, type parameters provide a way for you to re-use the same code with different inputs. The difference is that the inputs to formal parameters are values, while the inputs to type parameters are types. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/generics/why.html))  
     
     - This means that, for example, you can define: 
         ```java
@@ -586,9 +586,12 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What are the design patterns? [GitHub](https://github.com/iluwatar/java-design-patterns)
     - Creational patterns
         - Builder [Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern?oldformat=true)  
+        
         - Factory [Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern?oldformat=true)  
+        
         - Singleton [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)  
           A singleton is a class that can only be instantiated once. This singleton pattern restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system. The concept is sometimes generalized to systems that operate more efficiently when only one object exists, or that restrict the instantiation to a certain number of objects.
+          
     - Structural patterns
         - Adapter [Wikipedia](https://en.wikipedia.org/wiki/Adapter_pattern?oldformat=true)  
         - Decorator [Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern?oldformat=true)  
