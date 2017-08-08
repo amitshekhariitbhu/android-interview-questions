@@ -118,7 +118,7 @@
 * Binary Search Tree
 * Sorting Algorithms [Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm?oldformat=true)
     - Using the most efficient sorting algorithm (and correct data structures that implement it) is vital for any program, because data manipulation can be one of the most significant bottlenecks in case of performance and the main purpose of spending time, determining the best algorithm for the job, is to drastically improve said performance. The efficiency of an algorithm is measured in its' "Big O" ([StackOverflow](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)) score. Really good algorithms perform important actions in O(n log n) or even O(log n) time and some of them can even perform certain actions in O(1) time (HashTable insertion, for example). But there is always a trade-off - if some algorithm is really good at adding a new element to a data structure, it is, most certainly, much worse at data access than some other algorithm. If you are proficient with math, you may notice that "Big O" notation has many similarities with "limits", and you would be right - it measures best, worst and average performances of an algorithm in question, by looking at its' function limit. It should be noted that, when we are speaking about O(1) - constant time - we are not saying that this algorithm performs an action in one operation, rather that it can perform this action with the same number of operations (roughly), regrardless of the amount of elements it has to take into account. Thankfully, a lot of "Big O" scores have been already calculated, so you don't have to guess, which algorithm or data structure will perform better in your project. ["Big O" cheat sheet](http://bigocheatsheet.com/)
-    * Bubble sort [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort?oldformat=true) 
+    - Bubble sort [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort?oldformat=true) 
         - Bubble sort is one of the simplest sorting algorithms. It just compares neighbouring elements and if the one that precedes the other is smaller - it changes their places. So over one iteration over the data list, it is guaranteed that **at least** one element will be in its' correct place (the biggest/smallest one - depending on the direction of sorting). This is not a very efficient algorithm, as highly unordered arrays will require a lot of reordering (upto O(n^2)), but one of the advantages of this algorithm is its' space complexity - only two elements are compared at once and there is no need to allocate more memory, than those two will occupy. 
             <table>
                 <tr>
@@ -139,7 +139,7 @@
                     </td>
                 </tr>
             </table>
-    * Selection sort [Wikipedia](https://www.wikiwand.com/en/Selection_sort) 
+    - Selection sort [Wikipedia](https://www.wikiwand.com/en/Selection_sort) 
         - Firstly, selection sort assumes that the first element of the array to be sorted is the smallest, but to confirm this, it iterates over all other elements to check, and if it finds one, it gets defined as the smallest one. When the data ends, the element, that is currently found to be the smallest, is put in the beginning of the array. This sorting algorithm is quite straightforward, but still not that efficient on larger data sets, because to assign just one element to its' place, it needs to go over all data.
             <table>
             <tr>
@@ -160,7 +160,7 @@
                 </td>
             </tr>
             </table>
-    * Insertion sort [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort?oldformat=true)
+    - Insertion sort [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort?oldformat=true)
         - Insertion sort is another example of an algorithm, that is not that difficult to implement, but is also not that efficient. To do its' job, it "grows" sorted portion of data, by "inserting" new encountered elements into already (innerly) sorted part of the array, which consists of previously encountered elements. This means that in best case (data is already sorted) it can confirm that its' job is done in Ω(n) operations, while, if all encountered elements are not in their required order as many as O(n^2) operations may be needed.
             <table>
             <tr>
@@ -181,7 +181,7 @@
                 </td>
             </tr>
             </table>
-    * Merge sort [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort?oldformat=true)
+    - Merge sort [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort?oldformat=true)
         - This is a "divide and conquer" algorithm, meaning it recursively "divides" given array in to smaller parts (up to 1 element) and then sorts those parts, combining them with each other. This approach allows merge sort to acieve very high speed, while  doubling required space, of course, but today memory space is more availible than it was a couple of years ago, so this trade-off is considered acceptable.   
             <table>
             <tr>
@@ -202,31 +202,36 @@
                 </td>
             </tr>
             </table>
-    * Quicksort [Wikipedia](https://en.wikipedia.org/wiki/Quicksort?oldformat=true)
+    - Quicksort [Wikipedia](https://en.wikipedia.org/wiki/Quicksort?oldformat=true)
         - Quicksort is considered, well, quite quick. When implemented correctly, it can be a significant number of times faster than its' main competitors. This algorithm is also of "divide and conquer" family and its' first step is to choose a "pivot" element (choosing it randomly, statistically, minimizes the chance to get the worst performance), then by comparing elements to this pivot, moving it closer and closer to its' final place. During this process, the elements that are bigger are moved to the right side of it and smaller elements to the left. After this is done, quicksort repeats this process for  subarrays on each side of placed pivot (does first step recursively), until the array is sorted.
-                <table>
-            <tr>
-                <th colspan="3" align="center">Time Complexity</th>
-                <th align="center">Space Complexity</th>
-            </tr>
-            <tr>
-                <th align="center">Best</th>
-                <th align="center">Avegage</th>
-                <th align="center">Worst</th>
-                <th align="center">Worst</th>
-            </tr>
-            <tr>
-                <td align="center">Ω(n^2)</td>
-                <td align="center">Θ(n^2)</td>
-                <td align="center">O(n^2)</td>
-                <td align="center">O(1)</td>
-                </td>
-            </tr>
-        </table>
-* Hash Table or Hash Map
-* Breadth First Search
-* Depth First Search
-* Greedy Algorithm
+        <table>
+        <tr>
+            <th colspan="3" align="center">Time Complexity</th>
+            <th align="center">Space Complexity</th>
+        </tr>
+        <tr>
+            <th align="center">Best</th>
+            <th align="center">Avegage</th>
+            <th align="center">Worst</th>
+            <th align="center">Worst</th>
+        </tr>
+        <tr>
+            <td align="center">Ω(n^2)</td>
+            <td align="center">Θ(n^2)</td>
+            <td align="center">O(n^2)</td>
+            <td align="center">O(1)</td>
+            </td>
+        </tr>
+            </table>
+    - There are, of course, more sorting algorithms and their modifications. We strongly recommend all readers to familiarize themselves with a couple more, because knowing algorithms is very important quality of a candidate, applying for a job and it shows understanding of what is happening "under the hood".
+        
+ * Hash Table or Hash Map
+ * Pathfinding algorithms [Wikipedia](https://en.wikipedia.org/wiki/Greedy_algorithm?oldformat=true)
+    - Dijkstra algorithm
+    - A* algorithm
+    - Breadth First Search
+    - Depth First Search
+ * Greedy Algorithm
 
 
 ### Core Java
