@@ -608,11 +608,11 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * How would you communicate between two Fragments?
 * Explain Android notification system?
 * How can two distinct Android apps interact?
-* What is Fragment?
+* What is `Fragment`?
 * Why is it recommended to use only the default constructor to create a fragment? [StackOverflow](https://stackoverflow.com/a/16042750/2809326)
 * Why Bundle class is used for data passing and why cannot we use simple Map data structure
-* What is Dialog in Android?
-* What is View in Android?
+* What is `Dialog` in Android?
+* What is `View` in Android?
 * Can you create custom views? How?
 * What are ViewGroups and how they are different from the Views?
 * What is the difference between a fragment and an activity? Explain the relationship between the two.
