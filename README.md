@@ -575,6 +575,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
   - Autoboxing and Unboxing is the process of automatic wrapping (putting in a box) and unwrapping (getting the value out) of primitive data types, that have "wrapper" classes. So `int` and `Integer` can (almost always) be used interchangeably in Java language, meaning a method `void giveMeInt(int i) { ... }` can take `int` as well as `Integer` as a parameter.
 * What’s the difference between an Enumeration and an Iterator?
 * What is the difference between fail-fast and fail safe in Java?
+* What is Java NIO? [Link](http://tutorials.jenkov.com/java-nio/index.html)
 * What is Java priority queue?
 * What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized? [Jenkov](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
 * What is memory leak and how does Java handle it?
