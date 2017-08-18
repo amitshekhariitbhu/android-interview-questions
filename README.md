@@ -659,7 +659,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is Doze? What about App Standby?
 * What can you use for background processing in Android?
 * What is ORM? How does it work?
-* What is a Loader?
+* What is a `Loader`?
 * What is the NDK and why is it useful?
 * What is the StrictMode? [Mindorks](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
 * What is Lint? What is it used for?
