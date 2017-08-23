@@ -625,10 +625,10 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is an `AsyncTask`?
 * What is a `BroadcastReceiver`? [StackOverflow](https://stackoverflow.com/questions/5296987/what-is-broadcastreceiver-and-when-we-use-it)
 * What is a `LocalBroadcastManager`? [Developer Android](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
-* What is a JobScheduler? [Vogella](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
+* What is a `JobScheduler`? [Vogella](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
 * What is DDMS and what can you do with it?
 * What is the support library? Why was it introduced?[MartianCraft](http://martiancraft.com/blog/2015/06/android-support-library/)
-* What is a ContentProvider and what is it typically used for?
+* What is a `ContentProvider` and what is it typically used for?
 * What is Android Data Binding? [Developer Android](https://developer.android.com/topic/libraries/data-binding/index.html)
 * What are Android Architecture Components? [Developer Android](https://developer.android.com/topic/libraries/architecture/index.html)
 * What is ADB?
