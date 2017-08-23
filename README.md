@@ -558,6 +558,8 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
             j = 10; // Instantiated variable
         ```
 * When is a `static` block run?
+    - Code inside static block is executed only once: the first time you make an object of that class or the first time you access a static member of that class (even if you never make an object of that class).
+    
 * Explain Generics in Java?
     - Generics were included in Java language to provide stronger type checks, by allowing the programmer to define, which classes can be used with other classes 
         > In a nutshell, generics enable types (classes and interfaces) to be parameters when defining classes, interfaces and methods. Much like the more familiar formal parameters used in method declarations, type parameters provide a way for you to re-use the same code with different inputs. The difference is that the inputs to formal parameters are values, while the inputs to type parameters are types. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/generics/why.html))  
@@ -569,11 +571,11 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
         And let the compiler take care of noticing, if you put some object, of type other than `Integer` into this list and warn you.
     - It should be noted that standard class hierarchy *does not* apply to generic types. It means that `Integer` in `List<Integer>` is not inherited from `<Number>` - it is actually inherited directly from `<Object>`. You can still put some constraints on what classes can be passed as a parameter into a generic by using [wildcards](https://docs.oracle.com/javase/tutorial/extra/generics/wildcards.html) like `<?>`, `<? extends MyCustomClass>` or `<? super Number>`.
     - While generics are very useful, late inclusion into Java language has put some restraints on their implementation - backward compatibility required them to remain just "syntactic sugar" - they are erased ([type erasure](https://docs.oracle.com/javase/tutorial/java/generics/erasure.html)) during compile-time and replaced with `object` class.
-* Difference between `StringBuffer` and `StringBuilder`?
+* Difference between `StringBuffer` and `StringBuilder`? [Link](http://www.journaldev.com/137/stringbuffer-vs-stringbuilder)
 * How is a `StringBuilder` implemented to avoid the immutable string allocation problem?
 * What is Autoboxing and Unboxing?
   - Autoboxing and Unboxing is the process of automatic wrapping (putting in a box) and unwrapping (getting the value out) of primitive data types, that have "wrapper" classes. So `int` and `Integer` can (almost always) be used interchangeably in Java language, meaning a method `void giveMeInt(int i) { ... }` can take `int` as well as `Integer` as a parameter.
-* What’s the difference between an Enumeration and an Iterator?
+* What’s the difference between an Enumeration and an Iterator? [Link](http://javaconceptoftheday.com/differences-between-enumeration-vs-iterator-in-java/)
 * What is the difference between fail-fast and fail safe in Java?
 * What is Java NIO? [Link](http://tutorials.jenkov.com/java-nio/index.html)
 * What is Java priority queue?
