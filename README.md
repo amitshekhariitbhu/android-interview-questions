@@ -673,7 +673,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is the best way to update the screen periodically?
 * What are the different types of Broadcasts?
 * Have you developed widgets? Describe. [Mindorks](https://blog.mindorks.com/android-widgets-ad3d166458d3)
-* What is Context? How is it used? [Medium](https://medium.com/p/understanding-context-in-android-application-330913e32514)
+* What is `Context`? How is it used? [Medium](https://medium.com/p/understanding-context-in-android-application-330913e32514)
 * Do you know what is the view tree? How can you optimize its depth?
 * What is the `onTrimMemory` method?
 * Is it possible to run an Android app in multiple processes? How?
