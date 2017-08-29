@@ -651,10 +651,10 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * Difference between `View.GONE` and `View.INVISIBLE`?
 * What is the difference between a regular bitmap and a nine-patch image?
 * Tell about the bitmap pool. [Mindorks](https://blog.mindorks.com/how-to-use-bitmap-pool-in-android-56c71a55533c)
-* How to avoid memory leaks in Android?
+* How to avoid memory leaks in Android? [Mindorks](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
 * What are widgets on Home-Screen in Android?
 * What is AAPT?
-* How do you find memory leaks in Android applications?
+* How do you find memory leaks in Android applications? [Mindorks](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
 * How do you troubleshoot a crashing application?
 * Why should you avoid to run non-ui code on the main thread?
 * How did you support different types of resolutions?
