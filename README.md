@@ -695,7 +695,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 ### Architecture
 
 * Describe the architecture of your last app.
-* Describe MVP. [Mindorks](https://blog.mindorks.com/essential-guide-for-designing-your-android-app-architecture-mvp-part-1-74efaf1cda40)
+* Describe MVP. [Mindorks](https://mindorks.com/course/android-mvp-introduction)
 * What is presenter?
 * What is model?
 * Describe MVC.
