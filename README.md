@@ -742,6 +742,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * Describe database.
 * Project Management tool - trello, basecamp, kanban, jira, asana.
 * About build System - gradle, ant, buck. 
+* About multiple apk for android application. [Mindorks](https://mindorks.com/blog/how-to-create-multiple-apk-files-for-android-application)
 * Reverse Engineering an APK.
 * What is proguard used for?
 * What is obfuscation? What is it used for? What about minification?
