@@ -212,8 +212,8 @@
                     <th align="center">Worst</th>
                 </tr>
                 <tr>
-                    <td align="center">Ω(n^2)</td>
-                    <td align="center">Θ(n^2)</td>
+                    <td align="center">Ω(n log(n))</td>
+                    <td align="center">Θ(n log(n))</td>
                     <td align="center">O(n^2)</td>
                     <td align="center">O(1)</td>
                 </tr>
