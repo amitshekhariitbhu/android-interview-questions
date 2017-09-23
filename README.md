@@ -718,7 +718,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Git. [GitHub](https://github.com/git-tips/tips)
 * RxJava. [Mindorks](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
-* Dagger 2. [Medium](https://medium.com/p/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
+* Dagger 2. [Mindorks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
 * Android Development Useful Tools. [Mindorks](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
 * Firebase. [Firebase.google.com](https://firebase.google.com/)
 
