@@ -380,35 +380,44 @@
 * What is the `hashCode()` and `equals()` used for?
 * What are these `final`, `finally` and `finalize` keywords?
   - Final is a keyword in the java language. It is used to apply restrictions on class, method and variable. Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
-	```
+	```java
 	class FinalExample {
-	public static void main(String[] args) {  
-	final int x=100;  
-	x=200;//Compile Time Error  
-	}}
+		public static void main(String[] args) {  
+			final int x=100;  
+			x=200;//Compile Time Error because x is final
+		}
+	}
 	```
   - Finally is a code block and is used to place important code, it will be executed whether exception is handled or not.
-	```
+	```java
 	class FinallyExample {  
-	public static void main(String[] args){  
-	try{  
-	int x=300;  
-	}catch(Exception e) {System.out.println(e);}  
-	finally{System.out.println("finally block is executed");}  
-	}}  
+		public static void main(String[] args) {  
+			try {  
+				int x=300;  
+			}catch(Exception e) {
+				System.out.println(e);
+			}  
+			finally {
+				System.out.println("finally block is executed");
+			}  
+		}
+	}  
 	```
   - Finalize is a method used to perform clean up processing just before object is garbage collected.
-	```
-	class FinalizeExample{  
-	public void finalize() {System.out.println("finalize called");}  
-	
-	public static void main(String[] args) {  
-	FinalizeExample f1=new FinalizeExample();  
-	FinalizeExample f2=new FinalizeExample();  
-	f1=null;  
-	f2=null;  
-	System.gc();  
-	}}  
+	```java
+	class FinalizeExample {  
+		public void finalize() {
+			System.out.println("finalize called");
+		}  
+		
+		public static void main(String[] args) {  
+			FinalizeExample f1=new FinalizeExample();  
+			FinalizeExample f2=new FinalizeExample();  
+			f1=null;  
+			f2=null;  
+			System.gc();  
+		}
+	}  
 	```
 * What is garbage collector? How does it work?
   - All objects are allocated on the heap area managed by the JVM. 
