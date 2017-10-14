@@ -379,7 +379,7 @@
 * What is `String.intern()`? When and why should it be used?
 * What is the `hashCode()` and `equals()` used for?
 * What are these `final`, `finally` and `finalize` keywords?
-  - Final is a keyword in the java language. It is used to apply restrictions on class, method and variable. Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
+  - `final` is a keyword in the java language. It is used to apply restrictions on class, method and variable. Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
 	```java
 	class FinalExample {
 		public static void main(String[] args) {  
@@ -388,7 +388,7 @@
 		}
 	}
 	```
-  - Finally is a code block and is used to place important code, it will be executed whether exception is handled or not.
+  - `finally` is a code block and is used to place important code, it will be executed whether exception is handled or not.
 	```java
 	class FinallyExample {  
 		public static void main(String[] args) {  
@@ -403,7 +403,7 @@
 		}
 	}  
 	```
-  - Finalize is a method used to perform clean up processing just before object is garbage collected.
+  - `Finalize` is a method used to perform clean up processing just before object is garbage collected.
 	```java
 	class FinalizeExample {  
 		public void finalize() {
