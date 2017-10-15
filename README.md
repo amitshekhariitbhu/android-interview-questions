@@ -379,6 +379,46 @@
 * What is `String.intern()`? When and why should it be used?
 * What is the `hashCode()` and `equals()` used for?
 * What are these `final`, `finally` and `finalize` keywords?
+  - `final` is a keyword in the java language. It is used to apply restrictions on class, method and variable. Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
+	```java
+	class FinalExample {
+		public static void main(String[] args) {  
+			final int x=100;  
+			x=200;//Compile Time Error because x is final
+		}
+	}
+	```
+  - `finally` is a code block and is used to place important code, it will be executed whether exception is handled or not.
+	```java
+	class FinallyExample {  
+		public static void main(String[] args) {  
+			try {  
+				int x=300;  
+			}catch(Exception e) {
+				System.out.println(e);
+			}  
+			finally {
+				System.out.println("finally block is executed");
+			}  
+		}
+	}  
+	```
+  - `Finalize` is a method used to perform clean up processing just before object is garbage collected.
+	```java
+	class FinalizeExample {  
+		public void finalize() {
+			System.out.println("finalize called");
+		}  
+		
+		public static void main(String[] args) {  
+			FinalizeExample f1=new FinalizeExample();  
+			FinalizeExample f2=new FinalizeExample();  
+			f1=null;  
+			f2=null;  
+			System.gc();  
+		}
+	}  
+	```
 * What is garbage collector? How does it work?
   - All objects are allocated on the heap area managed by the JVM. 
   As long as an object is being referenced, the JVM considers it alive. 
@@ -469,6 +509,26 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * Can a `static` method be overridden in Java?
   - While child class can override a static method with another static method with the same signature (return type can be downcasted), it is not truly overridden - it becomes "hidden", but both methods can still be accessed under right circumstances (see question about overloading/overriding above).
 * What is Polymorphism? What about Inheritance?
+  - Polymorphism in Java has two types: Compile time polymorphism (static binding) and Runtime polymorphism (dynamic binding). Method overloading is an example of static polymorphism, while method overriding is an example of dynamic polymorphism.
+
+	An important example of polymorphism is how a parent class refers to a child class object.  In fact, any object that satisfies more than one IS-A relationship is polymorphic in nature.
+
+	For instance, let’s consider a class `Animal` and let `Cat` be a subclass of `Animal`. So, any cat IS animal. Here, Cat satisfies the IS-A relationship for its own type as well as its super class Animal.
+  - Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another. With the use of inheritance the information is made manageable in a hierarchical order.
+
+	The class which inherits the properties of other is known as subclass (derived class, child class) and the class whose properties are inherited is known as superclass (base class, parent class).
+	
+	Inheritance uses the keyword `extends` to inherit the properties of a class. Following is the syntax of extends keyword.
+	```java
+	class Super {
+	   .....
+	   .....
+	}
+	class Sub extends Super {
+	   .....
+	   .....
+	}
+	```
 * What is the difference between an Integer and int?
   - `int` is a primitive data type (with `boolean`, `byte`, `char`, `short`, `long`, `float` and `double`), while `Integer` (with `Boolean`, `Byte`, `Character`, `Short`,`Long`, `Float` and `Double`) is a [wrapper](https://docs.oracle.com/javase/tutorial/java/data/numberclasses.html) class that encapsulates primitive data type, while providing useful methods to perform different tasks with it.
 * Do objects get passed by reference or value in Java? Elaborate on that.
