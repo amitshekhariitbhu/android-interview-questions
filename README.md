@@ -668,7 +668,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is the structure of an Android Application?
 * How to persist data in an Android app?
 * How would you perform a long-running operation in an application?
-* How would you communicate between two Fragments?
+* How would you communicate between two Fragments? [Android Official](https://developer.android.com/training/basics/fragments/communicating.html)
 * Explain Android notification system?
 * How can two distinct Android apps interact?
 * What is `Fragment`?
