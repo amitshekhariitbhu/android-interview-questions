@@ -318,7 +318,7 @@ Argument list should be different while doing method overloading. Argument list 
 * What does it means to say that a `String` is immutable?
 * What are `transient` and `volatile` modifiers?
 * What is the `finalize()` method?
-* How does the `try{}finally{}` works?
+* How does the `try{} catch{} finally{}` works? [Link](http://tutorials.jenkov.com/java-exception-handling/basic-try-catch-finally.html)
 * What is the difference between instantiation and initialization of an object?
 * When is a `static` block run?
 * Explain Generics in Java?
