@@ -810,6 +810,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * How do you build your apps for release?
 * How do you control the application version update to specific number of users?
 * Can we identify users who have uninstalled our application?
+* Implement Search Using RxJava Operators. [Mindorks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
 * APK Size Reduction. [Mindorks](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
 * Android Development Best Practices. [Mindorks](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
 * Android Code Style And Guidelines. [Mindorks](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
