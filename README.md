@@ -600,7 +600,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What does the keyword `synchronized` mean? [Link](https://stackoverflow.com/a/1085745/2621950)
 * What are `transient` and `volatile` modifiers? [Link](http://javaexplorer03.blogspot.in/2015/07/difference-between-volatile-and.html)
 * What is the `finalize()` method?
-* How does the `try{} catch {} finally{}` works?
+* How does the `try{} catch{} finally{}` works? [Link](http://tutorials.jenkov.com/java-exception-handling/basic-try-catch-finally.html)
 * What is the difference between instantiation and initialization of an object?
     - Initialization is the process of the memory allocation, when a new variable is created. Variables should be explicitly given a value, otherwise they may contain a random value that remained from the previous variable that was using the same memory space. To avoid this problem, Java language assigns default (right after initialization) values to some data types:
         * `boolean` defaults to `false`;
