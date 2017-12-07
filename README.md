@@ -127,7 +127,7 @@
                 </tr>
                 <tr>
                     <th align="center">Best</th>
-                    <th align="center">Avegage</th>
+                    <th align="center">Average</th>
                     <th align="center">Worst</th>
                     <th align="center">Worst</th>
                 </tr>
@@ -147,7 +147,7 @@
             </tr>
             <tr>
                 <th align="center">Best</th>
-                <th align="center">Avegage</th>
+                <th align="center">Average</th>
                 <th align="center">Worst</th>
                 <th align="center">Worst</th>
             </tr>
@@ -167,7 +167,7 @@
             </tr>
             <tr>
                 <th align="center">Best</th>
-                <th align="center">Avegage</th>
+                <th align="center">Average</th>
                 <th align="center">Worst</th>
                 <th align="center">Worst</th>
             </tr>
@@ -179,7 +179,7 @@
             </tr>
             </table>
     - Merge sort [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort?oldformat=true)
-        - This is a "divide and conquer" algorithm, meaning it recursively "divides" given array in to smaller parts (up to 1 element) and then sorts those parts, combining them with each other. This approach allows merge sort to acieve very high speed, while  doubling required space, of course, but today memory space is more availible than it was a couple of years ago, so this trade-off is considered acceptable.   
+        - This is a "divide and conquer" algorithm, meaning it recursively "divides" given array in to smaller parts (up to 1 element) and then sorts those parts, combining them with each other. This approach allows merge sort to achieve very high speed, while  doubling required space, of course, but today memory space is more available than it was a couple of years ago, so this trade-off is considered acceptable.   
                 <table>
             <tr>
                 <th colspan="3" align="center">Time Complexity</th>
@@ -187,7 +187,7 @@
             </tr>
             <tr>
                 <th align="center">Best</th>
-                <th align="center">Avegage</th>
+                <th align="center">Average</th>
                 <th align="center">Worst</th>
                 <th align="center">Worst</th>
             </tr>
@@ -199,7 +199,7 @@
             </tr>
             </table>
     - Quicksort [Wikipedia](https://en.wikipedia.org/wiki/Quicksort?oldformat=true)
-        - Quicksort is considered, well, quite quick. When implemented correctly, it can be a significant number of times faster than its' main competitors. This algorithm is also of "divide and conquer" family and its' first step is to choose a "pivot" element (choosing it randomly, statistically, minimizes the chance to get the worst performance), then by comparing elements to this pivot, moving it closer and closer to its' final place. During this process, the elements that are bigger are moved to the right side of it and smaller elements to the left. After this is done, quicksort repeats this process for  subarrays on each side of placed pivot (does first step recursively), until the array is sorted.
+        - Quicksort is considered, well, quite quick. When implemented correctly, it can be a significant number of times faster than its' main competitors. This algorithm is also of "divide and conquer" family and its' first step is to choose a "pivot" element (choosing it randomly, statistically, minimizes the chance to get the worst performance), then by comparing elements to this pivot, moving it closer and closer to its' final place. During this process, the elements that are bigger are moved to the right side of it and smaller elements to the left. After this is done, quicksort repeats this process for subarrays on each side of placed pivot (does first step recursively), until the array is sorted.
                 <table>
                 <tr>
                     <th colspan="3" align="center">Time Complexity</th>
@@ -207,7 +207,7 @@
                 </tr>
                 <tr>
                     <th align="center">Best</th>
-                    <th align="center">Avegage</th>
+                    <th align="center">Average</th>
                     <th align="center">Worst</th>
                     <th align="center">Worst</th>
                 </tr>
