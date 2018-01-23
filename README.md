@@ -376,8 +376,14 @@
   - `String` was made immutable to prevent malicious manipulation of data, when, for example, user login or other sensitive data is being send to a server.
 * What does it means to say that a `String` is immutable?
     - It means that once created, `String` object's `char[]` (its' containing value) is declared `final` and, therefore, it can not be changed during runtime.
+* Do you think memory leak in java?
 * What is `String.intern()`? When and why should it be used?
 * What is the `hashCode()` and `equals()` used for?
+* Can you list 8 primitive types in java?
+* Why would you not call abstract method in constructor?
+* What is the difference between iterator and enumeration in java?
+* Do you agree we use composition over inheritance? 
+* When would you make an object value final?
 * What are these `final`, `finally` and `finalize` keywords?
   - `final` is a keyword in the java language. It is used to apply restrictions on class, method and variable. Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
 	```java
@@ -686,6 +692,12 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is an Implicit Intent?
 * What is an Explicit Intent?
 * What is an `AsyncTask`?
+* What are the problems in asynctask?
+* When would you use java thread instead of an asynctask?
+* What is the difference JVM, DVM and ART?
+* What is dex?
+* What is a canvas?
+* 
 * What is a `BroadcastReceiver`? [StackOverflow](https://stackoverflow.com/questions/5296987/what-is-broadcastreceiver-and-when-we-use-it)
 * What is a `LocalBroadcastManager`? [Developer Android](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
 * What is a `JobScheduler`? [Vogella](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
