@@ -680,6 +680,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * How can two distinct Android apps interact?
 * What is `Fragment`?
 * Why is it recommended to use only the default constructor to create a fragment? [StackOverflow](https://stackoverflow.com/a/16042750/2809326)
+* What is retained Fragment? [AndroidDesignPatterns](https://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html)
 * Why Bundle class is used for data passing and why cannot we use simple Map data structure
 * What is `Dialog` in Android?
 * What is `View` in Android?
@@ -697,7 +698,6 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is the difference JVM, DVM and ART?
 * What is dex?
 * What is a canvas?
-* 
 * What is a `BroadcastReceiver`? [StackOverflow](https://stackoverflow.com/questions/5296987/what-is-broadcastreceiver-and-when-we-use-it)
 * What is a `LocalBroadcastManager`? [Developer Android](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
 * What is a `JobScheduler`? [Vogella](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
@@ -763,6 +763,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * How to reduce battery usage in an android application? [Mindorks](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
 * What is `SnapHelper`? [Mindorks](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
 * How to handle multi-touch in android [GitHub](https://arjun-sna.github.io/android/2016/07/20/multi-touch-android/)
+* How to play sounds in Android? [Vogella](http://www.vogella.com/tutorials/AndroidMedia/article.html)
 
 
 ### Architecture
