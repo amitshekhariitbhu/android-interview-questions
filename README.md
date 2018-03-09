@@ -27,7 +27,8 @@
 
 > The level of questions asked on the topic of Data Structures And Algorithms totally depends on the company for which you are applying.
 
-All the data structures implemented in java can be found in this repo [![Data Structures]](https://github.com/CuriousNikhil/data-structures)(https://img.shields.io/badge/Data%20Structures-java-blue.svg?longCache=true&style=for-the-badge)
+All the data structures implemented in java can be found in this repo 
+![[Data Structures](https://github.com/CuriousNikhil/data-structures)](https://img.shields.io/badge/Data%20Structures-java-blue.svg?longCache=true&style=for-the-badge)
 
 * Array
     - An Array consists of a group of elements of the same data type. It is stored continuously in memory and by using its' index, you can find the underlying data. Arrays can be one dimensional and multi-dimensional. One dimensional array is the simplest data structure, and also most commonly used. It is worth noting that in Java language multi-dimensional array are implemented as arrays of arrays. For example, `int[10][5]` is actually one array with its' cells pointing to ten 5-element arrays.    
