@@ -27,7 +27,9 @@
 
 > The level of questions asked on the topic of Data Structures And Algorithms totally depends on the company for which you are applying.
 
-All the data structures implemented in java can be found in this repo 
+All the data structures implemented in java can be found in [**this repo**](https://github.com/CuriousNikhil/data-structures)
+
+
 ![[Data Structures](https://github.com/CuriousNikhil/data-structures)](https://img.shields.io/badge/Data%20Structures-java-blue.svg?longCache=true&style=for-the-badge)
 
 * Array
