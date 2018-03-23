@@ -382,7 +382,7 @@
 * Can you list 8 primitive types in java?
 * Why would you not call abstract method in constructor?
 * What is the difference between iterator and enumeration in java?
-* Do you agree we use composition over inheritance? 
+* Do you agree we use composition over inheritance? ([Composition vs Inheritance)] [https://www.journaldev.com/12086/composition-vs-inheritance])
 * When would you make an object value final?
 * What are these `final`, `finally` and `finalize` keywords?
   - `final` is a keyword in the java language. It is used to apply restrictions on class, method and variable. Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
