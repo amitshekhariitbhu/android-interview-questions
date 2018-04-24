@@ -954,7 +954,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Explain `Activity` and `Fragment` lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle), simplified diagram for [Activity](https://developer.android.com/guide/components/activities/activity-lifecycle.html#alc), [Fragment](https://developer.android.com/guide/components/fragments.html#Lifecycle))
 
-* What are "launch modes"? [Mindorks](https://blog.mindorks.com/android-`Activity`-launchmode-explained-cbc6cf996802)
+* What are "launch modes"? [Mindorks](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
 
 #### Fragments
 
