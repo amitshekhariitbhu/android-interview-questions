@@ -264,202 +264,11 @@
     - An interface is like a blueprint/contract of a class (or it may be thought of as a class with methods, but without their implementation). It contains empty methods that 
     represent, what all of its subclasses should have in common. The subclasses provide the 
     implementation for each of these methods. Interfaces are implemented.
-* What is serialization? How do you implement it?
-    - Serialization is the process of converting an object into a stream of bytes in order to store 
-    an object into memory, so that it can be recreated at a later time, while still keeping the 
-    object's original state and data. In Android you may use either the Serializable, Externalizable (implements Serializable) or Parcelable interfaces.
-    - While Serializable is the easiest to implement, Externalizable may be used if you need to insert custom logic into the process of serialization (although it is almost never used nowadays as it is considered a relic from early versions of Java). But it is highly recommended to use Parcelable in Android instead, as Parcelable was created exclusively for Android and it performs about 10x faster than Serializable, because Serializable uses reflection, which is a slow process and tends to create a lot of temporary objects and it may cause garbage collection to occur more often.  
-    - To use Serializable all you have to do is implement the interface: 
-    
-        ```java
-        /**
-        *  Implementing the Serializeable interface is all that is required
-        */
-        public class User implements Serializable {
-        
-            private String name;
-            private String email;
-            
-                public User() {
-                }
-                
-                public String getName() {
-                    return name;
-                }
-                
-                public void setName(final String name) {
-                    this.name = name;
-                }
-                
-                public String getEmail() {
-                    return email;
-                }
-                
-                public void setEmail(final String email) {
-                    this.email = email;
-                }
-            }
-        ```
-    - Parcelable requires a bit more work:
-        ```java
-            public class User implements Parcelable {
-            
-                private String name;
-                private String email;
-                
-                /**
-                 * Interface that must be implemented and provided as a public CREATOR field 
-                 * that generates instances of your Parcelable class from a Parcel.
-                 */
-                public static final Creator<User> CREATOR = new Creator<User>() {
-                
-                    /**
-                     * Creates a new USer object from the Parcel. This is the reason why 
-                     * the constructor that takes a Parcel is needed.
-                     */
-                    @Override
-                    public User createFromParcel(Parcel in) {
-                        return new User(in);
-                    }
-                    
-                    /**
-                     * Create a new array of the Parcelable class.
-                     * @return an array of the Parcelable class,
-                     * with every entry initialized to null.
-                     */
-                    @Override
-                    public User[] newArray(int size) {
-                        return new User[size];
-                    }
-                };
-                
-                public User() {
-                }
-                
-                /**
-                 * Parcel overloaded constructor required for 
-                 * Parcelable implementation used in the CREATOR
-                 */
-                private User(Parcel in) {
-                    name = in.readString();
-                    email = in.readString();
-                }
-                
-                public String getName() {
-                    return name;
-                }
-                
-                public void setName(final String name) {
-                    this.name = name;
-                }
-                
-                public String getEmail() {
-                    return email;
-                }
-                
-                public void setEmail(final String email) {
-                    this.email = email;
-                }
-                
-                @Override
-                public int describeContents() {
-                    return 0;
-                }
-                
-                /**
-                 * This is where the parcel is performed.
-                 */
-                @Override
-                public void writeToParcel(final Parcel parcel, final int i) {
-                    parcel.writeString(name);
-                    parcel.writeString(email);
-                }
-            }
-        ```
-        Note: For a full explanation of the <b>describeContents()</b> method see [StackOverflow](https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799).
-        In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good thing to try and understand everything that is happening.
-* What are anonymous classes?[OracleDoc](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html)
-* What is the difference between using `==` and `.equals` on a string?[GeeksForGeeks](http://www.geeksforgeeks.org/difference-equals-method-java/)
-* How is `String` class implemented? Why was it made immutable?
-  - There is no primitive variant of `String` class in Java language - all strings are just wrappers around underlying array of characters, which is declared `final`. This means that, once a `String` object is instantiated, it cannot be changed through normal tools of the language (Reflection still can mess things up horribly, because in Java no object is truly immutable). This is why `String` variables in classes are the first candidates to be used, when you want to override `hashCode()` and `equals()` of your class - you can be sure, that all their required contracts will be satisfied.  
-    > Note: The String class is immutable, so that once it is created a String object cannot be changed. The String class  has a number of methods, some of which will be discussed below, that appear to modify strings. Since strings are  immutable, what these methods really do is create and return a new string that contains the result of the operation. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/data/strings.html))   
-    
-    This class is also unique in a sense, that, when you create an instance like this: 
-    ```java
-    String helloWorld = "Hello, World!";
-    ```
-    `"Hello, World!"` is called a *literal* and compiler creates a `String` object with its' value. So 
-    ```java
-    String capital = "Hello, World!".toUpperCase();
-    ```   
-    is a valid statement, that, firstly, will create an object with literal value "Hello, World!" and then will create and return another object with value "HELLO, WORLD!"
-  - `String` was made immutable to prevent malicious manipulation of data, when, for example, user login or other sensitive data is being send to a server.
-* What does it means to say that a `String` is immutable?
-    - It means that once created, `String` object's `char[]` (its' containing value) is declared `final` and, therefore, it can not be changed during runtime.
-* Do you think memory leak in java?
-* What is `String.intern()`? When and why should it be used?
-* What is the `hashCode()` and `equals()` used for?
-* Can you list 8 primitive types in java?
-* Why would you not call abstract method in constructor?
+
 * What is the difference between iterator and enumeration in java?
-* Do you agree we use composition over inheritance? ([Composition vs Inheritance)] [https://www.journaldev.com/12086/composition-vs-inheritance])
-* When would you make an object value final?
-* What are these `final`, `finally` and `finalize` keywords?
-  - `final` is a keyword in the java language. It is used to apply restrictions on class, method and variable. Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
-	```java
-	class FinalExample {
-		public static void main(String[] args) {  
-			final int x=100;  
-			x=200;//Compile Time Error because x is final
-		}
-	}
-	```
-  - `finally` is a code block and is used to place important code, it will be executed whether exception is handled or not.
-	```java
-	class FinallyExample {  
-		public static void main(String[] args) {  
-			try {  
-				int x=300;  
-			}catch(Exception e) {
-				System.out.println(e);
-			}  
-			finally {
-				System.out.println("finally block is executed");
-			}  
-		}
-	}  
-	```
-  - `Finalize` is a method used to perform clean up processing just before object is garbage collected.
-	```java
-	class FinalizeExample {  
-		public void finalize() {
-			System.out.println("finalize called");
-		}  
-		
-		public static void main(String[] args) {  
-			FinalizeExample f1=new FinalizeExample();  
-			FinalizeExample f2=new FinalizeExample();  
-			f1=null;  
-			f2=null;  
-			System.gc();  
-		}
-	}  
-	```
-* What is garbage collector? How does it work?
-  - All objects are allocated on the heap area managed by the JVM. 
-  As long as an object is being referenced, the JVM considers it alive. 
-  Once an object is no longer referenced and therefore is not reachable by the application code,
-  the garbage collector removes it and reclaims the unused memory.
-* `Arrays` vs `ArrayLists`.
-* `HashSet` vs `TreeSet`.
-* Typecast in Java.
-    - In Java, you can use casts to polymorph one class into another, compatible one. For example:
-        ```java
-            long i = 10l;
-            int j = (int) i; 
-            long k = j;
-        ```
-        Here we see, that, while narrowing (`long i` -> `int j`) requires an explicit cast to make sure the programmer realizes, that there may be some data or precision loss, widening (`int j` -> `long k`) does not require an explicit cast, because there can be no data loss (`long` can take larger numbers than `int` allows). 
+
+* Do you agree we use composition over inheritance? [Composition vs Inheritance](https://www.journaldev.com/12086/composition-vs-inheritance)
+
 * Difference between method overloading and overriding.
         <p align="center">
         <img alt="Overloading and Overriding" src="https://github.com/codeshef/android-interview-questions/blob/master/assets/overloading-vs-overriding.png">
@@ -573,28 +382,6 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
         - Iterator [Wikipedia](https://en.wikipedia.org/wiki/Iterator_pattern?oldformat=true)
         - Strategy [Wikipedia](https://en.wikipedia.org/wiki/Strategy_pattern?oldformat=true)
 
-#### String
-
-* How is `String` class implemented? Why was it made immutable?
-  - There is no primitive variant of `String` class in Java language - all strings are just wrappers around underlying array of characters, which is declared `final`. This means that, once a `String` object is instantiated, it cannot be changed through normal tools of the language (Reflection still can mess things up horribly, because in Java no object is truly immutable). This is why `String` variables in classes are the first candidates to be used, when you want to override `hashCode()` and `equals()` of your class - you can be sure, that all their required contracts will be satisfied.
-    > Note: The String class is immutable, so that once it is created a String object cannot be changed. The String class  has a number of methods, some of which will be discussed below, that appear to modify strings. Since strings are  immutable, what these methods really do is create and return a new string that contains the result of the operation. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/data/strings.html))
-
-    This class is also unique in a sense, that, when you create an instance like this:
-    ```java
-    String helloWorld = "Hello, World!";
-    ```
-    `"Hello, World!"` is called a *literal* and compiler creates a `String` object with its' value. So
-    ```java
-    String capital = "Hello, World!".toUpperCase();
-    ```
-    is a valid statement, that, firstly, will create an object with literal value "Hello, World!" and then will create and return another object with value "HELLO, WORLD!"
-  - `String` was made immutable to prevent malicious manipulation of data, when, for example, user login or other sensitive data is being send to a server.
-
-* What does it means to say that a `String` is immutable?
-    - It means that once created, `String` object's `char[]` (its' containing value) is declared `final` and, therefore, it can not be changed during runtime.
-
-* What is `String.intern()`? When and why should it be used?
-
 #### Collections and Generics
 
 * `Arrays` vs `ArrayLists`.
@@ -616,6 +403,28 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is Java `PriorityQueue`?
 
 #### Objects and Primitives
+
+#### String
+
+* How is `String` class implemented? Why was it made immutable?
+  - There is no primitive variant of `String` class in Java language - all strings are just wrappers around underlying array of characters, which is declared `final`. This means that, once a `String` object is instantiated, it cannot be changed through normal tools of the language (Reflection still can mess things up horribly, because in Java no object is truly immutable). This is why `String` variables in classes are the first candidates to be used, when you want to override `hashCode()` and `equals()` of your class - you can be sure, that all their required contracts will be satisfied.
+    > Note: The String class is immutable, so that once it is created a String object cannot be changed. The String class  has a number of methods, some of which will be discussed below, that appear to modify strings. Since strings are  immutable, what these methods really do is create and return a new string that contains the result of the operation. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/data/strings.html))
+
+    This class is also unique in a sense, that, when you create an instance like this:
+    ```java
+    String helloWorld = "Hello, World!";
+    ```
+    `"Hello, World!"` is called a *literal* and compiler creates a `String` object with its' value. So
+    ```java
+    String capital = "Hello, World!".toUpperCase();
+    ```
+    is a valid statement, that, firstly, will create an object with literal value "Hello, World!" and then will create and return another object with value "HELLO, WORLD!"
+  - `String` was made immutable to prevent malicious manipulation of data, when, for example, user login or other sensitive data is being send to a server.
+
+* What does it means to say that a `String` is immutable?
+    - It means that once created, `String` object's `char[]` (its' containing value) is declared `final` and, therefore, it can not be changed during runtime.
+
+* What is `String.intern()`? When and why should it be used?
 
 * Can you list 8 primitive types in java?
 
@@ -865,6 +674,10 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Why would you not call abstract method in constructor?
 
+* What are anonymous classes?[OracleDoc](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html)
+
+* Can you list 8 primitive types in java?
+
 * When would you make an object value `final`?
 
 * What are these `final`, `finally` and `finalize` keywords?
@@ -908,6 +721,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 		}
 	}
 	```
+
 
 * What does the `static` word mean in Java?
     - In case of `static` variable it means that this variable (its' value or the object it references) spans across all instances of enclosing class (changing it in one instance affects all others), while in case of `static` methods it means that these methods can be invoked without an instance of their enclosing class. It is useful, for example, when you create util classes that need not be instantiated every time you want to use them.
