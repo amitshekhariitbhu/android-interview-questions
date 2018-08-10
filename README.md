@@ -810,7 +810,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is `SnapHelper`? [Mindorks](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
 
-#### Dialogs nas Toasts
+#### Dialogs and Toasts
 
 * What is `Dialog` in Android?
 
@@ -987,6 +987,8 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is Android Data Binding? [Developer Android](https://developer.android.com/topic/libraries/data-binding/index.html)
 
 * What are Android Architecture Components? [Developer Android](https://developer.android.com/topic/libraries/architecture/index.html)
+
+* How to implement search using RxJava operators? [Mindorks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
 
 
 ### Architecture
