@@ -6,6 +6,8 @@
 # Android Interview Questions
 [![Mindorks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
 [![Mindorks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
+[![Mindorks Android Store](https://img.shields.io/badge/Mindorks%20Android%20Store-Android%20Interview%20Questions-blue.svg?style=flat)](https://mindorks.com/android/store)
+
 > Android Interview Questions - Your Cheat Sheet For Android Interview
 
 ## We will be adding answers to the more questions on our [Mindorks website](https://mindorks.com).
