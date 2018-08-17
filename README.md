@@ -758,7 +758,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the structure of an Android Application?
 
-* What is `Context`? How is it used? [Medium](https://medium.com/p/understanding-context-in-android-application-330913e32514)
+* What is `Context`? How is it used? [Mindorks](https://blog.mindorks.com/understanding-context-in-android-application-330913e32514)
 
 * What is `AndroidManifest.xml`?
 
@@ -1093,7 +1093,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Android Code Style And Guidelines. [Mindorks](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
 
-* Have you tried Kotlin? [Medium](https://medium.com/p/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
+* Have you tried Kotlin? [Mindorks](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
 
 * What are the metrics that you should measure continuously while android application development? [Mindorks](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
 
