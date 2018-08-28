@@ -676,8 +676,6 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Why would you not call abstract method in constructor?
 
-* What are anonymous classes?[OracleDoc](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html)
-
 * Can you list 8 primitive types in java?
 
 * When would you make an object value `final`?
