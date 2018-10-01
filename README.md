@@ -374,6 +374,10 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
         - Singleton [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
           A singleton is a class that can only be instantiated once. This singleton pattern restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system. The concept is sometimes generalized to systems that operate more efficiently when only one object exists, or that restrict the instantiation to a certain number of objects.
+	  
+        - Monostate [Wikipedia](http://wiki.c2.com/?MonostatePattern)
+	
+        - Fluent Interface Pattern [Wikipedia](https://martinfowler.com/bliki/FluentInterface.html)
 
     - Structural patterns
         - Adapter [Wikipedia](https://en.wikipedia.org/wiki/Adapter_pattern?oldformat=true)
@@ -389,6 +393,10 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * `Arrays` vs `ArrayLists`.
 
 * `HashSet` vs `TreeSet`.
+
+* `HashMap` vs `Set`
+
+* `Stack` vs `Queue`
 
 * Explain Generics in Java?
     - Generics were included in Java language to provide stronger type checks, by allowing the programmer to define, which classes can be used with other classes
@@ -545,9 +553,13 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is `volatile` modifier? [Jenkov](http://tutorials.jenkov.com/java-concurrency/volatile.html)
 
+* The clasess in the atomic package expose a common set of methods: `get`, `set,`, `lazyset`, `compareAndSet`, and `weakCompareAndSet`. Please describe them.
+
 #### Exceptions
 
 * How does the `try{} catch{} finally{}` works? [Link](http://tutorials.jenkov.com/java-exception-handling/basic-try-catch-finally.html)
+
+* What is the difference between a `Checked Exception` and an `Un-Checked Exception`?
 
 #### Others
 
@@ -1003,6 +1015,10 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Describe MVC.
 
+* Describe MVI
+
+* Describe the repository pattern
+
 * What is controller?
 
 * Describe MVVM. [GitHub](https://github.com/MindorksOpenSource/android-mvvm-architecture)
@@ -1044,6 +1060,8 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is Robolectric? [Robolectric](http://robolectric.org/)
 
+* What are the disadvantages of using Roboelectric? 
+
 * What is UI-Automator? [Developer Android](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
 
 * Explain unit test.
@@ -1059,7 +1077,9 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 ### Others
 
-* Describe how REST APIs work.
+* Describe how REST APIs work. What is REST?
+
+* Describe other forms of web API architecutre. [GraphQL] (https://medium.com/mindorks/what-is-graphql-and-using-it-on-android-ab8e493abdd7) [SOAP] (https://www.w3.org/TR/ws-arch/)
 
 * Describe SQLite.
 
