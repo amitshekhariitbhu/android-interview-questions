@@ -4,13 +4,13 @@
 
 
 # Android Interview Questions
-[![Mindorks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
-[![Mindorks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
-[![Mindorks Android Store](https://img.shields.io/badge/Mindorks%20Android%20Store-Android%20Interview%20Questions-blue.svg?style=flat)](https://mindorks.com/android/store)
+[![MindOrks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
+[![MindOrks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
+[![MindOrks Android Store](https://img.shields.io/badge/Mindorks%20Android%20Store-Android%20Interview%20Questions-blue.svg?style=flat)](https://mindorks.com/android/store)
 
 > Android Interview Questions - Your Cheat Sheet For Android Interview
 
-## We will be adding answers to the more questions on our [Mindorks website](https://mindorks.com).
+## We will be adding answers to the more questions on our [MindOrks website](https://mindorks.com).
 
 ## Prepared and maintained by [Amit Shekhar](https://github.com/amitshekhariitbhu) who is having experience of taking interviews of many Android developers and cracking interviews of top companies.
 
@@ -549,7 +549,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What does the keyword `synchronized` mean? [Link](https://stackoverflow.com/a/1085745/2621950)
 
-* What is a `ThreadPoolExecutor`? [Mindorks](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
+* What is a `ThreadPoolExecutor`? [MindOrks](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
 
 * What is `volatile` modifier? [Jenkov](http://tutorials.jenkov.com/java-concurrency/volatile.html)
 
@@ -748,7 +748,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is Dependency Injection?  Can you name few libraries? Have you used any?
   - Dependency injection is a very powerful technique, where you relay the task of providing object with its' dependencies on instances of other objects (OOP Composition, [Wikipedia](https://en.wikipedia.org/wiki/Object_composition?oldformat=true)) to a separate class. This allows for fewer constructors, setters, factories and builders as all those functions are taken care of by the DI framework that you use. Also, and it may seem as a minor advantage, but if you use DI framework you need not worry about going through the project and changing all of (example names) `YourCustomInterface customInterfaceObject = new YourCustomClass();` to a new implementaion, as long as your new class (in place of `YourCustomClass`) still implements `CustomInterface` - you can just tweak the DI factory class to produce new class and voila - this new class will be automatically instantiated throughout your code. This allows for better maintenence and control over the program. Another example of DI usage is unit-testing - it allows to conveniently inject all needed dependencies and keep the amount of written code at a lower level.
-    - One of the most popular libraries for DI for Android is Dagger 2. [Mindorks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
+   - One of the most popular libraries for DI for Android is Dagger 2. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
 
 * How is a `StringBuilder` implemented to avoid the immutable string allocation problem?
 
@@ -768,7 +768,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the structure of an Android Application?
 
-* What is `Context`? How is it used? [Mindorks](https://blog.mindorks.com/understanding-context-in-android-application-330913e32514)
+* What is `Context`? How is it used? [MindOrks](https://blog.mindorks.com/understanding-context-in-android-application-330913e32514)
 
 * What is `AndroidManifest.xml`?
 
@@ -780,7 +780,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Explain `Activity` and `Fragment` lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle), simplified diagram for [Activity](https://developer.android.com/guide/components/activities/activity-lifecycle.html#alc), [Fragment](https://developer.android.com/guide/components/fragments.html#Lifecycle))
 
-* What are "launch modes"? [Mindorks](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
+* What are "launch modes"? [MindOrks](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
 
 #### Fragments
 
@@ -810,7 +810,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Relative Layout vs Linear Layout.
 
-* Tell about Constraint Layout [Mindorks](https://blog.mindorks.com/using-constraint-layout-in-android-531e68019cd)
+* Tell about Constraint Layout [MindOrks](https://blog.mindorks.com/using-constraint-layout-in-android-531e68019cd)
 
 * Do you know what is the view tree? How can you optimize its depth?
 
@@ -820,7 +820,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the ViewHolder pattern? Why should we use it?
 
-* What is `SnapHelper`? [Mindorks](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
+* What is `SnapHelper`? [MindOrks](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
 
 #### Dialogs and Toasts
 
@@ -890,7 +890,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the relationship between the life cycle of an `AsyncTask` and an `Activity`? What problems can this result in? How can these problems be avoided?
 
-* Explain `Looper`, `Handler` and `HandlerThread`. [Mindorks](https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a) and [Mindorks Video](https://www.youtube.com/watch?v=rfLMwbOKLRk&list=PL6nth5sRD25hVezlyqlBO9dafKMc5fAU2)
+* Explain `Looper`, `Handler` and `HandlerThread`. [MindOrks](https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a) and [MindOrks Video](https://www.youtube.com/watch?v=rfLMwbOKLRk&list=PL6nth5sRD25hVezlyqlBO9dafKMc5fAU2)
 
 #### Working With Multimedia Content
 
@@ -898,7 +898,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the difference between a regular `Bitmap` and a nine-patch image?
 
-* Tell about the `Bitmap` pool. [Mindorks](https://blog.mindorks.com/how-to-use-bitmap-pool-in-android-56c71a55533c)
+* Tell about the `Bitmap` pool. [MindOrks](https://blog.mindorks.com/how-to-use-bitmap-pool-in-android-56c71a55533c)
 
 * How to play sounds in Android? [Vogella](http://www.vogella.com/tutorials/AndroidMedia/article.html)
 
@@ -922,11 +922,11 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * How does the OutOfMemory happens?
 
-* How do you find memory leaks in Android applications? [Mindorks](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
+* How do you find memory leaks in Android applications? [MindOrks](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
 
 #### Battery Life Optimizations
 
-* How to reduce battery usage in an android application? [Mindorks](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
+* How to reduce battery usage in an android application? [MindOrks](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
 
 * What is Doze? What about App Standby?
 
@@ -944,7 +944,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the NDK and why is it useful?
 
-* What is renderscript? [Mindorks](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
+* What is renderscript? [MindOrks](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
 
 #### Android System Internal
 
@@ -964,7 +964,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is DDMS and what can you do with it?
 
-* What is the StrictMode? [Mindorks](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
+* What is the StrictMode? [MindOrks](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
 
 * What is Lint? What is it used for?
 
@@ -978,15 +978,15 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the difference between Serializable and Parcelable? Which is the best approach in Android?
 
-* Have you developed widgets? Describe. [Mindorks](https://blog.mindorks.com/android-widgets-ad3d166458d3)
+* Have you developed widgets? Describe. [MindOrks](https://blog.mindorks.com/android-widgets-ad3d166458d3)
 
 * What is AAPT?
 
 * What is the best way to update the screen periodically?
 
-* FlatBuffers vs JSON. [Mindorks](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
+* FlatBuffers vs JSON. [MindOrks](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
 
-* `HashMap`, `ArrayMap` and `SparseArray` [Mindorks](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
+* `HashMap`, `ArrayMap` and `SparseArray` [MindOrks](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
 
 * What are Annotations? [Mindorks](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9), [Link](https://blog.mindorks.com/improve-your-android-coding-through-annotations-26b3273c137a)
 
@@ -1000,14 +1000,14 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What are Android Architecture Components? [Developer Android](https://developer.android.com/topic/libraries/architecture/index.html)
 
-* How to implement search using RxJava operators? [Mindorks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
+* How to implement search using RxJava operators? [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
 
 
 ### Architecture
 
 * Describe the architecture of your last app.
 
-* Describe MVP. [Mindorks](https://mindorks.com/course/android-mvp-introduction)
+* Describe MVP. [MindOrks](https://mindorks.com/course/android-mvp-introduction)
 
 * What is presenter?
 
@@ -1023,7 +1023,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Describe MVVM. [GitHub](https://github.com/MindorksOpenSource/android-mvvm-architecture)
 
-* Tell something about clean code [Mindorks](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
+* Tell something about clean code [MindOrks](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
 
 
 ### Design Problem
@@ -1043,13 +1043,13 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 ### Tools And Technologies
 
-* Git. [GitHub](https://github.com/git-tips/tips)
+* Git. [MindOrks Youtube](https://www.youtube.com/watch?v=D4h8Dbrjt4M&list=PL6nth5sRD25itbyNVUULAebzL-VLrLfkK)
 
-* RxJava. [Mindorks](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
+* RxJava. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
 
-* Dagger 2. [Mindorks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
+* Dagger 2. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
 
-* Android Development Useful Tools. [Mindorks](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
+* Android Development Useful Tools. [MindOrks](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
 
 * Firebase. [Firebase.google.com](https://firebase.google.com/)
 
@@ -1089,7 +1089,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * About build System - gradle, maven, ant, buck.
 
-* About multiple apk for android application. [Mindorks](https://mindorks.com/blog/how-to-create-multiple-apk-files-for-android-application)
+* About multiple apk for android application. [MindOrks](https://mindorks.com/blog/how-to-create-multiple-apk-files-for-android-application)
 
 * Reverse Engineering an APK.
 
@@ -1103,24 +1103,24 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Can we identify users who have uninstalled our application?
 
-* Implement Search Using RxJava Operators. [Mindorks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
+* Implement Search Using RxJava Operators. [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
 
-* APK Size Reduction. [Mindorks](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
+* APK Size Reduction. [MindOrks](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
 
-* Android Development Best Practices. [Mindorks](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
+* Android Development Best Practices. [MindOrks](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
 
-* Android Code Style And Guidelines. [Mindorks](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
+* Android Code Style And Guidelines. [MindOrks](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
 
-* Have you tried Kotlin? [Mindorks](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
+* Have you tried Kotlin? [MindOrks](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
 
-* What are the metrics that you should measure continuously while android application development? [Mindorks](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
+* What are the metrics that you should measure continuously while android application development? [MindOrks](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
 
 
 ### Found this project useful :heart:
 
 * Support by clicking the :star: button on the upper right of this page. :v:
 
-[Check out Mindorks awesome open source projects here](https://mindorks.com/open-source-projects)
+[Check out MindOrks awesome open source projects here](https://mindorks.com/open-source-projects)
 
 
 ### License
