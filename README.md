@@ -248,18 +248,18 @@
     - Breadth First Search
     - Depth First Search
 
-## Core Java
+### Core Java
 
-### OOP
+#### OOP
 
-* #### Explain OOP Concepts.
+* Explain OOP Concepts.
     - Object-Oriented Programming is a methodology of designing a program using classes, objects, 
     [inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)),
     [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)),
     [abstraction](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)), and
     [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)).
 
-* #### Differences between abstract classes and interfaces? [GitHub](https://arjun-sna.github.io/java/2017/02/02/abstractvsinterface/)
+* Differences between abstract classes and interfaces? [GitHub](https://arjun-sna.github.io/java/2017/02/02/abstractvsinterface/)
     - An abstract class, is a class that contains both concrete and abstract methods 
     (methods without implementations). An abstract method must be implemented by the abstract class
      sub-classes. Abstract classes cannot be instantiated and need to be extended to be used.
@@ -267,11 +267,11 @@
     represent, what all of its subclasses should have in common. The subclasses provide the 
     implementation for each of these methods. Interfaces are implemented.
 
-* #### What is the difference between iterator and enumeration in java?
+* What is the difference between iterator and enumeration in java?
 
-* #### Do you agree we use composition over inheritance? [Composition vs Inheritance](https://www.journaldev.com/12086/composition-vs-inheritance)
+* Do you agree we use composition over inheritance? [Composition vs Inheritance](https://www.journaldev.com/12086/composition-vs-inheritance)
 
-* #### Difference between method overloading and overriding.
+* Difference between method overloading and overriding.
         <p align="center">
         <img alt="Overloading and Overriding" src="https://github.com/codeshef/android-interview-questions/blob/master/assets/overloading-vs-overriding.png">
         </p>
@@ -332,17 +332,17 @@
         Argument list should be different while doing method overloading. Argument list should be same in method Overriding.
 It is also a good practice to annotate overridden methods with `@Override` to make the compiler be able to notify you if child is, indeed, overriding parent's class method during compile-time.
 
-* #### What are the access modifiers you know? What does each one do? <br>
+* What are the access modifiers you know? What does each one do? <br>
    - There are four access modifiers in Java language (from strictest to the most lenient):
         1. `private` *variables*, *methods*, *constructors* or *inner classes* are only visible to its' containing class and its' methods. This modifier is most commonly used, for example, to allow variable access only through getters and setters or to hide underlying implementation of classes that should not be used by user and therefore maintain encapsulation. Singleton constructor is also marked `private` to avoid unwanted instantiation from outside.
         2. `protected` can be used on *variables*, *methods* and *constructors* therefore allowing access only to subclasses and classes that are inside the same package as protected members' class.
         3. Default (no keyword is used) this modifier can be applied to *classes*, *variables*, *constructors* and *methods* and allows access from classes and methods inside the same package.
         4. `public` modifier is widely-used on *classes*, *variables*, *constructors* and *methods* to grant access from any class and method anywhere. It should not be used everywhere as it implies that data marked with `public` is not sensitive and can not be used to harm the program.
 
-* #### Can an Interface implement another Interface?
+* Can an Interface implement another Interface?
   - Yes, an interface can implement another interface (and more than one), but it needs to use `extends`, rather than `implements` keyword. And while you can not remove methods from parent interface, you can add new ones freely to your subinterface.
 
-* #### What is Polymorphism? What about Inheritance?
+* What is Polymorphism? What about Inheritance?
   - Polymorphism in Java has two types: Compile time polymorphism (static binding) and Runtime polymorphism (dynamic binding). Method overloading is an example of static polymorphism, while method overriding is an example of dynamic polymorphism.
 
 	An important example of polymorphism is how a parent class refers to a child class object.  In fact, any object that satisfies more than one IS-A relationship is polymorphic in nature.
@@ -364,9 +364,9 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 	}
 	```
 
-* #### Multiple inheritance in Classes and Interfaces in java [Blog](http://codeinventions.blogspot.in/2014/07/can-interface-extend-multiple.html)
+* Multiple inheritance in Classes and Interfaces in java [Blog](http://codeinventions.blogspot.in/2014/07/can-interface-extend-multiple.html)
 
-* #### What are the design patterns? [GitHub](https://github.com/iluwatar/java-design-patterns)
+* What are the design patterns? [GitHub](https://github.com/iluwatar/java-design-patterns)
     - Creational patterns
         - Builder [Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern?oldformat=true)
 
@@ -410,11 +410,11 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
     - It should be noted that standard class hierarchy *does not* apply to generic types. It means that `Integer` in `List<Integer>` is not inherited from `<Number>` - it is actually inherited directly from `<Object>`. You can still put some constraints on what classes can be passed as a parameter into a generic by using [wildcards](https://docs.oracle.com/javase/tutorial/extra/generics/wildcards.html) like `<?>`, `<? extends MyCustomClass>` or `<? super Number>`.
     - While generics are very useful, late inclusion into Java language has put some restraints on their implementation - backward compatibility required them to remain just "syntactic sugar" - they are erased ([type erasure](https://docs.oracle.com/javase/tutorial/java/generics/erasure.html)) during compile-time and replaced with `object` class.
 
-* #### What is Java `PriorityQueue`?
+* What is Java `PriorityQueue`?
 
-### Objects and Primitives
+#### Objects and Primitives
 
-### String
+#### String
 
 * How is `String` class implemented? Why was it made immutable?
   - There is no primitive variant of `String` class in Java language - all strings are just wrappers around underlying array of characters, which is declared `final`. This means that, once a `String` object is instantiated, it cannot be changed through normal tools of the language (Reflection still can mess things up horribly, because in Java no object is truly immutable). This is why `String` variables in classes are the first candidates to be used, when you want to override `hashCode()` and `equals()` of your class - you can be sure, that all their required contracts will be satisfied.
@@ -431,20 +431,20 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
     is a valid statement, that, firstly, will create an object with literal value "Hello, World!" and then will create and return another object with value "HELLO, WORLD!"
   - `String` was made immutable to prevent malicious manipulation of data, when, for example, user login or other sensitive data is being send to a server.
 
-* #### What does it means to say that a `String` is immutable?
+* What does it means to say that a `String` is immutable?
     - It means that once created, `String` object's `char[]` (its' containing value) is declared `final` and, therefore, it can not be changed during runtime.
 
-* #### What is `String.intern()`? When and why should it be used?
+* What is `String.intern()`? When and why should it be used?
 
-* #### Can you list 8 primitive types in java?
+* Can you list 8 primitive types in java?
 
-* #### What is the difference between an Integer and int?
+* What is the difference between an Integer and int?
   - `int` is a primitive data type (with `boolean`, `byte`, `char`, `short`, `long`, `float` and `double`), while `Integer` (with `Boolean`, `Byte`, `Character`, `Short`,`Long`, `Float` and `Double`) is a [wrapper](https://docs.oracle.com/javase/tutorial/java/data/numberclasses.html) class that encapsulates primitive data type, while providing useful methods to perform different tasks with it.
 
-* #### What is Autoboxing and Unboxing?
+* What is Autoboxing and Unboxing?
   - Autoboxing and Unboxing is the process of automatic wrapping (putting in a box) and unwrapping (getting the value out) of primitive data types, that have "wrapper" classes. So `int` and `Integer` can (almost always) be used interchangeably in Java language, meaning a method `void giveMeInt(int i) { ... }` can take `int` as well as `Integer` as a parameter.
 
-* #### Typecast in Java.
+* Typecast in Java.
     - In Java, you can use casts to polymorph one class into another, compatible one. For example:
         ```java
             long i = 10l;
@@ -453,7 +453,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
         ```
         Here we see, that, while narrowing (`long i` -> `int j`) requires an explicit cast to make sure the programmer realizes, that there may be some data or precision loss, widening (`int j` -> `long k`) does not require an explicit cast, because there can be no data loss (`long` can take larger numbers than `int` allows).
 
-* #### Do objects get passed by reference or value in Java? Elaborate on that.
+* Do objects get passed by reference or value in Java? Elaborate on that.
     - In Java all primitives and objects are passed by value, meaning that their copy will be manipulated in the receiving method. But there is a caveat - when you pass an object reference into a method, a *copy of this reference* is made, so it still points to the same object. This means, that any changes that you make to the insides of this object are retained, when the method exits.
         ```java
         public class Pointer {
@@ -509,7 +509,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
                              //  the same reference to an instance
         ```
 
-* #### What is the difference between instantiation and initialization of an object?
+* What is the difference between instantiation and initialization of an object?
     - Initialization is the process of the memory allocation, when a new variable is created. Variables should be explicitly given a value, otherwise they may contain a random value that remained from the previous variable that was using the same memory space. To avoid this problem, Java language assigns default (right after initialization) values to some data types:
         * `boolean` defaults to `false`;
         * `byte` defaults to `0`;
@@ -526,44 +526,44 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
             j = 10; // Instantiated variable
         ```
 
-* #### What the difference between local, instance and class variables?
+* What the difference between local, instance and class variables?
   - Local variables exist only in methods that created them, they are stored separately in their respected Thread Stack (for more information, see question about Java Memory Model) and cannot have their reference passed outside of the method scope. That also means that they cannot be assigned any access modifier or made `static` - because they only exist during enclosing method's execution and those modifiers just do not make sense, since no other outside method can get them anyway.
   - Instance variables are the ones, that are declared in classes and their value can be different from one instance of the class to another, but they always require that class' instance to exist.
   - Class variables are those, that are marked with `static` keyword in their class' body. They can only have one value across all instances of that class (changing it in one place will change it in their class and, therefore, in all instances) and can even be retrieved without that class' instance (if their access modifier allows it).
 
-### Java Memory Model and Garbage Collector
+#### Java Memory Model and Garbage Collector
 
-* #### What is garbage collector? How does it work?
+* What is garbage collector? How does it work?
   - All objects are allocated on the heap area managed by the JVM.
   As long as an object is being referenced, the JVM considers it alive.
   Once an object is no longer referenced and therefore is not reachable by the application code,
   the garbage collector removes it and reclaims the unused memory.
 
-* #### What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized? [Jenkov](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
+* What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized? [Jenkov](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
 
-* #### What is memory leak and how does Java handle it?
+* What is memory leak and how does Java handle it?
 
-* #### What are strong, soft, weak and phantom references in Java?
+* What are strong, soft, weak and phantom references in Java?
 
-### Concurrency
+#### Concurrency
 
-* #### What does the keyword `synchronized` mean? [Link](https://stackoverflow.com/a/1085745/2621950)
+* What does the keyword `synchronized` mean? [Link](https://stackoverflow.com/a/1085745/2621950)
 
-* #### What is a `ThreadPoolExecutor`? [MindOrks](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
+* What is a `ThreadPoolExecutor`? [MindOrks](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
 
-* #### What is `volatile` modifier? [Jenkov](http://tutorials.jenkov.com/java-concurrency/volatile.html)
+* What is `volatile` modifier? [Jenkov](http://tutorials.jenkov.com/java-concurrency/volatile.html)
 
-* #### The clasess in the atomic package expose a common set of methods: `get`, `set,`, `lazyset`, `compareAndSet`, and `weakCompareAndSet`. Please describe them.
+* The clasess in the atomic package expose a common set of methods: `get`, `set,`, `lazyset`, `compareAndSet`, and `weakCompareAndSet`. Please describe them.
 
-### Exceptions
+#### Exceptions
 
-* #### How does the `try{} catch{} finally{}` works? [Link](http://tutorials.jenkov.com/java-exception-handling/basic-try-catch-finally.html)
+* How does the `try{} catch{} finally{}` works? [Link](http://tutorials.jenkov.com/java-exception-handling/basic-try-catch-finally.html)
 
-* #### What is the difference between a `Checked Exception` and an `Un-Checked Exception`?
+* What is the difference between a `Checked Exception` and an `Un-Checked Exception`?
 
-### Others
+#### Others
 
-* #### What is serialization? How do you implement it?
+* What is serialization? How do you implement it?
     - Serialization is the process of converting an object into a stream of bytes in order to store
     an object into memory, so that it can be recreated at a later time, while still keeping the
     object's original state and data. In Android you may use either the Serializable, Externalizable (implements Serializable) or Parcelable interfaces.
@@ -678,21 +678,21 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
         Note: For a full explanation of the <b>describeContents()</b> method see [StackOverflow](https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799).
         In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good thing to try and understand everything that is happening.
 
-* #### What is `transient` modifier? [JavaTPoint](https://www.javatpoint.com/transient-keyword)
+* What is `transient` modifier? [JavaTPoint](https://www.javatpoint.com/transient-keyword)
 
-* #### What are anonymous classes?[OracleDoc](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html)
+* What are anonymous classes?[OracleDoc](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html)
 
-* #### What is the difference between using `==` and `.equals` on an object?[GeeksForGeeks](http://www.geeksforgeeks.org/difference-equals-method-java/)
+* What is the difference between using `==` and `.equals` on an object?[GeeksForGeeks](http://www.geeksforgeeks.org/difference-equals-method-java/)
 
-* #### What is the `hashCode()` and `equals()` used for?
+* What is the `hashCode()` and `equals()` used for?
 
-* #### Why would you not call abstract method in constructor?
+* Why would you not call abstract method in constructor?
 
-* #### Can you list 8 primitive types in java?
+* Can you list 8 primitive types in java?
 
-* #### When would you make an object value `final`?
+* When would you make an object value `final`?
 
-* #### What are these `final`, `finally` and `finalize` keywords?
+* What are these `final`, `finally` and `finalize` keywords?
   - `final` is a keyword in the java language. It is used to apply restrictions on class, method and variable. Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
 	```java
 	class FinalExample {
@@ -738,387 +738,387 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What does the `static` word mean in Java?
     - In case of `static` variable it means that this variable (its' value or the object it references) spans across all instances of enclosing class (changing it in one instance affects all others), while in case of `static` methods it means that these methods can be invoked without an instance of their enclosing class. It is useful, for example, when you create util classes that need not be instantiated every time you want to use them.
 
-* #### Can a `static` method be overridden in Java?
+* Can a `static` method be overridden in Java?
   - While child class can override a static method with another static method with the same signature (return type can be downcasted), it is not truly overridden - it becomes "hidden", but both methods can still be accessed under right circumstances (see question about overloading/overriding above).
 
-* #### When is a `static` block run?
+* When is a `static` block run?
     - Code inside static block is executed only once: the first time you make an object of that class or the first time you access a static member of that class (even if you never make an object of that class).
 
-* #### What is reflection? [Jenkov](http://tutorials.jenkov.com/java-reflection/index.html)
+* What is reflection? [Jenkov](http://tutorials.jenkov.com/java-reflection/index.html)
 
-* #### What is Dependency Injection?  Can you name few libraries? Have you used any?
+* What is Dependency Injection?  Can you name few libraries? Have you used any?
   - Dependency injection is a very powerful technique, where you relay the task of providing object with its' dependencies on instances of other objects (OOP Composition, [Wikipedia](https://en.wikipedia.org/wiki/Object_composition?oldformat=true)) to a separate class. This allows for fewer constructors, setters, factories and builders as all those functions are taken care of by the DI framework that you use. Also, and it may seem as a minor advantage, but if you use DI framework you need not worry about going through the project and changing all of (example names) `YourCustomInterface customInterfaceObject = new YourCustomClass();` to a new implementaion, as long as your new class (in place of `YourCustomClass`) still implements `CustomInterface` - you can just tweak the DI factory class to produce new class and voila - this new class will be automatically instantiated throughout your code. This allows for better maintenence and control over the program. Another example of DI usage is unit-testing - it allows to conveniently inject all needed dependencies and keep the amount of written code at a lower level.
    - One of the most popular libraries for DI for Android is Dagger 2. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
 
-* #### How is a `StringBuilder` implemented to avoid the immutable string allocation problem?
+* How is a `StringBuilder` implemented to avoid the immutable string allocation problem?
 
-* #### Difference between `StringBuffer` and `StringBuilder`? [Link](http://www.journaldev.com/137/stringbuffer-vs-stringbuilder)
+* Difference between `StringBuffer` and `StringBuilder`? [Link](http://www.journaldev.com/137/stringbuffer-vs-stringbuilder)
 
-* #### What’s the difference between an `Enumeration` and an `Iterator`? [Link](http://javaconceptoftheday.com/differences-between-enumeration-vs-iterator-in-java/)
+* What’s the difference between an `Enumeration` and an `Iterator`? [Link](http://javaconceptoftheday.com/differences-between-enumeration-vs-iterator-in-java/)
 
-* #### What is the difference between fail-fast and fail-safe iterators in Java?
+* What is the difference between fail-fast and fail-safe iterators in Java?
 
-* #### What is Java NIO? [Link](http://tutorials.jenkov.com/java-nio/index.html)
+* What is Java NIO? [Link](http://tutorials.jenkov.com/java-nio/index.html)
 
-## Core Android
+### Core Android
 
-### Base
+#### Base
 
-* #### Tell all the Android application components. [Android Official](https://developer.android.com/guide/components/fundamentals.html#Components)
+* Tell all the Android application components. [Android Official](https://developer.android.com/guide/components/fundamentals.html#Components)
 
-* #### What is the structure of an Android Application?
+* What is the structure of an Android Application?
 
-* #### What is `Context`? How is it used? [MindOrks](https://blog.mindorks.com/understanding-context-in-android-application-330913e32514)
+* What is `Context`? How is it used? [MindOrks](https://blog.mindorks.com/understanding-context-in-android-application-330913e32514)
 
-* #### What is `AndroidManifest.xml`?
+* What is `AndroidManifest.xml`?
 
-* #### What is `Application` class?
+* What is `Application` class?
 
-### Activity
+#### Activity
 
-* #### What is `Activity`?
+* What is `Activity`?
 
-* #### Explain `Activity` and `Fragment` lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle), simplified diagram for [Activity](https://developer.android.com/guide/components/activities/activity-lifecycle.html#alc), [Fragment](https://developer.android.com/guide/components/fragments.html#Lifecycle))
+* Explain `Activity` and `Fragment` lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle), simplified diagram for [Activity](https://developer.android.com/guide/components/activities/activity-lifecycle.html#alc), [Fragment](https://developer.android.com/guide/components/fragments.html#Lifecycle))
 
-* #### What are "launch modes"? [MindOrks](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
+* What are "launch modes"? [MindOrks](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
 
-### Fragments
+#### Fragments
 
-* #### What is `Fragment`?
+* What is `Fragment`?
 
-* #### What is the difference between a `Fragment` and an `Activity`? Explain the relationship between the two.
+* What is the difference between a `Fragment` and an `Activity`? Explain the relationship between the two.
 
-* #### Why is it recommended to use only the default constructor to create a `Fragment`? [StackOverflow](https://stackoverflow.com/a/16042750/2809326)
+* Why is it recommended to use only the default constructor to create a `Fragment`? [StackOverflow](https://stackoverflow.com/a/16042750/2809326)
 
-* #### How would you communicate between two Fragments? [Android Official](https://developer.android.com/training/basics/fragments/communicating.html)
+* How would you communicate between two Fragments? [Android Official](https://developer.android.com/training/basics/fragments/communicating.html)
 
-* #### What is retained `Fragment`? [AndroidDesignPatterns](https://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html)
+* What is retained `Fragment`? [AndroidDesignPatterns](https://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html)
 
-### Views and ViewGroups
+#### Views and ViewGroups
 
-* #### What is `View` in Android?
+* What is `View` in Android?
 
-* #### Difference between `View.GONE` and `View.INVISIBLE`?
+* Difference between `View.GONE` and `View.INVISIBLE`?
 
-* #### Can you create custom views? How?
+* Can you create custom views? How?
 
-* #### What are ViewGroups and how they are different from the Views?
+* What are ViewGroups and how they are different from the Views?
 
-* #### What is a canvas?
+* What is a canvas?
 
-* #### What is a `SurfaceView`?
+* What is a `SurfaceView`?
 
-* #### Relative Layout vs Linear Layout.
+* Relative Layout vs Linear Layout.
 
-* #### Tell about Constraint Layout [MindOrks](https://blog.mindorks.com/using-constraint-layout-in-android-531e68019cd)
+* Tell about Constraint Layout [MindOrks](https://blog.mindorks.com/using-constraint-layout-in-android-531e68019cd)
 
-* #### Do you know what is the view tree? How can you optimize its depth?
+* Do you know what is the view tree? How can you optimize its depth?
 
 #### Displaying Lists of Content
 
-* #### What is the difference between `ListView` and `RecyclerView`?
+* What is the difference between `ListView` and `RecyclerView`?
 
-* #### What is the ViewHolder pattern? Why should we use it?
+* What is the ViewHolder pattern? Why should we use it?
 
-* #### What is `SnapHelper`? [MindOrks](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
+* What is `SnapHelper`? [MindOrks](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
 
-### Dialogs and Toasts
+#### Dialogs and Toasts
 
-* #### What is `Dialog` in Android?
+* What is `Dialog` in Android?
 
-* #### What is `Toast` in Android?
+* What is `Toast` in Android?
 
-* #### What the difference between `Dialog` and `Dialog Fragment`?
+* What the difference between `Dialog` and `Dialog Fragment`?
 
-### Intents and Broadcasting
+#### Intents and Broadcasting
 
-* #### What is `Intent`? [StackOverflow](https://stackoverflow.com/questions/6578051/what-is-an-intent-in-android)
+* What is `Intent`? [StackOverflow](https://stackoverflow.com/questions/6578051/what-is-an-intent-in-android)
 
-* #### What is an Implicit `Intent`?
+* What is an Implicit `Intent`?
 
-* #### What is an Explicit `Intent`?
+* What is an Explicit `Intent`?
 
-* #### What is a `BroadcastReceiver`? [StackOverflow](https://stackoverflow.com/questions/5296987/what-is-broadcastreceiver-and-when-we-use-it)
+* What is a `BroadcastReceiver`? [StackOverflow](https://stackoverflow.com/questions/5296987/what-is-broadcastreceiver-and-when-we-use-it)
 
-* #### What is a `LocalBroadcastManager`? [Developer Android](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
+* What is a `LocalBroadcastManager`? [Developer Android](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
 
-* #### What is the function of an `IntentFilter`?
+* What is the function of an `IntentFilter`?
 
-* #### What is a Sticky `Intent`? [AndroidInterview](http://www.androidinterview.com/what-is-a-sticky-intent/)
+* What is a Sticky `Intent`? [AndroidInterview](http://www.androidinterview.com/what-is-a-sticky-intent/)
 
-* #### Describe how broadcasts and intents work to be able to pass messages around your app?
+* Describe how broadcasts and intents work to be able to pass messages around your app?
 
-* #### What is a `PendingIntent`?
+* What is a `PendingIntent`?
 
-* #### What are the different types of Broadcasts?
+* What are the different types of Broadcasts?
 
-### Services
+#### Services
 
-* #### What is `Serivce`?
+* What is `Serivce`?
 
-* #### `Service` vs `IntentService`. [StackOverflow](https://stackoverflow.com/a/15772151/5153275)
+* `Service` vs `IntentService`. [StackOverflow](https://stackoverflow.com/a/15772151/5153275)
 
-* #### What is a `JobScheduler`? [Vogella](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
+* What is a `JobScheduler`? [Vogella](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
 
-### Inter-process Communication
+#### Inter-process Communication
 
-* #### How can two distinct Android apps interact?
+* How can two distinct Android apps interact?
 
-* #### Is it possible to run an Android app in multiple processes? How?
+* Is it possible to run an Android app in multiple processes? How?
 
-* #### What is AIDL? Enumerate the steps in creating a bounded service through AIDL.
+* What is AIDL? Enumerate the steps in creating a bounded service through AIDL.
 
-* #### What can you use for background processing in Android?
+* What can you use for background processing in Android?
 
-* #### What is a `ContentProvider` and what is it typically used for?
+* What is a `ContentProvider` and what is it typically used for?
 
-### Long-running Operations
+#### Long-running Operations
 
-* #### How would you perform a long-running operation in an application?
+* How would you perform a long-running operation in an application?
 
-* #### Why should you avoid to run non-ui code on the main thread?
+* Why should you avoid to run non-ui code on the main thread?
 
-* #### What is ANR? How can the ANR be prevented?
+* What is ANR? How can the ANR be prevented?
 
-* #### What is an `AsyncTask`?
+* What is an `AsyncTask`?
 
-* #### What are the problems in asynctask?
+* What are the problems in asynctask?
 
-* #### When would you use java thread instead of an asynctask?
+* When would you use java thread instead of an asynctask?
 
-* #### What is a `Loader`?
+* What is a `Loader`?
 
-* #### What is the relationship between the life cycle of an `AsyncTask` and an `Activity`? What problems can this result in? How can these problems be avoided?
+* What is the relationship between the life cycle of an `AsyncTask` and an `Activity`? What problems can this result in? How can these problems be avoided?
 
-* #### Explain `Looper`, `Handler` and `HandlerThread`. [MindOrks](https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a) and [MindOrks Video](https://www.youtube.com/watch?v=rfLMwbOKLRk&list=PL6nth5sRD25hVezlyqlBO9dafKMc5fAU2)
+* Explain `Looper`, `Handler` and `HandlerThread`. [MindOrks](https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a) and [MindOrks Video](https://www.youtube.com/watch?v=rfLMwbOKLRk&list=PL6nth5sRD25hVezlyqlBO9dafKMc5fAU2)
 
-### Working With Multimedia Content
+#### Working With Multimedia Content
 
-* #### How do you handle bitmaps in Android as it takes too much memory?
+* How do you handle bitmaps in Android as it takes too much memory?
 
-* #### What is the difference between a regular `Bitmap` and a nine-patch image?
+* What is the difference between a regular `Bitmap` and a nine-patch image?
 
-* #### Tell about the `Bitmap` pool. [MindOrks](https://blog.mindorks.com/how-to-use-bitmap-pool-in-android-56c71a55533c)
+* Tell about the `Bitmap` pool. [MindOrks](https://blog.mindorks.com/how-to-use-bitmap-pool-in-android-56c71a55533c)
 
-* #### How to play sounds in Android? [Vogella](http://www.vogella.com/tutorials/AndroidMedia/article.html)
+* How to play sounds in Android? [Vogella](http://www.vogella.com/tutorials/AndroidMedia/article.html)
 
-### Data Saving
+#### Data Saving
 
-* #### How to persist data in an Android app?
+* How to persist data in an Android app?
 
-* #### What is ORM? How does it work?
+* What is ORM? How does it work?
 
-* #### How would you preserve `Activity` state during a screen rotation? [StackOverflow](https://stackoverflow.com/questions/3915952/how-to-save-state-during-orientation-change-in-android-if-the-state-is-made-of-m)
+* How would you preserve `Activity` state during a screen rotation? [StackOverflow](https://stackoverflow.com/questions/3915952/how-to-save-state-during-orientation-change-in-android-if-the-state-is-made-of-m)
 
-* #### What are different ways to store data in your Android app?
+* What are different ways to store data in your Android app?
 
-### Look and Feel
+#### Look and Feel
 
-* #### What is a `Spannable`?
+* What is a `Spannable`?
 
-### Memory Optimizations
+#### Memory Optimizations
 
-* #### What is the `onTrimMemory()` method?
+* What is the `onTrimMemory()` method?
 
-* #### How does the OutOfMemory happens?
+* How does the OutOfMemory happens?
 
-* #### How do you find memory leaks in Android applications? [MindOrks](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
+* How do you find memory leaks in Android applications? [MindOrks](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
 
-### Battery Life Optimizations
+#### Battery Life Optimizations
 
-* #### How to reduce battery usage in an android application? [MindOrks](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
+* How to reduce battery usage in an android application? [MindOrks](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
 
-* #### What is Doze? What about App Standby?
+* What is Doze? What about App Standby?
 
-* #### What is `overdraw`? [Developer Android](https://developer.android.com/topic/performance/rendering/overdraw.html)
+* What is `overdraw`? [Developer Android](https://developer.android.com/topic/performance/rendering/overdraw.html)
 
-### Supporting Different Screen Sizes
+#### Supporting Different Screen Sizes
 
-* #### How did you support different types of resolutions?
+* How did you support different types of resolutions?
 
-### Permissions
+#### Permissions
 
 * What are the different protection levels in permission?
 
 #### Native Programming
 
-* #### What is the NDK and why is it useful?
+* What is the NDK and why is it useful?
 
-* #### What is renderscript? [MindOrks](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
+* What is renderscript? [MindOrks](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
 
-### Android System Internal
+#### Android System Internal
 
-* #### What is the Dalvik Virtual Machine?
+* What is the Dalvik Virtual Machine?
 
-* #### What is the difference JVM, DVM and ART?
+* What is the difference JVM, DVM and ART?
 
-* #### What are the differences between Dalvik and ART?
+* What are the differences between Dalvik and ART?
 
-* #### What is DEX?
+* What is DEX?
 
-* #### Can you manually call the Garbage collector?
+* Can you manually call the Garbage collector?
 
-### Debugging and Programming Tools
+#### Debugging and Programming Tools
 
-* #### What is ADB?
+* What is ADB?
 
-* #### What is DDMS and what can you do with it?
+* What is DDMS and what can you do with it?
 
-* #### What is the StrictMode? [MindOrks](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
+* What is the StrictMode? [MindOrks](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
 
-* #### What is Lint? What is it used for?
+* What is Lint? What is it used for?
 
-### Others
+#### Others
 
-* #### Why Bundle class is used for data passing and why cannot we use simple Map data structure
+* Why Bundle class is used for data passing and why cannot we use simple Map data structure
 
-* #### How do you troubleshoot a crashing application?
+* How do you troubleshoot a crashing application?
 
-* #### Explain Android notification system?
+* Explain Android notification system?
 
-* #### What is the difference between Serializable and Parcelable? Which is the best approach in Android?
+* What is the difference between Serializable and Parcelable? Which is the best approach in Android?
 
-* #### Have you developed widgets? Describe. [MindOrks](https://blog.mindorks.com/android-widgets-ad3d166458d3)
+* Have you developed widgets? Describe. [MindOrks](https://blog.mindorks.com/android-widgets-ad3d166458d3)
 
-* #### What is AAPT?
+* What is AAPT?
 
-* #### What is the best way to update the screen periodically?
+* What is the best way to update the screen periodically?
 
-* #### FlatBuffers vs JSON. [MindOrks](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
+* FlatBuffers vs JSON. [MindOrks](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
 
-* #### `HashMap`, `ArrayMap` and `SparseArray` [MindOrks](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
+* `HashMap`, `ArrayMap` and `SparseArray` [MindOrks](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
 
-* #### What are Annotations? [Mindorks](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9), [Link](https://blog.mindorks.com/improve-your-android-coding-through-annotations-26b3273c137a)
+* What are Annotations? [Mindorks](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9), [Link](https://blog.mindorks.com/improve-your-android-coding-through-annotations-26b3273c137a)
 
-* #### How to handle multi-touch in android [GitHub](https://arjun-sna.github.io/android/2016/07/20/multi-touch-android/)
+* How to handle multi-touch in android [GitHub](https://arjun-sna.github.io/android/2016/07/20/multi-touch-android/)
 
-* #### How to implement XML namespaces?
+* How to implement XML namespaces?
 
-* #### What is the support library? Why was it introduced?[MartianCraft](http://martiancraft.com/blog/2015/06/android-support-library/)
+* What is the support library? Why was it introduced?[MartianCraft](http://martiancraft.com/blog/2015/06/android-support-library/)
 
-* #### What is Android Data Binding? [Developer Android](https://developer.android.com/topic/libraries/data-binding/index.html)
+* What is Android Data Binding? [Developer Android](https://developer.android.com/topic/libraries/data-binding/index.html)
 
-* #### What are Android Architecture Components? [Developer Android](https://developer.android.com/topic/libraries/architecture/index.html)
+* What are Android Architecture Components? [Developer Android](https://developer.android.com/topic/libraries/architecture/index.html)
 
-* #### How to implement search using RxJava operators? [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
+* How to implement search using RxJava operators? [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
 
 
 ### Architecture
 
-* #### Describe the architecture of your last app.
+* Describe the architecture of your last app.
 
-* #### Describe MVP. [MindOrks](https://mindorks.com/course/android-mvp-introduction)
+* Describe MVP. [MindOrks](https://mindorks.com/course/android-mvp-introduction)
 
-* #### What is presenter?
+* What is presenter?
 
-* #### What is model?
+* What is model?
 
-* #### Describe MVC.
+* Describe MVC.
 
-* #### Describe MVI
+* Describe MVI
 
-* #### Describe the repository pattern
+* Describe the repository pattern
 
-* #### What is controller?
+* What is controller?
 
-* #### Describe MVVM. [GitHub](https://github.com/MindorksOpenSource/android-mvvm-architecture)
+* Describe MVVM. [GitHub](https://github.com/MindorksOpenSource/android-mvvm-architecture)
 
-* #### Tell something about clean code [MindOrks](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
+* Tell something about clean code [MindOrks](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
 
 
 ### Design Problem
 
-* #### Design Uber App.
+* Design Uber App.
 
-* #### Design Facebook App.
+* Design Facebook App.
 
-* #### Design Facebook Near-By Friends App.
+* Design Facebook Near-By Friends App.
 
-* #### Design WhatsApp.
+* Design WhatsApp.
 
-* #### Design SnapChat.
+* Design SnapChat.
 
-* #### Design problems based on location based app.
+* Design problems based on location based app.
 
 
 ### Tools And Technologies
 
-* #### Git. [MindOrks Youtube](https://www.youtube.com/watch?v=D4h8Dbrjt4M&list=PL6nth5sRD25itbyNVUULAebzL-VLrLfkK)
+* Git. [MindOrks Youtube](https://www.youtube.com/watch?v=D4h8Dbrjt4M&list=PL6nth5sRD25itbyNVUULAebzL-VLrLfkK)
 
-* #### RxJava. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
+* RxJava. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
 
-* #### Dagger 2. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
+* Dagger 2. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
 
-* #### Android Development Useful Tools. [MindOrks](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
+* Android Development Useful Tools. [MindOrks](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
 
-* #### Firebase. [Firebase.google.com](https://firebase.google.com/)
+* Firebase. [Firebase.google.com](https://firebase.google.com/)
 
 
 ### Android Test Driven Development
 
-* #### What is Espresso? [Developer Android](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
+* What is Espresso? [Developer Android](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
 
-* #### What is Robolectric? [Robolectric](http://robolectric.org/)
+* What is Robolectric? [Robolectric](http://robolectric.org/)
 
-* #### What are the disadvantages of using Roboelectric? 
+* What are the disadvantages of using Roboelectric? 
 
-* #### What is UI-Automator? [Developer Android](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
+* What is UI-Automator? [Developer Android](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
 
-* #### Explain unit test.
+* Explain unit test.
 
-* #### Explain instrumented test.
+* Explain instrumented test.
 
-* #### Have you done unit testing or automatic testing?
+* Have you done unit testing or automatic testing?
 
-* #### Why Mockito is used? [Official site](http://site.mockito.org/)
+* Why Mockito is used? [Official site](http://site.mockito.org/)
 
-* #### Describe JUnit test.
+* Describe JUnit test.
 
 
 ### Others
 
-* #### Describe how REST APIs work. What is REST?
+* Describe how REST APIs work. What is REST?
 
-* #### Describe other forms of web API architecutre. [GraphQL] (https://medium.com/mindorks/what-is-graphql-and-using-it-on-android-ab8e493abdd7) [SOAP] (https://www.w3.org/TR/ws-arch/)
+* Describe other forms of web API architecutre. [GraphQL] (https://medium.com/mindorks/what-is-graphql-and-using-it-on-android-ab8e493abdd7) [SOAP] (https://www.w3.org/TR/ws-arch/)
 
-* #### Describe SQLite.
+* Describe SQLite.
 
-* #### Describe database.
+* Describe database.
 
-* #### Project Management tool - trello, basecamp, kanban, jira, asana.
+* Project Management tool - trello, basecamp, kanban, jira, asana.
 
-* #### About build System - gradle, maven, ant, buck.
+* About build System - gradle, maven, ant, buck.
 
-* #### About multiple apk for android application. [MindOrks](https://mindorks.com/blog/how-to-create-multiple-apk-files-for-android-application)
+* About multiple apk for android application. [MindOrks](https://mindorks.com/blog/how-to-create-multiple-apk-files-for-android-application)
 
-* #### Reverse Engineering an APK.
+* Reverse Engineering an APK.
 
-* #### What is proguard used for?
+* What is proguard used for?
 
-* #### What is obfuscation? What is it used for? What about minification?
+* What is obfuscation? What is it used for? What about minification?
 
-* #### How do you build your apps for release?
+* How do you build your apps for release?
 
-* #### How do you control the application version update to specific number of users?
+* How do you control the application version update to specific number of users?
 
-* #### Can we identify users who have uninstalled our application?
+* Can we identify users who have uninstalled our application?
 
-* #### Implement Search Using RxJava Operators. [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
+* Implement Search Using RxJava Operators. [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
 
-* #### APK Size Reduction. [MindOrks](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
+* APK Size Reduction. [MindOrks](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
 
-* #### Android Development Best Practices. [MindOrks](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
+* Android Development Best Practices. [MindOrks](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
 
-* #### Android Code Style And Guidelines. [MindOrks](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
+* Android Code Style And Guidelines. [MindOrks](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
 
-* #### Have you tried Kotlin? [MindOrks](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
+* Have you tried Kotlin? [MindOrks](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
 
-* #### What are the metrics that you should measure continuously while android application development? [MindOrks](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
+* What are the metrics that you should measure continuously while android application development? [MindOrks](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
 
 
 ### Found this project useful :heart:
 
-* #### Support by clicking the :star: button on the upper right of this page. :v:
+* Support by clicking the :star: button on the upper right of this page. :v:
 
 [Check out MindOrks awesome open source projects here](https://mindorks.com/open-source-projects)
 
