@@ -248,11 +248,11 @@
     - Breadth First Search
     - Depth First Search
 
-### Core Java
+## Core Java
 
-#### OOP
+### OOP
 
-* Explain OOP Concepts.
+* ####Explain OOP Concepts.
     - Object-Oriented Programming is a methodology of designing a program using classes, objects, 
     [inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)),
     [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)),
