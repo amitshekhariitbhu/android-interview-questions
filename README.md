@@ -932,193 +932,193 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * #### What is `overdraw`? [Developer Android](https://developer.android.com/topic/performance/rendering/overdraw.html)
 
-#### Supporting Different Screen Sizes
+### Supporting Different Screen Sizes
 
-* How did you support different types of resolutions?
+* #### How did you support different types of resolutions?
 
-#### Permissions
+### Permissions
 
 * What are the different protection levels in permission?
 
 #### Native Programming
 
-* What is the NDK and why is it useful?
+* #### What is the NDK and why is it useful?
 
-* What is renderscript? [MindOrks](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
+* #### What is renderscript? [MindOrks](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
 
-#### Android System Internal
+### Android System Internal
 
-* What is the Dalvik Virtual Machine?
+* #### What is the Dalvik Virtual Machine?
 
-* What is the difference JVM, DVM and ART?
+* #### What is the difference JVM, DVM and ART?
 
-* What are the differences between Dalvik and ART?
+* #### What are the differences between Dalvik and ART?
 
-* What is DEX?
+* #### What is DEX?
 
-* Can you manually call the Garbage collector?
+* #### Can you manually call the Garbage collector?
 
-#### Debugging and Programming Tools
+### Debugging and Programming Tools
 
-* What is ADB?
+* #### What is ADB?
 
-* What is DDMS and what can you do with it?
+* #### What is DDMS and what can you do with it?
 
-* What is the StrictMode? [MindOrks](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
+* #### What is the StrictMode? [MindOrks](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
 
-* What is Lint? What is it used for?
+* #### What is Lint? What is it used for?
 
-#### Others
+### Others
 
-* Why Bundle class is used for data passing and why cannot we use simple Map data structure
+* #### Why Bundle class is used for data passing and why cannot we use simple Map data structure
 
-* How do you troubleshoot a crashing application?
+* #### How do you troubleshoot a crashing application?
 
-* Explain Android notification system?
+* #### Explain Android notification system?
 
-* What is the difference between Serializable and Parcelable? Which is the best approach in Android?
+* #### What is the difference between Serializable and Parcelable? Which is the best approach in Android?
 
-* Have you developed widgets? Describe. [MindOrks](https://blog.mindorks.com/android-widgets-ad3d166458d3)
+* #### Have you developed widgets? Describe. [MindOrks](https://blog.mindorks.com/android-widgets-ad3d166458d3)
 
-* What is AAPT?
+* #### What is AAPT?
 
-* What is the best way to update the screen periodically?
+* #### What is the best way to update the screen periodically?
 
-* FlatBuffers vs JSON. [MindOrks](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
+* #### FlatBuffers vs JSON. [MindOrks](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
 
-* `HashMap`, `ArrayMap` and `SparseArray` [MindOrks](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
+* #### `HashMap`, `ArrayMap` and `SparseArray` [MindOrks](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
 
-* What are Annotations? [Mindorks](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9), [Link](https://blog.mindorks.com/improve-your-android-coding-through-annotations-26b3273c137a)
+* #### What are Annotations? [Mindorks](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9), [Link](https://blog.mindorks.com/improve-your-android-coding-through-annotations-26b3273c137a)
 
-* How to handle multi-touch in android [GitHub](https://arjun-sna.github.io/android/2016/07/20/multi-touch-android/)
+* #### How to handle multi-touch in android [GitHub](https://arjun-sna.github.io/android/2016/07/20/multi-touch-android/)
 
-* How to implement XML namespaces?
+* #### How to implement XML namespaces?
 
-* What is the support library? Why was it introduced?[MartianCraft](http://martiancraft.com/blog/2015/06/android-support-library/)
+* #### What is the support library? Why was it introduced?[MartianCraft](http://martiancraft.com/blog/2015/06/android-support-library/)
 
-* What is Android Data Binding? [Developer Android](https://developer.android.com/topic/libraries/data-binding/index.html)
+* #### What is Android Data Binding? [Developer Android](https://developer.android.com/topic/libraries/data-binding/index.html)
 
-* What are Android Architecture Components? [Developer Android](https://developer.android.com/topic/libraries/architecture/index.html)
+* #### What are Android Architecture Components? [Developer Android](https://developer.android.com/topic/libraries/architecture/index.html)
 
-* How to implement search using RxJava operators? [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
+* #### How to implement search using RxJava operators? [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
 
 
 ### Architecture
 
-* Describe the architecture of your last app.
+* #### Describe the architecture of your last app.
 
-* Describe MVP. [MindOrks](https://mindorks.com/course/android-mvp-introduction)
+* #### Describe MVP. [MindOrks](https://mindorks.com/course/android-mvp-introduction)
 
-* What is presenter?
+* #### What is presenter?
 
-* What is model?
+* #### What is model?
 
-* Describe MVC.
+* #### Describe MVC.
 
-* Describe MVI
+* #### Describe MVI
 
-* Describe the repository pattern
+* #### Describe the repository pattern
 
-* What is controller?
+* #### What is controller?
 
-* Describe MVVM. [GitHub](https://github.com/MindorksOpenSource/android-mvvm-architecture)
+* #### Describe MVVM. [GitHub](https://github.com/MindorksOpenSource/android-mvvm-architecture)
 
-* Tell something about clean code [MindOrks](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
+* #### Tell something about clean code [MindOrks](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
 
 
 ### Design Problem
 
-* Design Uber App.
+* #### Design Uber App.
 
-* Design Facebook App.
+* #### Design Facebook App.
 
-* Design Facebook Near-By Friends App.
+* #### Design Facebook Near-By Friends App.
 
-* Design WhatsApp.
+* #### Design WhatsApp.
 
-* Design SnapChat.
+* #### Design SnapChat.
 
-* Design problems based on location based app.
+* #### Design problems based on location based app.
 
 
 ### Tools And Technologies
 
-* Git. [MindOrks Youtube](https://www.youtube.com/watch?v=D4h8Dbrjt4M&list=PL6nth5sRD25itbyNVUULAebzL-VLrLfkK)
+* #### Git. [MindOrks Youtube](https://www.youtube.com/watch?v=D4h8Dbrjt4M&list=PL6nth5sRD25itbyNVUULAebzL-VLrLfkK)
 
-* RxJava. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
+* #### RxJava. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
 
-* Dagger 2. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
+* #### Dagger 2. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
 
-* Android Development Useful Tools. [MindOrks](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
+* #### Android Development Useful Tools. [MindOrks](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
 
-* Firebase. [Firebase.google.com](https://firebase.google.com/)
+* #### Firebase. [Firebase.google.com](https://firebase.google.com/)
 
 
 ### Android Test Driven Development
 
-* What is Espresso? [Developer Android](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
+* #### What is Espresso? [Developer Android](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
 
-* What is Robolectric? [Robolectric](http://robolectric.org/)
+* #### What is Robolectric? [Robolectric](http://robolectric.org/)
 
-* What are the disadvantages of using Roboelectric? 
+* #### What are the disadvantages of using Roboelectric? 
 
-* What is UI-Automator? [Developer Android](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
+* #### What is UI-Automator? [Developer Android](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
 
-* Explain unit test.
+* #### Explain unit test.
 
-* Explain instrumented test.
+* #### Explain instrumented test.
 
-* Have you done unit testing or automatic testing?
+* #### Have you done unit testing or automatic testing?
 
-* Why Mockito is used? [Official site](http://site.mockito.org/)
+* #### Why Mockito is used? [Official site](http://site.mockito.org/)
 
-* Describe JUnit test.
+* #### Describe JUnit test.
 
 
 ### Others
 
-* Describe how REST APIs work. What is REST?
+* #### Describe how REST APIs work. What is REST?
 
-* Describe other forms of web API architecutre. [GraphQL] (https://medium.com/mindorks/what-is-graphql-and-using-it-on-android-ab8e493abdd7) [SOAP] (https://www.w3.org/TR/ws-arch/)
+* #### Describe other forms of web API architecutre. [GraphQL] (https://medium.com/mindorks/what-is-graphql-and-using-it-on-android-ab8e493abdd7) [SOAP] (https://www.w3.org/TR/ws-arch/)
 
-* Describe SQLite.
+* #### Describe SQLite.
 
-* Describe database.
+* #### Describe database.
 
-* Project Management tool - trello, basecamp, kanban, jira, asana.
+* #### Project Management tool - trello, basecamp, kanban, jira, asana.
 
-* About build System - gradle, maven, ant, buck.
+* #### About build System - gradle, maven, ant, buck.
 
-* About multiple apk for android application. [MindOrks](https://mindorks.com/blog/how-to-create-multiple-apk-files-for-android-application)
+* #### About multiple apk for android application. [MindOrks](https://mindorks.com/blog/how-to-create-multiple-apk-files-for-android-application)
 
-* Reverse Engineering an APK.
+* #### Reverse Engineering an APK.
 
-* What is proguard used for?
+* #### What is proguard used for?
 
-* What is obfuscation? What is it used for? What about minification?
+* #### What is obfuscation? What is it used for? What about minification?
 
-* How do you build your apps for release?
+* #### How do you build your apps for release?
 
-* How do you control the application version update to specific number of users?
+* #### How do you control the application version update to specific number of users?
 
-* Can we identify users who have uninstalled our application?
+* #### Can we identify users who have uninstalled our application?
 
-* Implement Search Using RxJava Operators. [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
+* #### Implement Search Using RxJava Operators. [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
 
-* APK Size Reduction. [MindOrks](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
+* #### APK Size Reduction. [MindOrks](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
 
-* Android Development Best Practices. [MindOrks](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
+* #### Android Development Best Practices. [MindOrks](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
 
-* Android Code Style And Guidelines. [MindOrks](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
+* #### Android Code Style And Guidelines. [MindOrks](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
 
-* Have you tried Kotlin? [MindOrks](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
+* #### Have you tried Kotlin? [MindOrks](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
 
-* What are the metrics that you should measure continuously while android application development? [MindOrks](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
+* #### What are the metrics that you should measure continuously while android application development? [MindOrks](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
 
 
 ### Found this project useful :heart:
 
-* Support by clicking the :star: button on the upper right of this page. :v:
+* #### Support by clicking the :star: button on the upper right of this page. :v:
 
 [Check out MindOrks awesome open source projects here](https://mindorks.com/open-source-projects)
 
