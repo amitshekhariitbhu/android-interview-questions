@@ -770,7 +770,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is `Context`? How is it used? [MindOrks](https://blog.mindorks.com/understanding-context-in-android-application-330913e32514)
 
-* What is `AndroidManifest.xml`?
+* What is `AndroidManifest.xml`? [Android Official](https://developer.android.com/guide/topics/manifest/manifest-intro)
 
 * What is `Application` class?
 
@@ -798,9 +798,9 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is `View` in Android?
 
-* Difference between `View.GONE` and `View.INVISIBLE`?
+* Difference between `View.GONE` and `View.INVISIBLE`? [StackOverflow](https://stackoverflow.com/questions/11556607/android-difference-between-invisible-and-gone)
 
-* Can you create custom views? How?
+* Can you create custom views? How? Yes!Excellent documentation in [Google Developers Training advance course](https://google-developer-training.github.io/android-developer-advanced-course-concepts/unit-5-advanced-graphics-and-views/lesson-10-custom-views/10-1-c-custom-views/10-1-c-custom-views.html), custom views chapter
 
 * What are ViewGroups and how they are different from the Views?
 
