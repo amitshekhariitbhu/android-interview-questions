@@ -1093,7 +1093,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Reverse Engineering an APK.
 
-* What is proguard used for?
+* What is proguard used for? [MindOrks](https://blog.mindorks.com/applying-proguard-in-an-android-application)
 
 * What is obfuscation? What is it used for? What about minification?
 
