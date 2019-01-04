@@ -776,15 +776,15 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Activity
 
-* What is `Activity`?
+* What is `Activity`? [MindOrks](https://blog.mindorks.com/android-activity-lifecycle)
 
-* Explain `Activity` and `Fragment` lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle), simplified diagram for [Activity](https://developer.android.com/guide/components/activities/activity-lifecycle.html#alc), [Fragment](https://developer.android.com/guide/components/fragments.html#Lifecycle))
+* Explain `Activity` and `Fragment` lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle), simplified diagram for [Activity](https://developer.android.com/guide/components/activities/activity-lifecycle.html#alc), [Fragment](https://developer.android.com/guide/components/fragments.html#Lifecycle)), [Activity lifecycle](https://blog.mindorks.com/android-activity-lifecycle) and [Fragments lifecycle](https://blog.mindorks.com/android-fragments-and-its-lifecycle)
 
 * What are "launch modes"? [MindOrks](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
 
 #### Fragments
 
-* What is `Fragment`?
+* What is `Fragment`? [MindOrks](https://blog.mindorks.com/android-fragments-and-its-lifecycle)
 
 * What is the difference between a `Fragment` and an `Activity`? Explain the relationship between the two.
 
@@ -796,7 +796,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Views and ViewGroups
 
-* What is `View` in Android?
+* What is `View` in Android? [MindOrks](https://blog.mindorks.com/android-user-interface-view-components)
 
 * Difference between `View.GONE` and `View.INVISIBLE`? [StackOverflow](https://stackoverflow.com/questions/11556607/android-difference-between-invisible-and-gone)
 
@@ -808,7 +808,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is a `SurfaceView`?
 
-* Relative Layout vs Linear Layout.
+* Relative Layout vs Linear Layout. [MindOrks](https://blog.mindorks.com/android-layout-relative-linear-frame)
 
 * Tell about Constraint Layout [MindOrks](https://blog.mindorks.com/using-constraint-layout-in-android-531e68019cd)
 
@@ -904,7 +904,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Data Saving
 
-* How to persist data in an Android app?
+* How to persist data in an Android app? [MindOrks](https://blog.mindorks.com/android-shared-preferences-in-kotlin)
 
 * What is ORM? How does it work?
 
