@@ -1077,6 +1077,8 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 ### Others
 
+* What is Android Jetpack? [MindOrks](https://blog.mindorks.com/what-is-android-jetpack-and-why-should-we-use-it)
+
 * Describe how REST APIs work. What is REST?
 
 * Describe other forms of web API architecutre. [GraphQL] (https://medium.com/mindorks/what-is-graphql-and-using-it-on-android-ab8e493abdd7) [SOAP] (https://www.w3.org/TR/ws-arch/)
