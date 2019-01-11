@@ -998,7 +998,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is Android Data Binding? [Developer Android](https://developer.android.com/topic/libraries/data-binding/index.html)
 
-* What are Android Architecture Components? [Developer Android](https://developer.android.com/topic/libraries/architecture/index.html)
+* What are Android Architecture Components? [MindOrks](https://blog.mindorks.com/what-are-android-architecture-components)
 
 * How to implement search using RxJava operators? [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
 
