@@ -252,14 +252,14 @@
 
 #### OOP
 
-* Explain OOP Concepts.
+* **Explain OOP Concepts.**
     - Object-Oriented Programming is a methodology of designing a program using classes, objects, 
     [inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)),
     [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)),
     [abstraction](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)), and
     [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)).
 
-* Differences between abstract classes and interfaces? [GitHub](https://arjun-sna.github.io/java/2017/02/02/abstractvsinterface/)
+* **Differences between abstract classes and interfaces?** [GitHub](https://arjun-sna.github.io/java/2017/02/02/abstractvsinterface/)
     - An abstract class, is a class that contains both concrete and abstract methods 
     (methods without implementations). An abstract method must be implemented by the abstract class
      sub-classes. Abstract classes cannot be instantiated and need to be extended to be used.
@@ -267,11 +267,11 @@
     represent, what all of its subclasses should have in common. The subclasses provide the 
     implementation for each of these methods. Interfaces are implemented.
 
-* What is the difference between iterator and enumeration in java?
+* **What is the difference between iterator and enumeration in java?**
 
-* Do you agree we use composition over inheritance? [Composition vs Inheritance](https://www.journaldev.com/12086/composition-vs-inheritance)
+* **Do you agree we use composition over inheritance?** [Composition vs Inheritance](https://www.journaldev.com/12086/composition-vs-inheritance)
 
-* Difference between method overloading and overriding.
+* **Difference between method overloading and overriding.**
         <p align="center">
         <img alt="Overloading and Overriding" src="https://github.com/codeshef/android-interview-questions/blob/master/assets/overloading-vs-overriding.png">
         </p>
@@ -332,17 +332,17 @@
         Argument list should be different while doing method overloading. Argument list should be same in method Overriding.
 It is also a good practice to annotate overridden methods with `@Override` to make the compiler be able to notify you if child is, indeed, overriding parent's class method during compile-time.
 
-* What are the access modifiers you know? What does each one do? <br>
+* **What are the access modifiers you know? What does each one do?** <br>
    - There are four access modifiers in Java language (from strictest to the most lenient):
         1. `private` *variables*, *methods*, *constructors* or *inner classes* are only visible to its' containing class and its' methods. This modifier is most commonly used, for example, to allow variable access only through getters and setters or to hide underlying implementation of classes that should not be used by user and therefore maintain encapsulation. Singleton constructor is also marked `private` to avoid unwanted instantiation from outside.
         2. `protected` can be used on *variables*, *methods* and *constructors* therefore allowing access only to subclasses and classes that are inside the same package as protected members' class.
         3. Default (no keyword is used) this modifier can be applied to *classes*, *variables*, *constructors* and *methods* and allows access from classes and methods inside the same package.
         4. `public` modifier is widely-used on *classes*, *variables*, *constructors* and *methods* to grant access from any class and method anywhere. It should not be used everywhere as it implies that data marked with `public` is not sensitive and can not be used to harm the program.
 
-* Can an Interface implement another Interface?
+* **Can an Interface implement another Interface?**
   - Yes, an interface can implement another interface (and more than one), but it needs to use `extends`, rather than `implements` keyword. And while you can not remove methods from parent interface, you can add new ones freely to your subinterface.
 
-* What is Polymorphism? What about Inheritance?
+* **What is Polymorphism? What about Inheritance?**
   - Polymorphism in Java has two types: Compile time polymorphism (static binding) and Runtime polymorphism (dynamic binding). Method overloading is an example of static polymorphism, while method overriding is an example of dynamic polymorphism.
 
 	An important example of polymorphism is how a parent class refers to a child class object.  In fact, any object that satisfies more than one IS-A relationship is polymorphic in nature.
@@ -364,9 +364,9 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 	}
 	```
 
-* Multiple inheritance in Classes and Interfaces in java [Blog](http://codeinventions.blogspot.in/2014/07/can-interface-extend-multiple.html)
+* **Multiple inheritance in Classes and Interfaces in java** [Blog](http://codeinventions.blogspot.in/2014/07/can-interface-extend-multiple.html)
 
-* What are the design patterns? [GitHub](https://github.com/iluwatar/java-design-patterns)
+* **What are the design patterns?** [GitHub](https://github.com/iluwatar/java-design-patterns)
     - Creational patterns
         - Builder [Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern?oldformat=true)
 
@@ -398,7 +398,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * `Stack` vs `Queue`
 
-* Explain Generics in Java?
+* **Explain Generics in Java?**
     - Generics were included in Java language to provide stronger type checks, by allowing the programmer to define, which classes can be used with other classes
         > In a nutshell, generics enable types (classes and interfaces) to be parameters when defining classes, interfaces and methods. Much like the more familiar formal parameters used in method declarations, type parameters provide a way for you to re-use the same code with different inputs. The difference is that the inputs to formal parameters are values, while the inputs to type parameters are types. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/generics/why.html))
 
@@ -410,13 +410,13 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
     - It should be noted that standard class hierarchy *does not* apply to generic types. It means that `Integer` in `List<Integer>` is not inherited from `<Number>` - it is actually inherited directly from `<Object>`. You can still put some constraints on what classes can be passed as a parameter into a generic by using [wildcards](https://docs.oracle.com/javase/tutorial/extra/generics/wildcards.html) like `<?>`, `<? extends MyCustomClass>` or `<? super Number>`.
     - While generics are very useful, late inclusion into Java language has put some restraints on their implementation - backward compatibility required them to remain just "syntactic sugar" - they are erased ([type erasure](https://docs.oracle.com/javase/tutorial/java/generics/erasure.html)) during compile-time and replaced with `object` class.
 
-* What is Java `PriorityQueue`?
+* **What is Java `PriorityQueue`?**
 
 #### Objects and Primitives
 
 #### String
 
-* How is `String` class implemented? Why was it made immutable?
+* **How is `String` class implemented? Why was it made immutable?**
   - There is no primitive variant of `String` class in Java language - all strings are just wrappers around underlying array of characters, which is declared `final`. This means that, once a `String` object is instantiated, it cannot be changed through normal tools of the language (Reflection still can mess things up horribly, because in Java no object is truly immutable). This is why `String` variables in classes are the first candidates to be used, when you want to override `hashCode()` and `equals()` of your class - you can be sure, that all their required contracts will be satisfied.
     > Note: The String class is immutable, so that once it is created a String object cannot be changed. The String class  has a number of methods, some of which will be discussed below, that appear to modify strings. Since strings are  immutable, what these methods really do is create and return a new string that contains the result of the operation. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/data/strings.html))
 
@@ -431,17 +431,17 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
     is a valid statement, that, firstly, will create an object with literal value "Hello, World!" and then will create and return another object with value "HELLO, WORLD!"
   - `String` was made immutable to prevent malicious manipulation of data, when, for example, user login or other sensitive data is being send to a server.
 
-* What does it means to say that a `String` is immutable?
+* **What does it means to say that a `String` is immutable?**
     - It means that once created, `String` object's `char[]` (its' containing value) is declared `final` and, therefore, it can not be changed during runtime.
 
-* What is `String.intern()`? When and why should it be used?
+* **What is `String.intern()`? When and why should it be used?**
 
-* Can you list 8 primitive types in java?
+* **Can you list 8 primitive types in java?**
 
-* What is the difference between an Integer and int?
+* **What is the difference between an Integer and int?**
   - `int` is a primitive data type (with `boolean`, `byte`, `char`, `short`, `long`, `float` and `double`), while `Integer` (with `Boolean`, `Byte`, `Character`, `Short`,`Long`, `Float` and `Double`) is a [wrapper](https://docs.oracle.com/javase/tutorial/java/data/numberclasses.html) class that encapsulates primitive data type, while providing useful methods to perform different tasks with it.
 
-* What is Autoboxing and Unboxing?
+* **What is Autoboxing and Unboxing?**
   - Autoboxing and Unboxing is the process of automatic wrapping (putting in a box) and unwrapping (getting the value out) of primitive data types, that have "wrapper" classes. So `int` and `Integer` can (almost always) be used interchangeably in Java language, meaning a method `void giveMeInt(int i) { ... }` can take `int` as well as `Integer` as a parameter.
 
 * Typecast in Java.
@@ -453,7 +453,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
         ```
         Here we see, that, while narrowing (`long i` -> `int j`) requires an explicit cast to make sure the programmer realizes, that there may be some data or precision loss, widening (`int j` -> `long k`) does not require an explicit cast, because there can be no data loss (`long` can take larger numbers than `int` allows).
 
-* Do objects get passed by reference or value in Java? Elaborate on that.
+* **Do objects get passed by reference or value in Java? Elaborate on that.**
     - In Java all primitives and objects are passed by value, meaning that their copy will be manipulated in the receiving method. But there is a caveat - when you pass an object reference into a method, a *copy of this reference* is made, so it still points to the same object. This means, that any changes that you make to the insides of this object are retained, when the method exits.
         ```java
         public class Pointer {
@@ -509,7 +509,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
                              //  the same reference to an instance
         ```
 
-* What is the difference between instantiation and initialization of an object?
+* **What is the difference between instantiation and initialization of an object?**
     - Initialization is the process of the memory allocation, when a new variable is created. Variables should be explicitly given a value, otherwise they may contain a random value that remained from the previous variable that was using the same memory space. To avoid this problem, Java language assigns default (right after initialization) values to some data types:
         * `boolean` defaults to `false`;
         * `byte` defaults to `0`;
@@ -526,44 +526,44 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
             j = 10; // Instantiated variable
         ```
 
-* What the difference between local, instance and class variables?
+* **What the difference between local, instance and class variables?**
   - Local variables exist only in methods that created them, they are stored separately in their respected Thread Stack (for more information, see question about Java Memory Model) and cannot have their reference passed outside of the method scope. That also means that they cannot be assigned any access modifier or made `static` - because they only exist during enclosing method's execution and those modifiers just do not make sense, since no other outside method can get them anyway.
   - Instance variables are the ones, that are declared in classes and their value can be different from one instance of the class to another, but they always require that class' instance to exist.
   - Class variables are those, that are marked with `static` keyword in their class' body. They can only have one value across all instances of that class (changing it in one place will change it in their class and, therefore, in all instances) and can even be retrieved without that class' instance (if their access modifier allows it).
 
 #### Java Memory Model and Garbage Collector
 
-* What is garbage collector? How does it work?
+* **What is garbage collector? How does it work?**
   - All objects are allocated on the heap area managed by the JVM.
   As long as an object is being referenced, the JVM considers it alive.
   Once an object is no longer referenced and therefore is not reachable by the application code,
   the garbage collector removes it and reclaims the unused memory.
 
-* What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized? [Jenkov](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
+* **What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized?** [Jenkov](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
 
-* What is memory leak and how does Java handle it?
+* **What is memory leak and how does Java handle it?**
 
-* What are strong, soft, weak and phantom references in Java?
+* **What are strong, soft, weak and phantom references in Java?**
 
 #### Concurrency
 
-* What does the keyword `synchronized` mean? [Link](https://stackoverflow.com/a/1085745/2621950)
+* **What does the keyword `synchronized` mean?** [Link](https://stackoverflow.com/a/1085745/2621950)
 
-* What is a `ThreadPoolExecutor`? [MindOrks](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
+* **What is a `ThreadPoolExecutor`?** [MindOrks](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
 
-* What is `volatile` modifier? [Jenkov](http://tutorials.jenkov.com/java-concurrency/volatile.html)
+* **What is `volatile` modifier?** [Jenkov](http://tutorials.jenkov.com/java-concurrency/volatile.html)
 
 * The clasess in the atomic package expose a common set of methods: `get`, `set,`, `lazyset`, `compareAndSet`, and `weakCompareAndSet`. Please describe them.
 
 #### Exceptions
 
-* How does the `try{} catch{} finally{}` works? [Link](http://tutorials.jenkov.com/java-exception-handling/basic-try-catch-finally.html)
+* **How does the `try{} catch{} finally{}` works?** [Link](http://tutorials.jenkov.com/java-exception-handling/basic-try-catch-finally.html)
 
-* What is the difference between a `Checked Exception` and an `Un-Checked Exception`?
+* **What is the difference between a `Checked Exception` and an `Un-Checked Exception`?**
 
 #### Others
 
-* What is serialization? How do you implement it?
+* **What is serialization? How do you implement it?**
     - Serialization is the process of converting an object into a stream of bytes in order to store
     an object into memory, so that it can be recreated at a later time, while still keeping the
     object's original state and data. In Android you may use either the Serializable, Externalizable (implements Serializable) or Parcelable interfaces.
@@ -678,21 +678,21 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
         Note: For a full explanation of the <b>describeContents()</b> method see [StackOverflow](https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799).
         In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good thing to try and understand everything that is happening.
 
-* What is `transient` modifier? [JavaTPoint](https://www.javatpoint.com/transient-keyword)
+* **What is `transient` modifier?** [JavaTPoint](https://www.javatpoint.com/transient-keyword)
 
-* What are anonymous classes?[OracleDoc](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html)
+* **What are anonymous classes?** [OracleDoc](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html)
 
-* What is the difference between using `==` and `.equals` on an object?[GeeksForGeeks](http://www.geeksforgeeks.org/difference-equals-method-java/)
+* **What is the difference between using `==` and `.equals` on an object?** [GeeksForGeeks](http://www.geeksforgeeks.org/difference-equals-method-java/)
 
-* What is the `hashCode()` and `equals()` used for?
+* **What is the `hashCode()` and `equals()` used for?**
 
-* Why would you not call abstract method in constructor?
+* **Why would you not call abstract method in constructor?**
 
-* Can you list 8 primitive types in java?
+* **Can you list 8 primitive types in java?**
 
-* When would you make an object value `final`?
+* **When would you make an object value `final`?**
 
-* What are these `final`, `finally` and `finalize` keywords?
+* **What are these `final`, `finally` and `finalize` keywords?**
   - `final` is a keyword in the java language. It is used to apply restrictions on class, method and variable. Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
 	```java
 	class FinalExample {
@@ -735,30 +735,30 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 	```
 
 
-* What does the `static` word mean in Java?
+* **What does the `static` word mean in Java?**
     - In case of `static` variable it means that this variable (its' value or the object it references) spans across all instances of enclosing class (changing it in one instance affects all others), while in case of `static` methods it means that these methods can be invoked without an instance of their enclosing class. It is useful, for example, when you create util classes that need not be instantiated every time you want to use them.
 
-* Can a `static` method be overridden in Java?
+* **Can a `static` method be overridden in Java?**
   - While child class can override a static method with another static method with the same signature (return type can be downcasted), it is not truly overridden - it becomes "hidden", but both methods can still be accessed under right circumstances (see question about overloading/overriding above).
 
-* When is a `static` block run?
+* **When is a `static` block run?**
     - Code inside static block is executed only once: the first time you make an object of that class or the first time you access a static member of that class (even if you never make an object of that class).
 
-* What is reflection? [Jenkov](http://tutorials.jenkov.com/java-reflection/index.html)
+* **What is reflection?** [Jenkov](http://tutorials.jenkov.com/java-reflection/index.html)
 
-* What is Dependency Injection?  Can you name few libraries? Have you used any?
+* **What is Dependency Injection?  Can you name few libraries? Have you used any?**
   - Dependency injection is a very powerful technique, where you relay the task of providing object with its' dependencies on instances of other objects (OOP Composition, [Wikipedia](https://en.wikipedia.org/wiki/Object_composition?oldformat=true)) to a separate class. This allows for fewer constructors, setters, factories and builders as all those functions are taken care of by the DI framework that you use. Also, and it may seem as a minor advantage, but if you use DI framework you need not worry about going through the project and changing all of (example names) `YourCustomInterface customInterfaceObject = new YourCustomClass();` to a new implementaion, as long as your new class (in place of `YourCustomClass`) still implements `CustomInterface` - you can just tweak the DI factory class to produce new class and voila - this new class will be automatically instantiated throughout your code. This allows for better maintenence and control over the program. Another example of DI usage is unit-testing - it allows to conveniently inject all needed dependencies and keep the amount of written code at a lower level.
    - One of the most popular libraries for DI for Android is Dagger 2. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
 
-* How is a `StringBuilder` implemented to avoid the immutable string allocation problem?
+* **How is a `StringBuilder` implemented to avoid the immutable string allocation problem?**
 
-* Difference between `StringBuffer` and `StringBuilder`? [Link](http://www.journaldev.com/137/stringbuffer-vs-stringbuilder)
+* **Difference between `StringBuffer` and `StringBuilder`?** [Link](http://www.journaldev.com/137/stringbuffer-vs-stringbuilder)
 
-* What’s the difference between an `Enumeration` and an `Iterator`? [Link](http://javaconceptoftheday.com/differences-between-enumeration-vs-iterator-in-java/)
+* **What’s the difference between an `Enumeration` and an `Iterator`?** [Link](http://javaconceptoftheday.com/differences-between-enumeration-vs-iterator-in-java/)
 
-* What is the difference between fail-fast and fail-safe iterators in Java?
+* **What is the difference between fail-fast and fail-safe iterators in Java?**
 
-* What is Java NIO? [Link](http://tutorials.jenkov.com/java-nio/index.html)
+* **What is Java NIO?** [Link](http://tutorials.jenkov.com/java-nio/index.html)
 
 ### Core Android
 
