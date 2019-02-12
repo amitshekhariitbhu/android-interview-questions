@@ -1117,6 +1117,8 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What are the metrics that you should measure continuously while android application development? [MindOrks](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
 
+* What is Chrome Custom Tabs? How to display web content in your app? [MindOrks](https://blog.mindorks.com/android-browser-lets-launch-chrome-custom-tabs-with-kotlin)
+
 
 ### Found this project useful :heart:
 
