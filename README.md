@@ -1083,7 +1083,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Describe other forms of web API architecutre. [GraphQL] (https://medium.com/mindorks/what-is-graphql-and-using-it-on-android-ab8e493abdd7) [SOAP] (https://www.w3.org/TR/ws-arch/)
 
-* Describe SQLite.
+* Describe SQLite. [MindOrks](https://blog.mindorks.com/android-sqlite-database-in-kotlin)
 
 * Describe database.
 
