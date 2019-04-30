@@ -860,7 +860,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Services
 
-* What is `Serivce`?
+* What is `Serivce`? [Developer Android](https://developer.android.com/guide/components/services)
 
 * `Service` vs `IntentService`. [StackOverflow](https://stackoverflow.com/a/15772151/5153275)
 
