@@ -868,7 +868,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Inter-process Communication
 
-* How can two distinct Android apps interact?
+* How can two distinct Android apps interact?  [Developer Android](https://developer.android.com/training/basics/intents)
 
 * Is it possible to run an Android app in multiple processes? How?
 
