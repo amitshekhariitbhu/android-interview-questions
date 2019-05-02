@@ -886,13 +886,13 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is ANR? How can the ANR be prevented? [Developer Android](https://developer.android.com/topic/performance/vitals/anr.html)
 
-* What is an `AsyncTask`?
+* What is an `AsyncTask`?  [Developer Android](https://developer.android.com/reference/android/os/AsyncTask)
 
 * What are the problems in asynctask?
 
 * When would you use java thread instead of an asynctask?
 
-* What is a `Loader`?
+* What is a `Loader`? (Depricated) [Developer Android](https://developer.android.com/guide/components/loaders)
 
 * What is the relationship between the life cycle of an `AsyncTask` and an `Activity`? What problems can this result in? How can these problems be avoided?
 
