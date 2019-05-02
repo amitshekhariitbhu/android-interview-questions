@@ -884,7 +884,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Why should you avoid to run non-ui code on the main thread?
 
-* What is ANR? How can the ANR be prevented?
+* What is ANR? How can the ANR be prevented? [Developer Android](https://developer.android.com/topic/performance/vitals/anr.html)
 
 * What is an `AsyncTask`?
 
