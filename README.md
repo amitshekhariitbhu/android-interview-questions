@@ -876,7 +876,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What can you use for background processing in Android?  [Developer Android](https://developer.android.com/guide/background)
 
-* What is a `ContentProvider` and what is it typically used for?
+* What is a `ContentProvider` and what is it typically used for? [Developer Android](https://developer.android.com/guide/topics/providers/content-provider-basics) [Developer Android](https://developer.android.com/guide/topics/providers/content-providers)
 
 #### Long-running Operations
 
