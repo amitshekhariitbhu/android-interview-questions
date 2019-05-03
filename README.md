@@ -900,7 +900,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Working With Multimedia Content
 
-* How do you handle bitmaps in Android as it takes too much memory?
+* How do you handle bitmaps in Android as it takes too much memory? [Developer Android](https://developer.android.com/topic/performance/graphics/load-bitmap) [Developer Android](https://developer.android.com/topic/performance/graphics/manage-memory)
 
 * What is the difference between a regular `Bitmap` and a nine-patch image?
 
