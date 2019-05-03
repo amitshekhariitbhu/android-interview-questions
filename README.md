@@ -934,7 +934,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * How to reduce battery usage in an android application? [MindOrks](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
 
-* What is Doze? What about App Standby?
+* What is Doze? What about App Standby? [Developer Android](https://developer.android.com/training/monitoring-device-state/doze-standby)
 
 * What is `overdraw`? [Developer Android](https://developer.android.com/topic/performance/rendering/overdraw.html)
 
