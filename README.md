@@ -916,17 +916,17 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * How would you preserve `Activity` state during a screen rotation? [StackOverflow](https://stackoverflow.com/questions/3915952/how-to-save-state-during-orientation-change-in-android-if-the-state-is-made-of-m)
 
-* What are different ways to store data in your Android app?
+* What are different ways to store data in your Android app? [Developer Android](https://developer.android.com/guide/topics/data/data-storage)
 
 #### Look and Feel
 
-* What is a `Spannable`?
+* What is a `Spannable`? [Medium](https://medium.com/androiddevelopers/underspanding-spans-1b91008b97e4)
 
 #### Memory Optimizations
 
-* What is the `onTrimMemory()` method?
+* What is the `onTrimMemory()` method? [Developer Android](https://developer.android.com/topic/performance/memory)
 
-* How does the OutOfMemory happens?
+* How does the OutOfMemory happens? [Geeksforgeeks](https://www.geeksforgeeks.org/understanding-outofmemoryerror-exception-java/)
 
 * How do you find memory leaks in Android applications? [MindOrks](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
 
