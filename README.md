@@ -860,7 +860,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Services
 
-* What is `Serivce`?
+* What is `Serivce`? [Developer Android](https://developer.android.com/guide/components/services)
 
 * `Service` vs `IntentService`. [StackOverflow](https://stackoverflow.com/a/15772151/5153275)
 
@@ -868,15 +868,15 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Inter-process Communication
 
-* How can two distinct Android apps interact?
+* How can two distinct Android apps interact?  [Developer Android](https://developer.android.com/training/basics/intents)
 
 * Is it possible to run an Android app in multiple processes? How?
 
-* What is AIDL? Enumerate the steps in creating a bounded service through AIDL.
+* What is AIDL? Enumerate the steps in creating a bounded service through AIDL. [Developer Android](https://developer.android.com/guide/components/aidl)
 
-* What can you use for background processing in Android?
+* What can you use for background processing in Android?  [Developer Android](https://developer.android.com/guide/background)
 
-* What is a `ContentProvider` and what is it typically used for?
+* What is a `ContentProvider` and what is it typically used for? [Developer Android](https://developer.android.com/guide/topics/providers/content-provider-basics) [Developer Android](https://developer.android.com/guide/topics/providers/content-providers)
 
 #### Long-running Operations
 
@@ -884,15 +884,15 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Why should you avoid to run non-ui code on the main thread?
 
-* What is ANR? How can the ANR be prevented?
+* What is ANR? How can the ANR be prevented? [Developer Android](https://developer.android.com/topic/performance/vitals/anr.html)
 
-* What is an `AsyncTask`?
+* What is an `AsyncTask`?  [Developer Android](https://developer.android.com/reference/android/os/AsyncTask)
 
 * What are the problems in asynctask?
 
 * When would you use java thread instead of an asynctask?
 
-* What is a `Loader`?
+* What is a `Loader`? (Depricated) [Developer Android](https://developer.android.com/guide/components/loaders)
 
 * What is the relationship between the life cycle of an `AsyncTask` and an `Activity`? What problems can this result in? How can these problems be avoided?
 
@@ -900,7 +900,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Working With Multimedia Content
 
-* How do you handle bitmaps in Android as it takes too much memory?
+* How do you handle bitmaps in Android as it takes too much memory? [Developer Android](https://developer.android.com/topic/performance/graphics/load-bitmap) [Developer Android](https://developer.android.com/topic/performance/graphics/manage-memory)
 
 * What is the difference between a regular `Bitmap` and a nine-patch image?
 
@@ -916,17 +916,17 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * How would you preserve `Activity` state during a screen rotation? [StackOverflow](https://stackoverflow.com/questions/3915952/how-to-save-state-during-orientation-change-in-android-if-the-state-is-made-of-m)
 
-* What are different ways to store data in your Android app?
+* What are different ways to store data in your Android app? [Developer Android](https://developer.android.com/guide/topics/data/data-storage)
 
 #### Look and Feel
 
-* What is a `Spannable`?
+* What is a `Spannable`? [Medium](https://medium.com/androiddevelopers/underspanding-spans-1b91008b97e4)
 
 #### Memory Optimizations
 
-* What is the `onTrimMemory()` method?
+* What is the `onTrimMemory()` method? [Developer Android](https://developer.android.com/topic/performance/memory)
 
-* How does the OutOfMemory happens?
+* How does the OutOfMemory happens? [Geeksforgeeks](https://www.geeksforgeeks.org/understanding-outofmemoryerror-exception-java/)
 
 * How do you find memory leaks in Android applications? [MindOrks](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
 
@@ -934,7 +934,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * How to reduce battery usage in an android application? [MindOrks](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
 
-* What is Doze? What about App Standby?
+* What is Doze? What about App Standby? [Developer Android](https://developer.android.com/training/monitoring-device-state/doze-standby)
 
 * What is `overdraw`? [Developer Android](https://developer.android.com/topic/performance/rendering/overdraw.html)
 
