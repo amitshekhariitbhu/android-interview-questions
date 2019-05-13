@@ -922,6 +922,17 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is a `Spannable`? [Medium](https://medium.com/androiddevelopers/underspanding-spans-1b91008b97e4)
 
+* What is a `SpannableString`?
+   - A SpannableString has immutable text, but its span information is mutable. Use a SpannableString when your text doesn't need to be changed but the styling does. Spans are ranges over the text that include styling information like color, highlighting, italics, links, etc
+
+#### Memory Optimizations
+
+* What is the `onTrimMemory()` method?
+   - Called when the operating system has determined that it is a good time for a process to trim unneeded memory from its process. This will happen for example when it goes in the background and there is not enough memory to keep as many background processes running as desired
+
+* How does the OutOfMemory happens?
+   - Thrown when the Java Virtual Machine cannot allocate an object because it is out of memory, and no more memory could be made available by the garbage collector
+
 #### Memory Optimizations
 
 * What is the `onTrimMemory()` method? [Developer Android](https://developer.android.com/topic/performance/memory)
