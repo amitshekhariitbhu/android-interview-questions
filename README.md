@@ -959,7 +959,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Native Programming
 
-* What is the NDK and why is it useful?
+* What is the NDK and why is it useful? [MindOrks](https://www.youtube.com/watch?v=iljxHVt7Arc)
 
 * What is renderscript? [MindOrks](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
 
