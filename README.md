@@ -15,7 +15,7 @@
 <p align="center">
 <a href="https://bootcamp.mindorks.com" target="_blank">
   <img alt="Android BootCamp" src="https://raw.githubusercontent.com/MindorksOpenSource/android-interview-questions/master/assets/interview-bootcamp.png">
-</a>	
+</a>
 </p>
 
 # [Join and learn here](https://bootcamp.mindorks.com)
@@ -54,12 +54,12 @@
         | Delete    | Θ(n)    | O(n)       |
 
 * LinkedList
-    - A LinkedList, just like a tree and unlike an array, consists of a group of nodes which 
-    together represent a sequence. Each node contains data and a pointer. The data in a node can be 
-    anything, but the pointer is a reference to the next item in the LinkedList. A LinkedList 
-    contains both a head and a tail. The "Head" is the first item in the LinkedList, while the "Tail" is 
-    the last item. It is not a circular data structure, therefore the tail does not have its' 
-    pointer pointing at the Head - the pointer is just `null`. The run time complexity for each of 
+    - A LinkedList, just like a tree and unlike an array, consists of a group of nodes which
+    together represent a sequence. Each node contains data and a pointer. The data in a node can be
+    anything, but the pointer is a reference to the next item in the LinkedList. A LinkedList
+    contains both a head and a tail. The "Head" is the first item in the LinkedList, while the "Tail" is
+    the last item. It is not a circular data structure, therefore the tail does not have its'
+    pointer pointing at the Head - the pointer is just `null`. The run time complexity for each of
     the base methods are as follows:
 
         | Algorithm | Average | Worst Case |
@@ -70,10 +70,10 @@
         | Delete    | Θ(1)    | O(1)       |
 
 * DoublyLinkedList
-   - A DoublyLinkedList is based on a LinkedList, but there is two pointers in each node, "previous" pointer holds reference to the previous node and "next" pointer holds reference to the next node. It also has a Head node, head node's next pointer references the first node in this DoublyLinkedList. The last node's "next" reference points to `null`, but if last node's next pointer points to the first node, such DoublyLinkedList is called "Circular DoublyLinkedList". This data structure is very convenient if you need to be able to traverse stored elements in both directions. 
-  
+   - A DoublyLinkedList is based on a LinkedList, but there is two pointers in each node, "previous" pointer holds reference to the previous node and "next" pointer holds reference to the next node. It also has a Head node, head node's next pointer references the first node in this DoublyLinkedList. The last node's "next" reference points to `null`, but if last node's next pointer points to the first node, such DoublyLinkedList is called "Circular DoublyLinkedList". This data structure is very convenient if you need to be able to traverse stored elements in both directions.
+
        ![DoublyLinkedList](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)
-            
+
         | Algorithm | Average | Worst Case |
         |:---------:|:-------:|:----------:|
         | Space     | Θ(n)    | O(n)       |
@@ -82,14 +82,14 @@
         | Delete    | Θ(1)    | O(1)       |
 
 * Stack
-   - A Stack is a basic data structure with a "Last-in-First-out" (LIFO) semantics. This means that 
-    the last item that was added to the stack is the first item that comes out of the stack. A 
-    Stack is like a stack of books in that in order to get to the first book that was added in the stack 
-    (the bottom book), all of the books that were added after need to be removed first. Adding to a 
-    Stack is called "Push", removing from a stack is called "Pop", and getting the last item 
+   - A Stack is a basic data structure with a "Last-in-First-out" (LIFO) semantics. This means that
+    the last item that was added to the stack is the first item that comes out of the stack. A
+    Stack is like a stack of books in that in order to get to the first book that was added in the stack
+    (the bottom book), all of the books that were added after need to be removed first. Adding to a
+    Stack is called "Push", removing from a stack is called "Pop", and getting the last item
     inserted into the stack without removing it is called "Top". The most common way to implement a
-     stack is by using a LinkedList, but there is also StackArray (implemented with an array) 
-     which does not replace null entries, and there is also a Vector implementation that does 
+     stack is by using a LinkedList, but there is also StackArray (implemented with an array)
+     which does not replace null entries, and there is also a Vector implementation that does
      replace `null` entries. [Wikipedia](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
         <table>
             <tr>
@@ -140,8 +140,8 @@
 
 * Sorting Algorithms [Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm?oldformat=true)
     - Using the most efficient sorting algorithm (and correct data structures that implement it) is vital for any program, because data manipulation can be one of the most significant bottlenecks in case of performance and the main purpose of spending time, determining the best algorithm for the job, is to drastically improve said performance. The efficiency of an algorithm is measured in its' "Big O" ([StackOverflow](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)) score. Really good algorithms perform important actions in O(n log n) or even O(log n) time and some of them can even perform certain actions in O(1) time (HashTable insertion, for example). But there is always a trade-off - if some algorithm is really good at adding a new element to a data structure, it is, most certainly, much worse at data access than some other algorithm. If you are proficient with math, you may notice that "Big O" notation has many similarities with "limits", and you would be right - it measures best, worst and average performances of an algorithm in question, by looking at its' function limit. It should be noted that, when we are speaking about O(1) - constant time - we are not saying that this algorithm performs an action in one operation, rather that it can perform this action with the same number of operations (roughly), regrardless of the amount of elements it has to take into account. Thankfully, a lot of "Big O" scores have been already calculated, so you don't have to guess, which algorithm or data structure will perform better in your project. ["Big O" cheat sheet](http://bigocheatsheet.com/)
-    - Bubble sort [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort?oldformat=true) 
-        - Bubble sort is one of the simplest sorting algorithms. It just compares neighbouring elements and if the one that precedes the other is smaller - it changes their places. So over one iteration over the data list, it is guaranteed that **at least** one element will be in its' correct place (the biggest/smallest one - depending on the direction of sorting). This is not a very efficient algorithm, as highly unordered arrays will require a lot of reordering (upto O(n^2)), but one of the advantages of this algorithm is its' space complexity - only two elements are compared at once and there is no need to allocate more memory, than those two will occupy. 
+    - Bubble sort [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort?oldformat=true)
+        - Bubble sort is one of the simplest sorting algorithms. It just compares neighbouring elements and if the one that precedes the other is smaller - it changes their places. So over one iteration over the data list, it is guaranteed that **at least** one element will be in its' correct place (the biggest/smallest one - depending on the direction of sorting). This is not a very efficient algorithm, as highly unordered arrays will require a lot of reordering (upto O(n^2)), but one of the advantages of this algorithm is its' space complexity - only two elements are compared at once and there is no need to allocate more memory, than those two will occupy.
             <table>
                 <tr>
                     <th colspan="3" align="center">Time Complexity</th>
@@ -160,7 +160,7 @@
                     <td align="center">O(1)</td>
                 </tr>
             </table>
-    - Selection sort [Wikipedia](https://www.wikiwand.com/en/Selection_sort) 
+    - Selection sort [Wikipedia](https://www.wikiwand.com/en/Selection_sort)
         - Firstly, selection sort assumes that the first element of the array to be sorted is the smallest, but to confirm this, it iterates over all other elements to check, and if it finds one, it gets defined as the smallest one. When the data ends, the element, that is currently found to be the smallest, is put in the beginning of the array. This sorting algorithm is quite straightforward, but still not that efficient on larger data sets, because to assign just one element to its' place, it needs to go over all data.
             <table>
             <tr>
@@ -259,18 +259,18 @@
 #### OOP
 
 * **Explain OOP Concepts.**
-    - Object-Oriented Programming is a methodology of designing a program using classes, objects, 
+    - Object-Oriented Programming is a methodology of designing a program using classes, objects,
     [inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)),
     [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)),
     [abstraction](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)), and
     [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)).
 
 * **Differences between abstract classes and interfaces?** [GitHub](https://arjun-sna.github.io/java/2017/02/02/abstractvsinterface/)
-    - An abstract class, is a class that contains both concrete and abstract methods 
+    - An abstract class, is a class that contains both concrete and abstract methods
     (methods without implementations). An abstract method must be implemented by the abstract class
      sub-classes. Abstract classes cannot be instantiated and need to be extended to be used.
-    - An interface is like a blueprint/contract of a class (or it may be thought of as a class with methods, but without their implementation). It contains empty methods that 
-    represent, what all of its subclasses should have in common. The subclasses provide the 
+    - An interface is like a blueprint/contract of a class (or it may be thought of as a class with methods, but without their implementation). It contains empty methods that
+    represent, what all of its subclasses should have in common. The subclasses provide the
     implementation for each of these methods. Interfaces are implemented.
 
 * **What is the difference between iterator and enumeration in java?**
@@ -380,9 +380,9 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
         - Singleton [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
           A singleton is a class that can only be instantiated once. This singleton pattern restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system. The concept is sometimes generalized to systems that operate more efficiently when only one object exists, or that restrict the instantiation to a certain number of objects.
-	  
+
         - Monostate [Wikipedia](http://wiki.c2.com/?MonostatePattern)
-	
+
         - Fluent Interface Pattern [Wikipedia](https://martinfowler.com/bliki/FluentInterface.html)
 
     - Structural patterns
@@ -841,7 +841,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * What is `Intent`? [StackOverflow](https://stackoverflow.com/questions/6578051/what-is-an-intent-in-android)
 
 * What is an Implicit `Intent`?	[StackOverflow](https://stackoverflow.com/questions/10272699/what-is-the-different-between-explicit-and-implicit-activity-call-in-android/20728603)
-		
+
 * What is an Explicit `Intent`?
 
 * What is a `BroadcastReceiver`? [StackOverflow](https://stackoverflow.com/questions/5296987/what-is-broadcastreceiver-and-when-we-use-it)
@@ -993,7 +993,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Explain Android notification system?
 
-* What is the difference between Serializable and Parcelable? Which is the best approach in Android?
+* What is the difference between Serializable and Parcelable? Which is the best approach in Android? [AndroidPub](https://android.jlelse.eu/parcelable-vs-serializable-6a2556d51538), [StackOverflow](https://stackoverflow.com/questions/3323074/android-difference-between-parcelable-and-serializable)
 
 * Have you developed widgets? Describe. [MindOrks](https://blog.mindorks.com/android-widgets-ad3d166458d3)
 
@@ -1077,7 +1077,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is Robolectric? [Robolectric](http://robolectric.org/)
 
-* What are the disadvantages of using Roboelectric? 
+* What are the disadvantages of using Roboelectric?
 
 * What is UI-Automator? [Developer Android](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
 
