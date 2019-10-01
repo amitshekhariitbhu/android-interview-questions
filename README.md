@@ -892,7 +892,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * When would you use java thread instead of an asynctask?
 
-* What is a `Loader`? (Depricated) [Developer Android](https://developer.android.com/guide/components/loaders)
+* What is a `Loader`? (Deprecated) [Developer Android](https://developer.android.com/guide/components/loaders)
 
 * What is the relationship between the life cycle of an `AsyncTask` and an `Activity`? What problems can this result in? How can these problems be avoided?
 
