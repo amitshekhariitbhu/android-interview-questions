@@ -694,8 +694,6 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * **Why would you not call abstract method in constructor?**
 
-* **Can you list 8 primitive types in java?**
-
 * **When would you make an object value `final`?**
 
 * **What are these `final`, `finally` and `finalize` keywords?**
@@ -983,7 +981,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the StrictMode? [MindOrks](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
 
-* What is Lint? What is it used for?
+* What is Lint? What is it used for? [MindOrks](https://blog.mindorks.com/what-is-lint-what-is-it-used-for)
 
 #### Others
 
