@@ -830,9 +830,9 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Dialogs and Toasts
 
-* What is `Dialog` in Android?
+* What is `Dialog` in Android?[Dialog](https://developer.android.com/guide/topics/ui/dialogs)
 
-* What is `Toast` in Android?
+* What is `Toast` in Android?[Toast](https://developer.android.com/guide/topics/ui/notifiers/toasts)
 
 * What the difference between `Dialog` and `Dialog Fragment`?
 
