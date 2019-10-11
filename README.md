@@ -1024,6 +1024,8 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Describe MVP. [MindOrks](https://mindorks.com/course/android-mvp-introduction)
 
+* MVC vs MVP vs MVVM architecture. [MindOrks](https://blog.mindorks.com/mvc-mvp-mvvm-architecture-in-android)
+
 * What is presenter?
 
 * What is model?
