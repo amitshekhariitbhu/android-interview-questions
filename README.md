@@ -1102,6 +1102,11 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What are testing type in Android ?
 
+* What is the benefit of espresso than any other instrumentation test?
+
+* How to make espresso can do dynamic checking in a case when you want to fetch the api then you want espresso to do instrumentation test after the data fetched ?
+
+
 
 ### Others
 
