@@ -939,6 +939,8 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * How do you find memory leaks in Android applications? [MindOrks](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
 
+* How to avoid memory leaks in Android? [Medium - AndroidPub] (https://android.jlelse.eu/9-ways-to-avoid-memory-leaks-in-android-b6d81648e35e)
+
 #### Battery Life Optimizations
 
 * How to reduce battery usage in an android application? [MindOrks](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
