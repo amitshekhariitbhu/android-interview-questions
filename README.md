@@ -239,7 +239,7 @@
                     <td align="center">Ω(n log(n))</td>
                     <td align="center">Θ(n log(n))</td>
                     <td align="center">O(n^2)</td>
-                    <td align="center">O(1)</td>
+                    <td align="center">O(n)</td>
                 </tr>
                 </table>  
     - There are, of course, more sorting algorithms and their modifications. We strongly recommend all readers to familiarize themselves with a couple more, because knowing algorithms is very important quality of a candidate, applying for a job and it shows understanding of what is happening "under the hood".
