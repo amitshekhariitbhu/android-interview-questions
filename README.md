@@ -862,7 +862,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is `Serivce`? [Developer Android](https://developer.android.com/guide/components/services)
 
-* `Service` vs `IntentService`. [StackOverflow](https://stackoverflow.com/a/15772151/5153275)
+* `Service` vs `IntentService`. [MindOrks](https://blog.mindorks.com/service-vs-intentservice-in-android)
 
 * What is a `JobScheduler`? [Vogella](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
 
