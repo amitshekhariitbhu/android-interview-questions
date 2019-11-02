@@ -1078,7 +1078,8 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Firebase. [Firebase.google.com](https://firebase.google.com/)
 
-* Leak Canary [Droidcon NYC 2015 About Leak Canary by Py](https://www.youtube.com/watch?v=mU1VcKx8Wzw)
+* Leak Canary [Documentation](https://square.github.io/leakcanary/) [Droidcon NYC 2015 About Leak Canary by Py](https://www.youtube.com/watch?v=mU1VcKx8Wzw)
+
 
 ### Android Test Driven Development
 
