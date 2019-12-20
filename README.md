@@ -376,7 +376,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * **Multiple inheritance in Classes and Interfaces in java** [Blog](http://codeinventions.blogspot.in/2014/07/can-interface-extend-multiple.html)
 
-* **What are the design patterns?** [GitHub](https://github.com/iluwatar/java-design-patterns)
+* **What are the design patterns?** [MindOrks](https://blog.mindorks.com/mastering-design-patterns-in-android-with-kotlin)
     - Creational patterns
         - Builder [Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern?oldformat=true)
 
