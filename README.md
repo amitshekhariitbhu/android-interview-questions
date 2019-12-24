@@ -47,6 +47,8 @@
 
 #### [Tech Interview Preparation Kit](https://afteracademy.com/tech-interview)
 
+#### [Android Developer should know these Data Structures for Next Interview](https://blog.mindorks.com/android-developer-should-know-these-data-structures-for-next-interview)
+
 * Array
     - An Array consists of a group of elements of the same data type. It is stored contiguously in memory and by using its' index, you can find the underlying data. Arrays can be one dimensional and multi-dimensional. One dimensional array is the simplest data structure, and also most commonly used. It is worth noting that in Java language multi-dimensional arrays are implemented as arrays of arrays. For example, `int[10][5]` is actually one array with its' cells pointing to ten 5-element arrays.    
 
