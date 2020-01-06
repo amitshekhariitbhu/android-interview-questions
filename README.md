@@ -943,7 +943,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * How does the OutOfMemory happens? [Geeksforgeeks](https://www.geeksforgeeks.org/understanding-outofmemoryerror-exception-java/)
 
-* How do you find memory leaks in Android applications? [MindOrks](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
+* How do you find memory leaks in Android applications? [Practical Guide - MindOrks](https://blog.mindorks.com/practical-guide-to-solve-out-of-memory-error-in-android-application) [MindOrks](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
 
 #### Battery Life Optimizations
 
