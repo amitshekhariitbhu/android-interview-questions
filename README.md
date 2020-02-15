@@ -808,6 +808,8 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is `View` in Android? [MindOrks](https://blog.mindorks.com/android-user-interface-view-components)
 
+* What is `Lifecycle of View` in Android? [Medium](https://proandroiddev.com/the-life-cycle-of-a-view-in-android-6a2c4665b95e)
+
 * Difference between `View.GONE` and `View.INVISIBLE`? [StackOverflow](https://stackoverflow.com/questions/11556607/android-difference-between-invisible-and-gone)
 
 * Can you create custom views? How? [MindOrks](https://blog.mindorks.com/create-your-own-custom-view)
@@ -827,6 +829,8 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 #### Displaying Lists of Content
 
 * What is the difference between `ListView` and `RecyclerView`?
+
+* How `RecyclerView` work internally? [Medium](https://android.jlelse.eu/anatomy-of-recyclerview-part-1-a-search-for-a-viewholder-404ba3453714) 
 
 * What is the ViewHolder pattern? Why should we use it?
 
