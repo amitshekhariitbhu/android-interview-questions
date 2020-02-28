@@ -991,6 +991,8 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Others
 
+* OkHttp Interceptors. [MindOrks](https://blog.mindorks.com/okhttp-interceptor-making-the-most-of-it)
+
 * Why Bundle class is used for data passing and why cannot we use simple Map data structure
 
 * How do you troubleshoot a crashing application?
