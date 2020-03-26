@@ -20,6 +20,8 @@
 
 # [Join and learn here](https://bootcamp.mindorks.com)
 
+# Learn to build a ride-sharing Android app like Uber, Lyft - [Check here](https://github.com/MindorksOpenSource/ridesharing-uber-lyft-app)
+
 ## Contents
 
 * [Data Structures And Algorithms](#data-structures-and-algorithms)
