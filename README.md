@@ -788,7 +788,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Activity
 
-* What is `Activity`? [MindOrks](https://blog.mindorks.com/android-activity-lifecycle)
+* What is `Activity`? [MindOrks](https://blog.mindorks.com/android-activity-lifecycle) and [MindOrks Video](https://www.youtube.com/watch?v=RiFui-i-s-o)
 
 * Explain `Activity` and `Fragment` lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle), simplified diagram for [Activity](https://developer.android.com/guide/components/activities/activity-lifecycle.html#alc), [Fragment](https://developer.android.com/guide/components/fragments.html#Lifecycle)), [Activity lifecycle](https://blog.mindorks.com/android-activity-lifecycle) and [Fragments lifecycle](https://blog.mindorks.com/android-fragments-and-its-lifecycle)
 
