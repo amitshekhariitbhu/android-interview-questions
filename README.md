@@ -1142,6 +1142,8 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Have you tried Kotlin? [MindOrks](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
 
+* What is the equivalent of Java static methods in Kotlin? [MindOrks](https://blog.mindorks.com/what-is-the-equivalent-of-java-static-methods-in-kotlin)
+
 * What are Coroutines in Kotlin? [MindOrks](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
 
 * What are the metrics that you should measure continuously while android application development? [MindOrks](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
