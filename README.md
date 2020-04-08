@@ -1,7 +1,6 @@
 <p align="center">
-<img alt="AndroidInterviewQuestions" src="https://raw.githubusercontent.com/MindorksOpenSource/android-interview-questions/master/assets/android_interview_questions.png">
+<img alt="AndroidInterviewQuestions" src="https://raw.githubusercontent.com/MindorksOpenSource/android-interview-questions/master/assets/banner-android-interview-questions.jpg">
 </p>
-
 
 # Android Interview Questions
 [![MindOrks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
@@ -13,256 +12,492 @@
 ## Prepared and maintained by [Amit Shekhar](https://github.com/amitshekhariitbhu) who is having experience of taking interviews of many Android developers and cracking interviews of top companies.
 
 <p align="center">
-<a href="https://bootcamp.mindorks.com" target="_blank">
-  <img alt="Android BootCamp" src="https://raw.githubusercontent.com/MindorksOpenSource/android-interview-questions/master/assets/interview-bootcamp.png">
+<a href="https://mindorks.com/android-app-development-online-course" target="_blank">
+  <img alt="Android Roadmap" src="https://raw.githubusercontent.com/MindorksOpenSource/android-interview-questions/master/assets/roadmap.png">
 </a>	
 </p>
 
-# [Join and learn here](https://bootcamp.mindorks.com)
-
-# Learn to build a ride-sharing Android app like Uber, Lyft - [Check here](https://github.com/MindorksOpenSource/ridesharing-uber-lyft-app)
+## A complete guide for learning Android Development - [Check here](https://mindorks.com/android-app-development-online-course)
 
 ## Contents
 
-* [Data Structures And Algorithms](#data-structures-and-algorithms)
-
-* [Core Java](#core-java)
-
 * [Core Android](#core-android)
+* [Android Libraries](#android-libraries)
+* [Android Architecture](#android-architecture)
+* [Android Design Problem](#android-design-problem)
+* [Android Unit Testing](#android-unit-testing)
+* [Android Tools And Technologies](#android-tools-and-technologies)
+* [Java and Kotlin](#java-and-kotlin)
+* [Data Structures And Algorithms](#data-structures-and-algorithms)
+* [Other Topics](#other-topics)
 
-* [Architecture](#architecture)
+### Core Android
 
-* [Design Problem](#design-problem)
+#### Base
 
-* [Tools And Technologies](#tools-and-technologies)
+* **Tell all the Android application components.** - [Learn from here](https://developer.android.com/guide/components/fundamentals.html#Components)
 
-* [Android Test Driven Development](#android-test-driven-development)
+* **What is the project structure of an Android Application?** - [Learn from here](https://developer.android.com/studio/projects)
 
-* [Others](#others)
+* **What is `Context`? How is it used?** - [Learn from here](https://blog.mindorks.com/understanding-context-in-android-application-330913e32514)
 
+* **What is `AndroidManifest.xml`?** - [Learn from here](https://developer.android.com/guide/topics/manifest/manifest-intro)
 
-### Data Structures And Algorithms
+* **What is `Application` class?**
+    - The Application class in Android is the base class within an Android app that contains all other components such as activities and services. The Application class, or any subclass of the Application class, is instantiated before any other class when the process for your application/package is created.
 
-> The level of questions asked on the topic of Data Structures And Algorithms totally depends on the company for which you are applying.
+#### Activity and Fragment
 
-#### [Check Whiteboard Interview Series - Data Structures and Algorithms on Youtube](https://www.youtube.com/playlist?list=PLqOiaH9id5qt_lZl2bFi8q9RQoV1JJUpf)
+* **What is `Activity` and its lifecycle?** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o)
 
-#### [Tech Interview Preparation Kit](https://afteracademy.com/tech-interview)
+* **What is the difference between onCreate() and onStart()** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o)
 
-#### [Android Developer should know these Data Structures for Next Interview](https://blog.mindorks.com/android-developer-should-know-these-data-structures-for-next-interview)
+* **When only onDestroy is called for an activity without onPause() and onStop()?**
+    - If finish() is called in the onCreate method of an activity, the system will call onDestroy() method directly.
 
-* Array
-    - An Array consists of a group of elements of the same data type. It is stored contiguously in memory and by using its' index, you can find the underlying data. Arrays can be one dimensional and multi-dimensional. One dimensional array is the simplest data structure, and also most commonly used. It is worth noting that in Java language multi-dimensional arrays are implemented as arrays of arrays. For example, `int[10][5]` is actually one array with its' cells pointing to ten 5-element arrays.    
+* **Why do we need to setContentView() in onCreate() of Activity class?**
+    - onCreate() is called only once and most of the initializations are done here. So, the content is also set when onCreate() is called. It will be inefficient if we set the content in onResume() or onStop() or somewhere else.
 
-        | Algorithm | Average | Worst Case |
-        |:---------:|:-------:|:----------:|
-        | Space     | Θ(n)    | O(n)       |    
-        | Search    | Θ(n)    | O(n)       |
-        | Insert    | Θ(n)    | O(n)       |
-        | Delete    | Θ(n)    | O(n)       |
+* **What is onSavedInstanceState() and onRestoreInstanceState() in activity?**
+    - onSavedInstanceState() - This method is used to store data before pausing the activity.
+    - onRestoreInstanceState() - This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the onRestoreInstanceState() receive the bundle that contains the instance state information.
 
-* LinkedList
-    - A LinkedList, just like a tree and unlike an array, consists of a group of nodes which 
-    together represent a sequence. Each node contains data and a pointer. The data in a node can be 
-    anything, but the pointer is a reference to the next item in the LinkedList. A LinkedList 
-    contains both a head and a tail. The "Head" is the first item in the LinkedList, while the "Tail" is 
-    the last item. It is not a circular data structure, therefore the tail does not have its' 
-    pointer pointing at the Head - the pointer is just `null`. The run time complexity for each of 
-    the base methods are as follows:
+* **What is `Fragment` and its lifecycle.** - [Learn from here](https://blog.mindorks.com/android-fragments-and-its-lifecycle)
 
-        | Algorithm | Average | Worst Case |
-        |:---------:|:-------:|:----------:|
-        | Space     | Θ(n)    | O(n)       |
-        | Search    | Θ(n)    | O(n)       |
-        | Insert    | Θ(1)    | O(1)       |
-        | Delete    | Θ(1)    | O(1)       |
+* **What are "launch modes"?** - [Learn from here](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
 
-* DoublyLinkedList
-   - A DoublyLinkedList is based on a LinkedList, but there is two pointers in each node, "previous" pointer holds reference to the previous node and "next" pointer holds reference to the next node. It also has a Head node, head node's next pointer references the first node in this DoublyLinkedList. The last node's "next" reference points to `null`, but if last node's next pointer points to the first node, such DoublyLinkedList is called "Circular DoublyLinkedList". This data structure is very convenient if you need to be able to traverse stored elements in both directions. 
-  
-       ![DoublyLinkedList](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)
-            
-        | Algorithm | Average | Worst Case |
-        |:---------:|:-------:|:----------:|
-        | Space     | Θ(n)    | O(n)       |
-        | Search    | Θ(n)    | O(n)       |
-        | Insert    | Θ(1)    | O(1)       |
-        | Delete    | Θ(1)    | O(1)       |
+* **What is the difference between a `Fragment` and an `Activity`? Explain the relationship between the two.** - [Learn from here](https://stackoverflow.com/questions/10478233/why-fragments-and-when-to-use-fragments-instead-of-activities)
 
-* Stack
-   - A Stack is a basic data structure with a "Last-in-First-out" (LIFO) semantics. This means that 
-    the last item that was added to the stack is the first item that comes out of the stack. A 
-    Stack is like a stack of books in that in order to get to the first book that was added in the stack 
-    (the bottom book), all of the books that were added after need to be removed first. Adding to a 
-    Stack is called "Push", removing from a stack is called "Pop", and getting the last item 
-    inserted into the stack without removing it is called "Top". The most common way to implement a
-     stack is by using a LinkedList, but there is also StackArray (implemented with an array) 
-     which does not replace null entries, and there is also a Vector implementation that does 
-     replace `null` entries. [Wikipedia](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
-        <table>
-            <tr>
-                <th>Algorithm</th>
-                <th>Average</th>
-                <th>Worst Case</th>
-                <th>Image representation</th>
-            </tr>
-            <tr>
-                <td>Space</td>
-                <td>Θ(n)</td>
-                <td>O(n)</td>
-                <td rowspan="5">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/250px-Data_stack.svg.png"/>
-                </td>
-            </tr>
-            <tr>
-                <td>Search</td>
-                <td>Θ(n)</td>
-                <td>O(n)</td>
-            </tr>
-            <tr>
-                <td>Insert (Push)</td>
-                <td>Θ(1)</td>
-                <td>O(1)</td>
-            </tr>
-            <tr>
-                <td>Delete (Pop)</td>
-                <td>Θ(1)</td>
-                <td>O(1)</td>
-            </tr>
-            <tr>
-              <td>Top</td>
-              <td>Θ(1)</td>
-              <td>O(1)</td>
-            </tr>
-        </table>
+* **When should you use a Fragment rather than an Activity?**
+    - When you have some UI components to be used across various activities
+    - When multiple view can be displayed side by side just like viewPager
 
-* Queue
+* **What is the difference between FragmentPagerAdapter vs FragmentStatePagerAdapter?**
+    - FragmentPagerAdapter: Each fragment visited by the user will be stored in the memory but the view will be destroyed. When the page is revisited, then the view will be created not the instance of the fragment.
+    - FragmentStatePagerAdapter: Here, the fragment instance will be destroyed when it is not visible to the user, except the saved state of the fragment.
 
-* PriorityQueue
+* **What is the difference between adding/replacing fragment in backstack?** - [Learn from here](https://stackoverflow.com/questions/24466302/basic-difference-between-add-and-replace-method-of-fragment/24466345)
 
-* Binary Tree [Wikipedia](https://en.wikipedia.org/wiki/Binary_tree?oldformat=true)
+* **Why is it recommended to use only the default constructor to create a `Fragment`?** - [Learn from here](https://stackoverflow.com/a/16042750/2809326)
 
-* Binary Search Tree
+* **How would you communicate between two Fragments?** - [Learn from here](https://blog.mindorks.com/how-to-communicate-between-fragments)
 
-* Hash Table or Hash Map
+* **What is retained `Fragment`?**
+    - By default, Fragments are destroyed and recreated along with their parent Activity’s when a configuration change occurs. Calling setRetainInstance(true) allows us to bypass this destroy-and-recreate cycle, signaling the system to retain the current instance of the fragment when the activity is recreated.
 
-* Sorting Algorithms [Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm?oldformat=true)
-    - Using the most efficient sorting algorithm (and correct data structures that implement it) is vital for any program, because data manipulation can be one of the most significant bottlenecks in case of performance and the main purpose of spending time, determining the best algorithm for the job, is to drastically improve said performance. The efficiency of an algorithm is measured in its' "Big O" ([StackOverflow](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)) score. Really good algorithms perform important actions in O(n log n) or even O(log n) time and some of them can even perform certain actions in O(1) time (HashTable insertion, for example). But there is always a trade-off - if some algorithm is really good at adding a new element to a data structure, it is, most certainly, much worse at data access than some other algorithm. If you are proficient with math, you may notice that "Big O" notation has many similarities with "limits", and you would be right - it measures best, worst and average performances of an algorithm in question, by looking at its' function limit. It should be noted that, when we are speaking about O(1) - constant time - we are not saying that this algorithm performs an action in one operation, rather that it can perform this action with the same number of operations (roughly), regrardless of the amount of elements it has to take into account. Thankfully, a lot of "Big O" scores have been already calculated, so you don't have to guess, which algorithm or data structure will perform better in your project. ["Big O" cheat sheet](http://bigocheatsheet.com/)
-    - Bubble sort [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort?oldformat=true) 
-        - Bubble sort is one of the simplest sorting algorithms. It just compares neighbouring elements and if the one that precedes the other is smaller - it changes their places. So over one iteration over the data list, it is guaranteed that **at least** one element will be in its' correct place (the biggest/smallest one - depending on the direction of sorting). This is not a very efficient algorithm, as highly unordered arrays will require a lot of reordering (upto O(n^2)), but one of the advantages of this algorithm is its' space complexity - only two elements are compared at once and there is no need to allocate more memory, than those two will occupy. 
-            <table>
-                <tr>
-                    <th colspan="3" align="center">Time Complexity</th>
-                    <th align="center">Space Complexity</th>
-                </tr>
-                <tr>
-                    <th align="center">Best</th>
-                    <th align="center">Average</th>
-                    <th align="center">Worst</th>
-                    <th align="center">Worst</th>
-                </tr>
-                <tr>
-                    <td align="center">Ω(n)</td>
-                    <td align="center">Θ(n^2)</td>
-                    <td align="center">O(n^2)</td>
-                    <td align="center">O(1)</td>
-                </tr>
-            </table>
-    - Selection sort [Wikipedia](https://www.wikiwand.com/en/Selection_sort) 
-        - Firstly, selection sort assumes that the first element of the array to be sorted is the smallest, but to confirm this, it iterates over all other elements to check, and if it finds one, it gets defined as the smallest one. When the data ends, the element, that is currently found to be the smallest, is put in the beginning of the array. This sorting algorithm is quite straightforward, but still not that efficient on larger data sets, because to assign just one element to its' place, it needs to go over all data.
-            <table>
-            <tr>
-                <th colspan="3" align="center">Time Complexity</th>
-                <th align="center">Space Complexity</th>
-            </tr>
-            <tr>
-                <th align="center">Best</th>
-                <th align="center">Average</th>
-                <th align="center">Worst</th>
-                <th align="center">Worst</th>
-            </tr>
-            <tr>
-                <td align="center">Ω(n^2)</td>
-                <td align="center">Θ(n^2)</td>
-                <td align="center">O(n^2)</td>
-                <td align="center">O(1)</td>
-            </tr>
-            </table>
-    - Insertion sort [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort?oldformat=true)
-        - Insertion sort is another example of an algorithm, that is not that difficult to implement, but is also not that efficient. To do its' job, it "grows" sorted portion of data, by "inserting" new encountered elements into already (innerly) sorted part of the array, which consists of previously encountered elements. This means that in best case (data is already sorted) it can confirm that its' job is done in Ω(n) operations, while, if all encountered elements are not in their required order as many as O(n^2) operations may be needed.
-            <table>
-            <tr>
-                <th colspan="3" align="center">Time Complexity</th>
-                <th align="center">Space Complexity</th>
-            </tr>
-            <tr>
-                <th align="center">Best</th>
-                <th align="center">Average</th>
-                <th align="center">Worst</th>
-                <th align="center">Worst</th>
-            </tr>
-            <tr>
-                <td align="center">Ω(n)</td>
-                <td align="center">Θ(n^2)</td>
-                <td align="center">O(n^2)</td>
-                <td align="center">O(1)</td>
-            </tr>
-            </table>
-    - Merge sort [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort?oldformat=true)
-        - This is a "divide and conquer" algorithm, meaning it recursively "divides" given array in to smaller parts (up to 1 element) and then sorts those parts, combining them with each other. This approach allows merge sort to achieve very high speed, while  doubling required space, of course, but today memory space is more available than it was a couple of years ago, so this trade-off is considered acceptable.   
-                <table>
-            <tr>
-                <th colspan="3" align="center">Time Complexity</th>
-                <th align="center">Space Complexity</th>
-            </tr>
-            <tr>
-                <th align="center">Best</th>
-                <th align="center">Average</th>
-                <th align="center">Worst</th>
-                <th align="center">Worst</th>
-            </tr>
-            <tr>
-                <td align="center">Ω(n log(n))</td>
-                <td align="center">Θ(n log(n))</td>
-                <td align="center">O(n log(n))</td>
-                <td align="center">O(n)</td>
-            </tr>
-            </table>
-    - Quicksort [Wikipedia](https://en.wikipedia.org/wiki/Quicksort?oldformat=true)
-        - Quicksort is considered, well, quite quick. When implemented correctly, it can be a significant number of times faster than its' main competitors. This algorithm is also of "divide and conquer" family and its' first step is to choose a "pivot" element (choosing it randomly, statistically, minimizes the chance to get the worst performance), then by comparing elements to this pivot, moving it closer and closer to its' final place. During this process, the elements that are bigger are moved to the right side of it and smaller elements to the left. After this is done, quicksort repeats this process for subarrays on each side of placed pivot (does first step recursively), until the array is sorted.
-                <table>
-                <tr>
-                    <th colspan="3" align="center">Time Complexity</th>
-                    <th align="center">Space Complexity</th>
-                </tr>
-                <tr>
-                    <th align="center">Best</th>
-                    <th align="center">Average</th>
-                    <th align="center">Worst</th>
-                    <th align="center">Worst</th>
-                </tr>
-                <tr>
-                    <td align="center">Ω(n log(n))</td>
-                    <td align="center">Θ(n log(n))</td>
-                    <td align="center">O(n^2)</td>
-                    <td align="center">O(n)</td>
-                </tr>
-                </table>  
-    - There are, of course, more sorting algorithms and their modifications. We strongly recommend all readers to familiarize themselves with a couple more, because knowing algorithms is very important quality of a candidate, applying for a job and it shows understanding of what is happening "under the hood".
+#### Views and ViewGroups
 
-* Dynamic Programming
+* **What is `View` in Android?** - [Learn from here](https://blog.mindorks.com/android-user-interface-view-components)
 
-* Greedy Algorithm
+* **Difference between `View.GONE` and `View.INVISIBLE`?** - [Learn from here](https://stackoverflow.com/questions/11556607/android-difference-between-invisible-and-gone)
 
-* String Manipulation
+* **Can you a create custom view? How?** - [Learn from here](https://blog.mindorks.com/create-your-own-custom-view)
 
-* Pathfinding algorithms [Wikipedia](https://en.wikipedia.org/wiki/Greedy_algorithm?oldformat=true)
-    - Dijkstra algorithm
-    - A* algorithm
-    - Breadth First Search
-    - Depth First Search
+* **What are ViewGroups and how they are different from the Views?**
+    - View: View objects are the basic building blocks of User Interface(UI) elements in Android. View is a simple rectangle box which responds to the user’s actions. Examples are EditText, Button, CheckBox etc. View refers to the android.view.View class, which is the base class of all UI classes.
+    - ViewGroup: ViewGroup is the invisible container. It holds View and ViewGroup. For example, LinearLayout is the ViewGroup that contains Button(View), and other Layouts also. ViewGroup is the base class for Layouts.
 
-### Core Java
+* **What is a Canvas?** - [Learn from here](https://blog.mindorks.com/understanding-canvas-api-in-android)
+
+* **What is a `SurfaceView`?** - [Learn from here](https://developer.android.com/reference/android/view/SurfaceView)
+
+* **Relative Layout vs Linear Layout.** - [Learn from here](https://blog.mindorks.com/android-layout-relative-linear-frame)
+
+* **Tell about Constraint Layout** - [Learn from here](https://blog.mindorks.com/using-constraint-layout-in-android-531e68019cd)
+
+* **Do you know what is the view tree? How can you optimize its depth?** - [Learn from here](https://developer.android.com/reference/android/view/ViewTreeObserver)
+
+#### Displaying Lists of Content
+
+* **What is the difference between `ListView` and `RecyclerView`?** - [Learn from here](https://stackoverflow.com/questions/26728651/recyclerview-vs-listview)
+
+* **What is the ViewHolder pattern? Why should we use it?** - [Learn from here](https://stackoverflow.com/questions/21501316/what-is-the-benefit-of-viewholder-pattern-in-android)
+
+* **What is `SnapHelper`?** - [Learn from here](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
+
+#### Dialogs and Toasts
+
+* **What is `Dialog` in Android?** - [Learn from here](https://developer.android.com/guide/topics/ui/dialogs)
+
+* **What is `Toast` in Android?** - [Learn from here](https://developer.android.com/guide/topics/ui/notifiers/toasts)
+
+* **What the difference between `Dialog` and `Dialog Fragment`?** - [Learn from here](https://stackoverflow.com/questions/7977392/android-dialogfragment-vs-dialog)
+
+#### Intents and Broadcasting
+
+* **What is `Intent`?** - [Learn from here](https://blog.mindorks.com/what-are-intents-in-android)
+
+* **What is an Implicit `Intent`?** - [Learn from here](https://blog.mindorks.com/what-are-intents-in-android)
+        
+* **What is an Explicit `Intent`?** - [Learn from here](https://blog.mindorks.com/what-are-intents-in-android)
+
+* **What is a `BroadcastReceiver`?** - [Learn from here](https://developer.android.com/guide/components/broadcasts)
+
+* **What is a `LocalBroadcastManager`?** - [Learn from here](https://blog.mindorks.com/using-localbroadcastmanager-in-android)
+
+* **What is the function of an `IntentFilter`?** - [Learn from here](https://developer.android.com/reference/android/content/IntentFilter)
+
+* **What is a Sticky `Intent`?**
+    - Sticky Intents allows communication between a function and a service. sendStickyBroadcast() performs a sendBroadcast(Intent) known as sticky, i.e. the Intent you are sending stays around after the broadcast is complete, so that others can quickly retrieve that data through the return value of registerReceiver(BroadcastReceiver, IntentFilter). For example, if you take an intent for ACTION_BATTERY_CHANGED to get battery change events: When you call registerReceiver() for that action — even with a null BroadcastReceiver — you get the Intent that was last Broadcast for that action. Hence, you can use this to find the state of the battery without necessarily registering for all future state changes in the battery.
+
+* **Describe how broadcasts and intents work to be able to pass messages around your app?** - [Learn from here](https://stackoverflow.com/questions/7276537/using-a-broadcast-intent-broadcast-receiver-to-send-messages-from-a-service-to-a)
+
+* **What is a `PendingIntent`?**
+    - If you want someone to perform any Intent operation at future point of time on behalf of you, then we will use Pending Intent.
+
+* **What are the different types of Broadcasts?** - [Learn from here](https://developer.android.com/guide/components/broadcasts)
+
+#### Services
+
+* **What is `Serivce`?** - [Learn from here](https://developer.android.com/guide/components/services)
+
+* **`Service` vs `IntentService`.** - [Learn from here](https://blog.mindorks.com/service-vs-intentservice-in-android)
+
+* **What is a `JobScheduler`?** - [Learn from here](https://developer.android.com/reference/android/app/job/JobScheduler)
+
+#### Inter-process Communication
+
+* **How can two distinct Android apps interact?** - [Learn from here](https://developer.android.com/training/basics/intents)
+
+* **Is it possible to run an Android app in multiple processes? How?** - [Learn from here](https://stackoverflow.com/questions/6567768/how-can-an-android-application-have-more-than-one-process)
+
+* **What is AIDL? Enumerate the steps in creating a bounded service through AIDL.** - [Learn from here](https://developer.android.com/guide/components/aidl)
+
+* **What can you use for background processing in Android?** - [Learn from here](https://developer.android.com/guide/background)
+
+* **What is a `ContentProvider` and what is it typically used for?** - [Learn from here](https://developer.android.com/guide/topics/providers/content-provider-basics) and [here](https://developer.android.com/guide/topics/providers/content-providers)
+
+#### Long-running Operations
+
+* **How to run parallel tasks in Java or Android, and get callback when all complete?** - [Learn from here](https://www.youtube.com/watch?v=v0ZSnISeyKE)
+
+* **Why should you avoid to run non-ui code on the main thread?** - [Learn from here](https://developer.android.com/training/multiple-threads/communicate-ui)
+
+* **What is ANR? How can the ANR be prevented?** - [Learn from here](https://developer.android.com/topic/performance/vitals/anr.html)
+
+* **What is an `AsyncTask`?** - [Learn from here](https://www.youtube.com/watch?v=ZZ-6nGbfVdA)
+
+* **What are the problems in AsyncTask?** - [Learn from here](https://www.youtube.com/watch?v=ZZ-6nGbfVdA)
+
+* **When would you use java thread instead of an AsyncTask?** - [Learn from here](https://stackoverflow.com/questions/18480206/asynctask-vs-thread-in-android)
+
+* **What is a `Loader`? (Deprecated)** - [Learn from here](https://developer.android.com/guide/components/loaders)
+
+* **What is the relationship between the life cycle of an `AsyncTask` and an `Activity`? What problems can this result in? How can these problems be avoided?**
+    - An AsyncTask is not tied to the life cycle of the Activity that contains it. So, for example, if you start an AsyncTask inside an Activity and the user rotates the device, the Activity will be destroyed (and a new Activity instance will be created) but the AsyncTask will not die but instead goes on living until it completes.
+    
+    - Then, when the AsyncTask does complete, rather than updating the UI of the new Activity, it updates the former instance of the Activity (i.e., the one in which it was created but that is not displayed anymore!). This can lead to an Exception (of the type java.lang.IllegalArgumentException: View not attached to window manager if you use, for instance, findViewById to retrieve a view inside the Activity).
+    
+    - There’s also the potential for this to result in a memory leak since the AsyncTask maintains a reference to the Activity, which prevents the Activity from being garbage collected as long as the AsyncTask remains alive.
+
+    - For these reasons, using AsyncTasks for long-running background tasks is generally a bad idea . Rather, for long-running background tasks, a different mechanism (such as a service) should be employed.
+    
+    - Note: AsyncTasks by default run on a single thread using a serial executor, meaning it has only 1 thread and each task runs one after the other.
+
+* **Explain `Looper`, `Handler` and `HandlerThread`.** - [Learn from here](https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a) and [from video](https://www.youtube.com/watch?v=rfLMwbOKLRk&list=PL6nth5sRD25hVezlyqlBO9dafKMc5fAU2)
+
+* **How does the threading work in Android?** - [Learn from here](https://www.youtube.com/watch?v=zfDYK-xB1Uo)
+
+* **Android Memory Leak and Garbage Collection** - [Learn from here](https://www.youtube.com/watch?v=zCSSFRRIreo)
+
+#### Working With Multimedia Content
+
+* **How do you handle bitmaps in Android as it takes too much memory?** - [Learn from here](https://developer.android.com/topic/performance/graphics/load-bitmap) and [here](https://developer.android.com/topic/performance/graphics/manage-memory)
+
+* **What is the difference between a regular `Bitmap` and a nine-patch image?**
+    - In general, a Nine-patch image allows resizing that can be used as background or other image size requirements for the target device. The Nine-patch refers to the way you can resize the image: 4 corners that are unscaled, 4 edges that are scaled in 1 axis, and the middle one that can be scaled into both axes.
+
+* **Tell about the `Bitmap` pool.** - [Learn from here](https://blog.mindorks.com/how-to-use-bitmap-pool-in-android-56c71a55533c)
+
+* **How to play sounds in Android?** - [Learn from here](https://blog.mindorks.com/using-mediaplayer-to-play-an-audio-file-in-android)
+
+* **How image compression is preformed?** - [Learn from here](https://blog.mindorks.com/understanding-image-compression-in-android)
+
+#### Data Saving
+
+* **How to persist data in an Android app?** - [Learn from here](https://blog.mindorks.com/android-shared-preferences-in-kotlin)
+
+* **What is ORM? How does it work?** - [Learn from here](https://www.youtube.com/watch?v=9OHzXUo3Ymk)
+
+* **How would you preserve `Activity` state during a screen rotation?** - [Learn from here](https://stackoverflow.com/questions/3915952/how-to-save-state-during-orientation-change-in-android-if-the-state-is-made-of-m)
+
+* **What are different ways to store data in your Android app?** - [Learn from here](https://blog.mindorks.com/understanding-storage-system-to-store-data-in-android)
+
+* **Explain Scoped Storage in Android.** - [Learn from here](https://blog.mindorks.com/understanding-the-scoped-storage-in-android)
+
+* **How to encrypt data in Android?** - [Learn from here](https://blog.mindorks.com/how-to-encrypt-data-safely-on-device-and-use-the-androidkeystore)
+
+* **What is commit() and apply() in SharedPreferences?**
+    - commit() returns a boolean value of success or failure immediately by writing data synchronously.
+    - apply() is asynchronous and it won't return any boolean response. If you have an apply() outstanding and you are performing commit(), then the commit() will be blocked until the apply() is not completed.
+
+#### Look and Feel
+
+* **What is a `Spannable`?** - [Learn from here](https://medium.com/androiddevelopers/underspanding-spans-1b91008b97e4)
+
+* **What is a `SpannableString`?**
+   - A SpannableString has immutable text, but its span information is mutable. Use a SpannableString when your text doesn't need to be changed but the styling does. Spans are ranges over the text that include styling information like color, highlighting, italics, links, etc
+
+* **What are the best practices for using text in Android?** - [Learn from here](https://blog.mindorks.com/best-practices-for-using-text-in-android)
+
+* **How to implement Dark mode in any application?** - [Learn from here](https://blog.mindorks.com/implementing-dark-mode-theme-in-android)
+
+* **How to generate dynamic colors based in image?** - [Learn from here](https://blog.mindorks.com/color-palette-in-android)
+
+* **Explain about Density Independence Pixel** - [Learn from here](https://blog.mindorks.com/understanding-density-independent-pixel-sp-dp-dip-in-android)
+
+#### Memory Optimizations
+
+* **What is the `onTrimMemory()` method?** - [Learn from here](https://developer.android.com/topic/performance/memory)
+
+* **How does the OutOfMemory happens?** - [Learn from here](https://blog.mindorks.com/practical-guide-to-solve-out-of-memory-error-in-android-application)
+
+* **How do you find memory leaks in Android applications?** - [Learn from here](https://blog.mindorks.com/practical-guide-to-solve-out-of-memory-error-in-android-application) and [here](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
+
+#### Battery Life Optimizations
+
+* **How to reduce battery usage in an android application?** - [Learn from here](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
+
+* **What is Doze? What about App Standby?** - [Learn from here](https://developer.android.com/training/monitoring-device-state/doze-standby)
+
+* **What is `overdraw`?** - [Learn from here](https://developer.android.com/topic/performance/rendering/overdraw.html)
+
+#### Supporting Different Screen Sizes
+
+* **How do you support different types of resolutions?** - [Learn from here](https://developer.android.com/training/multiscreen/screensizes)
+
+#### Permissions
+
+* **What are the different protection levels in permission?** - [Learn from here](https://blog.mindorks.com/what-are-the-different-protection-levels-in-android-permission)
+
+#### Native Programming
+
+* **What is the NDK and why is it useful?** - [Learn from here](https://www.youtube.com/watch?v=iljxHVt7Arc) and [here](https://blog.mindorks.com/getting-started-with-android-ndk-android-tutorial) and [here](https://www.youtube.com/watch?v=iljxHVt7Arc)
+
+* **What is renderscript?** - [Learn from here](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
+
+#### Android System Internal
+
+* **What is the Dalvik Virtual Machine?** - [Learn from here](https://blog.mindorks.com/what-are-the-differences-between-dalvik-and-art)
+
+* **What is the difference JVM, DVM and ART?** - [Learn from here](https://android.jlelse.eu/closer-look-at-android-runtime-dvm-vs-art-1dc5240c3924)
+
+* **What are the differences between Dalvik and ART?** - [Learn from here](https://blog.mindorks.com/what-are-the-differences-between-dalvik-and-art)
+
+* **What is DEX?** - [Learn from here](https://developer.android.com/reference/dalvik/system/DexFile)
+
+* **Can you manually call the Garbage collector?** - [Learn from here](https://stackoverflow.com/questions/15632734/can-we-call-the-garbage-collector-explicitly)
+
+#### Android Jetpack
+
+* **What is Android Jetpack and why to use this?** - [Learn from here](https://blog.mindorks.com/what-is-android-jetpack-and-why-should-we-use-it)
+
+* **What are Android Architecture Components?** - [Learn from here](https://blog.mindorks.com/what-are-android-architecture-components)
+
+* **What is LiveData in Android?** - [Learn from here](https://blog.mindorks.com/understanding-livedata-in-android)
+
+* **How LiveData is different from ObservableField?** - [Learn from here](https://blog.mindorks.com/livedata-vs-observable-in-android)
+
+* **What is the difference between setValue and postValue in LiveData?** - [Learn from here](https://blog.mindorks.com/livedata-setvalue-vs-postvalue-in-android)
+
+* **How to share ViewModel between Fragments in Android?** - [Learn from here](https://blog.mindorks.com/shared-viewmodel-in-android-shared-between-fragments)
+
+* **Explain Work Manager in Android.** - [Learn from here](https://blog.mindorks.com/integrating-work-manager-in-android)
+
+#### Others
+
+* **Why Bundle class is used for data passing and why cannot we use simple Map data structure?** - [Learn from here](https://developer.android.com/guide/components/activities/parcelables-and-bundles)
+
+* **How do you troubleshoot a crashing application?** - [Learn from here](https://developer.android.com/topic/performance/vitals/crash)
+
+* **Explain Android notification system?** - [Learn from here](https://developer.android.com/guide/topics/ui/notifiers/notifications)
+
+* **What is the difference between Serializable and Parcelable? Which is the best approach in Android?** - [Learn from here](https://android.jlelse.eu/parcelable-vs-serializable-6a2556d51538)
+
+* **Have you developed widgets? Describe.** - [Learn from here](https://blog.mindorks.com/android-widgets-ad3d166458d3)
+
+* **What is AAPT?** - [Learn from here](https://developer.android.com/studio/command-line/aapt2)
+
+* **What is the best way to update the screen periodically?** - [Learn from here](https://stackoverflow.com/questions/5452394/best-way-to-perform-an-action-periodically-while-an-app-is-running-handler)
+
+* **FlatBuffers vs JSON.** - [Learn from here](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
+
+* **`HashMap`, `ArrayMap` and `SparseArray`** - [Learn from here](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
+
+* **What are Annotations?** - [Learn from here](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9), [Link](https://blog.mindorks.com/improve-your-android-coding-through-annotations-26b3273c137a), [and from video](https://www.youtube.com/watch?v=LEb9if2HHSw)
+
+* **How to create custom Annotation?** - [Learn from here](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9) and [here](https://www.youtube.com/watch?v=LEb9if2HHSw)
+
+* **How to handle multi-touch in android?** - [Learn from here](https://developer.android.com/training/gestures/multi)
+
+* **How to implement XML namespaces?** - [Learn from here](https://developer.android.com/reference/javax/xml/namespace/NamespaceContext)
+
+* **What is the support library? Why was it introduced?** - [Learn from here](https://developer.android.com/topic/libraries/support-library)
+
+* **What is Android Data Binding?** - [Learn from here](https://developer.android.com/topic/libraries/data-binding/index.html)
+
+* **How to check if Software keyboard is visible or not?** - [Learn from here](https://blog.mindorks.com/how-to-check-the-visibility-of-software-keyboard-in-android)
+
+* **How to take screenshot in Android programmatically?** - [Learn from here](https://blog.mindorks.com/how-to-programmatically-take-a-screenshot-on-android)
+
+### Android Libraries
+
+* **Explain OkHttp Interceptor** - [Learn from here](https://blog.mindorks.com/okhttp-interceptor-making-the-most-of-it)
+
+* **OkHttp - HTTP Caching - How caching work in Android** - [Learn from here](https://www.youtube.com/watch?v=D6dQn6pUQD0)
+
+* **Tell me something about RxJava.** - [Learn from here](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
+
+* **How will you handle error in RxJava?** - [Learn from here](https://blog.mindorks.com/error-handling-in-rxjava)
+
+* **FlatMap Vs Map Operator** - [Learn from here](https://medium.com/mindorks/rxjava-operator-map-vs-flatmap-427c09678784)
+    
+* **When to use `Create` operator and when to use `fromCallable` operator of RxJava?** - [Learn from here](https://blog.mindorks.com/understanding-rxjava-create-and-fromcallable-operator)
+    
+* **When to use `defer` operator of RxJava?** - [Learn from here](https://blog.mindorks.com/understanding-rxjava-defer-operator)
+    
+* **How are Timer, Delay, and Interval operators used in RxJava?** - [Learn from here](https://blog.mindorks.com/understanding-rxjava-timer-delay-and-interval-operators)
+
+* **How to make two network calls in parallel using RxJava?** - [Learn from here](https://blog.mindorks.com/understanding-rxjava-zip-operator-with-example)
+    
+* **Tell the difference between Concat and Merge.** - [Learn from here](https://blog.mindorks.com/rxjava-operator-concat-vs-merge)
+
+* **Explain Subject in RxJava?** - [Learn from here](https://blog.mindorks.com/understanding-rxjava-subject-publish-replay-behavior-and-async-subject-224d663d452f)
+
+* **What are the types of Observables in RxJava?** - [Learn from here](https://blog.mindorks.com/understanding-types-of-observables-in-rxjava-6c3a2d0819c8)
+
+* **How to implement EventBus with RxJava?** - [Learn from here](https://blog.mindorks.com/implementing-eventbus-with-rxjava-rxbus-e6c940a94bd8)
+
+* **How to implement search feature using RxJava in your application?** - [Learn from here](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
+
+* **How The Android Image Loading Library Glide and Fresco Works?** - [Learn from here](https://blog.mindorks.com/how-the-android-image-loading-library-glide-and-fresco-works-962bc9d1cc40)
+
+* **Difference between Schedulers.io() and Schedulers.computation() in RxJava.**
+
+* **How does the custom scope work in Dagger?**
+
+* **How does the Dagger work?** - [Learn from here](https://blog.mindorks.com/android-annotation-processing-tutorial-part-1-a-practical-approach) and [here]((https://www.youtube.com/watch?v=Grzqz-B3NWU))
+
+* **What is Component in Dagger?** - [Learn from here](https://www.youtube.com/watch?v=Grzqz-B3NWU)
+
+* **What is Module in Dagger?** - [Learn from here](https://www.youtube.com/watch?v=Grzqz-B3NWU)
+
+* **When to call dispose and clear on CompositeDisposable in RxJava?** - [Learn from here](https://stackoverflow.com/questions/47057885/when-to-call-dispose-and-clear-on-compositedisposable)
+
+* **What is Multipart Request in Networking?** - [Learn from here](https://www.youtube.com/watch?v=p7SiNT0q1I8)
+
+* **What is Flow in Kotlin?** - [Learn from here](https://blog.mindorks.com/what-is-flow-in-kotlin-and-how-to-use-it-in-android-project)
+
+### Android Architecture
+
+* **Describe the architecture of your last app.**
+
+* **Describe MVP.** - [Learn from here](https://mindorks.com/course/android-mvp-introduction)
+
+* **Describe MVVM.** - [Learn from here](https://blog.mindorks.com/mvvm-architecture-android-tutorial-for-beginners-step-by-step-guide) and [here](https://www.youtube.com/watch?v=HJMZNF-tG-4)
+
+* **MVC vs MVP vs MVVM architecture.** - [Learn from here](https://blog.mindorks.com/mvc-mvp-mvvm-architecture-in-android)
+
+* **What is presenter?** - [Learn from here](https://mindorks.com/course/android-mvp-introduction)
+
+* **What is model?** - [Learn from here](https://mindorks.com/course/android-mvp-introduction)
+
+* **Describe MVC.** - [Learn from here](https://blog.mindorks.com/mvc-mvp-mvvm-architecture-in-android)
+
+* **Describe MVI** - [Learn from here](https://github.com/MindorksOpenSource/MVI-Architecture-Android-Beginners)
+
+* **Describe the repository pattern** - [Learn from here](https://blog.mindorks.com/android-mvp-architecture-extension-with-interactors-and-repositories-bd4b51972339)
+
+* **What is controller?** - [Learn from here](https://blog.mindorks.com/mvc-mvp-mvvm-architecture-in-android)
+
+* **Tell something about clean code** - [Learn from here](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
+
+### Android Design Problem
+
+* **Design Uber App.** - [Learn from here](https://github.com/MindorksOpenSource/ridesharing-uber-lyft-app)
+
+* **Design Facebook App.**
+
+* **Design Facebook Near-By Friends App.**
+
+* **Design WhatsApp.**
+
+* **Design SnapChat.**
+
+* **Design problems based on location based app.**
+
+* **How to build offline-first app? Explain the architecture.**
+
+* **Design LRU Cache.**
+
+* **Design File Downloader** - [Lear from here](https://github.com/MindorksOpenSource/PRDownloader)
+
+### Android Unit Testing
+* **What is Espresso?** - [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
+
+* **What is Robolectric?** - [Learn from here](http://robolectric.org/)
+
+* **What are the disadvantages of using Robolectric?** - [Learn from here](https://stackoverflow.com/questions/18271474/robolectric-vs-android-test-framework) 
+
+* **What is UI-Automator?** - [Learn from here](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
+
+* **Explain unit test.** - [Learn from here](https://developer.android.com/training/testing/unit-testing/local-unit-tests)
+
+* **Explain instrumented test.** - [Learn from here](https://developer.android.com/training/testing/unit-testing/instrumented-unit-tests)
+
+* **Have you done unit testing or automatic testing?**
+
+* **Why Mockito is used?** - [Learn from here](http://site.mockito.org/)
+
+* **Describe JUnit test.** - [Learn from here](https://en.wikipedia.org/wiki/JUnit)
+
+* **Describe code coverage.** - [Learn from here](https://blog.mindorks.com/generate-global-code-coverage-report-in-android-development-using-jacoco-plugin)
+
+### Android Tools And Technologies
+
+* **What is ADB?** - [Learn from here](https://developer.android.com/studio/command-line/adb)
+
+* **What is DDMS and what can you do with it?** - [Learn from here](https://developer.android.com/studio/profile/monitor)
+
+* **What is the StrictMode?** - [Learn from here](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
+
+* **What is Lint? What is it used for?** - [Learn from here](https://blog.mindorks.com/what-is-lint-what-is-it-used-for)
+
+* **Git.** - [Learn from here](https://www.youtube.com/watch?v=D4h8Dbrjt4M&list=PL6nth5sRD25itbyNVUULAebzL-VLrLfkK)
+
+* **Android Development Useful Tools.** - [Learn from here](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
+
+* **Firebase.** - [Learn from here](https://firebase.google.com/)
+
+* **How to measure method execution time in Android?** - [Learn from here](https://blog.mindorks.com/measure-method-execution-time-in-android-debug-build)
+
+* **Can you access your database of SQLite Database for debugging?** - [Learn from here](https://blog.mindorks.com/how-to-access-sqlite-database-in-android-for-debugging)
+
+* **What are things that we need to take care while using Proguard?** - [Learn from here](https://blog.mindorks.com/things-to-care-while-using-proguard-in-android-application)
+
+* **What is Multidex in Android?** - [Learn from here](https://blog.mindorks.com/understanding-multidex-in-android)
+
+* **How to use Android Studio Memory Profiler?** - [Learn from here](https://www.youtube.com/watch?v=FxDa2td6Ej8)
+
+* **How to use Firebase realtime database in your app?** - [Learn from here](https://blog.mindorks.com/firebase-realtime-database-android-tutorial)
+
+* **What is Gradle?** - [Learn from here](https://blog.mindorks.com/gradle-for-android-developers-getting-the-most-of-it)
+
+* **APK Size Reduction.** - [Learn from here](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662) and [here](https://blog.mindorks.com/using-r8-to-reduce-apk-size-in-android)
+
+* **How can you speed up the Gradle build?** - [Learn from here](https://blog.mindorks.com/speed-up-gradle-build-for-android-to-save-your-time)
+
+* **About gradle build system.** - [Learn from here](https://blog.mindorks.com/gradle-for-android-developers-getting-the-most-of-it)
+
+* **About multiple apk for android application.** - [Learn from here](https://mindorks.com/blog/how-to-create-multiple-apk-files-for-android-application)
+
+* **What is proguard used for?** - [Learn from here](https://blog.mindorks.com/applying-proguard-in-an-android-application)
+
+* **What is obfuscation? What is it used for? What about minification?** - [Learn from here](https://www.youtube.com/watch?v=yduedsaxfDw)
+
+* **How to change some parameters in an app without app update?** - [Learn from here](https://blog.mindorks.com/getting-started-with-firebase-remote-config-in-android)
+
+### Java and Kotlin
 
 #### OOP
 
@@ -273,7 +508,13 @@
     [abstraction](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)), and
     [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)).
 
-* **Differences between abstract classes and interfaces?** [GitHub](https://arjun-sna.github.io/java/2017/02/02/abstractvsinterface/)
+* **What is the difference between a constructor and a method?** 
+    - The name of the constructor is same as that of the class name, whereas the name of the method can be anything.
+    - There is no return type of a constructor.
+    - When you make an object of a class, then the constructor of that class will be called automatically. But for methods, we need to call it explicitely.
+    - Constructors can't be inherited but you can call the constructor of the parent class by calling `super()`.
+
+* **Differences between abstract classes and interfaces?** 
     - An abstract class, is a class that contains both concrete and abstract methods 
     (methods without implementations). An abstract method must be implemented by the abstract class
      sub-classes. Abstract classes cannot be instantiated and need to be extended to be used.
@@ -282,8 +523,10 @@
     implementation for each of these methods. Interfaces are implemented.
 
 * **What is the difference between iterator and enumeration in java?**
+    - In Enumeration we have remove() method and we can only read and traverse through a collection.
+    - Iterators can be applied to any collection. In Iterator, we can read and remove items from a collection.
 
-* **Do you agree we use composition over inheritance?** [Composition vs Inheritance](https://www.journaldev.com/12086/composition-vs-inheritance)
+* **Do you agree we use composition over inheritance?** [Learn from here](https://www.journaldev.com/12086/composition-vs-inheritance)
 
 * **Difference between method overloading and overriding.**
         <p align="center">
@@ -344,55 +587,49 @@
         Return type of method does not matter in case of method overloading, it can be same or different. However in case of method overriding the overriding method can have more specific return type (meaning if, for example, base method returns an instance of Number class, all overriding methods can return any class that is extended from Number, but not a class that is higher in the hierarchy, like, for example, Object is in this particular case).
 
         Argument list should be different while doing method overloading. Argument list should be same in method Overriding.
-It is also a good practice to annotate overridden methods with `@Override` to make the compiler be able to notify you if child is, indeed, overriding parent's class method during compile-time.
+        It is also a good practice to annotate overridden methods with `@Override` to make the compiler be able to notify you if child is, indeed, overriding parent's class method during compile-time.
 
 * **What are the access modifiers you know? What does each one do?** <br>
    - There are four access modifiers in Java language (from strictest to the most lenient):
         1. `private` *variables*, *methods*, *constructors* or *inner classes* are only visible to its' containing class and its' methods. This modifier is most commonly used, for example, to allow variable access only through getters and setters or to hide underlying implementation of classes that should not be used by user and therefore maintain encapsulation. Singleton constructor is also marked `private` to avoid unwanted instantiation from outside.
-        2. `protected` can be used on *variables*, *methods* and *constructors* therefore allowing access only to subclasses and classes that are inside the same package as protected members' class.
-        3. Default (no keyword is used) this modifier can be applied to *classes*, *variables*, *constructors* and *methods* and allows access from classes and methods inside the same package.
+        2. `Default` (no keyword is used) this modifier can be applied to *classes*, *variables*, *constructors* and *methods* and allows access from classes and methods inside the same package.
+        3. `protected` can be used on *variables*, *methods* and *constructors* therefore allowing access only to subclasses and classes that are inside the same package as protected members' class.
         4. `public` modifier is widely-used on *classes*, *variables*, *constructors* and *methods* to grant access from any class and method anywhere. It should not be used everywhere as it implies that data marked with `public` is not sensitive and can not be used to harm the program.
 
 * **Can an Interface implement another Interface?**
-  - Yes, an interface can implement another interface (and more than one), but it needs to use `extends`, rather than `implements` keyword. And while you can not remove methods from parent interface, you can add new ones freely to your subinterface.
+  - Yes, an interface can implement another interface (and more than one), but it needs to use `extends`, rather than `implements` keyword. And while you can not remove methods from parent interface, you can add new ones freely to your sub-interface.
 
 * **What is Polymorphism? What about Inheritance?**
   - Polymorphism in Java has two types: Compile time polymorphism (static binding) and Runtime polymorphism (dynamic binding). Method overloading is an example of static polymorphism, while method overriding is an example of dynamic polymorphism.
 
-	An important example of polymorphism is how a parent class refers to a child class object.  In fact, any object that satisfies more than one IS-A relationship is polymorphic in nature.
+    An important example of polymorphism is how a parent class refers to a child class object.  In fact, any object that satisfies more than one IS-A relationship is polymorphic in nature.
 
-	For instance, let’s consider a class `Animal` and let `Cat` be a subclass of `Animal`. So, any cat IS animal. Here, Cat satisfies the IS-A relationship for its own type as well as its super class Animal.
+    For instance, let’s consider a class `Animal` and let `Cat` be a subclass of `Animal`. So, any cat IS animal. Here, Cat satisfies the IS-A relationship for its own type as well as its super class Animal.
   - Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another. With the use of inheritance the information is made manageable in a hierarchical order.
 
-	The class which inherits the properties of other is known as subclass (derived class, child class) and the class whose properties are inherited is known as superclass (base class, parent class).
+    The class which inherits the properties of other is known as subclass (derived class, child class) and the class whose properties are inherited is known as superclass (base class, parent class).
 
-	Inheritance uses the keyword `extends` to inherit the properties of a class. Following is the syntax of extends keyword.
-	```java
-	class Super {
-	   .....
-	   .....
-	}
-	class Sub extends Super {
-	   .....
-	   .....
-	}
-	```
+    Inheritance uses the keyword `extends` to inherit the properties of a class. Following is the syntax of extends keyword.
+    ```java
+    class Super {
+       .....
+       .....
+    }
+    class Sub extends Super {
+       .....
+       .....
+    }
+    ```
 
-* **Multiple inheritance in Classes and Interfaces in java** [Blog](http://codeinventions.blogspot.in/2014/07/can-interface-extend-multiple.html)
+* **Multiple inheritance in Classes and Interfaces in java** [Learn from here](http://codeinventions.blogspot.in/2014/07/can-interface-extend-multiple.html)
 
-* **What are the design patterns?** [MindOrks](https://blog.mindorks.com/mastering-design-patterns-in-android-with-kotlin)
+* **What are the design patterns?** [Learn from here](https://blog.mindorks.com/mastering-design-patterns-in-android-with-kotlin)
     - Creational patterns
         - Builder [Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern?oldformat=true)
-
         - Factory [Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern?oldformat=true)
-
         - Singleton [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
-          A singleton is a class that can only be instantiated once. This singleton pattern restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system. The concept is sometimes generalized to systems that operate more efficiently when only one object exists, or that restrict the instantiation to a certain number of objects.
-	  
         - Monostate [Wikipedia](http://wiki.c2.com/?MonostatePattern)
-	
         - Fluent Interface Pattern [Wikipedia](https://martinfowler.com/bliki/FluentInterface.html)
-
     - Structural patterns
         - Adapter [Wikipedia](https://en.wikipedia.org/wiki/Adapter_pattern?oldformat=true)
         - Decorator [Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern?oldformat=true)
@@ -404,13 +641,13 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Collections and Generics
 
-* `Arrays` vs `ArrayLists`.
+* **Arrays Vs ArrayLists** - [Learn from here](https://stackoverflow.com/questions/32020000/what-is-the-difference-between-an-array-arraylist-and-a-list/32020072) and [here](https://www.youtube.com/watch?v=SMtSW3Zke_k)
 
-* `HashSet` vs `TreeSet`.
+* **HashSet Vs TreeSet** - [Learn from here](https://stackoverflow.com/questions/25602382/java-hashset-vs-treeset-when-should-i-use-over-other)
 
-* `HashMap` vs `Set`
+* **HashMap Vs Set** - [Learn from here](https://stackoverflow.com/questions/2773824/difference-between-hashset-and-hashmap)
 
-* `Stack` vs `Queue`
+* **Stack Vs Queue** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/stack-and-queue)
 
 * **Explain Generics in Java?**
     - Generics were included in Java language to provide stronger type checks, by allowing the programmer to define, which classes can be used with other classes
@@ -424,11 +661,10 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
     - It should be noted that standard class hierarchy *does not* apply to generic types. It means that `Integer` in `List<Integer>` is not inherited from `<Number>` - it is actually inherited directly from `<Object>`. You can still put some constraints on what classes can be passed as a parameter into a generic by using [wildcards](https://docs.oracle.com/javase/tutorial/extra/generics/wildcards.html) like `<?>`, `<? extends MyCustomClass>` or `<? super Number>`.
     - While generics are very useful, late inclusion into Java language has put some restraints on their implementation - backward compatibility required them to remain just "syntactic sugar" - they are erased ([type erasure](https://docs.oracle.com/javase/tutorial/java/generics/erasure.html)) during compile-time and replaced with `object` class.
 
-* **What is Java `PriorityQueue`?**
+* **What is Java PriorityQueue?**
+        - In Priority Queue, each element is having some priority and all the elements are present in a queue. The operations are performed based on the priority.
 
 #### Objects and Primitives
-
-#### String
 
 * **How is `String` class implemented? Why was it made immutable?**
   - There is no primitive variant of `String` class in Java language - all strings are just wrappers around underlying array of characters, which is declared `final`. This means that, once a `String` object is instantiated, it cannot be changed through normal tools of the language (Reflection still can mess things up horribly, because in Java no object is truly immutable). This is why `String` variables in classes are the first candidates to be used, when you want to override `hashCode()` and `equals()` of your class - you can be sure, that all their required contracts will be satisfied.
@@ -449,8 +685,18 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
     - It means that once created, `String` object's `char[]` (its' containing value) is declared `final` and, therefore, it can not be changed during runtime.
 
 * **What is `String.intern()`? When and why should it be used?**
+    - `String.intern()` is used to mange memory in Java code. It is used when we have duplicates value in different strings. When you call the `String.intern()`, then if in the String pool that string is present then the `equals()` method will return true and it will return that string only.
 
 * **Can you list 8 primitive types in java?**
+    - `byte`
+    - `short`
+    - `int`
+    - `long`
+    - `float`
+    - `double`
+    - `char`
+    - `String`
+    - `boolean`
 
 * **What is the difference between an Integer and int?**
   - `int` is a primitive data type (with `boolean`, `byte`, `char`, `short`, `long`, `float` and `double`), while `Integer` (with `Boolean`, `Byte`, `Character`, `Short`,`Long`, `Float` and `Double`) is a [wrapper](https://docs.oracle.com/javase/tutorial/java/data/numberclasses.html) class that encapsulates primitive data type, while providing useful methods to perform different tasks with it.
@@ -458,7 +704,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 * **What is Autoboxing and Unboxing?**
   - Autoboxing and Unboxing is the process of automatic wrapping (putting in a box) and unwrapping (getting the value out) of primitive data types, that have "wrapper" classes. So `int` and `Integer` can (almost always) be used interchangeably in Java language, meaning a method `void giveMeInt(int i) { ... }` can take `int` as well as `Integer` as a parameter.
 
-* Typecast in Java.
+* **Typecast in Java**
     - In Java, you can use casts to polymorph one class into another, compatible one. For example:
         ```java
             long i = 10l;
@@ -480,7 +726,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
         }
         ```
         ```java
-            public class ValueAndReference {
+        public class ValueAndReference {
 
             public static void main(String[] args) {
 
@@ -523,22 +769,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
                              //  the same reference to an instance
         ```
 
-* **What is the difference between instantiation and initialization of an object?**
-    - Initialization is the process of the memory allocation, when a new variable is created. Variables should be explicitly given a value, otherwise they may contain a random value that remained from the previous variable that was using the same memory space. To avoid this problem, Java language assigns default (right after initialization) values to some data types:
-        * `boolean` defaults to `false`;
-        * `byte` defaults to `0`;
-        * `short` defaults to `0`;
-        * `int` defaults to `0`;
-        * `long` defaults to `0L`;
-        * `char` defaults to `\u0000`;
-        * `float` defaults to `0.0f`;
-        * `double` defaults to `0.0d`;
-        * `object` defaults to `null`.
-    - Instantiation is the process of explicitly assigning definitive value to a declared variable:
-        ```java
-            int j;  // Initialized variable (int defaults to 0 right after)
-            j = 10; // Instantiated variable
-        ```
+* **What is the difference between instantiation and initialization of an object?** - [Learn from here](https://docs.oracle.com/javase/tutorial/java/javaOO/objectcreation.html)
 
 * **What the difference between local, instance and class variables?**
   - Local variables exist only in methods that created them, they are stored separately in their respected Thread Stack (for more information, see question about Java Memory Model) and cannot have their reference passed outside of the method scope. That also means that they cannot be assigned any access modifier or made `static` - because they only exist during enclosing method's execution and those modifiers just do not make sense, since no other outside method can get them anyway.
@@ -553,27 +784,27 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
   Once an object is no longer referenced and therefore is not reachable by the application code,
   the garbage collector removes it and reclaims the unused memory.
 
-* **What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized?** [Jenkov](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
+* **What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized?** - [Learn from here](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
 
-* **What is memory leak and how does Java handle it?**
+* **What is memory leak and how does Java handle it?** - [Learn from here](https://developers.redhat.com/blog/2014/08/14/find-fix-memory-leaks-java-application/)
 
-* **What are strong, soft, weak and phantom references in Java?**
+* **What are strong, soft, weak and phantom references in Java?** - [Learn from here](https://dzone.com/articles/weak-soft-and-phantom-references-in-java-and-why-they-matter)
 
 #### Concurrency
 
-* **What does the keyword `synchronized` mean?** [Link](https://stackoverflow.com/a/1085745/2621950)
+* **What does the keyword `synchronized` mean?** [Learn from here](https://stackoverflow.com/a/1085745/2621950)
 
-* **What is a `ThreadPoolExecutor`?** [MindOrks](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
+* **What is a `ThreadPoolExecutor`?** [Learn from here](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
 
-* **What is `volatile` modifier?** [Jenkov](http://tutorials.jenkov.com/java-concurrency/volatile.html)
+* **What is `volatile` modifier?** [Learn from here](http://tutorials.jenkov.com/java-concurrency/volatile.html)
 
-* The clasess in the atomic package expose a common set of methods: `get`, `set,`, `lazyset`, `compareAndSet`, and `weakCompareAndSet`. Please describe them.
+* **The classes in the atomic package expose a common set of methods: `get`, `set,`, `lazyset`, `compareAndSet`, and `weakCompareAndSet`. Please describe them.**
 
 #### Exceptions
 
-* **How does the `try{} catch{} finally{}` works?** [Link](http://tutorials.jenkov.com/java-exception-handling/basic-try-catch-finally.html)
+* **How does the `try{}`, `catch{}`, `finally` works?** - [Learn from here](https://www.youtube.com/watch?v=Z_5e8MjRWnc&list=PL6nth5sRD25g_M_OgsMQgYIrESzzkGLME&index=13)
 
-* **What is the difference between a `Checked Exception` and an `Un-Checked Exception`?**
+* **What is the difference between a `Checked Exception` and an `Un-Checked Exception`?** - [Learn from here](https://www.w3schools.in/java-questions-answers/difference-between-checked-and-unchecked-exceptions-in-java/)
 
 #### Others
 
@@ -586,7 +817,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
         ```java
         /**
-        *  Implementing the Serializeable interface is all that is required
+        *  Implementing the Serializable interface is all that is required
         */
         public class User implements Serializable {
 
@@ -692,464 +923,388 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
         Note: For a full explanation of the <b>describeContents()</b> method see [StackOverflow](https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799).
         In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good thing to try and understand everything that is happening.
 
-* **What is `transient` modifier?** [JavaTPoint](https://www.javatpoint.com/transient-keyword)
+* **What is `transient` modifier?** [Learn from here](https://www.javatpoint.com/transient-keyword)
 
-* **What are anonymous classes?** [OracleDoc](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html)
+* **What are anonymous classes?** [Learn from here](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html)
 
-* **What is the difference between using `==` and `.equals` on an object?** [GeeksForGeeks](http://www.geeksforgeeks.org/difference-equals-method-java/)
+* **What is the difference between using `==` and `.equals` on an object?** - [Learn from here](https://www.youtube.com/watch?v=aVjnX1MIHB8)
 
-* **What is the `hashCode()` and `equals()` used for?**
+* **What is the `hashCode()` and `equals()` used for?** - [Learn from here](https://www.geeksforgeeks.org/equals-hashcode-methods-java/)
 
-* **Why would you not call abstract method in constructor?**
+* **Why would you not call abstract method in constructor?** - [Learn from here](https://stackoverflow.com/questions/15327417/is-it-ok-to-call-abstract-method-from-constructor-in-java)
 
 * **When would you make an object value `final`?**
 
 * **What are these `final`, `finally` and `finalize` keywords?**
   - `final` is a keyword in the java language. It is used to apply restrictions on class, method and variable. Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
-	```java
-	class FinalExample {
-		public static void main(String[] args) {
-			final int x=100;
-			x=200;//Compile Time Error because x is final
-		}
-	}
-	```
+    ```java
+    class FinalExample {
+        public static void main(String[] args) {
+            final int x=100;
+            x=200;//Compile Time Error because x is final
+        }
+    }
+    ```
   - `finally` is a code block and is used to place important code, it will be executed whether exception is handled or not.
-	```java
-	class FinallyExample {
-		public static void main(String[] args) {
-			try {
-				int x=300;
-			}catch(Exception e) {
-				System.out.println(e);
-			}
-			finally {
-				System.out.println("finally block is executed");
-			}
-		}
-	}
-	```
+    ```java
+    class FinallyExample {
+        public static void main(String[] args) {
+            try {
+                int x=300;
+            }catch(Exception e) {
+                System.out.println(e.getMessage());            }
+            finally {
+                System.out.println("finally block is executed");
+            }
+        }
+    }
+    ```
   - `Finalize` is a method used to perform clean up processing just before object is garbage collected.
-	```java
-	class FinalizeExample {
-		public void finalize() {
-			System.out.println("finalize called");
-		}
+    ```java
+    class FinalizeExample {
+        public void finalize() {
+            System.out.println("finalize called");
+        }
 
-		public static void main(String[] args) {
-			FinalizeExample f1=new FinalizeExample();
-			FinalizeExample f2=new FinalizeExample();
-			f1=null;
-			f2=null;
-			System.gc();
-		}
-	}
-	```
+        public static void main(String[] args) {
+            FinalizeExample f1=new FinalizeExample();
+            FinalizeExample f2=new FinalizeExample();
+            f1=null;
+            f2=null;
+            System.gc();
+        }
+    }
+    ```
 
+* **What is the difference between "throw" and "throws" keyword in Java?**
+    - `throws` is just used to indicated which exception is to be thrown. But the `throw` keyword is used to throw some exception from any static block or any method.
 
 * **What does the `static` word mean in Java?**
     - In case of `static` variable it means that this variable (its' value or the object it references) spans across all instances of enclosing class (changing it in one instance affects all others), while in case of `static` methods it means that these methods can be invoked without an instance of their enclosing class. It is useful, for example, when you create util classes that need not be instantiated every time you want to use them.
 
 * **Can a `static` method be overridden in Java?**
-  - While child class can override a static method with another static method with the same signature (return type can be downcasted), it is not truly overridden - it becomes "hidden", but both methods can still be accessed under right circumstances (see question about overloading/overriding above).
+    - While child class can override a static method with another static method with the same signature (return type can be down-casted), it is not truly overridden - it becomes "hidden", but both methods can still be accessed under right circumstances (see question about overloading/overriding above).
 
 * **When is a `static` block run?**
     - Code inside static block is executed only once: the first time you make an object of that class or the first time you access a static member of that class (even if you never make an object of that class).
 
-* **What is reflection?** [Jenkov](http://tutorials.jenkov.com/java-reflection/index.html)
+* **What is reflection?**
+    - You can inspect classes, interfaces, fields, and method at runtime with the help of reflection and the best part is that you need not know the names of these classes, methods, etc.
 
-* **What is Dependency Injection?  Can you name few libraries? Have you used any?**
-  - Dependency injection is a very powerful technique, where you relay the task of providing object with its' dependencies on instances of other objects (OOP Composition, [Wikipedia](https://en.wikipedia.org/wiki/Object_composition?oldformat=true)) to a separate class. This allows for fewer constructors, setters, factories and builders as all those functions are taken care of by the DI framework that you use. Also, and it may seem as a minor advantage, but if you use DI framework you need not worry about going through the project and changing all of (example names) `YourCustomInterface customInterfaceObject = new YourCustomClass();` to a new implementaion, as long as your new class (in place of `YourCustomClass`) still implements `CustomInterface` - you can just tweak the DI factory class to produce new class and voila - this new class will be automatically instantiated throughout your code. This allows for better maintenence and control over the program. Another example of DI usage is unit-testing - it allows to conveniently inject all needed dependencies and keep the amount of written code at a lower level.
-   - One of the most popular libraries for DI for Android is Dagger 2. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
+* **What is Dependency Injection?** [Learn from here](https://www.youtube.com/watch?v=Grzqz-B3NWU)
 
-* **How is a `StringBuilder` implemented to avoid the immutable string allocation problem?**
+* **How is a `StringBuilder` implemented to avoid the immutable string allocation problem?** - [Learn from here](https://stackoverflow.com/questions/54023816/how-is-a-stringbuilder-implemented-to-avoid-the-immutable-string-allocation-prob)
 
-* **Difference between `StringBuffer` and `StringBuilder`?** [Link](http://www.journaldev.com/137/stringbuffer-vs-stringbuilder)
-
-* **What’s the difference between an `Enumeration` and an `Iterator`?** [Link](http://javaconceptoftheday.com/differences-between-enumeration-vs-iterator-in-java/)
+* **Difference between `StringBuffer` and `StringBuilder`?** - [Learn from here](https://www.journaldev.com/538/string-vs-stringbuffer-vs-stringbuilder)
 
 * **What is the difference between fail-fast and fail-safe iterators in Java?**
+    - Fail-safe iterator will not throw any exception even if the collection is modified while iteration over it. But in Fail-safe iterator, it throws a ConcurrentModificationException when you try to modify the collection while using it.
 
-* **What is Java NIO?** [Link](http://tutorials.jenkov.com/java-nio/index.html)
+* **What is Java NIO?** - [Learn from here](https://en.wikipedia.org/wiki/Non-blocking_I/O_(Java))
 
-### Core Android
+* **Monitor and Synchronization** - [Learn from here](https://www.youtube.com/watch?v=oLTw1aJpSho)
 
-#### Base
+* **Tell some advantages of Kotlin.** - [Learn from here](https://www.youtube.com/watch?v=kRhivT-jKzY&t=16s)
 
-* Tell all the Android application components. [Android Official](https://developer.android.com/guide/components/fundamentals.html#Components)
+* **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
 
-* What is the structure of an Android Application?
+* **What is the difference between `const` and `val`?** - [Learn from here](https://blog.mindorks.com/what-is-the-difference-between-const-and-val)
 
-* What is `Context`? How is it used? [MindOrks](https://blog.mindorks.com/understanding-context-in-android-application-330913e32514)
+* **How to ensure `null` safety in Kotlin?** - [Learn from here](https://blog.mindorks.com/safecalls-vs-nullchecks-in-kotlin)
 
-* What is `AndroidManifest.xml`? [Android Official](https://developer.android.com/guide/topics/manifest/manifest-intro)
+* **When to use `lateint` keyword used in Kotlin?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-lateinit-vs-lazy)
 
-* What is `Application` class?
+* **How to check if a `lateinit` variable has been initialized?** - [Learn from here](https://blog.mindorks.com/how-to-check-if-a-lateinit-variable-has-been-initialized)
 
-#### Activity
+* **How to do lazy initialization of variables in Kotlin?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-lateinit-vs-lazy) and [here](https://www.youtube.com/watch?v=yEX9_PeNRy4)
 
-* What is `Activity`? [MindOrks](https://blog.mindorks.com/android-activity-lifecycle) and [MindOrks Video](https://www.youtube.com/watch?v=RiFui-i-s-o)
+* **What are `companion objects` in Kotlin?** - [Learn from here](https://blog.mindorks.com/companion-object-in-kotlin)
 
-* Explain `Activity` and `Fragment` lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle), simplified diagram for [Activity](https://developer.android.com/guide/components/activities/activity-lifecycle.html#alc), [Fragment](https://developer.android.com/guide/components/fragments.html#Lifecycle)), [Activity lifecycle](https://blog.mindorks.com/android-activity-lifecycle) and [Fragments lifecycle](https://blog.mindorks.com/android-fragments-and-its-lifecycle)
+* **What are the visibility modifiers in Kotlin?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-visibility-modifiers-private-protected-internal-public)
 
-* What are "launch modes"? [MindOrks](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
+* **What is the equivalent of Java static methods in Kotlin?** - [Learn from here](https://blog.mindorks.com/what-is-the-equivalent-of-java-static-methods-in-kotlin)
 
-#### Fragments
+* **What is a data class in Kotlin?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-data-class)
 
-* What is `Fragment`? [MindOrks](https://blog.mindorks.com/android-fragments-and-its-lifecycle)
+* **How to create a Singleton class in Kotlin?** - [Learn from here](https://blog.mindorks.com/how-to-create-a-singleton-class-in-kotlin)
 
-* What is the difference between a `Fragment` and an `Activity`? Explain the relationship between the two.
+* **What is the difference between `open` and `public` in Kotlin?** - [Learn from here](https://blog.mindorks.com/understanding-open-keyword-in-kotlin)
 
-* Why is it recommended to use only the default constructor to create a `Fragment`? [StackOverflow](https://stackoverflow.com/a/16042750/2809326)
+* **Explain the use-case of `let`, `run`, `with`, `also`, `apply` in Kotlin.** - [Learn from here](https://blog.mindorks.com/using-scoped-functions-in-kotlin-let-run-with-also-apply) and [here](https://www.youtube.com/watch?v=AiFBEH54Xpw)
 
-* How would you communicate between two Fragments? [Android Official](https://developer.android.com/training/basics/fragments/communicating.html)
+* **What are `Labels` in Kotlin?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-returns-jumps-labels)
 
-* What is retained `Fragment`? [AndroidDesignPatterns](https://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html)
+* **What is an `Init` block in Kotlin?** - [Learn from here](https://blog.mindorks.com/understanding-init-block-in-kotlin)
 
-#### Views and ViewGroups
+* **Explain `pair` and `triple` in Kotlin.** - [Learn from here](https://blog.mindorks.com/pair-and-triple-in-kotlin)
 
-* What is `View` in Android? [MindOrks](https://blog.mindorks.com/android-user-interface-view-components)
+* **How to choose between `apply` and `with`?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-apply-vs-with)
 
-* Difference between `View.GONE` and `View.INVISIBLE`? [StackOverflow](https://stackoverflow.com/questions/11556607/android-difference-between-invisible-and-gone)
+* **How to choose between `switch` with `when`?** - [Learn from here](https://blog.mindorks.com/replace-switch-with-when-in-kotlin)
 
-* Can you create custom views? How? [MindOrks](https://blog.mindorks.com/create-your-own-custom-view)
+* **What are Coroutines in Kotlin?** - [Learn from here](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
 
-* What are ViewGroups and how they are different from the Views?
+* **What is Coroutine Scope?** - [Learn from here](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
 
-* What is a canvas?
+* **What is Coroutine Context?** - [Learn from here](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
 
-* What is a `SurfaceView`?
+* **What is inline function in Kotlin?** - [Learn from here](https://blog.mindorks.com/understanding-inline-noinline-and-crossinline-in-kotlin)
 
-* Relative Layout vs Linear Layout. [MindOrks](https://blog.mindorks.com/android-layout-relative-linear-frame)
+* **When to use Kotlin sealed classes?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-sealed-classes)
 
-* Tell about Constraint Layout [MindOrks](https://blog.mindorks.com/using-constraint-layout-in-android-531e68019cd)
+* **Explain function literals with receiver in Kotlin?** - [Learn from here](https://blog.mindorks.com/function-literals-with-receiver-in-kotlin)
 
-* Do you know what is the view tree? How can you optimize its depth?
+* **Tell about Kotlin DSL.** - [Learn from here](https://blog.mindorks.com/mastering-kotlin-dsl-in-android-step-by-step-guide)
 
-#### Displaying Lists of Content
+* **What are higher-order functions in Kotlin?** - [Learn from here](https://blog.mindorks.com/understanding-higher-order-functions-and-lambdas-in-kotlin)
 
-* What is the difference between `ListView` and `RecyclerView`?
+* **What are Lambdas in Kotlin** - [Learn from here](https://blog.mindorks.com/understanding-higher-order-functions-and-lambdas-in-kotlin)
 
-* What is the ViewHolder pattern? Why should we use it?
+* **Tell about the Collections in Kotlin** - [Learn from here](https://www.youtube.com/watch?v=XeRt2ZZ-jkA)
 
-* What is `SnapHelper`? [MindOrks](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
+### Data Structures And Algorithms
 
-#### Dialogs and Toasts
+> The level of questions asked on the topic of Data Structures And Algorithms totally depends on the company for which you are applying.
 
-* What is `Dialog` in Android?[Dialog](https://developer.android.com/guide/topics/ui/dialogs)
-
-* What is `Toast` in Android?[Toast](https://developer.android.com/guide/topics/ui/notifiers/toasts)
-
-* What the difference between `Dialog` and `Dialog Fragment`?
-
-#### Intents and Broadcasting
-
-* What is `Intent`? [StackOverflow](https://stackoverflow.com/questions/6578051/what-is-an-intent-in-android)
-
-* What is an Implicit `Intent`?	[StackOverflow](https://stackoverflow.com/questions/10272699/what-is-the-different-between-explicit-and-implicit-activity-call-in-android/20728603)
-		
-* What is an Explicit `Intent`?
-
-* What is a `BroadcastReceiver`? [StackOverflow](https://stackoverflow.com/questions/5296987/what-is-broadcastreceiver-and-when-we-use-it)
-
-* What is a `LocalBroadcastManager`? [Developer Android](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)
-
-* What is the function of an `IntentFilter`? [StackOverflow](https://stackoverflow.com/questions/3321514/what-are-intent-filters-in-android)
-
-* What is a Sticky `Intent`? [AndroidInterview](http://www.androidinterview.com/what-is-a-sticky-intent/)
-
-* Describe how broadcasts and intents work to be able to pass messages around your app?
-
-* What is a `PendingIntent`?
-
-* What are the different types of Broadcasts?
-
-#### Services
-
-* What is `Serivce`? [Developer Android](https://developer.android.com/guide/components/services)
-
-* `Service` vs `IntentService`. [MindOrks](https://blog.mindorks.com/service-vs-intentservice-in-android)
-
-* What is a `JobScheduler`? [Vogella](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
-
-#### Inter-process Communication
-
-* How can two distinct Android apps interact?  [Developer Android](https://developer.android.com/training/basics/intents)
-
-* Is it possible to run an Android app in multiple processes? How?
-
-* What is AIDL? Enumerate the steps in creating a bounded service through AIDL. [Developer Android](https://developer.android.com/guide/components/aidl)
-
-* What can you use for background processing in Android?  [Developer Android](https://developer.android.com/guide/background)
-
-* What is a `ContentProvider` and what is it typically used for? [Developer Android](https://developer.android.com/guide/topics/providers/content-provider-basics) [Developer Android](https://developer.android.com/guide/topics/providers/content-providers)
-
-#### Long-running Operations
-
-* How would you perform a long-running operation in an application?
-
-* Why should you avoid to run non-ui code on the main thread?
-
-* What is ANR? How can the ANR be prevented? [Developer Android](https://developer.android.com/topic/performance/vitals/anr.html)
-
-* What is an `AsyncTask`?  [Developer Android](https://developer.android.com/reference/android/os/AsyncTask)
-
-* What are the problems in asynctask?
-
-* When would you use java thread instead of an asynctask?
-
-* What is a `Loader`? (Deprecated) [Developer Android](https://developer.android.com/guide/components/loaders)
-
-* What is the relationship between the life cycle of an `AsyncTask` and an `Activity`? What problems can this result in? How can these problems be avoided?
-
-* Explain `Looper`, `Handler` and `HandlerThread`. [MindOrks](https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a) and [MindOrks Video](https://www.youtube.com/watch?v=rfLMwbOKLRk&list=PL6nth5sRD25hVezlyqlBO9dafKMc5fAU2)
-
-#### Working With Multimedia Content
-
-* How do you handle bitmaps in Android as it takes too much memory? [Developer Android](https://developer.android.com/topic/performance/graphics/load-bitmap) [Developer Android](https://developer.android.com/topic/performance/graphics/manage-memory)
-
-* What is the difference between a regular `Bitmap` and a nine-patch image?
-
-* Tell about the `Bitmap` pool. [MindOrks](https://blog.mindorks.com/how-to-use-bitmap-pool-in-android-56c71a55533c)
-
-* How to play sounds in Android? [Vogella](http://www.vogella.com/tutorials/AndroidMedia/article.html)
-
-#### Data Saving
-
-* How to persist data in an Android app? [MindOrks](https://blog.mindorks.com/android-shared-preferences-in-kotlin)
-
-* What is ORM? How does it work?
-
-* How would you preserve `Activity` state during a screen rotation? [StackOverflow](https://stackoverflow.com/questions/3915952/how-to-save-state-during-orientation-change-in-android-if-the-state-is-made-of-m)
-
-* What are different ways to store data in your Android app? [Developer Android](https://developer.android.com/guide/topics/data/data-storage)
-
-#### Look and Feel
-
-* What is a `Spannable`? [Medium](https://medium.com/androiddevelopers/underspanding-spans-1b91008b97e4)
-
-* What is a `SpannableString`?
-   - A SpannableString has immutable text, but its span information is mutable. Use a SpannableString when your text doesn't need to be changed but the styling does. Spans are ranges over the text that include styling information like color, highlighting, italics, links, etc
-
-#### Memory Optimizations
-
-* What is the `onTrimMemory()` method?
-   - Called when the operating system has determined that it is a good time for a process to trim unneeded memory from its process. This will happen for example when it goes in the background and there is not enough memory to keep as many background processes running as desired
-
-* How does the OutOfMemory happens?
-   - Thrown when the Java Virtual Machine cannot allocate an object because it is out of memory, and no more memory could be made available by the garbage collector
-
-#### Memory Optimizations
-
-* What is the `onTrimMemory()` method? [Developer Android](https://developer.android.com/topic/performance/memory)
-
-* How does the OutOfMemory happens? [Geeksforgeeks](https://www.geeksforgeeks.org/understanding-outofmemoryerror-exception-java/)
-
-* How do you find memory leaks in Android applications? [Practical Guide - MindOrks](https://blog.mindorks.com/practical-guide-to-solve-out-of-memory-error-in-android-application) [MindOrks](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
-
-#### Battery Life Optimizations
-
-* How to reduce battery usage in an android application? [MindOrks](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
-
-* What is Doze? What about App Standby? [Developer Android](https://developer.android.com/training/monitoring-device-state/doze-standby)
-
-* What is `overdraw`? [Developer Android](https://developer.android.com/topic/performance/rendering/overdraw.html)
-
-#### Supporting Different Screen Sizes
-
-* How did you support different types of resolutions?
-
-#### Permissions
-
-* What are the different protection levels in permission?
-
-#### Native Programming
-
-* What is the NDK and why is it useful? [MindOrks](https://www.youtube.com/watch?v=iljxHVt7Arc)
-
-* What is renderscript? [MindOrks](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
-
-#### Android System Internal
-
-* What is the Dalvik Virtual Machine?
-
-* What is the difference JVM, DVM and ART?
-
-* What are the differences between Dalvik and ART?
-
-* What is DEX?
-
-* Can you manually call the Garbage collector?
-
-#### Debugging and Programming Tools
-
-* What is ADB?
-
-* What is DDMS and what can you do with it?
-
-* What is the StrictMode? [MindOrks](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
-
-* What is Lint? What is it used for? [MindOrks](https://blog.mindorks.com/what-is-lint-what-is-it-used-for)
-
-#### Others
-
-* OkHttp Interceptors. [MindOrks](https://blog.mindorks.com/okhttp-interceptor-making-the-most-of-it)
-
-* Why Bundle class is used for data passing and why cannot we use simple Map data structure
-
-* How do you troubleshoot a crashing application?
-
-* Explain Android notification system?
-
-* What is the difference between Serializable and Parcelable? Which is the best approach in Android?
-
-* Have you developed widgets? Describe. [MindOrks](https://blog.mindorks.com/android-widgets-ad3d166458d3)
-
-* What is AAPT?
-
-* What is the best way to update the screen periodically?
-
-* FlatBuffers vs JSON. [MindOrks](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
-
-* `HashMap`, `ArrayMap` and `SparseArray` [MindOrks](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
-
-* What are Annotations? [MindOrks](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9), [Link](https://blog.mindorks.com/improve-your-android-coding-through-annotations-26b3273c137a), [Video](https://www.youtube.com/watch?v=LEb9if2HHSw)
-
-* How to handle multi-touch in android [GitHub](https://arjun-sna.github.io/android/2016/07/20/multi-touch-android/)
-
-* How to implement XML namespaces?
-
-* What is the support library? Why was it introduced?[MartianCraft](http://martiancraft.com/blog/2015/06/android-support-library/)
-
-* What is Android Data Binding? [Developer Android](https://developer.android.com/topic/libraries/data-binding/index.html)
-
-* What are Android Architecture Components? [MindOrks](https://blog.mindorks.com/what-are-android-architecture-components)
-
-* How to implement search using RxJava operators? [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
-
-
-### Architecture
-
-* Describe the architecture of your last app.
-
-* Describe MVP. [MindOrks](https://mindorks.com/course/android-mvp-introduction)
-
-* MVC vs MVP vs MVVM architecture. [MindOrks](https://blog.mindorks.com/mvc-mvp-mvvm-architecture-in-android)
-
-* What is presenter?
-
-* What is model?
-
-* Describe MVC.
-
-* Describe MVI
-
-* Describe the repository pattern
-
-* What is controller?
-
-* Describe MVVM. [GitHub](https://github.com/MindorksOpenSource/android-mvvm-architecture)
-
-* Tell something about clean code [MindOrks](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
-
-
-### Design Problem
-
-* Design Uber App.
-
-* Design Facebook App.
-
-* Design Facebook Near-By Friends App.
-
-* Design WhatsApp.
-
-* Design SnapChat.
-
-* Design problems based on location based app.
-
-
-### Tools And Technologies
-
-* Git. [MindOrks Youtube](https://www.youtube.com/watch?v=D4h8Dbrjt4M&list=PL6nth5sRD25itbyNVUULAebzL-VLrLfkK)
-
-* RxJava. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
-
-* Dagger 2. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
-
-* Android Development Useful Tools. [MindOrks](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
-
-* Firebase. [Firebase.google.com](https://firebase.google.com/)
-
-
-### Android Test Driven Development
-
-* What is Espresso? [Developer Android](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
-
-* What is Robolectric? [Robolectric](http://robolectric.org/)
-
-* What are the disadvantages of using Roboelectric? 
-
-* What is UI-Automator? [Developer Android](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
-
-* Explain unit test. [Unit Test](https://developer.android.com/training/testing/unit-testing/local-unit-tests)
-
-* Explain instrumented test.
-
-* Have you done unit testing or automatic testing?
-
-* Why Mockito is used? [Official site](http://site.mockito.org/)
-
-* Describe JUnit test.
-
-
-### Others
-
-* What is Android Jetpack? [MindOrks](https://blog.mindorks.com/what-is-android-jetpack-and-why-should-we-use-it)
-
-* Describe how REST APIs work. What is REST?
-
-* Describe other forms of web API architecutre. [GraphQL] (https://medium.com/mindorks/what-is-graphql-and-using-it-on-android-ab8e493abdd7) [SOAP] (https://www.w3.org/TR/ws-arch/)
-
-* Describe SQLite. [MindOrks](https://blog.mindorks.com/android-sqlite-database-in-kotlin)
-
-* Describe database.
-
-* Project Management tool - trello, basecamp, kanban, jira, asana.
-
-* About build System - gradle, maven, ant, buck.
-
-* About multiple apk for android application. [MindOrks](https://mindorks.com/blog/how-to-create-multiple-apk-files-for-android-application)
-
-* Reverse Engineering an APK.
-
-* What is proguard used for? [MindOrks](https://blog.mindorks.com/applying-proguard-in-an-android-application)
-
-* What is obfuscation? What is it used for? What about minification?
-
-* How do you build your apps for release?
-
-* How do you control the application version update to specific number of users?
-
-* Can we identify users who have uninstalled our application?
-
-* Implement Search Using RxJava Operators. [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
-
-* APK Size Reduction. [MindOrks](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
-
-* Android Development Best Practices. [MindOrks](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
-
-* Android Code Style And Guidelines. [MindOrks](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
-
-* Have you tried Kotlin? [MindOrks](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
-
-* What is the equivalent of Java static methods in Kotlin? [MindOrks](https://blog.mindorks.com/what-is-the-equivalent-of-java-static-methods-in-kotlin)
-
-* What are Coroutines in Kotlin? [MindOrks](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
-
-* What are the metrics that you should measure continuously while android application development? [MindOrks](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
-
-* What is Chrome Custom Tabs? How to display web content in your app? [MindOrks](https://blog.mindorks.com/android-browser-lets-launch-chrome-custom-tabs-with-kotlin)
-
+#### Whiteboard Interview Series - Data Structures and Algorithms on Youtube - [Check here](https://www.youtube.com/playlist?list=PLqOiaH9id5qt_lZl2bFi8q9RQoV1JJUpf)
+
+#### Tech Interview Preparation Kit - [Check here](https://afteracademy.com/tech-interview)
+
+#### Android Developer should know these Data Structures for Next Interview - [Check here](https://blog.mindorks.com/android-developer-should-know-these-data-structures-for-next-interview)
+
+* **Complexity Analysis** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/complexity-analysis)
+    - What is Input, Output, Correctness, Efficiency of Algorithms?
+    - What is Input Size and Running Time of Algorithms?
+    - Explain the Worst, Best, and Average case analysis of Algorithms.
+    - What is Big-O Notation with respect to Time and Space Complexity?
+
+*  **Iteration and Two Pointer Approach** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/iteration-and-two-pointer-approach)
+    - Explain Initialization, Maintenance, and Termination used in iteration.
+    - Explain the use-case of Two Pointer approach
+
+* **Recursion and Divide & Conquer Approach** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/recursion-and-divide-and-conquer-approach)
+    - Explain Recursion with the help of an example and also draw the recursion call stack for the same.
+    - How will you analyse the recursive solution of some problem?
+    - Is there any difference between Recursion and Iteration?
+    - Explain the Divide and Conquer technique with the help of a real-world example.
+
+* **Arrays and Linked List** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/array-and-linked-list)
+    - What do you mean by Linear Data Structures?
+    - Explain the basic operations that can be performed on Arrays? Also, tell about Amortized analysis of array.
+    - What is a Linked List? Explain with an example by performing some operations on Linked List.
+    - What are the types of Linked List?
+    - Can you tell the difference between an Array and a Linked List?
+
+* **Stack and Queue** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/stack-and-queue)
+    - What is a Stack? Explain various operations that can be performed on a Stack.
+    - Can you implement Stack using an Array or using a Linked List? How?
+    - What is a Queue? Explain various operations that can be performed on a Queue.
+    - Can you implement Queue using an Array or using a Linked List? How?
+    - Is there any difference between a Stack and a Queue?
+
+* **Sorting Algorithms** - [Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm?oldformat=true)
+    - Using the most efficient sorting algorithm (and correct data structures that implement it) is vital for any program, because data manipulation can be one of the most significant bottlenecks in case of performance and the main purpose of spending time, determining the best algorithm for the job, is to drastically improve said performance. The efficiency of an algorithm is measured in its' "Big O" ([StackOverflow](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)) score. Really good algorithms perform important actions in O(n log n) or even O(log n) time and some of them can even perform certain actions in O(1) time (HashTable insertion, for example). But there is always a trade-off - if some algorithm is really good at adding a new element to a data structure, it is, most certainly, much worse at data access than some other algorithm. If you are proficient with math, you may notice that "Big O" notation has many similarities with "limits", and you would be right - it measures best, worst and average performances of an algorithm in question, by looking at its' function limit. It should be noted that, when we are speaking about O(1) - constant time - we are not saying that this algorithm performs an action in one operation, rather that it can perform this action with the same number of operations (roughly), regrardless of the amount of elements it has to take into account. Thankfully, a lot of "Big O" scores have been already calculated, so you don't have to guess, which algorithm or data structure will perform better in your project. ["Big O" cheat sheet](http://bigocheatsheet.com/)
+    - Bubble sort [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort?oldformat=true) 
+        - Bubble sort is one of the simplest sorting algorithms. It just compares neighbouring elements and if the one that precedes the other is smaller - it changes their places. So over one iteration over the data list, it is guaranteed that **at least** one element will be in its' correct place (the biggest/smallest one - depending on the direction of sorting). This is not a very efficient algorithm, as highly unordered arrays will require a lot of reordering (upto O(n^2)), but one of the advantages of this algorithm is its' space complexity - only two elements are compared at once and there is no need to allocate more memory, than those two will occupy. 
+            <table>
+                <tr>
+                    <th colspan="3" align="center">Time Complexity</th>
+                    <th align="center">Space Complexity</th>
+                </tr>
+                <tr>
+                    <th align="center">Best</th>
+                    <th align="center">Average</th>
+                    <th align="center">Worst</th>
+                    <th align="center">Worst</th>
+                </tr>
+                <tr>
+                    <td align="center">Ω(n)</td>
+                    <td align="center">Θ(n^2)</td>
+                    <td align="center">O(n^2)</td>
+                    <td align="center">O(1)</td>
+                </tr>
+            </table>
+    - Selection sort [Wikipedia](https://www.wikiwand.com/en/Selection_sort) 
+        - Firstly, selection sort assumes that the first element of the array to be sorted is the smallest, but to confirm this, it iterates over all other elements to check, and if it finds one, it gets defined as the smallest one. When the data ends, the element, that is currently found to be the smallest, is put in the beginning of the array. This sorting algorithm is quite straightforward, but still not that efficient on larger data sets, because to assign just one element to its' place, it needs to go over all data.
+            <table>
+                <tr>
+                    <th colspan="3" align="center">Time Complexity</th>
+                    <th align="center">Space Complexity</th>
+                </tr>
+                <tr>
+                    <th align="center">Best</th>
+                    <th align="center">Average</th>
+                    <th align="center">Worst</th>
+                    <th align="center">Worst</th>
+                </tr>
+                <tr>
+                    <td align="center">Ω(n^2)</td>
+                    <td align="center">Θ(n^2)</td>
+                    <td align="center">O(n^2)</td>
+                    <td align="center">O(1)</td>
+                </tr>
+            </table>
+    - Insertion sort [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort?oldformat=true)
+        - Insertion sort is another example of an algorithm, that is not that difficult to implement, but is also not that efficient. To do its' job, it "grows" sorted portion of data, by "inserting" new encountered elements into already (innerly) sorted part of the array, which consists of previously encountered elements. This means that in best case (data is already sorted) it can confirm that its' job is done in Ω(n) operations, while, if all encountered elements are not in their required order as many as O(n^2) operations may be needed.
+            <table>
+            <tr>
+                <th colspan="3" align="center">Time Complexity</th>
+                <th align="center">Space Complexity</th>
+            </tr>
+            <tr>
+                <th align="center">Best</th>
+                <th align="center">Average</th>
+                <th align="center">Worst</th>
+                <th align="center">Worst</th>
+            </tr>
+            <tr>
+                <td align="center">Ω(n)</td>
+                <td align="center">Θ(n^2)</td>
+                <td align="center">O(n^2)</td>
+                <td align="center">O(1)</td>
+            </tr>
+            </table>
+    - Merge sort [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort?oldformat=true)
+        - This is a "divide and conquer" algorithm, meaning it recursively "divides" given array in to smaller parts (up to 1 element) and then sorts those parts, combining them with each other. This approach allows merge sort to achieve very high speed, while  doubling required space, of course, but today memory space is more available than it was a couple of years ago, so this trade-off is considered acceptable.   
+            <table>
+            <tr>
+                <th colspan="3" align="center">Time Complexity</th>
+                <th align="center">Space Complexity</th>
+            </tr>
+            <tr>
+                <th align="center">Best</th>
+                <th align="center">Average</th>
+                <th align="center">Worst</th>
+                <th align="center">Worst</th>
+            </tr>
+            <tr>
+                <td align="center">Ω(n log(n))</td>
+                <td align="center">Θ(n log(n))</td>
+                <td align="center">O(n log(n))</td>
+                <td align="center">O(n)</td>
+            </tr>
+            </table>
+    - Quicksort [Wikipedia](https://en.wikipedia.org/wiki/Quicksort?oldformat=true)
+        - Quicksort is considered, well, quite quick. When implemented correctly, it can be a significant number of times faster than its' main competitors. This algorithm is also of "divide and conquer" family and its' first step is to choose a "pivot" element (choosing it randomly, statistically, minimizes the chance to get the worst performance), then by comparing elements to this pivot, moving it closer and closer to its' final place. During this process, the elements that are bigger are moved to the right side of it and smaller elements to the left. After this is done, quicksort repeats this process for subarrays on each side of placed pivot (does first step recursively), until the array is sorted.
+                <table>
+                <tr>
+                    <th colspan="3" align="center">Time Complexity</th>
+                    <th align="center">Space Complexity</th>
+                </tr>
+                <tr>
+                    <th align="center">Best</th>
+                    <th align="center">Average</th>
+                    <th align="center">Worst</th>
+                    <th align="center">Worst</th>
+                </tr>
+                <tr>
+                    <td align="center">Ω(n log(n))</td>
+                    <td align="center">Θ(n log(n))</td>
+                    <td align="center">O(n^2)</td>
+                    <td align="center">O(n)</td>
+                </tr>
+                </table>  
+    - There are, of course, more sorting algorithms and their modifications. We strongly recommend all readers to familiarize themselves with a couple more, because knowing algorithms is very important quality of a candidate, applying for a job and it shows understanding of what is happening "under the hood".
+
+* **Binary Tree** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/binary-tree)
+    - What are non-linear data structures? Give example.
+    - What is a Tree Data Structure? Explain the properties of tree with an example.
+    - How is Binary Tree different from a normal Tree?
+    - What is inorder, pre-order, post-order, and level-order traversal of a tree? Explain with an example.
+    - Can you find the inorder, pre-order, and post-order of a tree using Stack? How?
+    - Explain how searching, insertion, and deletion operations are performed on a Tree?
+
+* **Binary Search Tree** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/binary-search-tree)
+    - What is a Binary Search Tree? Explain its properties also.
+    - Explain how searching, insertion, and deletion operations are performed on a Binary Search Tree?
+    - How is Binary Search Tree different from Binary Tree?
+
+* **Heap and Priority Queue** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/heap-and-priority-queue)
+    - What is a Heap data structure and when it is used?
+    - Explain the operations that can be performed on a Heap.
+    - What is the difference between a min-heap and a max-heap? How to implement these two?
+    - What do you mean by Priority Queue? How to implement Priority Queue?
+    - What are the real-life applications of Priority Queue?
+
+* **Hash Table** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/hash-table)
+    - What do you mean by Direct Address Table?
+    - Can you perform search, insert, and delete in O(1)? How?
+    - Explain Hash Table and its properties.
+    - How to remove collision in Hash Table by Chaining and Open Addressing?
+    - What are the real-life applications of Hash Table?
+
+* **Dynamic Programming** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/dynamic-programming)
+    - What is Dynamic Programming and how to find if a problem can be solved using DP or not?
+    - What are two approaches of solving a Dynamic Programming problem?
+    - Explain Optimization and Combinatorial problems?
+
+* **Greedy Algorithms** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/greedy-algorithms)
+    - What do you mean by Greedy algorithms? How to find if a problem can be solved by Greedy approach or not?
+    - Is there any difference between Dynamic Programming and Greedy Algorithms?
+
+* **Backtracking** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/backtracking)
+    - What is Backtracking?
+    - How to find if a problem can be solved with Backtracking or not?
+    - What is Exhaustive Searching?
+
+* **Graph** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/graph)
+    - What is Graph and how to represent a Graph?
+    - Explain Depth First Search and Breadth First Search.
+    - How to represent a Graph? 
+    - What are the real-life applications of Graph?
+    - What do you mean by Topological Sorting?
+    - Explain Dijkstra algorithm with an example.
+    - What is a Minimum Spanning Tree?
+
+### Other Topics
+
+* **Describe how REST APIs work. What is REST?** - [Learn from here](https://www.youtube.com/watch?v=1wSEI6_SzMU) and [here](https://www.youtube.com/watch?v=HgXAoBomGcA)
+
+* **Describe SQLite.** - [Learn from here](https://blog.mindorks.com/android-sqlite-database-in-kotlin) and [here](https://www.youtube.com/watch?v=9OHzXUo3Ymk)
+
+* **Describe database.** - [Learn from here](https://afteracademy.com/blog/what-is-a-database-and-dbms)
+
+* **How do you control the application version update to specific number of users?**
+
+* **Can we identify users who have uninstalled our application?**
+
+* **Android Development Best Practices.** - [Learn from here](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
+
+* **Android Code Style And Guidelines.** - [Learn from here](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
+
+* **Have you tried Kotlin?** - [Learn from here](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
+
+* **What are the metrics that you should measure continuously while android application development?** - [Learn from here](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
+
+* **What is Chrome Custom Tabs? How to display web content in your app?** - [Learn from here](https://blog.mindorks.com/android-browser-lets-launch-chrome-custom-tabs-with-kotlin)
+
+* **How to avoid API keys from check-in into VCS?** - [Learn from here](https://blog.mindorks.com/using-local-properties-file-to-avoid-api-keys-check-in-into-version-control-system)
+
+* **How does the Kotlin Multiplatform work?** - [Learn from here](https://blog.mindorks.com/how-does-the-kotlin-multiplatform-work)
+
+* **How to use Memory Heap Dumps data?** - [Learn from here](https://blog.mindorks.com/how-to-use-memory-heap-dumps-data)
+
+* **How to implement Dark Theme in your app?** - [Learn from here](https://blog.mindorks.com/build-material-and-dark-themes-apps-using-style-in-android)
+
+* **Have you tried Jetpack compose?** - [Learn from here](https://blog.mindorks.com/using-jetpack-compose-to-build-ui-in-android)
+
+* **How to secure the API keys used in an app?** - [Learn from here](https://blog.mindorks.com/securing-api-keys-using-android-ndk)
+
+* **How to convert check Java equivalent code of Kotlin?** - [Learn from here](https://blog.mindorks.com/how-to-convert-a-kotlin-source-file-to-a-java-source-file)
+
+* **Tell something about memory usage in Android.** - [Learn from here](https://blog.mindorks.com/understanding-memory-usage-in-android)
+
+* **What is Benchmarking?** - [Learn from here](https://blog.mindorks.com/improving-android-app-performance-with-benchmarking)
+
+* **Can you create transparent activity in Android?** - [Learn from here](https://blog.mindorks.com/how-to-create-a-transparent-activity-in-android)
+
+* **How to use Android Sensors?** - [Learn from here](https://blog.mindorks.com/using-android-sensors-android-tutorial)
+
+* **Explain Annotation processing.**  - [Learn from here](https://blog.mindorks.com/android-annotation-processing-tutorial-part-1-a-practical-approach)
+
+* **How to increase the Notification delivery rate?**
+
+* **How to show local Notification at an exact time?**
 
 ### Found this project useful :heart:
 
@@ -1157,10 +1312,9 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 [Check out MindOrks awesome open source projects here](https://mindorks.com/open-source-projects)
 
-
 ### License
 ```
-   Copyright (C) 2017 MINDORKS NEXTGEN PRIVATE LIMITED
+   Copyright (C) 2020 MINDORKS NEXTGEN PRIVATE LIMITED
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
