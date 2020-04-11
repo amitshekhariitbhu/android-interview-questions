@@ -314,8 +314,6 @@
 
 * **What is the difference between Serializable and Parcelable? Which is the best approach in Android?** - [Learn from here](https://android.jlelse.eu/parcelable-vs-serializable-6a2556d51538)
 
-* **Have you developed widgets? Describe.** - [Learn from here](https://blog.mindorks.com/android-widgets-ad3d166458d3)
-
 * **What is AAPT?** - [Learn from here](https://developer.android.com/studio/command-line/aapt2)
 
 * **What is the best way to update the screen periodically?** - [Learn from here](https://stackoverflow.com/questions/5452394/best-way-to-perform-an-action-periodically-while-an-app-is-running-handler)
