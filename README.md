@@ -78,7 +78,7 @@
 
 * **What is the difference between adding/replacing fragment in backstack?** - [Learn from here](https://stackoverflow.com/questions/24466302/basic-difference-between-add-and-replace-method-of-fragment/24466345)
 
-* **Why is it recommended to use only the default constructor to create a `Fragment`?** - [Learn from here](https://stackoverflow.com/a/16042750/2809326)
+* **Why is it recommended to use only the default constructor to create a `Fragment`?** - [Learn from here](https://www.youtube.com/watch?v=9EdvcycKP9A)
 
 * **How would you communicate between two Fragments?** - [Learn from here](https://blog.mindorks.com/how-to-communicate-between-fragments)
 
