@@ -52,11 +52,9 @@
 
 * **What is the difference between onCreate() and onStart()** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o)
 
-* **When only onDestroy is called for an activity without onPause() and onStop()?**
-    - If finish() is called in the onCreate method of an activity, the system will call onDestroy() method directly.
+* **When only onDestroy is called for an activity without onPause() and onStop()?** - [Learn from here](https://www.youtube.com/watch?v=QSxcLnZ1-RU)
 
-* **Why do we need to setContentView() in onCreate() of Activity class?**
-    - onCreate() is called only once and most of the initializations are done here. So, the content is also set when onCreate() is called. It will be inefficient if we set the content in onResume() or onStop() or somewhere else.
+* **Why do we need to call setContentView() in onCreate() of Activity class?** - [Learn from here](https://www.youtube.com/watch?v=zeYK8JdMOi8)
 
 * **What is onSavedInstanceState() and onRestoreInstanceState() in activity?**
     - onSavedInstanceState() - This method is used to store data before pausing the activity.
