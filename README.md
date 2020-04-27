@@ -428,6 +428,8 @@
 
 * **Design File Downloader** - [Lear from here](https://github.com/MindorksOpenSource/PRDownloader)
 
+* **HTTP Request vs HTTP Long-Polling vs WebSockets** - [Lear from here](https://www.youtube.com/watch?v=k56H0DHqu5Y)
+
 ### Android Unit Testing
 * **What is Espresso?** - [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
 
