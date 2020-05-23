@@ -523,9 +523,9 @@
                 } 
               ...
               }
-    - Note: 
-        Constructor name is the same as class name
-        Constructor does not have return type
+    - Note:
+        In the above syntax, the name of the constructor is the same as that of class
+        and it has no return type.
         
     - Method Syntax 
               public class SomeClass{
