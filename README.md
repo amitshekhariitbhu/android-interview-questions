@@ -510,38 +510,32 @@
 
 * **What is the difference between a constructor and a method?** 
     - Constructor and a method they both run a block of code but the difference is in calling them.
-    - 1) Constructor gets called automatically when we create an object of that class, we cannot call it explicitly
-         though we can call parent class constructor using 'super' keyword.
-    - 1) We call method directly using their name.
-    - 2) Constructor Syntax - 
-              
+    - Constructor gets called automatically when we create an object of that class, we cannot call it explicitly
+      though we can call parent class constructor using 'super' keyword.
+    - We call method directly using their name.
+    - Constructor Syntax -         
               public class SomeClass{
-              
-              SomeClass(parameter_list){ 
+                SomeClass(parameter_list){ 
+                  ...
+                } 
               ...
-              } 
-              
-              ...
-              
               }
-
 Note: 
 Constructor name is the same as class name
 Constructor does not have return type
 
-    -2) Method Syntax - 
-    
+    - Method Syntax 
               public class SomeClass{
-              
-                public void someMethod(){
+                public void someMethod(parameter_list){
                   ...
                 }
                 // call method
-                someMethod()
+                someMethod(parameter_list)
               }
               
     - Name of the method can be anything.
-    - When you make an object of a class, then the constructor of that class will be called automatically. But for methods, we need to         call it explicitely.
+    - When you make an object of a class, then the constructor of that class will be called automatically. 
+      But for methods, we need to call it explicitely.
     - Constructors can't be inherited but you can call the constructor of the parent class by calling `super()`.
 
 * **Differences between abstract classes and interfaces?** 
