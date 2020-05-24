@@ -518,8 +518,8 @@
     - We can call method directly using their name.
     - Constructor Syntax -
         ```java
-        public class SomeClass{
-            SomeClass(parameter_list){ 
+        public class SomeClassName{
+            SomeClassName(parameter_list){ 
                 ...
             } 
         ...
@@ -531,12 +531,12 @@
         
     - Method Syntax 
         ```java
-        public class SomeClass{
-            public void someMethod(parameter_list){
+        public class SomeClassName{
+            public void someMethodName(parameter_list){
                 ...
             }
         // call method
-        someMethod(parameter_list)
+        someMethodName(parameter_list)
         }
         ```
 * **Differences between abstract classes and interfaces?** 
