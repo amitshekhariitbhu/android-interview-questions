@@ -517,27 +517,28 @@
     - Constructor and a method they both run a block of code but the difference is in calling them.
     - We can call method directly using their name.
     - Constructor Syntax -
-      ```java
-              public class SomeClass{
-                SomeClass(parameter_list){ 
-                  ...
-                } 
-              ...
-              }
-      ```
+        ```java
+        public class SomeClass{
+            SomeClass(parameter_list){ 
+                ...
+            } 
+        ...
+        }
+        ```
     - Note:
         In the above syntax, the name of the constructor is the same as that of class
         and it has no return type.
         
     - Method Syntax 
-      ```java public class SomeClass{
-                public void someMethod(parameter_list){
-                  ...
-                }
-                // call method
-                someMethod(parameter_list)
-              }
-      ```
+        ```java
+        public class SomeClass{
+            public void someMethod(parameter_list){
+                ...
+            }
+        // call method
+        someMethod(parameter_list)
+        }
+        ```
 * **Differences between abstract classes and interfaces?** 
     - An abstract class, is a class that contains both concrete and abstract methods 
     (methods without implementations). An abstract method must be implemented by the abstract class
