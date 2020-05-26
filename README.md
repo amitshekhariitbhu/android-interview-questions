@@ -512,12 +512,37 @@
     [abstraction](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)), and
     [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)).
 
-* **What is the difference between a constructor and a method?** 
+* **What is the difference between a constructor and a method?**
     - The name of the constructor is same as that of the class name, whereas the name of the method can be anything.
     - There is no return type of a constructor.
-    - When you make an object of a class, then the constructor of that class will be called automatically. But for methods, we need to call it explicitely.
+    - When you make an object of a class, then the constructor of that class will be called automatically. 
+      But for methods, we need to call it explicitely.
     - Constructors can't be inherited but you can call the constructor of the parent class by calling `super()`.
-
+    - Constructor and a method they both run a block of code but the difference is in calling them.
+    - We can call method directly using their name.
+    - Constructor Syntax -
+        ```java
+        public class SomeClassName{
+            SomeClassName(parameter_list){ 
+                ...
+            } 
+            ...
+        }
+        ```
+    - Note:
+        In the above syntax, the name of the constructor is the same as that of class
+        and it has no return type.
+        
+    - Method Syntax 
+        ```java
+        public class SomeClassName{
+            public void someMethodName(parameter_list){
+                ...
+            }
+            // call method
+            someMethodName(parameter_list)
+        }
+        ```
 * **Differences between abstract classes and interfaces?** 
     - An abstract class, is a class that contains both concrete and abstract methods 
     (methods without implementations). An abstract method must be implemented by the abstract class
