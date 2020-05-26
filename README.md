@@ -522,7 +522,7 @@
             SomeClassName(parameter_list){ 
                 ...
             } 
-        ...
+            ...
         }
         ```
     - Note:
@@ -535,8 +535,8 @@
             public void someMethodName(parameter_list){
                 ...
             }
-        // call method
-        someMethodName(parameter_list)
+            // call method
+            someMethodName(parameter_list)
         }
         ```
 * **Differences between abstract classes and interfaces?** 
