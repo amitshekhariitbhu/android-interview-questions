@@ -374,7 +374,7 @@
 
 * **How The Android Image Loading Library Glide and Fresco Works?** - [Learn from here](https://blog.mindorks.com/how-the-android-image-loading-library-glide-and-fresco-works-962bc9d1cc40)
 
-* **Difference between Schedulers.io() and Schedulers.computation() in RxJava.**
+* **Difference between Schedulers.io() and Schedulers.computation() in RxJava.** - [Learn from here](https://android.jlelse.eu/rxjava-schedulers-what-when-and-how-to-use-it-6cfc27293add?gi=1c5e4eafa4da)
 
 * **Why do we use the Dependency Injection Framework like Dagger in Android?** - [Learn from here](https://blog.mindorks.com/why-do-we-use-the-dependency-injection-framework-in-android)
 
@@ -432,11 +432,11 @@
 
 * **How to build offline-first app? Explain the architecture.**
 
-* **Design LRU Cache.**
+* **Design LRU Cache.** - [Learn from here](https://medium.com/@krishankantsinghal/my-first-blog-on-medium-583159139237)
 
-* **Design File Downloader** - [Lear from here](https://github.com/MindorksOpenSource/PRDownloader)
+* **Design File Downloader** - [Learn from here](https://github.com/MindorksOpenSource/PRDownloader)
 
-* **HTTP Request vs HTTP Long-Polling vs WebSockets** - [Lear from here](https://www.youtube.com/watch?v=k56H0DHqu5Y)
+* **HTTP Request vs HTTP Long-Polling vs WebSockets** - [Learn from here](https://www.youtube.com/watch?v=k56H0DHqu5Y)
 
 ### Android Unit Testing
 * **What is Espresso?** - [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
@@ -829,7 +829,7 @@
 
 * **What is `volatile` modifier?** [Learn from here](http://tutorials.jenkov.com/java-concurrency/volatile.html)
 
-* **The classes in the atomic package expose a common set of methods: `get`, `set,`, `lazyset`, `compareAndSet`, and `weakCompareAndSet`. Please describe them.**
+* **The classes in the atomic package expose a common set of methods: `get`, `set,`, `lazyset`, `compareAndSet`, and `weakCompareAndSet`. Please describe them.** - [Learn from here](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/AtomicReference.html)
 
 #### Exceptions
 
