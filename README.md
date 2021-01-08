@@ -656,7 +656,7 @@
     }
     ```
 
-* **Multiple inheritance in Classes and Interfaces in java** [Learn from here](http://codeinventions.blogspot.in/2014/07/can-interface-extend-multiple.html)
+* **Multiple inheritance in Classes and Interfaces in java** [Learn from here](https://www.geeksforgeeks.org/java-and-multiple-inheritance/)
 
 * **What are the design patterns?** [Learn from here](https://blog.mindorks.com/mastering-design-patterns-in-android-with-kotlin)
     - Creational patterns
