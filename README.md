@@ -1111,6 +1111,8 @@
 
 #### Android Developer should know these Data Structures for Next Interview - [Check here](https://blog.mindorks.com/android-developer-should-know-these-data-structures-for-next-interview)
 
+#### What is Data Structure? | Top 40 Data Structure Interview Questions and Answers - [Check Here](https://www.interviewbit.com/data-structure-interview-questions/)
+
 * **Complexity Analysis** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/complexity-analysis)
     - What is Input, Output, Correctness, Efficiency of Algorithms?
     - What is Input Size and Running Time of Algorithms?
