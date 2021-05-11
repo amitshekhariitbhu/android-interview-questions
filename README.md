@@ -153,7 +153,7 @@
 
 #### Services
 
-* **What is `Serivce`?** - [Learn from here](https://developer.android.com/guide/components/services)
+* **What is `Service`?** - [Learn from here](https://developer.android.com/guide/components/services)
 
 * **`Service` vs `IntentService`.** - [Learn from here](https://blog.mindorks.com/service-vs-intentservice-in-android)
 
