@@ -179,7 +179,7 @@
 
 * **What is ANR? How can the ANR be prevented?** - [Learn from here](https://developer.android.com/topic/performance/vitals/anr.html)
 
-* **What is an `AsyncTask`?** - [Learn from here](https://www.youtube.com/watch?v=ZZ-6nGbfVdA)
+* **What is an `AsyncTask`(Deprecated in API level 30) ?** - [Learn from here](https://www.youtube.com/watch?v=ZZ-6nGbfVdA)
 
 * **What are the problems in AsyncTask?** - [Learn from here](https://www.youtube.com/watch?v=ZZ-6nGbfVdA)
 
