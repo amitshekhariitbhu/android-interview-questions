@@ -563,7 +563,7 @@
     implementation for each of these methods. Interfaces are implemented.
 
 * **What is the difference between iterator and enumeration in java?**
-    - In Enumeration we have remove() method and we can only read and traverse through a collection.
+    - In Enumeration we don't have remove() method and we can only read and traverse through a collection.
     - Iterators can be applied to any collection. In Iterator, we can read and remove items from a collection.
 
 * **Do you agree we use composition over inheritance?** [Learn from here](https://www.journaldev.com/12086/composition-vs-inheritance)
