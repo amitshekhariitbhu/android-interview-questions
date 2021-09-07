@@ -312,6 +312,23 @@
 
 * **How ViewModel work internally?** - [Learn from here](https://blog.mindorks.com/android-viewmodels-under-the-hood)
 
+#### Android Performance Tools
+
+* **What is GPU Overdraw?** - [Learn from here](https://shekhar14.medium.com/gpu-overdraw-8640b8f4ed2d)
+* **What is systrace?** - [Learn from here](https://developer.android.com/topic/performance/tracing)
+* **What is CPU Profiler?** - [Learn from here](https://developer.android.com/studio/profile/cpu-profiler)
+* **What is Profiler, and how to use it?** - [Learn from here](https://developer.android.com/studio/profile/android-profiler)
+* **What is Zygote Process?** - [Learn from here](https://medium.com/masters-on-mobile/the-zygote-process-a5d4fc3503db)
+
+#### Android Tricky Questions
+
+* **What if your targe Sdk is 21 and you are running your app in device Marshmallow(i.e API 23). What will happen?**
+* **Can we execute another AsyncTask from another AsyncTask’s doInBackground() method.**
+* **If you have a 10 mb image, how will you display in small image view?**
+* **What is Headless Fragment?**
+* 
+
+
 #### Others
 
 * **Why Bundle class is used for data passing and why cannot we use simple Map data structure?** - [Learn from here](https://developer.android.com/guide/components/activities/parcelables-and-bundles)
