@@ -56,8 +56,8 @@
 
 * **Why do we need to call setContentView() in onCreate() of Activity class?** - [Learn from here](https://www.youtube.com/watch?v=zeYK8JdMOi8)
 
-* **What is onSavedInstanceState() and onRestoreInstanceState() in activity?**
-    - onSavedInstanceState() - This method is used to store data before pausing the activity.
+* **What is onSaveInstanceState() and onRestoreInstanceState() in activity?**
+    - onSaveInstanceState() - This method is used to store data before pausing the activity.
     - onRestoreInstanceState() - This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the onRestoreInstanceState() receive the bundle that contains the instance state information.
 
 * **What is `Fragment` and its lifecycle.** - [Learn from here](https://blog.mindorks.com/android-fragments-and-its-lifecycle)
