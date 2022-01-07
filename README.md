@@ -36,12 +36,12 @@
 #### Base
 
 * **Tell all the Android application components.**
-    - Activities: They are used to implement UI/UX
-    - Services: They are used to keep the app running in the background without any UI. They put into two types as follows:
+    - **Activities**: They are used to implement UI/UX.
+    - **Services**: They are used to keep the app running in the background without any UI. They put into two types as follows:
       - Started services: Those are start with startService methodand stope with stopService/stopSelf method. They can be be foreground (e.g. Music player usecase) or background (e.g. Data syncing usecase). The foreground service runs as long as stop manually, they can interact with user through the notification, though. The background service runs as long as app in running or stop manually.
       - Bound Services: They service to other components in the same app or other processes in the same or another app in a server/client manner. They will be destroyed after all bound customers are unbind.
-    - Broadcast receivers: They are used to receive announcements from OS and invoke the relevent task.
-    - Content providers: They are used to make the app data accecable to other apps by providing and API.
+    - **Broadcast receivers**: They are used to receive announcements from OS and invoke the relevent task.
+    - **Content providers**: They are used to make the app data accecable to other apps by providing and API.
 * **What is the project structure of an Android Application?** - [Learn from here](https://developer.android.com/studio/projects)
 
 * **What is `Context`? How is it used?** - [Learn from here](https://blog.mindorks.com/understanding-context-in-android-application-330913e32514)
