@@ -42,6 +42,7 @@
  >     - **Bound Services**: They service to other components in the same app or other processes in the same or another app in a server/client manner. They will be destroyed after all bound customers are unbind.
     - **Broadcast receivers**: They are used to receive announcements from OS and invoke the relevent task.
     - **Content providers**: They are used to make the app data accecable to other apps by providing and API.
+
 * **What is the project structure of an Android Application?**
  > - **app**: Module name
  >  - **androidTest**: contains instrumentation tests that run on Android devices or emulators
@@ -55,15 +56,18 @@
  >    - **test**: contains local tests that run on JVM (Unit tests) 
  >    - **build.gradle (module)**: module-level dependency managment
  >  - **build.gradle (project)**: project-level dependency managment
+
 * **What is `Context`? How is it used?** 
  > This class is the base class of the Application and Activity classes and is used as an anchor to application resources. There are two kinds of contexts: **Application Context** and **Activity Context**. You should choose them based on the object's life cycle that is going to use them. (e.g. the **DB singleton object** must use the *Application Contex* while the *Activity Context* is used to display a **Toast**)
  > Wrong use of *Activity Context* can lead to **Memory Leak**
 
-* **What is `AndroidManifest.xml`?** - [Learn from here](https://developer.android.com/guide/topics/manifest/manifest-intro)
+* **What is `AndroidManifest.xml`?** 
+ > It is used to define which **Android Application Components** and **Permissions** are using to launch the app.
 
 * **What is `Application` class?**
-    - The Application class in Android is the base class within an Android app that contains all other components such as activities and services. The Application class, or any subclass of the Application class, is instantiated before any other class when the process for your application/package is created.
-
+ >  - This classs or any its subclass instantiates before every other classes.
+ >  - It keeps the **Application Context** as well.
+ 
 #### Activity and Fragment
 
 * **What is `Activity` and its lifecycle?** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o)
