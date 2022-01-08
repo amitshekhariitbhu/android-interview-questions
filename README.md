@@ -55,7 +55,9 @@
       - **test**: contains local tests that run on JVM (Unit tests) 
       - **build.gradle (module)**: module-level dependency managment
     - **build.gradle (project)**: project-level dependency managment
-* **What is `Context`? How is it used?** - [Learn from here](https://blog.mindorks.com/understanding-context-in-android-application-330913e32514)
+* **What is `Context`? How is it used?** 
+ > This class is the base class of the Application and Activity classes and is used as an anchor to application resources. There are two kinds of contexts: **Application Context** and **Activity Context**. You should choose them based on the object's life cycle that is going to use them. (e.g. the **DB singleton object** must use the *Application Contex* while the *Activity Context* is used to display a **Toast**)
+ > Wrong use of *Activity Context* can lead to **`Memory Leak`**
 
 * **What is `AndroidManifest.xml`?** - [Learn from here](https://developer.android.com/guide/topics/manifest/manifest-intro)
 
