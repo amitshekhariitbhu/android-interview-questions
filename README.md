@@ -85,6 +85,8 @@
 
 * **What is the purpose of `addToBackStack()` while commiting fragment transaction?**
     - By calling addToBackStack(), the replace transaction is saved to the back stack so the user can reverse the transaction and bring back the previous fragment by pressing the Back button. For more [Learn from here](https://stackoverflow.com/questions/22984950/what-is-the-meaning-of-addtobackstack-with-null-parameter)
+    
+* **What is the order of lifecycle methods, when we move from `Activity` A to `Activity` B?** - [Learn from here](https://stackoverflow.com/questions/9963381/android-activity-lifecycle-state-order-when-new-activity-starts)
 
 #### Views and ViewGroups
 
@@ -110,6 +112,8 @@
 
 * **How does the Touch Control and Events work in Android?** - [Learn from here](https://blog.mindorks.com/touch-control-and-events-in-android) and [here](https://www.youtube.com/watch?v=tKeYr7iV5xE)
 
+* **How does `findViewById()` work internally, can you explain with rough pseudocode?** - [Learn from here](https://stackoverflow.com/questions/37280418/what-is-the-implementation-of-function-findviewbyid-in-android)
+
 #### Displaying Lists of Content
 
 * **What is the difference between `ListView` and `RecyclerView`?** - [Learn from here](https://stackoverflow.com/questions/26728651/recyclerview-vs-listview)
@@ -121,6 +125,10 @@
 * **RecyclerView Optimization - Scrolling Performance Improvement** - [Learn from here](https://blog.mindorks.com/recyclerview-optimization)
 
 * **What is `SnapHelper`?** - [Learn from here](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
+
+* **How would you implement a single `RecyclerView` with multiple view types?** - [Learn from here](https://blog.mindorks.com/implementing-merge-adapter-in-android-tutorial)
+
+* **What is the purpose of `ConcatAdapter` in `RecyclerView`?** - [Learn from here](https://medium.com/androiddevelopers/merge-adapters-sequentially-with-mergeadapter-294d2942127a)
 
 #### Dialogs and Toasts
 
@@ -161,6 +169,8 @@
 * **`Service` vs `IntentService`.** - [Learn from here](https://blog.mindorks.com/service-vs-intentservice-in-android)
 
 * **What is a `JobScheduler`?** - [Learn from here](https://developer.android.com/reference/android/app/job/JobScheduler)
+
+* **How would you communicate back from `Service` to `Activity`?** - [Learn from here](https://stackoverflow.com/questions/20594936/communication-between-activity-and-service)
 
 #### Inter-process Communication
 
@@ -1086,11 +1096,17 @@
 
 * **What are Coroutines in Kotlin?** - [Learn from here](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
 
+* **What makes Kotlin Coroutines light weight?** - [Learn from here](https://stackoverflow.com/questions/63719766/why-kotlin-coroutines-are-considered-light-weight)
+
 * **What is Coroutine Scope?** - [Learn from here](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
 
 * **What is Coroutine Context?** - [Learn from here](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
 
 * **Launch vs Async in Kotlin Coroutines** - [Learn from here](https://www.youtube.com/watch?v=nC30UiDv8Xc)
+
+* **How does Kotlin coroutines work internally?** - [Learn from here](https://www.youtube.com/watch?v=IQf-vtIC-Uc)
+
+* **Explain exception handling with Kotlin Coroutines?** - [Learn from here](https://www.youtube.com/watch?v=6iSUfh-RZYc)
 
 * **What is inline function in Kotlin?** - [Learn from here](https://blog.mindorks.com/understanding-inline-noinline-and-crossinline-in-kotlin)
 
@@ -1105,6 +1121,8 @@
 * **What are Lambdas in Kotlin** - [Learn from here](https://blog.mindorks.com/understanding-higher-order-functions-and-lambdas-in-kotlin)
 
 * **Tell about the Collections in Kotlin** - [Learn from here](https://www.youtube.com/watch?v=XeRt2ZZ-jkA)
+
+* **How does extension functions work internally in Kotlin** - [Learn from here](https://discuss.kotlinlang.org/t/how-do-extension-functions-work/609/4)
 
 ### Data Structures And Algorithms
 
