@@ -48,7 +48,14 @@
 
 #### Activity and Fragment
 
-* **What is `Activity` and its lifecycle?** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o)
+* **What is `Activity` and its lifecycle?** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o) or [official site](https://developer.android.com/guide/components/activities/activity-lifecycle)
+    - onCreate() - fires when the system first creates the activity. You can put here basic application startup logic that should happen only once for the entire life of the activity.
+    - onStart() - call makes the activity visible to the user, as the app prepares for the activity to enter the foreground and become interactive. You can initialize the code that maintains the UI.
+    - onResume() - This is the state in which the app interacts with the user. The app stays in this state until something happens to take focus away from the app. You can enable any functionality that needs to run while the component is visible and in the foreground, such as starting a camera preview.
+    - onPause() - it indicates that the activity is no longer in the foreground (though it may still be visible if the user is in multi-window mode). You can disable any functionality that needs to run while the component is visible and in the foreground, such as stopping a camera preview.
+    - onStop() - activity is no longer visible to the user. You can stop any functionality that does not need to run while the component is not visible on the screen.
+    - onDestroy() -  is called before the activity is destroyed (the activity is finishing OR the system is temporarily destroying the activity due to a configuration change). You can clean up anything before the Activity is destroyed.
+     - onRestart() - Called after onStop() when the current activity is being re-displayed to the user (the user has navigated back to it). It will be followed by onStart() and then onResume().
 
 * **What is the difference between onCreate() and onStart()** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o)
 
