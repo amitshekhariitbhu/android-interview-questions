@@ -1038,7 +1038,7 @@
 * **Difference between `StringBuffer` and `StringBuilder`?** - [Learn from here](https://www.journaldev.com/538/string-vs-stringbuffer-vs-stringbuilder)
 
 * **What is the difference between fail-fast and fail-safe iterators in Java?**
-    - Fail-safe iterator will not throw any exception even if the collection is modified while iteration over it. But in Fail-safe iterator, it throws a ConcurrentModificationException when you try to modify the collection while using it.
+    - Fail-safe iterator will not throw any exception even if the collection is modified while iteration over it. But in Fail-fast iterator, it throws a ConcurrentModificationException when you try to modify the collection while using it.
 
 * **What is Java NIO?** - [Learn from here](https://en.wikipedia.org/wiki/Non-blocking_I/O_(Java))
 
