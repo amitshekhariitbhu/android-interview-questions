@@ -448,7 +448,7 @@
 * **HTTP Request vs HTTP Long-Polling vs WebSockets** - [Learn from here](https://www.youtube.com/watch?v=k56H0DHqu5Y)
 
 ### Android Unit Testing
-* **What is Espresso?** - [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
+* **What is Espresso?** - [Learn from here](https://developer.android.com/training/testing/espresso)
 
 * **What is Robolectric?** - [Learn from here](http://robolectric.org/)
 
