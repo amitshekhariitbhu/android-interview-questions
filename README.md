@@ -423,6 +423,8 @@
 
 * **Tell something about clean code** - [Learn from here](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
 
+* **Android Architecture – Detailed Explanation** - [Learn from here](https://www.interviewbit.com/blog/android-architecture/)
+
 ### Android Design Problem
 
 * **Design Uber App.** - [Learn from here](https://github.com/MindorksOpenSource/ridesharing-uber-lyft-app)
@@ -446,6 +448,12 @@
 * **Design an Image Loading Library** - [Learn from here](https://medium.com/@maheswaranapk/android-create-your-own-image-loading-library-in-kotlin-diy-bc7be9f286c5)
 
 * **HTTP Request vs HTTP Long-Polling vs WebSockets** - [Learn from here](https://www.youtube.com/watch?v=k56H0DHqu5Y)
+
+* **Android Technical Interview Questions** - [Learn from here](https://www.interviewbit.com/android-interview-questions/)
+
+* **Android Project Ideas with Source Code** - [Learn from here](https://www.interviewbit.com/blog/android-projects/)
+
+
 
 ### Android Unit Testing
 * **What is Espresso?** - [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
