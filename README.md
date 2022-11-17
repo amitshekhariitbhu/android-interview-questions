@@ -58,6 +58,8 @@
 
 #### Base
 
+* **Why does an Android App lag?** - [Learn from here](https://amitshekhar.me/blog/android-app-lag)
+
 * **Tell all the Android application components.** - [Learn from here](https://developer.android.com/guide/components/fundamentals.html#Components)
 
 * **What is the project structure of an Android Application?** - [Learn from here](https://developer.android.com/studio/projects)
@@ -400,6 +402,8 @@
 
 * **How to implement search feature using RxJava in your application?**
 
+* **Pagination In RecyclerView Using RxJava Operators** - [Learn from here](https://amitshekhar.me/blog/pagination-in-recyclerview-using-rxjava-operators)
+
 * **How The Android Image Loading Library Glide and Fresco Works?** - [Learn from here](https://amitshekhar.me/blog/android-image-loading-library-optimize-memory-usage), [here](https://amitshekhar.me/blog/android-image-loading-library-use-bitmap-pool-for-responsive-ui) and [here](https://amitshekhar.me/blog/android-image-loading-library-solve-the-slow-loading-issue)
 
 * **Difference between Schedulers.io() and Schedulers.computation() in RxJava.**
@@ -467,6 +471,8 @@
 * **Design an Image Loading Library** - [Learn from here](https://amitshekhar.me/blog/android-image-loading-library-optimize-memory-usage), [here](https://amitshekhar.me/blog/android-image-loading-library-use-bitmap-pool-for-responsive-ui) and [here](https://amitshekhar.me/blog/android-image-loading-library-solve-the-slow-loading-issue)
 
 * **HTTP Request vs HTTP Long-Polling vs WebSockets** - [Learn from here](https://amitshekhar.me/blog/http-request-long-polling-websocket-sse)
+
+* **How do Voice And Video Call Work?** - [Learn from here](https://amitshekhar.me/blog/voice-and-video-call)
 
 ### Android Unit Testing
 * **What is Espresso?** - [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
