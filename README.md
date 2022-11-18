@@ -430,7 +430,7 @@
 
 * **Describe MVP.**
 
-* **Describe MVVM.**
+* **Describe MVVM.** - [MVVM Architecture](https://amitshekhar.me/blog/mvvm-architecture-android)
 
 * **MVC vs MVP vs MVVM architecture.**
 
