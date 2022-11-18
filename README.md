@@ -34,6 +34,9 @@
 - [init block in Kotlin](https://amitshekhar.me/blog/init-block-in-kotlin) - init block in Kotlin
 - [Retrofit with Kotlin Coroutines](https://amitshekhar.me/blog/retrofit-with-kotlin-coroutines) - Retrofit with Kotlin Coroutines
 - [Advantage of using const in Kotlin](https://amitshekhar.me/blog/const-in-kotlin) - Advantage of using const in Kotlin
+- [suspend function in Kotlin Coroutines](https://amitshekhar.me/blog/suspend-function-in-kotlin-coroutines) - suspend function in Kotlin Coroutines
+- [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin) - Higher-Order Functions and Lambdas in Kotlin
+- [Parallel Multiple Network Calls Using Kotlin Coroutines](https://amitshekhar.me/blog/parallel-multiple-network-calls-using-kotlin-coroutines) - Parallel Multiple Network Calls Using Kotlin Coroutines
 - [AssociateBy - List to Map in Kotlin](https://amitshekhar.me/blog/associateby-list-to-map-in-kotlin) - Kotlin Collection Functions - associateBy that converts a list into a map
 - [partition - filtering function in Kotlin](https://amitshekhar.me/blog/partition-filtering-function-in-kotlin) - partition - filtering function in Kotlin
 - [Infix notation in Kotlin](https://amitshekhar.me/blog/infix-notation-in-kotlin) - Infix notation in Kotlin
