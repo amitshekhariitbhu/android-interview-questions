@@ -56,6 +56,7 @@
 * [Android Tools And Technologies](#android-tools-and-technologies)
 * [Java and Kotlin](#java-and-kotlin)
 * [Other Topics](#other-topics)
+* [Data Structures and Algorithms](#data-structures-and-algorithms)
 
 ### Core Android
 
@@ -146,7 +147,9 @@
 
 * **What is the ViewHolder pattern? Why should we use it?** - [Learn from here](https://stackoverflow.com/questions/21501316/what-is-the-benefit-of-viewholder-pattern-in-android)
 
-* **RecyclerView Optimization - Scrolling Performance Improvement** - [Learn from here](https://amitshekhar.me/blog/setrecycledviewpool-for-optimizing-nested-recyclerview)
+* **RecyclerView Optimization - Scrolling Performance Improvement** - [Learn from here](https://amitshekhar.me/blog/recyclerview-optimization)
+
+* **Optimizing Nested RecyclerView** - [Learn from here](https://amitshekhar.me/blog/setrecycledviewpool-for-optimizing-nested-recyclerview)
 
 * **What is `SnapHelper`?**
 
@@ -393,7 +396,7 @@
     
 * **How are Timer, Delay, and Interval operators used in RxJava?** - [Learn from here](https://amitshekhar.me/blog/rxjava-interval-operator)
 
-* **How to make two network calls in parallel using RxJava?**
+* **How to make two network calls in parallel using RxJava?** - [RxJava Zip Operator](https://amitshekhar.me/blog/rxjava-zip-operator)
     
 * **Tell the difference between Concat and Merge.** - [Learn from here](https://amitshekhar.me/blog/rxjava-concat-operator) and [here](https://amitshekhar.me/blog/rxjava-merge-operator)
 
@@ -1182,6 +1185,10 @@
 * **How does the notification system work?**
 
 * **How to show local Notification at an exact time?**
+
+### Data Structures and Algorithms
+
+* **Android Developer should know these Data Structures for Next Interview** - [Check here](https://amitshekhar.me/blog/android-developer-should-know-these-data-structures-for-next-interview)
 
 ### Found this project useful :heart:
 
