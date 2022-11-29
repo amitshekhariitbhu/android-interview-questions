@@ -151,7 +151,7 @@
 
 * **Optimizing Nested RecyclerView** - [Learn from here](https://amitshekhar.me/blog/setrecycledviewpool-for-optimizing-nested-recyclerview)
 
-* **What is `SnapHelper`?**
+* **What is `SnapHelper`?** - Learn from here: [SnapHelper](https://amitshekhar.me/blog/snaphelper)
 
 #### Dialogs and Toasts
 
@@ -310,9 +310,9 @@
 
 #### Native Programming
 
-* **What is the NDK and why is it useful?**
+* **What is the NDK and why is it useful?** - Learn from here: [Android NDK and RenderScript](https://amitshekhar.me/blog/ndk-and-renderscript)
 
-* **What is renderscript?**
+* **What is renderscript?** - Learn from here: [Android NDK and RenderScript](https://amitshekhar.me/blog/ndk-and-renderscript)
 
 #### Android System Internal
 
@@ -507,7 +507,7 @@
 
 * **What is DDMS and what can you do with it?** - [Learn from here](https://developer.android.com/studio/profile/monitor)
 
-* **What is the StrictMode?**
+* **What is the StrictMode?** - Learn from here: [StrictMode](https://amitshekhar.me/blog/strictmode-in-android-development)
 
 * **What is Lint? What is it used for?**
 
@@ -1128,9 +1128,9 @@
 
 * **Tell about Kotlin DSL.**
 
-* **What are higher-order functions in Kotlin?**
+* **What are higher-order functions in Kotlin?** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin)
 
-* **What are Lambdas in Kotlin**
+* **What are Lambdas in Kotlin** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin)
 
 * **Tell about the Collections in Kotlin**
 
@@ -1146,7 +1146,7 @@
 
 * **Can we identify users who have uninstalled our application?**
 
-* **Android Development Best Practices.**
+* **Android Development Best Practices.** - Learn from here: [Android Development Best Practices](https://amitshekhar.me/blog/android-development-best-practices)
 
 * **Android Code Style And Guidelines.**
 
