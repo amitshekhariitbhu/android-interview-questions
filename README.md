@@ -390,9 +390,9 @@
 
 * **FlatMap Vs Map Operator** - [Learn from here](https://amitshekhar.me/blog/rxjava-map-vs-flatmap)
     
-* **When to use `Create` operator and when to use `fromCallable` operator of RxJava?**
+* **When to use `Create` operator and when to use `fromCallable` operator of RxJava?** - Learn from here: [RxJava Create and fromCallable Operator](https://amitshekhar.me/blog/rxjava-create-and-fromcallable-operator)
     
-* **When to use `defer` operator of RxJava?**
+* **When to use `defer` operator of RxJava?** - Learn from here: [RxJava Defer Operator](https://amitshekhar.me/blog/rxjava-defer-operator)
     
 * **How are Timer, Delay, and Interval operators used in RxJava?** - [Learn from here](https://amitshekhar.me/blog/rxjava-interval-operator)
 
@@ -402,11 +402,11 @@
 
 * **Explain Subject in RxJava?** - [Learn from here](https://amitshekhar.me/blog/rxjava-subject-publish-replay-behavior-async)
 
-* **What are the types of Observables in RxJava?**
+* **What are the types of Observables in RxJava?** - Learn from here: [Types Of Observables In RxJava](https://amitshekhar.me/blog/types-of-observables-in-rxjava)
 
 * **How to implement EventBus with RxJava?**
 
-* **How to implement search feature using RxJava in your application?**
+* **How to implement search feature using RxJava in your application?** - Learn from here: [Instant Search Using RxJava Operators](https://amitshekhar.me/blog/instant-search-using-rxjava-operators)
 
 * **Pagination In RecyclerView Using RxJava Operators** - [Learn from here](https://amitshekhar.me/blog/pagination-in-recyclerview-using-rxjava-operators)
 
