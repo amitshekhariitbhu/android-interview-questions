@@ -1080,7 +1080,7 @@
 
 * **How to ensure `null` safety in Kotlin?**
 
-* **When to use `lateint` keyword used in Kotlin?** - [Learn from here](hhttps://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
+* **When to use `lateint` keyword used in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
 
 * **How to check if a `lateinit` variable has been initialized?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
 
