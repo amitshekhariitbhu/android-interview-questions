@@ -1152,7 +1152,7 @@
 
 * **Have you tried Kotlin?**
 
-* **What are the metrics that you should measure continuously while android application development?**
+* **What are the metrics that you should measure continuously while android application development?** - Learn from here: [Android App Performance Metrics](https://amitshekhar.me/blog/android-app-performance-metrics)
 
 * **What is Chrome Custom Tabs? How to display web content in your app?**
 
