@@ -46,7 +46,7 @@
 
 ## **Get Mentorship: [amitshekhar.me](https://amitshekhar.me)**
 
-## Contents
+## Contents - Android Interview Questions
 
 * [Core Android](#core-android)
 * [Android Libraries](#android-libraries)
@@ -55,10 +55,15 @@
 * [Android Unit Testing](#android-unit-testing)
 * [Android Tools And Technologies](#android-tools-and-technologies)
 * [Java and Kotlin](#java-and-kotlin)
+* [Kotlin Coroutines](#kotlin-coroutines)
+* [Kotlin Flow API](#kotlin-flow-api)
+* [Jetpack Compose](#jetpack-compose)
 * [Other Topics](#other-topics)
 * [Data Structures and Algorithms](#data-structures-and-algorithms)
 
 ### Core Android
+
+Android Interview Questions:
 
 #### Base
 
@@ -207,7 +212,7 @@
 
 #### Long-running Operations
 
-* **How to run parallel tasks in Java or Android, and get callback when all complete?**
+* **How to run parallel tasks in Java or Android, and get callback when all complete?** - [Long-running tasks in parallel with Kotlin Flow](https://amitshekhar.me/blog/long-running-tasks-in-parallel-with-kotlin-flow)
 
 * **Why should you avoid to run non-ui code on the main thread?** - [Learn from here](https://developer.android.com/training/multiple-threads/communicate-ui)
 
@@ -234,8 +239,6 @@
 
 * **Explain `Looper`, `Handler` and `HandlerThread`.**
 
-* **How does the threading work in Android?**
-
 * **Android Memory Leak and Garbage Collection**
 
 #### Working With Multimedia Content
@@ -245,9 +248,7 @@
 * **What is the difference between a regular `Bitmap` and a nine-patch image?**
     - In general, a Nine-patch image allows resizing that can be used as background or other image size requirements for the target device. The Nine-patch refers to the way you can resize the image: 4 corners that are unscaled, 4 edges that are scaled in 1 axis, and the middle one that can be scaled into both axes.
 
-* **Tell about the `Bitmap` pool.** - [Learn from here](https://amitshekhar.me/blog/android-image-loading-library-use-bitmap-pool-for-responsive-ui)
-
-* **How to play sounds in Android?**
+* **Tell about the `Bitmap` pool.** - [Learn from here](https://amitshekhar.me/blog/bitmap-pool)
 
 * **How image compression is preformed?**
 
@@ -380,6 +381,8 @@
 
 ### Android Libraries
 
+Android Interview Questions:
+
 * **Explain OkHttp Interceptor** - [Learn from here](https://amitshekhar.me/blog/okhttp-interceptor)
 
 * **OkHttp - HTTP Caching** - [Learn from here](https://amitshekhar.me/blog/caching-with-okhttp-interceptor-and-retrofit)
@@ -403,8 +406,6 @@
 * **Explain Subject in RxJava?** - [Learn from here](https://amitshekhar.me/blog/rxjava-subject-publish-replay-behavior-async)
 
 * **What are the types of Observables in RxJava?** - Learn from here: [Types Of Observables In RxJava](https://amitshekhar.me/blog/types-of-observables-in-rxjava)
-
-* **How to implement EventBus with RxJava?**
 
 * **How to implement search feature using RxJava in your application?** - Learn from here: [Instant Search Using RxJava Operators](https://amitshekhar.me/blog/instant-search-using-rxjava-operators)
 
@@ -432,6 +433,8 @@
 
 ### Android Architecture
 
+Android Interview Questions:
+
 * **Describe the architecture of your last app.**
 
 * **Describe MVP.**
@@ -455,6 +458,8 @@
 * **Tell something about clean code**
 
 ### Android Design Problem
+
+Android Interview Questions:
 
 * **Design Uber App.** - [Learn from here](https://github.com/amitshekhariitbhu/ridesharing-uber-lyft-app)
 
@@ -481,6 +486,9 @@
 * **How do Voice And Video Call Work?** - [Learn from here](https://amitshekhar.me/blog/voice-and-video-call)
 
 ### Android Unit Testing
+
+Android Interview Questions:
+
 * **What is Espresso?** - [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
 
 * **What is Robolectric?** - [Learn from here](http://robolectric.org/)
@@ -502,6 +510,8 @@
 * **Describe code coverage.**
 
 ### Android Tools And Technologies
+
+Android Interview Questions:
 
 * **What is ADB?** - [Learn from here](https://developer.android.com/studio/command-line/adb)
 
@@ -546,6 +556,8 @@
 * **How to change some parameters in an app without app update?**
 
 ### Java and Kotlin
+
+Android Interview Questions:
 
 #### OOP
 
@@ -867,7 +879,7 @@
 
 * **What does the keyword `synchronized` mean?**
 
-* **What is a `ThreadPoolExecutor`?**
+* **What is a `ThreadPoolExecutor`?** - [ThreadPoolExecutor in Android](https://amitshekhar.me/blog/threadpoolexecutor-in-android)
 
 * **What is `volatile` modifier?**
 
@@ -1134,7 +1146,52 @@
 
 * **Tell about the Collections in Kotlin**
 
+### Kotlin Coroutines
+
+Topics you should know in Kotlin Coroutines for Android Interview:
+
+* coroutines
+* suspend
+* launch, async-await, withContext
+* dispatchers
+* scope, context, job
+* lifecycleScope, viewModelScope, GlobalScope
+* suspendCoroutine, suspendCancellableCoroutine
+* coroutineScope, supervisorScope
+
+You can learn these topics here: [Master Kotlin Coroutines](https://amitshekhar.me/blog/kotlin-coroutines)
+
+
+### Kotlin Flow API
+
+Topics you should know in Kotlin Flow API for Android Interview:
+
+* Flow Builder, Operator, Collector
+* flowOn, dispatchers
+* Operators such as filter, map, zip, flatMapConcat, retry, debounce, distinctUntilChanged, flatMapLatest
+* Terminal operators
+* StateFlow, SharedFlow, callbackFlow, channelFlow
+
+You can learn these topics here: [Kotlin Flow API](https://amitshekhar.me/blog/flow-api-in-kotlin)
+
+### Jetpack Compose
+
+Topics you should know in Jetpack Compose for Android Interview:
+
+* Compose
+* State: remember, rememberSaveable, MutableState
+* Recomposition
+* State hoisting
+* Side-effects
+* Modifier
+* Theme
+* Layout, List
+* Gestures, Animation
+* CompositionLocal
+
 ### Other Topics
+
+Android Interview Questions:
 
 * **Describe how REST APIs work. What is REST?**
 
@@ -1147,8 +1204,6 @@
 * **Can we identify users who have uninstalled our application?**
 
 * **Android Development Best Practices.** - Learn from here: [Android Development Best Practices](https://amitshekhar.me/blog/android-development-best-practices)
-
-* **Android Code Style And Guidelines.**
 
 * **Have you tried Kotlin?**
 
@@ -1172,11 +1227,7 @@
 
 * **Tell something about memory usage in Android.**
 
-* **What is Benchmarking?**
-
 * **Can you create transparent activity in Android?**
-
-* **How to use Android Sensors?**
 
 * **Explain Annotation processing.**
 
