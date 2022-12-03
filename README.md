@@ -1245,6 +1245,13 @@ Android Interview Questions:
 
 * Support by clicking the :star: button on the upper right of this page. :v:
 
+You can connect with me on:
+
+- [Twitter](https://twitter.com/amitiitbhu)
+- [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
+- [GitHub](https://github.com/amitshekhariitbhu)
+- [Facebook](https://www.facebook.com/amit.shekhar.iitbhu)
+
 ### License
 ```
    Copyright (C) 2022 Amit Shekhar
