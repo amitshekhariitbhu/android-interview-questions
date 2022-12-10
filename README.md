@@ -1171,6 +1171,7 @@ Topics you should know in Kotlin Flow API for Android Interview:
 * flowOn, dispatchers
 * Operators such as filter, map, zip, flatMapConcat, retry, debounce, distinctUntilChanged, flatMapLatest
 * Terminal operators
+* Cold Flow vs Hot Flow: [Cold Flow vs Hot Flow](https://amitshekhar.me/blog/cold-flow-vs-hot-flow)
 * StateFlow, SharedFlow, callbackFlow, channelFlow
 
 You can learn these topics here: [Kotlin Flow API](https://amitshekhar.me/blog/flow-api-in-kotlin)
