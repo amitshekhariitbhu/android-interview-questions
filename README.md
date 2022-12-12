@@ -483,7 +483,7 @@ Android Interview Questions:
 
 * **Design an Image Loading Library** - [Learn from here](https://amitshekhar.me/blog/android-image-loading-library-optimize-memory-usage), [here](https://amitshekhar.me/blog/android-image-loading-library-use-bitmap-pool-for-responsive-ui) and [here](https://amitshekhar.me/blog/android-image-loading-library-solve-the-slow-loading-issue)
 
-* **HTTP Request vs HTTP Long-Polling vs WebSockets** - [Learn from here](https://amitshekhar.me/blog/http-request-long-polling-websocket-sse)
+* **HTTP Request vs HTTP Long-Polling vs WebSockets** - [Learn from blog](https://amitshekhar.me/blog/http-request-long-polling-websocket-sse) and [Video - HTTP Request vs HTTP Long-Polling vs WebSocket vs Server-Sent Events](https://www.youtube.com/watch?v=8ksWRX4xV-s)
 
 * **How do Voice And Video Call Work?** - [Learn from here](https://amitshekhar.me/blog/voice-and-video-call)
 
