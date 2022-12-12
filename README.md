@@ -84,6 +84,8 @@ Android Interview Questions:
 
 #### Activity and Fragment
 
+* **Why is it recommended to use only the default constructor to create a `Fragment`?** - [Learn from here](https://www.youtube.com/watch?v=CitBt0FZFIc)
+
 * **What is `Activity` and its lifecycle?**
 
 * **What is the difference between onCreate() and onStart()**
@@ -111,8 +113,6 @@ Android Interview Questions:
     - FragmentStatePagerAdapter: Here, the fragment instance will be destroyed when it is not visible to the user, except the saved state of the fragment.
 
 * **What is the difference between adding/replacing fragment in backstack?** - [Learn from here](https://stackoverflow.com/questions/24466302/basic-difference-between-add-and-replace-method-of-fragment/24466345)
-
-* **Why is it recommended to use only the default constructor to create a `Fragment`?** - [Learn from here](https://amitshekhar.me/blog/default-constructor-to-create-a-fragment)
 
 * **How would you communicate between two Fragments?**
 
