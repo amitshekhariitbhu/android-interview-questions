@@ -21,6 +21,7 @@
 - [Long-running tasks in parallel with Kotlin Flow](https://amitshekhar.me/blog/long-running-tasks-in-parallel-with-kotlin-flow) - Long-running tasks in parallel with Kotlin Flow
 - [Retry Operator in Kotlin Flow](https://amitshekhar.me/blog/retry-operator-in-kotlin-flow) - Retry Operator in Kotlin Flow
 - [Callback to Coroutines in Kotlin](https://amitshekhar.me/blog/callback-to-coroutines-in-kotlin) - Callback to Coroutines in Kotlin
+- [StateFlow and SharedFlow](https://amitshekhar.me/blog/stateflow-and-sharedflow) - StateFlow and SharedFlow
 - [Cold Flow vs Hot Flow](https://amitshekhar.me/blog/cold-flow-vs-hot-flow) - Cold Flow vs Hot Flow
 - [Retrofit with Kotlin Flow](https://amitshekhar.me/blog/retrofit-with-kotlin-flow) - Retrofit with Kotlin Flow
 - [Room Database with Kotlin Flow](https://amitshekhar.me/blog/room-database-with-kotlin-flow) - Room Database with Kotlin Flow
@@ -1172,7 +1173,7 @@ Topics you should know in Kotlin Flow API for Android Interview:
 * Operators such as filter, map, zip, flatMapConcat, retry, debounce, distinctUntilChanged, flatMapLatest
 * Terminal operators
 * Cold Flow vs Hot Flow: [Cold Flow vs Hot Flow](https://amitshekhar.me/blog/cold-flow-vs-hot-flow)
-* StateFlow, SharedFlow, callbackFlow, channelFlow
+* [StateFlow, SharedFlow](https://amitshekhar.me/blog/stateflow-and-sharedflow), callbackFlow, channelFlow
 
 You can learn these topics here: [Kotlin Flow API](https://amitshekhar.me/blog/flow-api-in-kotlin)
 
