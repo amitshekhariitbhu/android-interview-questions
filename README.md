@@ -92,9 +92,9 @@ Android Interview Questions:
 
 * **What is the difference between onCreate() and onStart()**
 
-* **When only onDestroy is called for an activity without onPause() and onStop()?**
+* **When only onDestroy is called for an activity without onPause() and onStop()?** - [Learn from here](https://www.youtube.com/watch?v=B2kY_ckZa-g)
 
-* **Why do we need to call setContentView() in onCreate() of Activity class?**
+* **Why do we need to call setContentView() in onCreate() of Activity class?** - [Learn from here](https://www.youtube.com/watch?v=U1aHAt7XC5I)
 
 * **What is onSavedInstanceState() and onRestoreInstanceState() in activity?**
     - onSavedInstanceState() - This method is used to store data before pausing the activity.
