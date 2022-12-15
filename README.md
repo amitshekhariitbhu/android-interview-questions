@@ -37,7 +37,7 @@
 - [lateinit vs lazy in Kotlin](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin) - lateinit vs lazy in Kotlin
 - [init block in Kotlin](https://amitshekhar.me/blog/init-block-in-kotlin) - init block in Kotlin
 - [Retrofit with Kotlin Coroutines](https://amitshekhar.me/blog/retrofit-with-kotlin-coroutines) - Retrofit with Kotlin Coroutines
-- [Advantage of using const in Kotlin](https://amitshekhar.me/blog/const-in-kotlin) - Advantage of using const in Kotlin
+- [Advantage of using const in Kotlin](https://www.youtube.com/watch?v=3G49ivVxfkU) - Advantage of using const in Kotlin
 - [suspend function in Kotlin Coroutines](https://amitshekhar.me/blog/suspend-function-in-kotlin-coroutines) - suspend function in Kotlin Coroutines
 - [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin) - Higher-Order Functions and Lambdas in Kotlin
 - [Parallel Multiple Network Calls Using Kotlin Coroutines](https://amitshekhar.me/blog/parallel-multiple-network-calls-using-kotlin-coroutines) - Parallel Multiple Network Calls Using Kotlin Coroutines
@@ -1092,7 +1092,7 @@ Android Interview Questions:
 
 * **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
 
-* **What is the difference between `const` and `val`?** - [Learn from here](https://amitshekhar.me/blog/const-in-kotlin)
+* **What is the advantage of using `const` in Kotlin?** - [Video](https://www.youtube.com/watch?v=3G49ivVxfkU) and [Blog](https://amitshekhar.me/blog/const-in-kotlin)
 
 * **How to ensure `null` safety in Kotlin?**
 
