@@ -31,7 +31,7 @@
 - [JvmStatic Annotation in Kotlin](https://amitshekhar.me/blog/jvmstatic-annotation-in-kotlin) - JvmStatic Annotation in Kotlin
 - [JvmOverloads Annotation in Kotlin](https://amitshekhar.me/blog/jvmoverloads-annotation-in-kotlin) - JvmOverloads Annotation in Kotlin
 - [JvmField Annotation in Kotlin](https://amitshekhar.me/blog/jvmfield-annotation-in-kotlin) - JvmField Annotation in Kotlin
-- [inline function in Kotlin](https://amitshekhar.me/blog/inline-function-in-kotlin) - inline function in Kotlin
+- [inline function in Kotlin](https://www.youtube.com/watch?v=GLLI8h67ryo) - inline function in Kotlin
 - [noinline in Kotlin](https://amitshekhar.me/blog/noinline-in-kotlin) - noinline in Kotlin
 - [crossinline in Kotlin](https://amitshekhar.me/blog/crossinline-in-kotlin) - crossinline in Kotlin
 - [lateinit vs lazy in Kotlin](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin) - lateinit vs lazy in Kotlin
@@ -1136,7 +1136,7 @@ Android Interview Questions:
 
 * **Launch vs Async in Kotlin Coroutines** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
 
-* **What is inline function in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/inline-function-in-kotlin)
+* **What is inline function in Kotlin?** - [Video](https://www.youtube.com/watch?v=GLLI8h67ryo) and [Blog](https://amitshekhar.me/blog/inline-function-in-kotlin)
 
 * **When to use Kotlin sealed classes?**
 
