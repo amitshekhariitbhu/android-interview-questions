@@ -28,7 +28,7 @@
 - [Retrofit with Kotlin Flow](https://amitshekhar.me/blog/retrofit-with-kotlin-flow) - Retrofit with Kotlin Flow
 - [Room Database with Kotlin Flow](https://amitshekhar.me/blog/room-database-with-kotlin-flow) - Room Database with Kotlin Flow
 - [Remove duplicates from an array](https://amitshekhar.me/blog/remove-duplicates-from-an-array-in-kotlin) - Remove duplicates from an array in Kotlin
-- [JvmStatic Annotation in Kotlin](https://amitshekhar.me/blog/jvmstatic-annotation-in-kotlin) - JvmStatic Annotation in Kotlin
+- [JvmStatic Annotation in Kotlin](https://www.youtube.com/watch?v=qBBbOhY_pv4) - JvmStatic Annotation in Kotlin
 - [JvmOverloads Annotation in Kotlin](https://amitshekhar.me/blog/jvmoverloads-annotation-in-kotlin) - JvmOverloads Annotation in Kotlin
 - [JvmField Annotation in Kotlin](https://amitshekhar.me/blog/jvmfield-annotation-in-kotlin) - JvmField Annotation in Kotlin
 - [inline function in Kotlin](https://www.youtube.com/watch?v=GLLI8h67ryo) - inline function in Kotlin
@@ -1093,6 +1093,8 @@ Android Interview Questions:
 * **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
 
 * **What is the advantage of using `const` in Kotlin?** - [Video](https://www.youtube.com/watch?v=3G49ivVxfkU) and [Blog](https://amitshekhar.me/blog/const-in-kotlin)
+
+* **What is a JvmStatic Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=qBBbOhY_pv4) and [Blog](https://amitshekhar.me/blog/jvmstatic-annotation-in-kotlin)
 
 * **How to ensure `null` safety in Kotlin?**
 
