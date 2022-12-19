@@ -35,7 +35,7 @@
 - [noinline in Kotlin](https://amitshekhar.me/blog/noinline-in-kotlin) - noinline in Kotlin
 - [crossinline in Kotlin](https://amitshekhar.me/blog/crossinline-in-kotlin) - crossinline in Kotlin
 - [lateinit vs lazy in Kotlin](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin) - lateinit vs lazy in Kotlin
-- [init block in Kotlin](https://amitshekhar.me/blog/init-block-in-kotlin) - init block in Kotlin
+- [init block in Kotlin](https://www.youtube.com/watch?v=cb3jOFozJns) - init block in Kotlin
 - [Retrofit with Kotlin Coroutines](https://amitshekhar.me/blog/retrofit-with-kotlin-coroutines) - Retrofit with Kotlin Coroutines
 - [Advantage of using const in Kotlin](https://www.youtube.com/watch?v=3G49ivVxfkU) - Advantage of using const in Kotlin
 - [suspend function in Kotlin Coroutines](https://amitshekhar.me/blog/suspend-function-in-kotlin-coroutines) - suspend function in Kotlin Coroutines
@@ -1122,7 +1122,7 @@ Android Interview Questions:
 
 * **What are `Labels` in Kotlin?**
 
-* **What is an `Init` block in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/init-block-in-kotlin)
+* **What is an `init` block in Kotlin?** - [Video](https://www.youtube.com/watch?v=cb3jOFozJns) and [Blog](https://amitshekhar.me/blog/init-block-in-kotlin)
 
 * **Explain `pair` and `triple` in Kotlin.**
 
