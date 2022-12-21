@@ -30,7 +30,7 @@
 - [Remove duplicates from an array](https://amitshekhar.me/blog/remove-duplicates-from-an-array-in-kotlin) - Remove duplicates from an array in Kotlin
 - [JvmStatic Annotation in Kotlin](https://www.youtube.com/watch?v=qBBbOhY_pv4) - JvmStatic Annotation in Kotlin
 - [JvmOverloads Annotation in Kotlin](https://amitshekhar.me/blog/jvmoverloads-annotation-in-kotlin) - JvmOverloads Annotation in Kotlin
-- [JvmField Annotation in Kotlin](https://amitshekhar.me/blog/jvmfield-annotation-in-kotlin) - JvmField Annotation in Kotlin
+- [JvmField Annotation in Kotlin](https://www.youtube.com/watch?v=bx8OZcMbeUE) - JvmField Annotation in Kotlin
 - [inline function in Kotlin](https://www.youtube.com/watch?v=GLLI8h67ryo) - inline function in Kotlin
 - [noinline in Kotlin](https://amitshekhar.me/blog/noinline-in-kotlin) - noinline in Kotlin
 - [crossinline in Kotlin](https://amitshekhar.me/blog/crossinline-in-kotlin) - crossinline in Kotlin
@@ -1095,6 +1095,8 @@ Android Interview Questions:
 * **What is the advantage of using `const` in Kotlin?** - [Video](https://www.youtube.com/watch?v=3G49ivVxfkU) and [Blog](https://amitshekhar.me/blog/const-in-kotlin)
 
 * **What is a JvmStatic Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=qBBbOhY_pv4) and [Blog](https://amitshekhar.me/blog/jvmstatic-annotation-in-kotlin)
+
+* **What is a JvmField Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=bx8OZcMbeUE) and [Blog](https://amitshekhar.me/blog/jvmfield-annotation-in-kotlin)
 
 * **How to ensure `null` safety in Kotlin?**
 
