@@ -84,6 +84,64 @@ Android Interview Questions:
 * **What is `Application` class?**
     - The Application class in Android is the base class within an Android app that contains all other components such as activities and services. The Application class, or any subclass of the Application class, is instantiated before any other class when the process for your application/package is created.
 
+#### Different Types of Android Apps
+
+* **There are several types of apps that can be developed for Android:**
+
+    - **Native apps:** These are apps that are developed specifically for Android using the Java or Kotlin programming languages and the Android SDK. They have access to all of the features of the device and can be optimized for performance and user experience.
+
+    - **Hybrid apps:** These are apps that are developed using a combination of web technologies (HTML, CSS, and JavaScript) and native code. They are usually easier to develop and maintain than native apps, but they may not be as performant or have as good of a user experience.
+
+    - **Web apps:** These are apps that are developed as websites and are designed to be accessed through a web browser on an Android device. They do not have access to all of the features of the device and are not as performant as native or hybrid apps.
+
+    - **Wear OS apps:** These are apps that are specifically designed for Wear OS devices, such as smartwatches. They can run on the watch itself or on a paired phone and can take advantage of the unique features of Wear OS, such as the ability to display notifications and interact with the user through voice commands.
+
+    - **Android TV apps:** These are apps that are designed for Android TV devices, such as TVs, set-top boxes, and streaming sticks. They can take advantage of the unique features of Android TV, such as the ability to display content on a large screen and use a remote control for navigation.
+
+        Each type of app has its own set of benefits and trade-offs, and the best choice will depend on your specific needs and goals
+
+* **Android devices come with a variety of pre-installed apps, which can be grouped into several categories:**
+
+    - **System apps:** These are apps that are essential for the proper functioning of the device. They include the Android operating system itself, as well as apps that handle tasks such as networking, messaging, and phone calls.
+
+    - **Carrier apps:** These are apps that are provided by the carrier that sells the device. They may include apps for managing your account, checking your data usage, or accessing special offers.
+
+    - **Manufacturer apps:** These are apps that are provided by the manufacturer of the device. They may include apps for managing the device's hardware or for accessing special features of the device.
+
+    - **Google apps:** These are apps that are developed by Google and are included on most Android devices. They include apps such as Google Maps, Gmail, and Google Drive.
+
+    - **Third-party apps:** These are apps that are developed by companies other than the carrier, manufacturer, or Google. They can be downloaded from the Play Store or other app stores and include a wide variety of apps for different purposes.
+
+        Most Android devices come with a combination of these types of apps, and the specific apps that are included may vary depending on the device and the country in which it is sold.
+
+#### Pre-Installed Apps
+
+>Pre-installed apps are apps that are already installed on an Android device when it is shipped to the user. These apps are usually system apps, which are essential for the proper functioning of the device, or apps that are required by the carrier or manufacturer of the device.
+>
+>As a third-party developer, you cannot make your app a pre-installed app on an Android device. Only the manufacturer or carrier of the device can do that. However, you can make your app a system app by bundling it with a custom ROM or by rooting the device and manually moving the app to the system partition. However, this is not recommended as it can cause security and stability issues on the device.
+>
+>To disable the "Uninstall" button for your app, you can set the **'android: enabled'** attribute of the **<application>** element in your app's manifest file to **false**. This will prevent the user from uninstalling the app, but it will not change the button's label to "Disable". The user will still be able to disable the app from the device's settings, but they will not be able to remove it from the device completely.
+>
+>If you are a device manufacturer or carrier and you want to make an app a system app on your devices, there are a few steps you can follow:
+>1. Build the app as a standalone APK file.
+>2. Sign the APK file with the platform signing key. This is a special key that is used to sign all system apps on Android devices.
+>3. Place the signed APK file in the **'/system/priv-app'** or **'/system/app'** directory on the device. The exact location may vary depending on the device and Android version.
+>4. Set the correct permissions for the APK file. The file should have **644** permissions (**rw-r--r--**) and be owned by the **system** user and group.
+>5. Reboot the device. The app should now be installed as a system app.
+>
+>Note that these steps assume that you have root access to the device and that you are able to modify the system partition. If you do not have root access, you will need to use a custom ROM or firmware that includes the app as a system app.
+>
+>It is also important to note that making an app a system app can have unintended consequences, such as causing security and stability issues on the device. Therefore, it is generally recommended to leave the app as a regular third-party app and allow the user to install it from the Play Store or other app store.
+>    
+>To create a system app, you will need:
+>1. The source code for the app.
+>2. The Android SDK and build tools, which you can download from the Android developer website.
+>3. A signing key to sign the APK file. This can be either a debug key, which is used for testing purposes, or a platform signing key, which is used to sign system apps on Android devices.
+>4. A device or emulator running Android to test the app on.
+>
+>Once you have these tools and resources, you can build the app as an APK file and follow the steps I mentioned earlier to install it as a system app on the device. Keep in mind that making an app a system app requires root access and modification of the system partition, which can have unintended consequences and may void the warranty of the device. Therefore, it is generally recommended to leave the app as a regular third-party app and allow the user to install it from the Play Store or other app store.
+
+
 #### Activity and Fragment
 
 * **Why is it recommended to use only the default constructor to create a `Fragment`?** - [Learn from here](https://www.youtube.com/watch?v=CitBt0FZFIc)
