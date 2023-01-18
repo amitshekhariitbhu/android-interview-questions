@@ -8,7 +8,16 @@
 
 ## Prepared and maintained by [Amit Shekhar](https://github.com/amitshekhariitbhu) who is having experience of taking interviews of many Android developers and cracking interviews of top companies.
 
-> Hi, I am Amit Shekhar, I have mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
+## About me
+
+Hi, I am [**Amit Shekhar**](https://amitshekhar.me), I have mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
+
+You can connect with me on:
+
+- [Twitter](https://twitter.com/amitiitbhu)
+- [YouTube](https://www.youtube.com/@amitshekhar)
+- [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
+- [GitHub](https://github.com/amitshekhariitbhu)
 
 ## High-quality videos to prepare for Android Interview - [Amit Shekhar YouTube Channel](https://www.youtube.com/@amitshekhar)
 
