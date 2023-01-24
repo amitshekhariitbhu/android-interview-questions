@@ -45,6 +45,7 @@ You can connect with me on:
 - [crossinline in Kotlin](https://amitshekhar.me/blog/crossinline-in-kotlin) - crossinline in Kotlin
 - [lateinit vs lazy in Kotlin](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin) - lateinit vs lazy in Kotlin
 - [init block in Kotlin](https://www.youtube.com/watch?v=cb3jOFozJns) - init block in Kotlin
+- [Difference between == and === in Kotlin](https://amitshekhar.me/blog/structural-and-referential-equality-in-kotlin) - Difference between == and === in Kotlin
 - [Retrofit with Kotlin Coroutines](https://amitshekhar.me/blog/retrofit-with-kotlin-coroutines) - Retrofit with Kotlin Coroutines
 - [Advantage of using const in Kotlin](https://www.youtube.com/watch?v=3G49ivVxfkU) - Advantage of using const in Kotlin
 - [suspend function in Kotlin Coroutines](https://amitshekhar.me/blog/suspend-function-in-kotlin-coroutines) - suspend function in Kotlin Coroutines
@@ -1118,6 +1119,8 @@ Android Interview Questions:
 * **How to do lazy initialization of variables in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
 
 * **What are `companion objects` in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/companion-object-in-kotlin)
+
+* **Difference between == and === in Kotlin** - [Difference between == and === in Kotlin](https://amitshekhar.me/blog/structural-and-referential-equality-in-kotlin)
 
 * **What are the visibility modifiers in Kotlin?**
 
