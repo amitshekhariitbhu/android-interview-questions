@@ -331,11 +331,11 @@ Android Interview Questions:
 
 #### Android System Internal
 
-* **What is the Dalvik Virtual Machine?**
+* **What is Android Runtime?** - [Android Runtime](https://amitshekhar.me/blog/dalvik-art-jit-aot)
 
-* **What is the difference JVM, DVM and ART?**
+* **Dalvik, ART, JIT, and AOT in Android** - [Dalvik, ART, JIT, and AOT](https://amitshekhar.me/blog/dalvik-art-jit-aot)
 
-* **What are the differences between Dalvik and ART?**
+* **What are the differences between Dalvik and ART?** - [Difference between Dalvik and ART](https://amitshekhar.me/blog/dalvik-art-jit-aot)
 
 * **What is DEX?** - [Learn from here](https://developer.android.com/reference/dalvik/system/DexFile)
 
