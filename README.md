@@ -113,7 +113,7 @@ Android Interview Questions:
 
 * **What is `Fragment` and its lifecycle.**
 
-* **What are "launch modes"?** - [Learn from here](https://amitshekhar.me/blog/singletask-launchmode-in-android)
+* **What are "launchMode"?** - [Learn from here](https://amitshekhar.me/blog/singletask-launchmode-in-android) and [singleTask launchMode in Android](https://youtu.be/WYkQEnm4jeI)
 
 * **What is the difference between a `Fragment` and an `Activity`? Explain the relationship between the two.** - [Learn from here](https://stackoverflow.com/questions/10478233/why-fragments-and-when-to-use-fragments-instead-of-activities)
 
