@@ -1213,6 +1213,11 @@ Topics you should know in Jetpack Compose for Android Interview:
 * Gestures, Animation
 * CompositionLocal
 
+* **Shortest Path Algorithm** - [Learn from here](https://www.scaler.com/topics/data-structures/0-1-bfs-shortest-path-binary-graph/)
+    - What is shortest path algorithm?
+    - Explain Bellman Ford algorithm.
+    - Which is better in terms of time complexity, Johnson’s Algorithm or Floyd Warshall Algorithm?
+
 ### Other Topics
 
 Android Interview Questions:
