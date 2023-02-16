@@ -26,6 +26,7 @@ You can connect with me on:
 ### Things to know in Kotlin for Android Interview
 
 - [Mastering Kotlin Coroutines](https://amitshekhar.me/blog/kotlin-coroutines) - Mastering Kotlin Coroutines
+- [Launch vs Async in Kotlin Coroutines](https://amitshekhar.me/blog/launch-vs-async-in-kotlin-coroutines) - Launch vs Async in Kotlin Coroutines
 - [Dispatchers in Kotlin Coroutines](https://amitshekhar.me/blog/dispatchers-in-kotlin-coroutines) - Dispatchers in Kotlin Coroutines
 - [coroutineScope vs supervisorScope](https://amitshekhar.me/blog/coroutinescope-vs-supervisorscope) - coroutineScope vs supervisorScope
 - [What is Flow API in Kotlin?](https://amitshekhar.me/blog/flow-api-in-kotlin) - What is Flow API in Kotlin?
@@ -1153,7 +1154,7 @@ Android Interview Questions:
 
 * **What is Coroutine Context?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
 
-* **Launch vs Async in Kotlin Coroutines** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
+* **Launch vs Async in Kotlin Coroutines** - [Learn from here](https://amitshekhar.me/blog/launch-vs-async-in-kotlin-coroutines)
 
 * **What is inline function in Kotlin?** - [Video](https://www.youtube.com/watch?v=GLLI8h67ryo) and [Blog](https://amitshekhar.me/blog/inline-function-in-kotlin)
 
