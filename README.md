@@ -369,7 +369,7 @@ Android Interview Questions:
 
 * **How do you troubleshoot a crashing application?** - [Learn from here](https://developer.android.com/topic/performance/vitals/crash)
 
-* **Explain Android notification system?**
+* **Explain Android notification system?** Learn from here: [How does the Android notification system work?](https://youtu.be/810IFG2sWlc)
 
 * **What is the difference between Serializable and Parcelable? Which is the best approach in Android?**
 
@@ -1258,7 +1258,7 @@ Android Interview Questions:
 
 * **How to increase the Notification delivery rate?**
 
-* **How does the notification system work?**
+* **How does the notification system work?** Learn from here: [How does the Android notification system work?](https://youtu.be/810IFG2sWlc)
 
 * **How to show local Notification at an exact time?**
 
