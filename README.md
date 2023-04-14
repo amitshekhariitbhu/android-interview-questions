@@ -347,6 +347,8 @@ Android Interview Questions:
 
 * **What is Android Jetpack and why to use this?**
 
+* **What is a ViewModel and how is it useful?** Learn: [What is a ViewModel and how is it useful?](https://youtu.be/ORtieK5f_zg)
+
 * **What are Android Architecture Components?**
 
 * **What is LiveData in Android?**
