@@ -1232,6 +1232,8 @@ Android Interview Questions:
 
 * **Android Development Best Practices.** - Learn from here: [Android Development Best Practices](https://amitshekhar.me/blog/android-development-best-practices)
 
+* **React Native vs Flutter** - Learn from here: [React Native vs Flutter](https://amitshekhar.me/blog/react-native-vs-flutter)
+
 * **Have you tried Kotlin?**
 
 * **What are the metrics that you should measure continuously while android application development?** - Learn from here: [Android App Performance Metrics](https://amitshekhar.me/blog/android-app-performance-metrics)
