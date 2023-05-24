@@ -58,7 +58,7 @@ You can connect with me on:
 - [Infix notation in Kotlin](https://amitshekhar.me/blog/infix-notation-in-kotlin) - Infix notation in Kotlin
 - [Open keyword in Kotlin](https://amitshekhar.me/blog/open-keyword-in-kotlin) - Open keyword in Kotlin
 - [Companion object in Kotlin](https://amitshekhar.me/blog/companion-object-in-kotlin) - Companion object in Kotlin
-- [How does the Kotlin Multiplatform work?](https://amitshekhar.me/blog/how-does-the-kotlin-multiplatform-work) - How does the Kotlin Multiplatform work?
+- [How does the Kotlin Multiplatform work?](https://youtu.be/nwfNh6Kd5hI) - How does the Kotlin Multiplatform work?
 
 ## **Get Mentorship: [amitshekhar.me](https://amitshekhar.me)**
 
@@ -1242,7 +1242,7 @@ Android Interview Questions:
 
 * **How to avoid API keys from check-in into VCS?**
 
-* **How does the Kotlin Multiplatform work?** - [Learn from here](https://amitshekhar.me/blog/how-does-the-kotlin-multiplatform-work)
+* **How does the Kotlin Multiplatform work?** - [Blog](https://amitshekhar.me/blog/how-does-the-kotlin-multiplatform-work) and [Video](https://youtu.be/nwfNh6Kd5hI)
 
 * **How to use Memory Heap Dumps data?**
 
