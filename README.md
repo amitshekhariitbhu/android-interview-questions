@@ -60,7 +60,7 @@ You can connect with me on:
 - [Companion object in Kotlin](https://amitshekhar.me/blog/companion-object-in-kotlin) - Companion object in Kotlin
 - [How does the Kotlin Multiplatform work?](https://youtu.be/nwfNh6Kd5hI) - How does the Kotlin Multiplatform work?
 
-## **Get Mentorship: [amitshekhar.me](https://amitshekhar.me)**
+## **Get High Paying Tech Job: [amitshekhar.me](https://amitshekhar.me)**
 
 ## Contents - Android Interview Questions
 
