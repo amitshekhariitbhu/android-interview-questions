@@ -1031,7 +1031,6 @@ Android Interview Questions:
 
 * **What is the `hashCode()` and `equals()` used for?**
 
-
 * **Why would you not call abstract method in constructor?** - [Learn from here](https://stackoverflow.com/questions/15327417/is-it-ok-to-call-abstract-method-from-constructor-in-java)
 
 * **When would you make an object value `final`?**
