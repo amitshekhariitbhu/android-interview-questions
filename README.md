@@ -45,6 +45,7 @@ You can connect with me on:
 - [inline function in Kotlin](https://www.youtube.com/watch?v=GLLI8h67ryo) - inline function in Kotlin
 - [noinline in Kotlin](https://amitshekhar.me/blog/noinline-in-kotlin) - noinline in Kotlin
 - [crossinline in Kotlin](https://amitshekhar.me/blog/crossinline-in-kotlin) - crossinline in Kotlin
+- [scope functions in Kotlin](https://kotlinlang.org/docs/scope-functions.html) - scope functions in Kotlin
 - [lateinit vs lazy in Kotlin](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin) - lateinit vs lazy in Kotlin
 - [init block in Kotlin](https://www.youtube.com/watch?v=cb3jOFozJns) - init block in Kotlin
 - [Difference between == and === in Kotlin](https://amitshekhar.me/blog/structural-and-referential-equality-in-kotlin) - Difference between == and === in Kotlin
