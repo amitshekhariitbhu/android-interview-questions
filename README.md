@@ -114,6 +114,27 @@ Android Interview Questions:
     - onRestoreInstanceState() - This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the onRestoreInstanceState() receive the bundle that contains the instance state information.
 
 * **What is `Fragment` and its lifecycle.**
+    - A Fragment is a flexible UI manager similar to an Activity that allows us to manipulate views within the screen without breaking the laws of the Android Operating System. It allows us to create multiple partitions within a screen, or add or remove certain screens without having to destroy or create new Activities. The main condition is that Fragments must be within a Container of an Activity, and cannot exist without an Activity. Multiple Fragments can coexist within the same Activity. For these reasons, Fragments are often preferred over activities in order to provide a seamless user experience.
+    - You can learn more about [Fragments here:](https://developer.android.com/guide/fragments)
+    - The Lifecycle states of a Fragment are:
+      - INITIALIZED
+      - CREATED
+      - STARTED
+      - RESUMED
+      - DESTROYED
+    - The Fragment Lifecycle callback methods are:
+      - onCreate() - This is where you would configure a Fragment's properties, such as defining variables.
+      - onCreateView() - You want to inflate the layout here, and should keep it simple by doing not much else.
+      - onViewCreated() - Here it is recommended to wire up the views, e.g. textView = findViewById(R.id.text_view)
+      - onStart()
+      - onResume()
+      - onPause()
+      - onStop() 
+      - onSaveInstanceState()
+      - onDestroyView()
+      - onDestroy()
+    - It should be noted that while the above lifecycle methods are similar to the Activity Lifecycle callback methods, the times they are called are dependant on the Activity Lifecycle state.
+    - You can find more details about [Fragment Lifecycles here:](https://developer.android.com/guide/fragments/lifecycle)
 
 * **What are "launchMode"?** - [Learn from here](https://amitshekhar.me/blog/singletask-launchmode-in-android) and [singleTask launchMode in Android](https://youtu.be/WYkQEnm4jeI)
 
