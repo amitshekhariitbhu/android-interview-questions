@@ -122,19 +122,24 @@ Android Interview Questions:
       - STARTED
       - RESUMED
       - DESTROYED
-    - The Fragment Lifecycle callback methods are:
-      - onCreate() - This is where you would configure a Fragment's properties, such as defining variables.
-      - onCreateView() - You want to inflate the layout here, and should keep it simple by doing not much else.
-      - onViewCreated() - Here it is recommended to wire up the views, e.g. textView = findViewById(R.id.text_view)
-      - onStart()
-      - onResume()
-      - onPause()
-      - onStop() 
-      - onSaveInstanceState()
-      - onDestroyView()
-      - onDestroy()
-    - It should be noted that while the above lifecycle methods are similar to the Activity Lifecycle callback methods, the times they are called are dependant on the Activity Lifecycle state.
-    - You can find more details about [Fragment Lifecycles here:](https://developer.android.com/guide/fragments/lifecycle)
+    - The Fragment Lifecycle callback methods are (in order):
+      - onAttach(Context?) - Called as soon as the Fragment is added to the Activity.
+      - onCreate(Bundle?) - Called to first create the Fragment. This is where you would configure a Fragment's properties, such as defining variables.
+      - onCreateView(LayoutInflater, ViewGroup?, Bundle?) - Called to create and return the Fragment View. You want to inflate the layout here, and should keep it simple by doing not much else.
+      - onViewCreated(View, Bundle?) - called when Fragment View is created for the host Activity. Here it is recommended to wire up the views, e.g. textView = findViewById(R.id.text_view)
+      - onStart() - makes Fragment visible to the user
+      - onResume() - like the Activity, called to make Fragment visible to user, and interactible
+      - onPause() - Fragment is visible, but not interactible, or maybe hidden behind another view, but still somewhat visible. If in a multi-pane window, then this method indicates that the Fragment is not currently the active one.
+      - onStop() - Fragment is no longer in view, but is still on the backstack.
+      - onSaveInstanceState() - called to save primitive data via a bundle.
+      - onDestroyView() - Fragment View is destroyed.
+      - onDestroy() - Fragment is destroyed.
+      - onDetach() - Fragment is no longer associated with the Activity.
+    - Notes:
+      - The Fragment Lifecycle callbacks are lined up with the Activity's current state. For example, when Activity's onCreate(...) is called, all of the Fragment's Lifecycle methods leading up to Fragment's onCreate(...) are called, e.g. onAttach(...), onCreate(...), as long as the FragmentManager has initialized the Fragment's view at that point.
+      - What if you created/initialized the Fragment in Activity's onResume(...)? Then, same thing, all of Fragment's lifecycle methods will be called up until Fragment's onResume() to match with the Activity's current lifecycle state.
+      - The syntax used here is in Kotlin, hence the "?" after a variable indicates a nullable object.
+    - You can find more details about [Fragment Lifecycles here:](https://developer.android.com/reference/androidx/fragment/app/Fragment)
 
 * **What are "launchMode"?** - [Learn from here](https://amitshekhar.me/blog/singletask-launchmode-in-android) and [singleTask launchMode in Android](https://youtu.be/WYkQEnm4jeI)
 
