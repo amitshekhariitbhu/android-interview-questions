@@ -139,7 +139,7 @@ Android Interview Questions:
 
 #### Views and ViewGroups
 
-* **What is `View` in Android?**
+* **What is `View` in Android?** - [Learn from here](https://developer.android.com/reference/android/view/View)
 
 * **Difference between `View.GONE` and `View.INVISIBLE`?** - [Learn from here](https://stackoverflow.com/questions/11556607/android-difference-between-invisible-and-gone)
 
