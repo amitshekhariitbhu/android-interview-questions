@@ -1,25 +1,69 @@
 <p align="center">
-<img alt="AndroidInterviewQuestions" src="https://raw.githubusercontent.com/MindorksOpenSource/android-interview-questions/master/assets/banner-android-interview-questions.jpg">
+<img alt="Android Interview Questions" src="https://raw.githubusercontent.com/amitshekhariitbhu/android-interview-questions/master/assets/banner-android-interview-questions.jpg">
 </p>
 
 # Android Interview Questions
-[![MindOrks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
-[![MindOrks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
-[![MindOrks Android Store](https://img.shields.io/badge/Mindorks%20Android%20Store-Android%20Interview%20Questions-blue.svg?style=flat)](https://mindorks.com/android/store)
 
 > Android Interview Questions - Your Cheat Sheet For Android Interview
 
 ## Prepared and maintained by [Amit Shekhar](https://github.com/amitshekhariitbhu) who is having experience of taking interviews of many Android developers and cracking interviews of top companies.
 
-<p align="center">
-<a href="https://mindorks.com/android-app-development-online-course" target="_blank">
-  <img alt="Android Roadmap" src="https://raw.githubusercontent.com/MindorksOpenSource/android-interview-questions/master/assets/roadmap.png">
-</a>	
-</p>
+## About me
 
-## A complete guide for learning Android Development - [Check here](https://mindorks.com/android-app-development-online-course)
+Hi, I am [**Amit Shekhar**](https://amitshekhar.me), I have mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
 
-## Contents
+You can connect with me on:
+
+- [Twitter](https://twitter.com/amitiitbhu)
+- [YouTube](https://www.youtube.com/@amitshekhar)
+- [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
+- [GitHub](https://github.com/amitshekhariitbhu)
+
+## High-quality videos to prepare for Android Interview - [Amit Shekhar YouTube Channel](https://www.youtube.com/@amitshekhar)
+
+## High-quality blogs to prepare for Android Interview - [Check here - Blog by Amit Shekhar](https://amitshekhar.me/blog)
+
+### Things to know in Kotlin for Android Interview
+
+- [Mastering Kotlin Coroutines](https://amitshekhar.me/blog/kotlin-coroutines) - Mastering Kotlin Coroutines
+- [Launch vs Async in Kotlin Coroutines](https://amitshekhar.me/blog/launch-vs-async-in-kotlin-coroutines) - Launch vs Async in Kotlin Coroutines
+- [Dispatchers in Kotlin Coroutines](https://amitshekhar.me/blog/dispatchers-in-kotlin-coroutines) - Dispatchers in Kotlin Coroutines
+- [coroutineScope vs supervisorScope](https://amitshekhar.me/blog/coroutinescope-vs-supervisorscope) - coroutineScope vs supervisorScope
+- [What is Flow API in Kotlin?](https://amitshekhar.me/blog/flow-api-in-kotlin) - What is Flow API in Kotlin?
+- [Long-running tasks in parallel with Kotlin Flow](https://amitshekhar.me/blog/long-running-tasks-in-parallel-with-kotlin-flow) - Long-running tasks in parallel with Kotlin Flow
+- [Retry Operator in Kotlin Flow](https://amitshekhar.me/blog/retry-operator-in-kotlin-flow) - Retry Operator in Kotlin Flow
+- [Callback to Coroutines in Kotlin](https://amitshekhar.me/blog/callback-to-coroutines-in-kotlin) - Callback to Coroutines in Kotlin
+- [callbackFlow - Callback to Flow API in Kotlin](https://amitshekhar.me/blog/callback-to-flow-api-in-kotlin) - callbackFlow - Callback to Flow API in Kotlin
+- [StateFlow and SharedFlow](https://amitshekhar.me/blog/stateflow-and-sharedflow) - StateFlow and SharedFlow
+- [Cold Flow vs Hot Flow](https://amitshekhar.me/blog/cold-flow-vs-hot-flow) - Cold Flow vs Hot Flow
+- [Retrofit with Kotlin Flow](https://amitshekhar.me/blog/retrofit-with-kotlin-flow) - Retrofit with Kotlin Flow
+- [Room Database with Kotlin Flow](https://amitshekhar.me/blog/room-database-with-kotlin-flow) - Room Database with Kotlin Flow
+- [Remove duplicates from an array](https://amitshekhar.me/blog/remove-duplicates-from-an-array-in-kotlin) - Remove duplicates from an array in Kotlin
+- [JvmStatic Annotation in Kotlin](https://www.youtube.com/watch?v=qBBbOhY_pv4) - JvmStatic Annotation in Kotlin
+- [JvmOverloads Annotation in Kotlin](https://www.youtube.com/watch?v=fHGsBV9Za8M) - JvmOverloads Annotation in Kotlin
+- [JvmField Annotation in Kotlin](https://www.youtube.com/watch?v=bx8OZcMbeUE) - JvmField Annotation in Kotlin
+- [inline function in Kotlin](https://www.youtube.com/watch?v=GLLI8h67ryo) - inline function in Kotlin
+- [noinline in Kotlin](https://amitshekhar.me/blog/noinline-in-kotlin) - noinline in Kotlin
+- [crossinline in Kotlin](https://amitshekhar.me/blog/crossinline-in-kotlin) - crossinline in Kotlin
+- [scope functions in Kotlin](https://kotlinlang.org/docs/scope-functions.html) - scope functions in Kotlin
+- [lateinit vs lazy in Kotlin](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin) - lateinit vs lazy in Kotlin
+- [init block in Kotlin](https://www.youtube.com/watch?v=cb3jOFozJns) - init block in Kotlin
+- [Difference between == and === in Kotlin](https://amitshekhar.me/blog/structural-and-referential-equality-in-kotlin) - Difference between == and === in Kotlin
+- [Retrofit with Kotlin Coroutines](https://amitshekhar.me/blog/retrofit-with-kotlin-coroutines) - Retrofit with Kotlin Coroutines
+- [Advantage of using const in Kotlin](https://www.youtube.com/watch?v=3G49ivVxfkU) - Advantage of using const in Kotlin
+- [suspend function in Kotlin Coroutines](https://amitshekhar.me/blog/suspend-function-in-kotlin-coroutines) - suspend function in Kotlin Coroutines
+- [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin) - Higher-Order Functions and Lambdas in Kotlin
+- [Parallel Multiple Network Calls Using Kotlin Coroutines](https://amitshekhar.me/blog/parallel-multiple-network-calls-using-kotlin-coroutines) - Parallel Multiple Network Calls Using Kotlin Coroutines
+- [AssociateBy - List to Map in Kotlin](https://amitshekhar.me/blog/associateby-list-to-map-in-kotlin) - Kotlin Collection Functions - associateBy that converts a list into a map
+- [partition - filtering function in Kotlin](https://amitshekhar.me/blog/partition-filtering-function-in-kotlin) - partition - filtering function in Kotlin
+- [Infix notation in Kotlin](https://amitshekhar.me/blog/infix-notation-in-kotlin) - Infix notation in Kotlin
+- [Open keyword in Kotlin](https://amitshekhar.me/blog/open-keyword-in-kotlin) - Open keyword in Kotlin
+- [Companion object in Kotlin](https://amitshekhar.me/blog/companion-object-in-kotlin) - Companion object in Kotlin
+- [How does the Kotlin Multiplatform work?](https://youtu.be/nwfNh6Kd5hI) - How does the Kotlin Multiplatform work?
+
+## **Get High Paying Tech Job: [amitshekhar.me](https://amitshekhar.me)**
+
+## Contents - Android Interview Questions
 
 * [Core Android](#core-android)
 * [Android Libraries](#android-libraries)
@@ -28,41 +72,50 @@
 * [Android Unit Testing](#android-unit-testing)
 * [Android Tools And Technologies](#android-tools-and-technologies)
 * [Java and Kotlin](#java-and-kotlin)
-* [Data Structures And Algorithms](#data-structures-and-algorithms)
+* [Kotlin Coroutines](#kotlin-coroutines)
+* [Kotlin Flow API](#kotlin-flow-api)
+* [Jetpack Compose](#jetpack-compose)
 * [Other Topics](#other-topics)
+* [Data Structures and Algorithms](#data-structures-and-algorithms)
 
 ### Core Android
 
+Android Interview Questions:
+
 #### Base
+
+* **Why does an Android App lag?** - [Learn from here](https://amitshekhar.me/blog/android-app-lag)
+
+* **What is `Context`? How is it used?** - [Context In Android Application](https://amitshekhar.me/blog/context-in-android-application)
 
 * **Tell all the Android application components.** - [Learn from here](https://developer.android.com/guide/components/fundamentals.html#Components)
 
 * **What is the project structure of an Android Application?** - [Learn from here](https://developer.android.com/studio/projects)
 
-* **What is `Context`? How is it used?** - [Learn from here](https://blog.mindorks.com/understanding-context-in-android-application-330913e32514)
-
-* **What is `AndroidManifest.xml`?** - [Learn from here](https://developer.android.com/guide/topics/manifest/manifest-intro)
+* **What is `AndroidManifest.xml`?**
 
 * **What is `Application` class?**
     - The Application class in Android is the base class within an Android app that contains all other components such as activities and services. The Application class, or any subclass of the Application class, is instantiated before any other class when the process for your application/package is created.
 
 #### Activity and Fragment
 
-* **What is `Activity` and its lifecycle?** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o)
+* **Why is it recommended to use only the default constructor to create a `Fragment`?** - [Learn from here](https://www.youtube.com/watch?v=CitBt0FZFIc)
 
-* **What is the difference between onCreate() and onStart()** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o)
+* **What is `Activity` and its lifecycle?**
 
-* **When only onDestroy is called for an activity without onPause() and onStop()?** - [Learn from here](https://www.youtube.com/watch?v=QSxcLnZ1-RU)
+* **What is the difference between onCreate() and onStart()**
 
-* **Why do we need to call setContentView() in onCreate() of Activity class?** - [Learn from here](https://www.youtube.com/watch?v=zeYK8JdMOi8)
+* **When only onDestroy is called for an activity without onPause() and onStop()?** - [Learn from here](https://www.youtube.com/watch?v=B2kY_ckZa-g)
+
+* **Why do we need to call setContentView() in onCreate() of Activity class?** - [Learn from here](https://www.youtube.com/watch?v=U1aHAt7XC5I)
 
 * **What is onSavedInstanceState() and onRestoreInstanceState() in activity?**
     - onSavedInstanceState() - This method is used to store data before pausing the activity.
     - onRestoreInstanceState() - This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the onRestoreInstanceState() receive the bundle that contains the instance state information.
 
-* **What is `Fragment` and its lifecycle.** - [Learn from here](https://blog.mindorks.com/android-fragments-and-its-lifecycle)
+* **What is `Fragment` and its lifecycle.**
 
-* **What are "launch modes"?** - [Learn from here](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
+* **What are "launchMode"?** - [Learn from here](https://amitshekhar.me/blog/singletask-launchmode-in-android) and [singleTask launchMode in Android](https://youtu.be/WYkQEnm4jeI)
 
 * **What is the difference between a `Fragment` and an `Activity`? Explain the relationship between the two.** - [Learn from here](https://stackoverflow.com/questions/10478233/why-fragments-and-when-to-use-fragments-instead-of-activities)
 
@@ -76,9 +129,7 @@
 
 * **What is the difference between adding/replacing fragment in backstack?** - [Learn from here](https://stackoverflow.com/questions/24466302/basic-difference-between-add-and-replace-method-of-fragment/24466345)
 
-* **Why is it recommended to use only the default constructor to create a `Fragment`?** - [Learn from here](https://www.youtube.com/watch?v=9EdvcycKP9A)
-
-* **How would you communicate between two Fragments?** - [Learn from here](https://blog.mindorks.com/how-to-communicate-between-fragments)
+* **How would you communicate between two Fragments?**
 
 * **What is retained `Fragment`?**
     - By default, Fragments are destroyed and recreated along with their parent Activity’s when a configuration change occurs. Calling setRetainInstance(true) allows us to bypass this destroy-and-recreate cycle, signaling the system to retain the current instance of the fragment when the activity is recreated.
@@ -88,39 +139,41 @@
 
 #### Views and ViewGroups
 
-* **What is `View` in Android?** - [Learn from here](https://blog.mindorks.com/android-user-interface-view-components)
+* **What is `View` in Android?**
 
 * **Difference between `View.GONE` and `View.INVISIBLE`?** - [Learn from here](https://stackoverflow.com/questions/11556607/android-difference-between-invisible-and-gone)
 
-* **Can you a create custom view? How?** - [Learn from here](https://blog.mindorks.com/create-your-own-custom-view)
+* **Can you a create custom view? How?**
 
 * **What are ViewGroups and how they are different from the Views?**
     - View: View objects are the basic building blocks of User Interface(UI) elements in Android. View is a simple rectangle box which responds to the user’s actions. Examples are EditText, Button, CheckBox etc. View refers to the android.view.View class, which is the base class of all UI classes.
     - ViewGroup: ViewGroup is the invisible container. It holds View and ViewGroup. For example, LinearLayout is the ViewGroup that contains Button(View), and other Layouts also. ViewGroup is the base class for Layouts.
 
-* **What is a Canvas?** - [Learn from here](https://blog.mindorks.com/understanding-canvas-api-in-android)
+* **What is a Canvas?**
 
 * **What is a `SurfaceView`?** - [Learn from here](https://developer.android.com/reference/android/view/SurfaceView)
 
-* **Relative Layout vs Linear Layout.** - [Learn from here](https://blog.mindorks.com/android-layout-relative-linear-frame)
+* **Relative Layout vs Linear Layout.**
 
-* **Tell about Constraint Layout** - [Learn from here](https://blog.mindorks.com/using-constraint-layout-in-android-531e68019cd)
+* **Tell about Constraint Layout**
 
 * **Do you know what is the view tree? How can you optimize its depth?** - [Learn from here](https://developer.android.com/reference/android/view/ViewTreeObserver)
 
-* **How does the Touch Control and Events work in Android?** - [Learn from here](https://blog.mindorks.com/touch-control-and-events-in-android) and [here](https://www.youtube.com/watch?v=tKeYr7iV5xE)
+* **How does the Touch Control and Events work in Android?**
 
 #### Displaying Lists of Content
 
 * **What is the difference between `ListView` and `RecyclerView`?** - [Learn from here](https://stackoverflow.com/questions/26728651/recyclerview-vs-listview)
 
-* **How does RecyclerView work internally?** - [Learn from here](https://blog.mindorks.com/how-does-recyclerview-work-internally) and [here](https://www.youtube.com/watch?v=60IYWdnHsZI)
+* **How does RecyclerView work internally?**
 
 * **What is the ViewHolder pattern? Why should we use it?** - [Learn from here](https://stackoverflow.com/questions/21501316/what-is-the-benefit-of-viewholder-pattern-in-android)
 
-* **RecyclerView Optimization - Scrolling Performance Improvement** - [Learn from here](https://blog.mindorks.com/recyclerview-optimization)
+* **RecyclerView Optimization - Scrolling Performance Improvement** - [Learn from here](https://amitshekhar.me/blog/recyclerview-optimization)
 
-* **What is `SnapHelper`?** - [Learn from here](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
+* **Optimizing Nested RecyclerView** - [Learn from here](https://amitshekhar.me/blog/setrecycledviewpool-for-optimizing-nested-recyclerview)
+
+* **What is `SnapHelper`?** - Learn from here: [SnapHelper](https://amitshekhar.me/blog/snaphelper)
 
 #### Dialogs and Toasts
 
@@ -132,15 +185,15 @@
 
 #### Intents and Broadcasting
 
-* **What is `Intent`?** - [Learn from here](https://blog.mindorks.com/what-are-intents-in-android)
+* **What is `Intent`?**
 
-* **What is an Implicit `Intent`?** - [Learn from here](https://blog.mindorks.com/what-are-intents-in-android)
+* **What is an Implicit `Intent`?**
         
-* **What is an Explicit `Intent`?** - [Learn from here](https://blog.mindorks.com/what-are-intents-in-android)
+* **What is an Explicit `Intent`?**
 
 * **What is a `BroadcastReceiver`?** - [Learn from here](https://developer.android.com/guide/components/broadcasts)
 
-* **What is a `LocalBroadcastManager`?** - [Learn from here](https://blog.mindorks.com/using-localbroadcastmanager-in-android)
+* **What is a `LocalBroadcastManager`?**
 
 * **What is the function of an `IntentFilter`?** - [Learn from here](https://developer.android.com/reference/android/content/IntentFilter)
 
@@ -158,7 +211,7 @@
 
 * **What is `Service`?** - [Learn from here](https://developer.android.com/guide/components/services)
 
-* **`Service` vs `IntentService`.** - [Learn from here](https://blog.mindorks.com/service-vs-intentservice-in-android)
+* **`Service` vs `IntentService`.**
 
 * **What is a `JobScheduler`?** - [Learn from here](https://developer.android.com/reference/android/app/job/JobScheduler)
 
@@ -176,15 +229,15 @@
 
 #### Long-running Operations
 
-* **How to run parallel tasks in Java or Android, and get callback when all complete?** - [Learn from here](https://www.youtube.com/watch?v=v0ZSnISeyKE)
+* **How to run parallel tasks in Java or Android, and get callback when all complete?** - [Long-running tasks in parallel with Kotlin Flow](https://amitshekhar.me/blog/long-running-tasks-in-parallel-with-kotlin-flow)
 
 * **Why should you avoid to run non-ui code on the main thread?** - [Learn from here](https://developer.android.com/training/multiple-threads/communicate-ui)
 
 * **What is ANR? How can the ANR be prevented?** - [Learn from here](https://developer.android.com/topic/performance/vitals/anr.html)
 
-* **What is an `AsyncTask`(Deprecated in API level 30) ?** - [Learn from here](https://www.youtube.com/watch?v=ZZ-6nGbfVdA)
+* **What is an `AsyncTask`(Deprecated in API level 30) ?**
 
-* **What are the problems in AsyncTask?** - [Learn from here](https://www.youtube.com/watch?v=ZZ-6nGbfVdA)
+* **What are the problems in AsyncTask?**
 
 * **When would you use java thread instead of an AsyncTask?** - [Learn from here](https://stackoverflow.com/questions/18480206/asynctask-vs-thread-in-android)
 
@@ -201,11 +254,9 @@
     
     - Note: AsyncTasks by default run on a single thread using a serial executor, meaning it has only 1 thread and each task runs one after the other.
 
-* **Explain `Looper`, `Handler` and `HandlerThread`.** - [Learn from here](https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a) and [from video](https://www.youtube.com/watch?v=rfLMwbOKLRk&list=PL6nth5sRD25hVezlyqlBO9dafKMc5fAU2)
+* **Explain `Looper`, `Handler` and `HandlerThread`.**
 
-* **How does the threading work in Android?** - [Learn from here](https://www.youtube.com/watch?v=zfDYK-xB1Uo)
-
-* **Android Memory Leak and Garbage Collection** - [Learn from here](https://www.youtube.com/watch?v=zCSSFRRIreo)
+* **Android Memory Leak and Garbage Collection**
 
 #### Working With Multimedia Content
 
@@ -214,25 +265,23 @@
 * **What is the difference between a regular `Bitmap` and a nine-patch image?**
     - In general, a Nine-patch image allows resizing that can be used as background or other image size requirements for the target device. The Nine-patch refers to the way you can resize the image: 4 corners that are unscaled, 4 edges that are scaled in 1 axis, and the middle one that can be scaled into both axes.
 
-* **Tell about the `Bitmap` pool.** - [Learn from here](https://blog.mindorks.com/how-to-use-bitmap-pool-in-android-56c71a55533c)
+* **Tell about the `Bitmap` pool.** - [Learn from here](https://amitshekhar.me/blog/bitmap-pool)
 
-* **How to play sounds in Android?** - [Learn from here](https://blog.mindorks.com/using-mediaplayer-to-play-an-audio-file-in-android)
-
-* **How image compression is preformed?** - [Learn from here](https://blog.mindorks.com/understanding-image-compression-in-android)
+* **How image compression is preformed?**
 
 #### Data Saving
 
-* **How to persist data in an Android app?** - [Learn from here](https://blog.mindorks.com/android-shared-preferences-in-kotlin)
+* **How to persist data in an Android app?**
 
-* **What is ORM? How does it work?** - [Learn from here](https://www.youtube.com/watch?v=9OHzXUo3Ymk)
+* **What is ORM? How does it work?** 
 
 * **How would you preserve `Activity` state during a screen rotation?** - [Learn from here](https://stackoverflow.com/questions/3915952/how-to-save-state-during-orientation-change-in-android-if-the-state-is-made-of-m)
 
-* **What are different ways to store data in your Android app?** - [Learn from here](https://blog.mindorks.com/understanding-storage-system-to-store-data-in-android)
+* **What are different ways to store data in your Android app?**
 
-* **Explain Scoped Storage in Android.** - [Learn from here](https://blog.mindorks.com/understanding-the-scoped-storage-in-android)
+* **Explain Scoped Storage in Android.**
 
-* **How to encrypt data in Android?** - [Learn from here](https://blog.mindorks.com/how-to-encrypt-data-safely-on-device-and-use-the-androidkeystore)
+* **How to encrypt data in Android?**
 
 * **What is commit() and apply() in SharedPreferences?**
     - commit() returns a boolean value of success or failure immediately by writing data synchronously.
@@ -240,30 +289,30 @@
 
 #### Look and Feel
 
-* **What is a `Spannable`?** - [Learn from here](https://medium.com/androiddevelopers/underspanding-spans-1b91008b97e4)
+* **What is a `Spannable`?**
 
 * **What is a `SpannableString`?**
    - A SpannableString has immutable text, but its span information is mutable. Use a SpannableString when your text doesn't need to be changed but the styling does. Spans are ranges over the text that include styling information like color, heighliting, italics, links, etc
 
-* **What are the best practices for using text in Android?** - [Learn from here](https://blog.mindorks.com/best-practices-for-using-text-in-android)
+* **What are the best practices for using text in Android?**
 
-* **How to implement Dark mode in any application?** - [Learn from here](https://blog.mindorks.com/implementing-dark-mode-theme-in-android)
+* **How to implement Dark mode in any application?**
 
-* **How to generate dynamic colors based in image?** - [Learn from here](https://blog.mindorks.com/color-palette-in-android)
+* **How to generate dynamic colors based in image?**
 
-* **Explain about Density Independence Pixel** - [Learn from here](https://blog.mindorks.com/understanding-density-independent-pixel-sp-dp-dip-in-android)
+* **Explain about Density Independence Pixel**
 
 #### Memory Optimizations
 
 * **What is the `onTrimMemory()` method?** - [Learn from here](https://developer.android.com/topic/performance/memory)
 
-* **How does the OutOfMemory happens?** - [Learn from here](https://blog.mindorks.com/practical-guide-to-solve-out-of-memory-error-in-android-application)
+* **How does the OutOfMemory happens?**
 
-* **How do you find memory leaks in Android applications?** - [Learn from here](https://blog.mindorks.com/practical-guide-to-solve-out-of-memory-error-in-android-application) and [here](https://mindorks.com/blog/detecting-and-fixing-memory-leaks-in-android)
+* **How do you find memory leaks in Android applications?**
 
 #### Battery Life Optimizations
 
-* **How to reduce battery usage in an android application?** - [Learn from here](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
+* **How to reduce battery usage in an android application?**
 
 * **What is Doze? What about App Standby?** - [Learn from here](https://developer.android.com/training/monitoring-device-state/doze-standby)
 
@@ -275,45 +324,47 @@
 
 #### Permissions
 
-* **What are the different protection levels in permission?** - [Learn from here](https://blog.mindorks.com/what-are-the-different-protection-levels-in-android-permission)
+* **What are the different protection levels in permission?**
 
 #### Native Programming
 
-* **What is the NDK and why is it useful?** - [Learn from here](https://www.youtube.com/watch?v=iljxHVt7Arc) and [here](https://blog.mindorks.com/getting-started-with-android-ndk-android-tutorial) and [here](https://www.youtube.com/watch?v=iljxHVt7Arc)
+* **What is the NDK and why is it useful?** - Learn from here: [Android NDK and RenderScript](https://amitshekhar.me/blog/ndk-and-renderscript)
 
-* **What is renderscript?** - [Learn from here](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
+* **What is renderscript?** - Learn from here: [Android NDK and RenderScript](https://amitshekhar.me/blog/ndk-and-renderscript)
 
 #### Android System Internal
 
-* **What is the Dalvik Virtual Machine?** - [Learn from here](https://blog.mindorks.com/what-are-the-differences-between-dalvik-and-art)
+* **What is Android Runtime?** - [Android Runtime](https://amitshekhar.me/blog/dalvik-art-jit-aot)
 
-* **What is the difference JVM, DVM and ART?** - [Learn from here](https://android.jlelse.eu/closer-look-at-android-runtime-dvm-vs-art-1dc5240c3924)
+* **Dalvik, ART, JIT, and AOT in Android** - [Dalvik, ART, JIT, and AOT](https://amitshekhar.me/blog/dalvik-art-jit-aot)
 
-* **What are the differences between Dalvik and ART?** - [Learn from here](https://blog.mindorks.com/what-are-the-differences-between-dalvik-and-art)
+* **What are the differences between Dalvik and ART?** - [Difference between Dalvik and ART](https://amitshekhar.me/blog/dalvik-art-jit-aot)
 
 * **What is DEX?** - [Learn from here](https://developer.android.com/reference/dalvik/system/DexFile)
 
-* **Can you manually call the Garbage collector?** - [Learn from here](https://stackoverflow.com/questions/15632734/can-we-call-the-garbage-collector-explicitly)
+* **Can you manually call the Garbage collector?** - [Is it possible to force Garbage Collection in Android?](https://www.youtube.com/watch?v=fPEjpFKo1-Q)
 
 #### Android Jetpack
 
-* **What is Android Jetpack and why to use this?** - [Learn from here](https://blog.mindorks.com/what-is-android-jetpack-and-why-should-we-use-it)
+* **What is Android Jetpack and why to use this?**
 
-* **What are Android Architecture Components?** - [Learn from here](https://blog.mindorks.com/what-are-android-architecture-components)
+* **What is a ViewModel and how is it useful?** Learn: [What is a ViewModel and how is it useful?](https://youtu.be/ORtieK5f_zg)
 
-* **What is LiveData in Android?** - [Learn from here](https://blog.mindorks.com/understanding-livedata-in-android)
+* **What are Android Architecture Components?**
 
-* **How LiveData is different from ObservableField?** - [Learn from here](https://blog.mindorks.com/livedata-vs-observable-in-android)
+* **What is LiveData in Android?**
 
-* **What is the difference between setValue and postValue in LiveData?** - [Learn from here](https://blog.mindorks.com/livedata-setvalue-vs-postvalue-in-android)
+* **How LiveData is different from ObservableField?**
 
-* **How to share ViewModel between Fragments in Android?** - [Learn from here](https://blog.mindorks.com/shared-viewmodel-in-android-shared-between-fragments)
+* **What is the difference between setValue and postValue in LiveData?**
 
-* **Explain Work Manager in Android.** - [Learn from here](https://blog.mindorks.com/integrating-work-manager-in-android)
+* **How to share ViewModel between Fragments in Android?**
 
-* **Use-cases of WorkManager in Android.** - [Learn from here](https://www.youtube.com/watch?v=4LTpYXFMnJw)
+* **Explain Work Manager in Android.**
 
-* **How ViewModel work internally?** - [Learn from here](https://blog.mindorks.com/android-viewmodels-under-the-hood)
+* **Use-cases of WorkManager in Android.**
+
+* **How ViewModel work internally?**
 
 #### Others
 
@@ -321,111 +372,115 @@
 
 * **How do you troubleshoot a crashing application?** - [Learn from here](https://developer.android.com/topic/performance/vitals/crash)
 
-* **Explain Android notification system?** - [Learn from here](https://blog.mindorks.com/how-to-increase-push-notification-delivery-rate-in-android)
+* **Explain Android notification system?** Learn from here: [How does the Android notification system work?](https://youtu.be/810IFG2sWlc)
 
-* **What is the difference between Serializable and Parcelable? Which is the best approach in Android?** - [Learn from here](https://android.jlelse.eu/parcelable-vs-serializable-6a2556d51538)
+* **What is the difference between Serializable and Parcelable? Which is the best approach in Android?**
 
 * **What is AAPT?** - [Learn from here](https://developer.android.com/studio/command-line/aapt2)
 
 * **What is the best way to update the screen periodically?** - [Learn from here](https://stackoverflow.com/questions/5452394/best-way-to-perform-an-action-periodically-while-an-app-is-running-handler)
 
-* **FlatBuffers vs JSON.** - [Learn from here](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
+* **FlatBuffers vs JSON.**
 
-* **`HashMap`, `ArrayMap` and `SparseArray`** - [Learn from here](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
+* **`HashMap`, `ArrayMap` and `SparseArray`**
 
-* **What are Annotations?** - [Learn from here](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9), [Link](https://blog.mindorks.com/improve-your-android-coding-through-annotations-26b3273c137a), [and from video](https://www.youtube.com/watch?v=LEb9if2HHSw)
+* **What are Annotations?**
 
-* **How to create custom Annotation?** - [Learn from here](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9) and [here](https://www.youtube.com/watch?v=LEb9if2HHSw)
+* **How to create custom Annotation?**
 
-* **How to handle multi-touch in android?** - [Learn from here](https://developer.android.com/training/gestures/multi)
+* **How to handle multi-touch in android?**
 
-* **How to implement XML namespaces?** - [Learn from here](https://developer.android.com/reference/javax/xml/namespace/NamespaceContext)
+* **What is the support library? Why was it introduced?**
 
-* **What is the support library? Why was it introduced?** - [Learn from here](https://developer.android.com/topic/libraries/support-library)
+* **What is Android Data Binding?**
 
-* **What is Android Data Binding?** - [Learn from here](https://developer.android.com/topic/libraries/data-binding/index.html)
+* **How to check if Software keyboard is visible or not?**
 
-* **How to check if Software keyboard is visible or not?** - [Learn from here](https://blog.mindorks.com/how-to-check-the-visibility-of-software-keyboard-in-android)
-
-* **How to take screenshot in Android programmatically?** - [Learn from here](https://blog.mindorks.com/how-to-programmatically-take-a-screenshot-on-android)
+* **How to take screenshot in Android programmatically?**
 
 ### Android Libraries
 
-* **Explain OkHttp Interceptor** - [Learn from here](https://blog.mindorks.com/okhttp-interceptor-making-the-most-of-it)
+Android Interview Questions:
 
-* **OkHttp - HTTP Caching - How caching work in Android** - [Learn from here](https://www.youtube.com/watch?v=D6dQn6pUQD0)
+* **Explain OkHttp Interceptor** - [Learn from here](https://amitshekhar.me/blog/okhttp-interceptor)
 
-* **Tell me something about RxJava.** - [Learn from here](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
+* **OkHttp - HTTP Caching** - [Learn from here](https://amitshekhar.me/blog/caching-with-okhttp-interceptor-and-retrofit)
 
-* **How will you handle error in RxJava?** - [Learn from here](https://blog.mindorks.com/error-handling-in-rxjava)
+* **Tell me something about RxJava.**
 
-* **FlatMap Vs Map Operator** - [Learn from here](https://medium.com/mindorks/rxjava-operator-map-vs-flatmap-427c09678784)
+* **How will you handle error in RxJava?**
+
+* **FlatMap Vs Map Operator** - [Learn from here](https://amitshekhar.me/blog/rxjava-map-vs-flatmap)
     
-* **When to use `Create` operator and when to use `fromCallable` operator of RxJava?** - [Learn from here](https://blog.mindorks.com/understanding-rxjava-create-and-fromcallable-operator)
+* **When to use `Create` operator and when to use `fromCallable` operator of RxJava?** - Learn from here: [RxJava Create and fromCallable Operator](https://amitshekhar.me/blog/rxjava-create-and-fromcallable-operator)
     
-* **When to use `defer` operator of RxJava?** - [Learn from here](https://blog.mindorks.com/understanding-rxjava-defer-operator)
+* **When to use `defer` operator of RxJava?** - Learn from here: [RxJava Defer Operator](https://amitshekhar.me/blog/rxjava-defer-operator)
     
-* **How are Timer, Delay, and Interval operators used in RxJava?** - [Learn from here](https://blog.mindorks.com/understanding-rxjava-timer-delay-and-interval-operators)
+* **How are Timer, Delay, and Interval operators used in RxJava?** - [Learn from here](https://amitshekhar.me/blog/rxjava-interval-operator)
 
-* **How to make two network calls in parallel using RxJava?** - [Learn from here](https://blog.mindorks.com/understanding-rxjava-zip-operator-with-example)
+* **How to make two network calls in parallel using RxJava?** - [RxJava Zip Operator](https://amitshekhar.me/blog/rxjava-zip-operator)
     
-* **Tell the difference between Concat and Merge.** - [Learn from here](https://blog.mindorks.com/rxjava-operator-concat-vs-merge)
+* **Tell the difference between Concat and Merge.** - [Learn from here](https://amitshekhar.me/blog/rxjava-concat-operator) and [here](https://amitshekhar.me/blog/rxjava-merge-operator)
 
-* **Explain Subject in RxJava?** - [Learn from here](https://blog.mindorks.com/understanding-rxjava-subject-publish-replay-behavior-and-async-subject-224d663d452f)
+* **Explain Subject in RxJava?** - [Learn from here](https://amitshekhar.me/blog/rxjava-subject-publish-replay-behavior-async)
 
-* **What are the types of Observables in RxJava?** - [Learn from here](https://blog.mindorks.com/understanding-types-of-observables-in-rxjava-6c3a2d0819c8)
+* **What are the types of Observables in RxJava?** - Learn from here: [Types Of Observables In RxJava](https://amitshekhar.me/blog/types-of-observables-in-rxjava)
 
-* **How to implement EventBus with RxJava?** - [Learn from here](https://blog.mindorks.com/implementing-eventbus-with-rxjava-rxbus-e6c940a94bd8)
+* **How to implement search feature using RxJava in your application?** - Learn from here: [Instant Search Using RxJava Operators](https://amitshekhar.me/blog/instant-search-using-rxjava-operators)
 
-* **How to implement search feature using RxJava in your application?** - [Learn from here](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
+* **Pagination In RecyclerView Using RxJava Operators** - [Learn from here](https://amitshekhar.me/blog/pagination-in-recyclerview-using-rxjava-operators)
 
-* **How The Android Image Loading Library Glide and Fresco Works?** - [Learn from here](https://blog.mindorks.com/how-the-android-image-loading-library-glide-and-fresco-works-962bc9d1cc40)
+* **How The Android Image Loading Library Glide and Fresco Works?** - [Learn from here](https://amitshekhar.me/blog/android-image-loading-library-optimize-memory-usage), [here](https://amitshekhar.me/blog/android-image-loading-library-use-bitmap-pool-for-responsive-ui) and [here](https://amitshekhar.me/blog/android-image-loading-library-solve-the-slow-loading-issue)
 
 * **Difference between Schedulers.io() and Schedulers.computation() in RxJava.**
 
-* **Why do we use the Dependency Injection Framework like Dagger in Android?** - [Learn from here](https://blog.mindorks.com/why-do-we-use-the-dependency-injection-framework-in-android)
+* **Why do we use the Dependency Injection Framework like Dagger in Android?**
 
 * **How does the Dagger work?** - [Learn from here](https://blog.mindorks.com/android-annotation-processing-tutorial-part-1-a-practical-approach) and [here](https://www.youtube.com/watch?v=Grzqz-B3NWU)
 
-* **What is Component in Dagger?** - [Learn from here](https://www.youtube.com/watch?v=Grzqz-B3NWU)
+* **What is Component in Dagger?**
 
-* **What is Module in Dagger?** - [Learn from here](https://www.youtube.com/watch?v=Grzqz-B3NWU)
+* **What is Module in Dagger?**
 
 * **How does the custom scope work in Dagger?**
 
-* **When to call dispose and clear on CompositeDisposable in RxJava?** - [Learn from here](https://stackoverflow.com/questions/47057885/when-to-call-dispose-and-clear-on-compositedisposable)
+* **When to call dispose and clear on CompositeDisposable in RxJava?** - [Learn from here](https://amitshekhar.me/blog/dispose-vs-clear-compositedisposable-rxjava)
 
-* **What is Multipart Request in Networking?** - [Learn from here](https://www.youtube.com/watch?v=p7SiNT0q1I8)
+* **What is Multipart Request in Networking?**
 
-* **What is Flow in Kotlin?** - [Learn from here](https://blog.mindorks.com/what-is-flow-in-kotlin-and-how-to-use-it-in-android-project)
+* **What is Flow in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/flow-api-in-kotlin)
 
 ### Android Architecture
 
+Android Interview Questions:
+
 * **Describe the architecture of your last app.**
 
-* **Describe MVP.** - [Learn from here](https://mindorks.com/course/android-mvp-introduction)
+* **Describe MVP.**
 
-* **Describe MVVM.** - [Learn from here](https://blog.mindorks.com/mvvm-architecture-android-tutorial-for-beginners-step-by-step-guide) and [here](https://www.youtube.com/watch?v=HJMZNF-tG-4)
+* **Describe MVVM.** - [MVVM Architecture](https://amitshekhar.me/blog/mvvm-architecture-android)
 
-* **MVC vs MVP vs MVVM architecture.** - [Learn from here](https://blog.mindorks.com/mvc-mvp-mvvm-architecture-in-android)
+* **MVC vs MVP vs MVVM architecture.**
 
-* **What is presenter?** - [Learn from here](https://mindorks.com/course/android-mvp-introduction)
+* **What is presenter?**
 
-* **What is model?** - [Learn from here](https://mindorks.com/course/android-mvp-introduction)
+* **What is model?**
 
-* **Describe MVC.** - [Learn from here](https://blog.mindorks.com/mvc-mvp-mvvm-architecture-in-android)
+* **Describe MVC.**
 
-* **Describe MVI** - [Learn from here](https://github.com/MindorksOpenSource/MVI-Architecture-Android-Beginners)
+* **Describe MVI**
 
-* **Describe the repository pattern** - [Learn from here](https://blog.mindorks.com/android-mvp-architecture-extension-with-interactors-and-repositories-bd4b51972339)
+* **Describe the repository pattern**
 
-* **What is controller?** - [Learn from here](https://blog.mindorks.com/mvc-mvp-mvvm-architecture-in-android)
+* **What is controller?**
 
-* **Tell something about clean code** - [Learn from here](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
+* **Tell something about clean code**
 
 ### Android Design Problem
 
-* **Design Uber App.** - [Learn from here](https://github.com/MindorksOpenSource/ridesharing-uber-lyft-app)
+Android Interview Questions:
+
+* **Design Uber App.** - [Learn from here](https://github.com/amitshekhariitbhu/ridesharing-uber-lyft-app)
 
 * **Design Facebook App.**
 
@@ -441,13 +496,18 @@
 
 * **Design LRU Cache.**
 
-* **Design File Downloader** - [Learn from here](https://github.com/MindorksOpenSource/PRDownloader)
+* **Design File Downloader** - [Learn from here](https://github.com/amitshekhariitbhu/PRDownloader)
 
-* **Design an Image Loading Library** - [Learn from here](https://medium.com/@maheswaranapk/android-create-your-own-image-loading-library-in-kotlin-diy-bc7be9f286c5)
+* **Design an Image Loading Library** - [Learn from here](https://amitshekhar.me/blog/android-image-loading-library-optimize-memory-usage), [here](https://amitshekhar.me/blog/android-image-loading-library-use-bitmap-pool-for-responsive-ui) and [here](https://amitshekhar.me/blog/android-image-loading-library-solve-the-slow-loading-issue)
 
-* **HTTP Request vs HTTP Long-Polling vs WebSockets** - [Learn from here](https://www.youtube.com/watch?v=k56H0DHqu5Y)
+* **HTTP Request vs HTTP Long-Polling vs WebSockets** - [Learn from blog](https://amitshekhar.me/blog/http-request-long-polling-websocket-sse) and [Video - HTTP Request vs HTTP Long-Polling vs WebSocket vs Server-Sent Events](https://www.youtube.com/watch?v=8ksWRX4xV-s)
+
+* **How do Voice And Video Call Work?** - [Learn from here](https://amitshekhar.me/blog/voice-and-video-call)
 
 ### Android Unit Testing
+
+Android Interview Questions:
+
 * **What is Espresso?** - [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
 
 * **What is Robolectric?** - [Learn from here](http://robolectric.org/)
@@ -466,53 +526,57 @@
 
 * **Describe JUnit test.** - [Learn from here](https://en.wikipedia.org/wiki/JUnit)
 
-* **Describe code coverage.** - [Learn from here](https://blog.mindorks.com/generate-global-code-coverage-report-in-android-development-using-jacoco-plugin)
+* **Describe code coverage.**
 
 ### Android Tools And Technologies
+
+Android Interview Questions:
 
 * **What is ADB?** - [Learn from here](https://developer.android.com/studio/command-line/adb)
 
 * **What is DDMS and what can you do with it?** - [Learn from here](https://developer.android.com/studio/profile/monitor)
 
-* **What is the StrictMode?** - [Learn from here](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
+* **What is the StrictMode?** - Learn from here: [StrictMode](https://amitshekhar.me/blog/strictmode-in-android-development)
 
-* **What is Lint? What is it used for?** - [Learn from here](https://blog.mindorks.com/what-is-lint-what-is-it-used-for)
+* **What is Lint? What is it used for?**
 
-* **Git.** - [Learn from here](https://www.youtube.com/watch?v=D4h8Dbrjt4M&list=PL6nth5sRD25itbyNVUULAebzL-VLrLfkK)
+* **Git.**
 
-* **Android Development Useful Tools.** - [Learn from here](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
+* **Android Development Useful Tools.**
 
 * **Firebase.** - [Learn from here](https://firebase.google.com/)
 
-* **How to measure method execution time in Android?** - [Learn from here](https://blog.mindorks.com/measure-method-execution-time-in-android-debug-build)
+* **How to measure method execution time in Android?**
 
-* **Can you access your database of SQLite Database for debugging?** - [Learn from here](https://blog.mindorks.com/how-to-access-sqlite-database-in-android-for-debugging)
+* **Can you access your database of SQLite Database for debugging?** - [Learn from here](https://github.com/amitshekhariitbhu/Android-Debug-Database)
 
-* **What are things that we need to take care while using Proguard?** - [Learn from here](https://blog.mindorks.com/things-to-care-while-using-proguard-in-android-application)
+* **What are things that we need to take care while using Proguard?**
 
-* **What is Multidex in Android?** - [Learn from here](https://blog.mindorks.com/understanding-multidex-in-android)
+* **What is Multidex in Android?**
 
-* **How to use Android Studio Memory Profiler?** - [Learn from here](https://www.youtube.com/watch?v=FxDa2td6Ej8)
+* **How to use Android Studio Memory Profiler?**
 
-* **How to use Firebase realtime database in your app?** - [Learn from here](https://blog.mindorks.com/firebase-realtime-database-android-tutorial)
+* **How to use Firebase realtime database in your app?**
 
-* **What is Gradle?** - [Learn from here](https://blog.mindorks.com/gradle-for-android-developers-getting-the-most-of-it)
+* **What is Gradle?**
 
-* **APK Size Reduction.** - [Learn from here](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662) and [here](https://blog.mindorks.com/using-r8-to-reduce-apk-size-in-android)
+* **APK Size Reduction.**
 
-* **How can you speed up the Gradle build?** - [Learn from here](https://blog.mindorks.com/speed-up-gradle-build-for-android-to-save-your-time)
+* **How can you speed up the Gradle build?**
 
-* **About gradle build system.** - [Learn from here](https://blog.mindorks.com/gradle-for-android-developers-getting-the-most-of-it)
+* **About gradle build system.**
 
-* **About multiple apk for android application.** - [Learn from here](https://mindorks.com/blog/how-to-create-multiple-apk-files-for-android-application)
+* **About multiple apk for android application.**
 
-* **What is proguard used for?** - [Learn from here](https://blog.mindorks.com/applying-proguard-in-an-android-application)
+* **What is proguard used for?**
 
-* **What is obfuscation? What is it used for? What about minification?** - [Learn from here](https://www.youtube.com/watch?v=yduedsaxfDw)
+* **What is obfuscation? What is it used for? What about minification?**
 
-* **How to change some parameters in an app without app update?** - [Learn from here](https://blog.mindorks.com/getting-started-with-firebase-remote-config-in-android)
+* **How to change some parameters in an app without app update?**
 
 ### Java and Kotlin
+
+Android Interview Questions:
 
 #### OOP
 
@@ -566,11 +630,11 @@
     - In Enumeration we don't have remove() method and we can only read and traverse through a collection.
     - Iterators can be applied to any collection. In Iterator, we can read and remove items from a collection.
 
-* **Do you agree we use composition over inheritance?** [Learn from here](https://www.journaldev.com/12086/composition-vs-inheritance)
+* **Do you agree we use composition over inheritance?**
 
 * **Difference between method overloading and overriding.**
         <p align="center">
-        <img alt="Overloading and Overriding" src="https://github.com/codeshef/android-interview-questions/blob/master/assets/overloading-vs-overriding.png">
+        <img alt="Overloading and Overriding" src="https://raw.githubusercontent.com/amitshekhariitbhu/android-interview-questions/master/assets/overloading-vs-overriding.png">
         </p>
     - Overloading happens at compile-time while Overriding happens at runtime: The binding of overloaded method call to its definition happens at compile-time however binding of overridden method call to its definition happens at runtime.
     More info on static vs. dynamic binding: [StackOverflow](https://stackoverflow.com/questions/19017258/static-vs-dynamic-binding-in-java).
@@ -661,9 +725,9 @@
     }
     ```
 
-* **Multiple inheritance in Classes and Interfaces in java** [Learn from here](http://codeinventions.blogspot.in/2014/07/can-interface-extend-multiple.html)
+* **Multiple inheritance in Classes and Interfaces in java**
 
-* **What are the design patterns?** [Learn from here](https://blog.mindorks.com/mastering-design-patterns-in-android-with-kotlin)
+* **What are the design patterns?**
     - Creational patterns
         - Builder [Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern?oldformat=true)
         - Factory [Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern?oldformat=true)
@@ -681,13 +745,13 @@
 
 #### Collections and Generics
 
-* **Arrays Vs ArrayLists** - [Learn from here](https://stackoverflow.com/questions/32020000/what-is-the-difference-between-an-array-arraylist-and-a-list/32020072) and [here](https://www.youtube.com/watch?v=SMtSW3Zke_k)
+* **Arrays Vs ArrayLists** - [Learn from here](https://stackoverflow.com/questions/32020000/what-is-the-difference-between-an-array-arraylist-and-a-list/32020072)
 
 * **HashSet Vs TreeSet** - [Learn from here](https://stackoverflow.com/questions/25602382/java-hashset-vs-treeset-when-should-i-use-over-other)
 
 * **HashMap Vs Set** - [Learn from here](https://stackoverflow.com/questions/2773824/difference-between-hashset-and-hashmap)
 
-* **Stack Vs Queue** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/stack-and-queue)
+* **Stack Vs Queue**
 
 * **Explain Generics in Java?**
     - Generics were included in Java language to provide stronger type checks, by allowing the programmer to define, which classes can be used with other classes
@@ -809,7 +873,7 @@
                              //  the same reference to an instance
         ```
 
-* **What is the difference between instantiation and initialization of an object?** - [Learn from here](https://docs.oracle.com/javase/tutorial/java/javaOO/objectcreation.html)
+* **What is the difference between instantiation and initialization of an object?**
 
 * **What the difference between local, instance and class variables?**
   - Local variables exist only in methods that created them, they are stored separately in their respected Thread Stack (for more information, see question about Java Memory Model) and cannot have their reference passed outside of the method scope. That also means that they cannot be assigned any access modifier or made `static` - because they only exist during enclosing method's execution and those modifiers just do not make sense, since no other outside method can get them anyway.
@@ -824,27 +888,27 @@
   Once an object is no longer referenced and therefore is not reachable by the application code,
   the garbage collector removes it and reclaims the unused memory.
 
-* **What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized?** - [Learn from here](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
+* **What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized?**
 
-* **What is memory leak and how does Java handle it?** - [Learn from here](https://developers.redhat.com/blog/2014/08/14/find-fix-memory-leaks-java-application/)
+* **What is memory leak and how does Java handle it?**
 
-* **What are strong, soft, weak and phantom references in Java?** - [Learn from here](https://dzone.com/articles/weak-soft-and-phantom-references-in-java-and-why-they-matter)
+* **What are strong, soft, weak and phantom references in Java?**
 
 #### Concurrency
 
-* **What does the keyword `synchronized` mean?** [Learn from here](https://stackoverflow.com/a/1085745/2621950)
+* **What does the keyword `synchronized` mean?**
 
-* **What is a `ThreadPoolExecutor`?** [Learn from here](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
+* **What is a `ThreadPoolExecutor`?** - [ThreadPoolExecutor in Android](https://amitshekhar.me/blog/threadpoolexecutor-in-android)
 
-* **What is `volatile` modifier?** [Learn from here](http://tutorials.jenkov.com/java-concurrency/volatile.html)
+* **What is `volatile` modifier?**
 
 * **The classes in the atomic package expose a common set of methods: `get`, `set,`, `lazyset`, `compareAndSet`, and `weakCompareAndSet`. Please describe them.**
 
 #### Exceptions
 
-* **How does the `try{}`, `catch{}`, `finally` works?** - [Learn from here](https://www.youtube.com/watch?v=Z_5e8MjRWnc&list=PL6nth5sRD25g_M_OgsMQgYIrESzzkGLME&index=13)
+* **How does the `try{}`, `catch{}`, `finally` works?**
 
-* **What is the difference between a `Checked Exception` and an `Un-Checked Exception`?** - [Learn from here](https://www.w3schools.in/java-questions-answers/difference-between-checked-and-unchecked-exceptions-in-java/)
+* **What is the difference between a `Checked Exception` and an `Un-Checked Exception`?**
 
 #### Others
 
@@ -854,11 +918,8 @@
     object's original state and data. In Android you may use either the Serializable, Externalizable (implements Serializable) or Parcelable interfaces.
     - While Serializable is the easiest to implement, Externalizable may be used if you need to insert custom logic into the process of serialization (although it is almost never used nowadays as it is considered a relic from early versions of Java). But it is highly recommended to use Parcelable in Android instead, as Parcelable was created exclusively for Android and it performs about 10x faster than Serializable, because Serializable uses reflection, which is a slow process and tends to create a lot of temporary objects and it may cause garbage collection to occur more often.
     - To use Serializable all you have to do is implement the interface:
-
         ```java
-        /**
-        *  Implementing the Serializable interface is all that is required
-        */
+        // Implementing the Serializable interface is all that is required
         public class User implements Serializable {
 
             private String name;
@@ -963,13 +1024,13 @@
         Note: For a full explanation of the <b>describeContents()</b> method see [StackOverflow](https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799).
         In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good thing to try and understand everything that is happening.
 
-* **What is `transient` modifier?** [Learn from here](https://www.javatpoint.com/transient-keyword)
+* **What is `transient` modifier?**
 
-* **What are anonymous classes?** [Learn from here](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html)
+* **What are anonymous classes?**
 
-* **What is the difference between using `==` and `.equals` on an object?** - [Learn from here](https://www.youtube.com/watch?v=aVjnX1MIHB8)
+* **What is the difference between using `==` and `.equals` on an object?**
 
-* **What is the `hashCode()` and `equals()` used for?** - [Learn from here](https://www.geeksforgeeks.org/equals-hashcode-methods-java/)
+* **What is the `hashCode()` and `equals()` used for?**
 
 * **Why would you not call abstract method in constructor?** - [Learn from here](https://stackoverflow.com/questions/15327417/is-it-ok-to-call-abstract-method-from-constructor-in-java)
 
@@ -1031,336 +1092,199 @@
 * **What is reflection?**
     - You can inspect classes, interfaces, fields, and method at runtime with the help of reflection and the best part is that you need not know the names of these classes, methods, etc.
 
-* **What is Dependency Injection?** [Learn from here](https://www.youtube.com/watch?v=Grzqz-B3NWU)
+* **What is Dependency Injection?**
 
 * **How is a `StringBuilder` implemented to avoid the immutable string allocation problem?** - [Learn from here](https://stackoverflow.com/questions/54023816/how-is-a-stringbuilder-implemented-to-avoid-the-immutable-string-allocation-prob)
 
-* **Difference between `StringBuffer` and `StringBuilder`?** - [Learn from here](https://www.journaldev.com/538/string-vs-stringbuffer-vs-stringbuilder)
+* **Difference between `StringBuffer` and `StringBuilder`?**
 
 * **What is the difference between fail-fast and fail-safe iterators in Java?**
     - Fail-safe iterator will not throw any exception even if the collection is modified while iteration over it. But in Fail-safe iterator, it throws a ConcurrentModificationException when you try to modify the collection while using it.
 
-* **What is Java NIO?** - [Learn from here](https://en.wikipedia.org/wiki/Non-blocking_I/O_(Java))
+* **Monitor and Synchronization**
 
-* **Monitor and Synchronization** - [Learn from here](https://www.youtube.com/watch?v=oLTw1aJpSho)
-
-* **Tell some advantages of Kotlin.** - [Learn from here](https://www.youtube.com/watch?v=kRhivT-jKzY&t=16s)
+* **Tell some advantages of Kotlin.**
 
 * **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
 
-* **What is the difference between `const` and `val`?** - [Learn from here](https://blog.mindorks.com/what-is-the-difference-between-const-and-val)
+* **What is the advantage of using `const` in Kotlin?** - [Video](https://www.youtube.com/watch?v=3G49ivVxfkU) and [Blog](https://amitshekhar.me/blog/const-in-kotlin)
 
-* **How to ensure `null` safety in Kotlin?** - [Learn from here](https://blog.mindorks.com/safecalls-vs-nullchecks-in-kotlin)
+* **What is a JvmStatic Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=qBBbOhY_pv4) and [Blog](https://amitshekhar.me/blog/jvmstatic-annotation-in-kotlin)
 
-* **When to use `lateint` keyword used in Kotlin?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-lateinit-vs-lazy)
+* **What is a JvmField Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=bx8OZcMbeUE) and [Blog](https://amitshekhar.me/blog/jvmfield-annotation-in-kotlin)
 
-* **How to check if a `lateinit` variable has been initialized?** - [Learn from here](https://blog.mindorks.com/how-to-check-if-a-lateinit-variable-has-been-initialized)
+* **What is a JvmOverloads Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=fHGsBV9Za8M) and [Blog](https://amitshekhar.me/blog/jvmoverloads-annotation-in-kotlin)
 
-* **How to do lazy initialization of variables in Kotlin?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-lateinit-vs-lazy) and [here](https://www.youtube.com/watch?v=yEX9_PeNRy4)
+* **How to ensure `null` safety in Kotlin?**
 
-* **What are `companion objects` in Kotlin?** - [Learn from here](https://blog.mindorks.com/companion-object-in-kotlin)
+* **When to use `lateint` keyword used in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
 
-* **What are the visibility modifiers in Kotlin?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-visibility-modifiers-private-protected-internal-public)
+* **How to check if a `lateinit` variable has been initialized?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
 
-* **What is the equivalent of Java static methods in Kotlin?** - [Learn from here](https://blog.mindorks.com/what-is-the-equivalent-of-java-static-methods-in-kotlin)
+* **How to do lazy initialization of variables in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
 
-* **What is a data class in Kotlin?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-data-class)
+* **What are `companion objects` in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/companion-object-in-kotlin)
 
-* **How to create a Singleton class in Kotlin?** - [Learn from here](https://blog.mindorks.com/how-to-create-a-singleton-class-in-kotlin)
+* **Difference between == and === in Kotlin** - [Video](https://www.youtube.com/watch?v=lJtgxT2OIgQ) and [Blog](https://amitshekhar.me/blog/structural-and-referential-equality-in-kotlin)
 
-* **What is the difference between `open` and `public` in Kotlin?** - [Learn from here](https://blog.mindorks.com/understanding-open-keyword-in-kotlin)
+* **What are the visibility modifiers in Kotlin?**
 
-* **Explain the use-case of `let`, `run`, `with`, `also`, `apply` in Kotlin.** - [Learn from here](https://blog.mindorks.com/using-scoped-functions-in-kotlin-let-run-with-also-apply) and [here](https://www.youtube.com/watch?v=AiFBEH54Xpw)
+* **What is the equivalent of Java static methods in Kotlin?**
 
-* **Difference between List and Array types in Kotlin** - [Learn from here](https://blog.mindorks.com/difference-between-list-and-array-types-in-kotlin)
+* **What is a data class in Kotlin?**
 
-* **What are `Labels` in Kotlin?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-returns-jumps-labels)
+* **How to create a Singleton class in Kotlin?**
 
-* **What is an `Init` block in Kotlin?** - [Learn from here](https://blog.mindorks.com/understanding-init-block-in-kotlin)
+* **What is the difference between `open` and `public` in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/open-keyword-in-kotlin)
 
-* **Explain `pair` and `triple` in Kotlin.** - [Learn from here](https://blog.mindorks.com/pair-and-triple-in-kotlin)
+* **Explain the use-case of `let`, `run`, `with`, `also`, `apply` in Kotlin.**
 
-* **How to choose between `apply` and `with`?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-apply-vs-with)
+* **Difference between List and Array types in Kotlin**
 
-* **How to choose between `switch` with `when`?** - [Learn from here](https://blog.mindorks.com/replace-switch-with-when-in-kotlin)
+* **What are `Labels` in Kotlin?**
 
-* **What are Coroutines in Kotlin?** - [Learn from here](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
+* **What is an `init` block in Kotlin?** - [Video](https://www.youtube.com/watch?v=cb3jOFozJns) and [Blog](https://amitshekhar.me/blog/init-block-in-kotlin)
 
-* **What is Coroutine Scope?** - [Learn from here](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
+* **Explain `pair` and `triple` in Kotlin.**
 
-* **What is Coroutine Context?** - [Learn from here](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
+* **How to choose between `apply` and `with`?**
 
-* **Launch vs Async in Kotlin Coroutines** - [Learn from here](https://www.youtube.com/watch?v=nC30UiDv8Xc)
+* **How to choose between `switch` with `when`?**
 
-* **What is inline function in Kotlin?** - [Learn from here](https://blog.mindorks.com/understanding-inline-noinline-and-crossinline-in-kotlin)
+* **What are Coroutines in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
 
-* **When to use Kotlin sealed classes?** - [Learn from here](https://blog.mindorks.com/learn-kotlin-sealed-classes)
+* **What is Coroutine Scope?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
 
-* **Explain function literals with receiver in Kotlin?** - [Learn from here](https://blog.mindorks.com/function-literals-with-receiver-in-kotlin)
+* **What is Coroutine Context?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
 
-* **Tell about Kotlin DSL.** - [Learn from here](https://blog.mindorks.com/mastering-kotlin-dsl-in-android-step-by-step-guide)
+* **Launch vs Async in Kotlin Coroutines** - [Learn from here](https://amitshekhar.me/blog/launch-vs-async-in-kotlin-coroutines)
 
-* **What are higher-order functions in Kotlin?** - [Learn from here](https://blog.mindorks.com/understanding-higher-order-functions-and-lambdas-in-kotlin)
+* **What is inline function in Kotlin?** - [Video](https://www.youtube.com/watch?v=GLLI8h67ryo) and [Blog](https://amitshekhar.me/blog/inline-function-in-kotlin)
 
-* **What are Lambdas in Kotlin** - [Learn from here](https://blog.mindorks.com/understanding-higher-order-functions-and-lambdas-in-kotlin)
+* **When to use Kotlin sealed classes?**
 
-* **Tell about the Collections in Kotlin** - [Learn from here](https://www.youtube.com/watch?v=XeRt2ZZ-jkA)
+* **Explain function literals with receiver in Kotlin?**
 
-### Data Structures And Algorithms
+* **Tell about Kotlin DSL.**
 
-> The level of questions asked on the topic of Data Structures And Algorithms totally depends on the company for which you are applying.
+* **What are higher-order functions in Kotlin?** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin)
 
-#### Whiteboard Interview Series - Data Structures and Algorithms on Youtube - [Check here](https://www.youtube.com/playlist?list=PLqOiaH9id5qt_lZl2bFi8q9RQoV1JJUpf)
+* **What are Lambdas in Kotlin** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin)
 
-#### Tech Interview Preparation Kit - [Check here](https://afteracademy.com/tech-interview)
+* **Tell about the Collections in Kotlin**
 
-#### Android Developer should know these Data Structures for Next Interview - [Check here](https://blog.mindorks.com/android-developer-should-know-these-data-structures-for-next-interview)
+### Kotlin Coroutines
 
-* **Complexity Analysis** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/complexity-analysis)
-    - What is Input, Output, Correctness, Efficiency of Algorithms?
-    - What is Input Size and Running Time of Algorithms?
-    - Explain the Worst, Best, and Average case analysis of Algorithms.
-    - What is Big-O Notation with respect to Time and Space Complexity?
+Topics you should know in Kotlin Coroutines for Android Interview:
 
-*  **Iteration and Two Pointer Approach** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/iteration-and-two-pointer-approach)
-    - Explain Initialization, Maintenance, and Termination used in iteration.
-    - Explain the use-case of Two Pointer approach
+* coroutines
+* suspend
+* launch, async-await, withContext
+* dispatchers
+* scope, context, job
+* lifecycleScope, viewModelScope, GlobalScope
+* suspendCoroutine, suspendCancellableCoroutine
+* coroutineScope, supervisorScope
 
-* **Recursion and Divide & Conquer Approach** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/recursion-and-divide-and-conquer-approach)
-    - Explain Recursion with the help of an example and also draw the recursion call stack for the same.
-    - How will you analyse the recursive solution of some problem?
-    - Is there any difference between Recursion and Iteration?
-    - Explain the Divide and Conquer technique with the help of a real-world example.
+You can learn these topics here: [Master Kotlin Coroutines](https://amitshekhar.me/blog/kotlin-coroutines)
 
-* **Arrays and Linked List** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/array-and-linked-list)
-    - What do you mean by Linear Data Structures?
-    - Explain the basic operations that can be performed on Arrays? Also, tell about Amortized analysis of array.
-    - What is a Linked List? Explain with an example by performing some operations on Linked List.
-    - What are the types of Linked List?
-    - Can you tell the difference between an Array and a Linked List?
 
-* **Stack and Queue** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/stack-and-queue)
-    - What is a Stack? Explain various operations that can be performed on a Stack.
-    - Can you implement Stack using an Array or using a Linked List? How?
-    - What is a Queue? Explain various operations that can be performed on a Queue.
-    - Can you implement Queue using an Array or using a Linked List? How?
-    - Is there any difference between a Stack and a Queue?
+### Kotlin Flow API
 
-* **Sorting Algorithms** - [Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm?oldformat=true)
-    - Using the most efficient sorting algorithm (and correct data structures that implement it) is vital for any program, because data manipulation can be one of the most significant bottlenecks in case of performance and the main purpose of spending time, determining the best algorithm for the job, is to drastically improve said performance. The efficiency of an algorithm is measured in its' "Big O" ([StackOverflow](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)) score. Really good algorithms perform important actions in O(n log n) or even O(log n) time and some of them can even perform certain actions in O(1) time (HashTable insertion, for example). But there is always a trade-off - if some algorithm is really good at adding a new element to a data structure, it is, most certainly, much worse at data access than some other algorithm. If you are proficient with math, you may notice that "Big O" notation has many similarities with "limits", and you would be right - it measures best, worst and average performances of an algorithm in question, by looking at its' function limit. It should be noted that, when we are speaking about O(1) - constant time - we are not saying that this algorithm performs an action in one operation, rather that it can perform this action with the same number of operations (roughly), regrardless of the amount of elements it has to take into account. Thankfully, a lot of "Big O" scores have been already calculated, so you don't have to guess, which algorithm or data structure will perform better in your project. ["Big O" cheat sheet](http://bigocheatsheet.com/)
-    - Bubble sort [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort?oldformat=true) 
-        - Bubble sort is one of the simplest sorting algorithms. It just compares neighbouring elements and if the one that precedes the other is smaller - it changes their places. So over one iteration over the data list, it is guaranteed that **at least** one element will be in its' correct place (the biggest/smallest one - depending on the direction of sorting). This is not a very efficient algorithm, as highly unordered arrays will require a lot of reordering (upto O(n^2)), but one of the advantages of this algorithm is its' space complexity - only two elements are compared at once and there is no need to allocate more memory, than those two will occupy. 
-            <table>
-                <tr>
-                    <th colspan="3" align="center">Time Complexity</th>
-                    <th align="center">Space Complexity</th>
-                </tr>
-                <tr>
-                    <th align="center">Best</th>
-                    <th align="center">Average</th>
-                    <th align="center">Worst</th>
-                    <th align="center">Worst</th>
-                </tr>
-                <tr>
-                    <td align="center">Ω(n)</td>
-                    <td align="center">Θ(n^2)</td>
-                    <td align="center">O(n^2)</td>
-                    <td align="center">O(1)</td>
-                </tr>
-            </table>
-    - Selection sort [Wikipedia](https://www.wikiwand.com/en/Selection_sort) 
-        - Firstly, selection sort assumes that the first element of the array to be sorted is the smallest, but to confirm this, it iterates over all other elements to check, and if it finds one, it gets defined as the smallest one. When the data ends, the element, that is currently found to be the smallest, is put in the beginning of the array. This sorting algorithm is quite straightforward, but still not that efficient on larger data sets, because to assign just one element to its' place, it needs to go over all data.
-            <table>
-                <tr>
-                    <th colspan="3" align="center">Time Complexity</th>
-                    <th align="center">Space Complexity</th>
-                </tr>
-                <tr>
-                    <th align="center">Best</th>
-                    <th align="center">Average</th>
-                    <th align="center">Worst</th>
-                    <th align="center">Worst</th>
-                </tr>
-                <tr>
-                    <td align="center">Ω(n^2)</td>
-                    <td align="center">Θ(n^2)</td>
-                    <td align="center">O(n^2)</td>
-                    <td align="center">O(1)</td>
-                </tr>
-            </table>
-    - Insertion sort [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort?oldformat=true)
-        - Insertion sort is another example of an algorithm, that is not that difficult to implement, but is also not that efficient. To do its' job, it "grows" sorted portion of data, by "inserting" new encountered elements into already (innerly) sorted part of the array, which consists of previously encountered elements. This means that in best case (data is already sorted) it can confirm that its' job is done in Ω(n) operations, while, if all encountered elements are not in their required order as many as O(n^2) operations may be needed.
-            <table>
-            <tr>
-                <th colspan="3" align="center">Time Complexity</th>
-                <th align="center">Space Complexity</th>
-            </tr>
-            <tr>
-                <th align="center">Best</th>
-                <th align="center">Average</th>
-                <th align="center">Worst</th>
-                <th align="center">Worst</th>
-            </tr>
-            <tr>
-                <td align="center">Ω(n)</td>
-                <td align="center">Θ(n^2)</td>
-                <td align="center">O(n^2)</td>
-                <td align="center">O(1)</td>
-            </tr>
-            </table>
-    - Merge sort [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort?oldformat=true)
-        - This is a "divide and conquer" algorithm, meaning it recursively "divides" given array in to smaller parts (up to 1 element) and then sorts those parts, combining them with each other. This approach allows merge sort to achieve very high speed, while  doubling required space, of course, but today memory space is more available than it was a couple of years ago, so this trade-off is considered acceptable.   
-            <table>
-            <tr>
-                <th colspan="3" align="center">Time Complexity</th>
-                <th align="center">Space Complexity</th>
-            </tr>
-            <tr>
-                <th align="center">Best</th>
-                <th align="center">Average</th>
-                <th align="center">Worst</th>
-                <th align="center">Worst</th>
-            </tr>
-            <tr>
-                <td align="center">Ω(n log(n))</td>
-                <td align="center">Θ(n log(n))</td>
-                <td align="center">O(n log(n))</td>
-                <td align="center">O(n)</td>
-            </tr>
-            </table>
-    - Quicksort [Wikipedia](https://en.wikipedia.org/wiki/Quicksort?oldformat=true)
-        - Quicksort is considered, well, quite quick. When implemented correctly, it can be a significant number of times faster than its' main competitors. This algorithm is also of "divide and conquer" family and its' first step is to choose a "pivot" element (choosing it randomly, statistically, minimizes the chance to get the worst performance), then by comparing elements to this pivot, moving it closer and closer to its' final place. During this process, the elements that are bigger are moved to the right side of it and smaller elements to the left. After this is done, quicksort repeats this process for subarrays on each side of placed pivot (does first step recursively), until the array is sorted.
-                <table>
-                <tr>
-                    <th colspan="3" align="center">Time Complexity</th>
-                    <th align="center">Space Complexity</th>
-                </tr>
-                <tr>
-                    <th align="center">Best</th>
-                    <th align="center">Average</th>
-                    <th align="center">Worst</th>
-                    <th align="center">Worst</th>
-                </tr>
-                <tr>
-                    <td align="center">Ω(n log(n))</td>
-                    <td align="center">Θ(n log(n))</td>
-                    <td align="center">O(n^2)</td>
-                    <td align="center">O(n)</td>
-                </tr>
-                </table>  
-    - There are, of course, more sorting algorithms and their modifications. We strongly recommend all readers to familiarize themselves with a couple more, because knowing algorithms is very important quality of a candidate, applying for a job and it shows understanding of what is happening "under the hood".
+Topics you should know in Kotlin Flow API for Android Interview:
 
-* **Binary Tree** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/binary-tree)
-    - What are non-linear data structures? Give example.
-    - What is a Tree Data Structure? Explain the properties of tree with an example.
-    - How is Binary Tree different from a normal Tree?
-    - What is inorder, pre-order, post-order, and level-order traversal of a tree? Explain with an example.
-    - Can you find the inorder, pre-order, and post-order of a tree using Stack? How?
-    - Explain how searching, insertion, and deletion operations are performed on a Tree?
+* Flow Builder, Operator, Collector
+* flowOn, dispatchers
+* Operators such as filter, map, zip, flatMapConcat, retry, debounce, distinctUntilChanged, flatMapLatest
+* Terminal operators
+* Cold Flow vs Hot Flow: [Cold Flow vs Hot Flow](https://amitshekhar.me/blog/cold-flow-vs-hot-flow)
+* [StateFlow, SharedFlow](https://amitshekhar.me/blog/stateflow-and-sharedflow), callbackFlow, channelFlow
 
-* **Binary Search Tree** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/binary-search-tree)
-    - What is a Binary Search Tree? Explain its properties also.
-    - Explain how searching, insertion, and deletion operations are performed on a Binary Search Tree?
-    - How is Binary Search Tree different from Binary Tree?
+You can learn these topics here: [Kotlin Flow API](https://amitshekhar.me/blog/flow-api-in-kotlin)
 
-* **Heap and Priority Queue** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/heap-and-priority-queue)
-    - What is a Heap data structure and when it is used?
-    - Explain the operations that can be performed on a Heap.
-    - What is the difference between a min-heap and a max-heap? How to implement these two?
-    - What do you mean by Priority Queue? How to implement Priority Queue?
-    - What are the real-life applications of Priority Queue?
+### Jetpack Compose
 
-* **Hash Table** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/hash-table)
-    - What do you mean by Direct Address Table?
-    - Can you perform search, insert, and delete in O(1)? How?
-    - Explain Hash Table and its properties.
-    - How to remove collision in Hash Table by Chaining and Open Addressing?
-    - What are the real-life applications of Hash Table?
+Topics you should know in Jetpack Compose for Android Interview:
 
-* **Dynamic Programming** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/dynamic-programming)
-    - What is Dynamic Programming and how to find if a problem can be solved using DP or not?
-    - What are two approaches of solving a Dynamic Programming problem?
-    - Explain Optimization and Combinatorial problems?
-
-* **Greedy Algorithms** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/greedy-algorithms)
-    - What do you mean by Greedy algorithms? How to find if a problem can be solved by Greedy approach or not?
-    - Is there any difference between Dynamic Programming and Greedy Algorithms?
-
-* **Backtracking** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/backtracking)
-    - What is Backtracking?
-    - How to find if a problem can be solved with Backtracking or not?
-    - What is Exhaustive Searching?
-
-* **Graph** - [Learn from here](https://afteracademy.com/tech-interview/ds-algo-concepts/graph)
-    - What is Graph and how to represent a Graph?
-    - Explain Depth First Search and Breadth First Search.
-    - How to represent a Graph? 
-    - What are the real-life applications of Graph?
-    - What do you mean by Topological Sorting?
-    - Explain Dijkstra algorithm with an example.
-    - What is a Minimum Spanning Tree?
+* Compose
+* State: remember, rememberSaveable, MutableState
+* Recomposition
+* State hoisting
+* Side-effects
+* Modifier
+* Theme
+* Layout, List
+* Gestures, Animation
+* CompositionLocal
 
 ### Other Topics
 
-* **Describe how REST APIs work. What is REST?** - [Learn from here](https://www.youtube.com/watch?v=1wSEI6_SzMU) and [here](https://www.youtube.com/watch?v=HgXAoBomGcA)
+Android Interview Questions:
 
-* **Describe SQLite.** - [Learn from here](https://blog.mindorks.com/android-sqlite-database-in-kotlin) and [here](https://www.youtube.com/watch?v=9OHzXUo3Ymk)
+* **Describe how REST APIs work. What is REST?**
 
-* **Describe database.** - [Learn from here](https://afteracademy.com/blog/what-is-a-database-and-dbms)
+* **Describe SQLite.**
+
+* **Describe database.**
 
 * **How do you control the application version update to specific number of users?**
 
 * **Can we identify users who have uninstalled our application?**
 
-* **Android Development Best Practices.** - [Learn from here](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
+* **Android Development Best Practices.** - Learn from here: [Android Development Best Practices](https://amitshekhar.me/blog/android-development-best-practices)
 
-* **Android Code Style And Guidelines.** - [Learn from here](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
+* **React Native vs Flutter** - Learn from here: [React Native vs Flutter](https://amitshekhar.me/blog/react-native-vs-flutter)
 
-* **Have you tried Kotlin?** - [Learn from here](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
+* **Have you tried Kotlin?**
 
-* **What are the metrics that you should measure continuously while android application development?** - [Learn from here](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
+* **What are the metrics that you should measure continuously while android application development?** - Learn from here: [Android App Performance Metrics](https://amitshekhar.me/blog/android-app-performance-metrics)
 
-* **What is Chrome Custom Tabs? How to display web content in your app?** - [Learn from here](https://blog.mindorks.com/android-browser-lets-launch-chrome-custom-tabs-with-kotlin)
+* **What is Chrome Custom Tabs? How to display web content in your app?**
 
-* **How to avoid API keys from check-in into VCS?** - [Learn from here](https://blog.mindorks.com/using-local-properties-file-to-avoid-api-keys-check-in-into-version-control-system)
+* **How to avoid API keys from check-in into VCS?**
 
-* **How does the Kotlin Multiplatform work?** - [Learn from here](https://blog.mindorks.com/how-does-the-kotlin-multiplatform-work)
+* **How does the Kotlin Multiplatform work?** - [Blog](https://amitshekhar.me/blog/how-does-the-kotlin-multiplatform-work) and [Video](https://youtu.be/nwfNh6Kd5hI)
 
-* **How to use Memory Heap Dumps data?** - [Learn from here](https://blog.mindorks.com/how-to-use-memory-heap-dumps-data)
+* **How to use Memory Heap Dumps data?**
 
-* **How to implement Dark Theme in your app?** - [Learn from here](https://blog.mindorks.com/build-material-and-dark-themes-apps-using-style-in-android)
+* **How to implement Dark Theme in your app?**
 
-* **Have you tried Jetpack compose?** - [Learn from here](https://blog.mindorks.com/using-jetpack-compose-to-build-ui-in-android)
+* **Have you tried Jetpack compose?**
 
-* **How to secure the API keys used in an app?** - [Learn from here](https://blog.mindorks.com/securing-api-keys-using-android-ndk)
+* **How to secure the API keys used in an app?**
 
-* **How to convert check Java equivalent code of Kotlin?** - [Learn from here](https://blog.mindorks.com/how-to-convert-a-kotlin-source-file-to-a-java-source-file)
+* **How to convert check Java equivalent code of Kotlin?**
 
-* **Tell something about memory usage in Android.** - [Learn from here](https://blog.mindorks.com/understanding-memory-usage-in-android)
+* **Tell something about memory usage in Android.**
 
-* **What is Benchmarking?** - [Learn from here](https://blog.mindorks.com/improving-android-app-performance-with-benchmarking)
+* **Can you create transparent activity in Android?**
 
-* **Can you create transparent activity in Android?** - [Learn from here](https://blog.mindorks.com/how-to-create-a-transparent-activity-in-android)
+* **Explain Annotation processing.**
 
-* **How to use Android Sensors?** - [Learn from here](https://blog.mindorks.com/using-android-sensors-android-tutorial)
+* **How to increase the Notification delivery rate?**
 
-* **Explain Annotation processing.**  - [Learn from here](https://blog.mindorks.com/android-annotation-processing-tutorial-part-1-a-practical-approach)
+* **How does the notification system work?** Learn from here: [How does the Android notification system work?](https://youtu.be/810IFG2sWlc)
 
-* **How to increase the Notification delivery rate?** [Learn from here](https://blog.mindorks.com/how-to-increase-push-notification-delivery-rate-in-android)
+* **How to show local Notification at an exact time?**
 
-* **How does the notification system work?** [Learn from here](https://blog.mindorks.com/how-to-increase-push-notification-delivery-rate-in-android)
+### Data Structures and Algorithms
 
-* **How to show local Notification at an exact time?** [Learn from here](https://blog.mindorks.com/how-to-increase-push-notification-delivery-rate-in-android)
+* **Android Developer should know these Data Structures for Next Interview** - [Check here](https://amitshekhar.me/blog/android-developer-should-know-these-data-structures-for-next-interview)
 
 ### Found this project useful :heart:
 
 * Support by clicking the :star: button on the upper right of this page. :v:
 
-[Check out MindOrks awesome open source projects here](https://mindorks.com/open-source-projects)
+You can connect with me on:
+
+- [Twitter](https://twitter.com/amitiitbhu)
+- [YouTube](https://www.youtube.com/@amitshekhar)
+- [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
+- [GitHub](https://github.com/amitshekhariitbhu)
 
 ### License
 ```
-   Copyright (C) 2020 MINDORKS NEXTGEN PRIVATE LIMITED
+   Copyright (C) 2022 Amit Shekhar
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
