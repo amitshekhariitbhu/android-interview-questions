@@ -799,7 +799,6 @@ Android Interview Questions:
     - `float`
     - `double`
     - `char`
-    - `String`
     - `boolean`
 
 * **What is the difference between an Integer and int?**
