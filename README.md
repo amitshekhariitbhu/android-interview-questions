@@ -61,6 +61,7 @@ You can connect with me on:
 - [Open keyword in Kotlin](https://amitshekhar.me/blog/open-keyword-in-kotlin) - Open keyword in Kotlin
 - [Companion object in Kotlin](https://amitshekhar.me/blog/companion-object-in-kotlin) - Companion object in Kotlin
 - [How does the Kotlin Multiplatform work?](https://youtu.be/nwfNh6Kd5hI) - How does the Kotlin Multiplatform work?
+- [internal visibility modifier in Kotlin](https://youtu.be/wOHpuf74-cI) - internal visibility modifier in Kotlin
 
 ## **Get High Paying Tech Job: [amitshekhar.me](https://amitshekhar.me)**
 
