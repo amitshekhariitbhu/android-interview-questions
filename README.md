@@ -264,8 +264,8 @@ Android Interview Questions and Answers:
 
 * **Why do we need to call setContentView() in onCreate() of Activity class?** - [Learn from here](https://www.youtube.com/watch?v=U1aHAt7XC5I)
 
-* **What is onSavedInstanceState() and onRestoreInstanceState() in activity?**
-    - onSavedInstanceState() - This method is used to store data before pausing the activity.
+* **What is onSaveInstanceState() and onRestoreInstanceState() in activity?**
+    - onSaveInstanceState() - This method is used to store data before pausing the activity.
     - onRestoreInstanceState() - This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the onRestoreInstanceState() receives the bundle that contains the instance state information.
 
 * **What is `Fragment` and its lifecycle?** - [Learn from here](https://developer.android.com/guide/fragments/lifecycle)
