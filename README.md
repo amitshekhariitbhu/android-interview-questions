@@ -282,9 +282,7 @@ Android Interview Questions and Answers:
 
 #### Long-running Operations
 
-* **How to run parallel tasks in Java or Android, and get callback when all complete?** - [Long-running tasks in parallel with Kotlin Flow](https://amitshekhar.me/blog/long-running-tasks-in-parallel-with-kotlin-flow)
-
-* **Why should you avoid to run non-ui code on the main thread?** - [Learn from here](https://developer.android.com/training/multiple-threads/communicate-ui)
+* **How to run parallel tasks and get a callback when all are complete?** - [Long-running tasks in parallel with Kotlin Flow](https://amitshekhar.me/blog/long-running-tasks-in-parallel-with-kotlin-flow)
 
 * **What is ANR? How can the ANR be prevented?** - [Learn from here](https://developer.android.com/topic/performance/vitals/anr.html)
 
@@ -292,7 +290,7 @@ Android Interview Questions and Answers:
 
 * **What are the problems in AsyncTask?**
 
-* **Explain `Looper`, `Handler` and `HandlerThread`.**
+* **Explain `Looper`, `Handler`, and `HandlerThread`.**
 
 * **Android Memory Leak and Garbage Collection**
 
@@ -310,7 +308,7 @@ Android Interview Questions and Answers:
 
 * **What is ORM? How does it work?**
 
-* **How would you preserve `Activity` state during a screen rotation?** - [Learn from here](https://www.youtube.com/watch?v=ORtieK5f_zg)
+* **How would you preserve the `Activity` state during a screen rotation?** - [Learn from here](https://www.youtube.com/watch?v=ORtieK5f_zg)
 
 * **What are different ways to store data in your Android app?**
 
