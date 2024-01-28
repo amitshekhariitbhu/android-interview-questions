@@ -26,13 +26,13 @@ You can connect with me on:
 * [Android Interview Questions and Answers Playlist](#android-interview-questions-and-answers-playlist)
 * [Kotlin Coroutines](#kotlin-coroutines)
 * [Kotlin Flow API](#kotlin-flow-api)
+* [Kotlin](#kotlin)
 * [Android](#android)
 * [Android Libraries](#android-libraries)
 * [Android Architecture](#android-architecture)
 * [Android System Design](#android-system-design)
 * [Android Unit Testing](#android-unit-testing)
 * [Android Tools And Technologies](#android-tools-and-technologies)
-* [Kotlin](#kotlin)
 * [Java](#java)
 * [Jetpack Compose](#jetpack-compose)
 * [Other Topics](#other-topics)
@@ -136,6 +136,104 @@ Learn the above-mentioned from the following links:
 - [callbackFlow - Callback to Flow API in Kotlin](https://amitshekhar.me/blog/callback-to-flow-api-in-kotlin)
 - [Exception Handling in Kotlin Flow](https://amitshekhar.me/blog/exception-handling-in-kotlin-flow)
 - [Unit Testing ViewModel with Kotlin Flow and StateFlow](https://amitshekhar.me/blog/unit-testing-viewmodel-with-kotlin-flow-and-stateflow)
+
+### Kotlin
+
+Android Interview Questions and Answers:
+
+* **What is the advantage of using const in Kotlin?** - [Video](https://www.youtube.com/watch?v=3G49ivVxfkU) and [Blog](https://amitshekhar.me/blog/const-in-kotlin)
+
+* **When to use lateinit keyword used in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
+
+* **What is inline function in Kotlin?** - [Video](https://www.youtube.com/watch?v=GLLI8h67ryo) and [Blog](https://amitshekhar.me/blog/inline-function-in-kotlin)
+
+* **What are `companion objects` in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/companion-object-in-kotlin)
+
+* **Remove duplicates from an array in Kotlin** - [Learn from here](https://amitshekhar.me/blog/remove-duplicates-from-an-array-in-kotlin)
+
+* **What is a JvmStatic Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=qBBbOhY_pv4) and [Blog](https://amitshekhar.me/blog/jvmstatic-annotation-in-kotlin)
+
+* **What is a JvmField Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=bx8OZcMbeUE) and [Blog](https://amitshekhar.me/blog/jvmfield-annotation-in-kotlin)
+
+* **What is a JvmOverloads Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=fHGsBV9Za8M) and [Blog](https://amitshekhar.me/blog/jvmoverloads-annotation-in-kotlin)
+
+* **noinline in Kotlin** - [Learn from here](https://amitshekhar.me/blog/noinline-in-kotlin)
+
+* **crossinline in Kotlin** - [Learn from here](https://amitshekhar.me/blog/crossinline-in-kotlin)
+
+* **scope functions in Kotlin** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
+
+* **lateinit vs lazy in Kotlin** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
+
+* **What is an `init` block in Kotlin?** - [Video](https://www.youtube.com/watch?v=cb3jOFozJns) and [Blog](https://amitshekhar.me/blog/init-block-in-kotlin)
+
+* **Difference between == and === in Kotlin** - [Video](https://www.youtube.com/watch?v=lJtgxT2OIgQ) and [Blog](https://amitshekhar.me/blog/structural-and-referential-equality-in-kotlin)
+
+* **Advantage of using const in Kotlin** - [Learn from here](https://www.youtube.com/watch?v=3G49ivVxfkU)
+
+* **What are higher-order functions in Kotlin?** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin)
+
+* **What are Lambdas in Kotlin** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin)
+
+* **AssociateBy - List to Map in Kotlin** - [Learn from here](https://amitshekhar.me/blog/associateby-list-to-map-in-kotlin)
+
+* **Open keyword in Kotlin** - [Learn from here](https://amitshekhar.me/blog/open-keyword-in-kotlin)
+
+* **Companion object in Kotlin** - [Learn from here](https://amitshekhar.me/blog/companion-object-in-kotlin)
+
+* **internal visibility modifier in Kotlin** - [Learn from here](https://youtu.be/wOHpuf74-cI)
+
+* **partition - filtering function in Kotlin** - [Learn from here](https://amitshekhar.me/blog/partition-filtering-function-in-kotlin)
+
+* **Infix notation in Kotlin** - [Learn from here](https://amitshekhar.me/blog/infix-notation-in-kotlin)
+
+* **How does the Kotlin Multiplatform work?** - [Learn from here](https://youtu.be/nwfNh6Kd5hI)
+
+* **Tell some advantages of Kotlin.**
+
+* **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
+
+* **How to check if a `lateinit` variable has been initialized?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
+
+* **How to do lazy initialization of variables in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
+
+* **What are the visibility modifiers in Kotlin?**
+
+* **What is the equivalent of Java static methods in Kotlin?**
+
+* **What is a data class in Kotlin?**
+
+* **How to create a Singleton class in Kotlin?**
+
+* **What is the difference between `open` and `public` in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/open-keyword-in-kotlin)
+
+* **Explain the use-case of `let`, `run`, `with`, `also`, `apply` in Kotlin.** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
+
+* **Difference between List and Array types in Kotlin**
+
+* **What are `Labels` in Kotlin?**
+
+* **Explain `pair` and `triple` in Kotlin.**
+
+* **How to choose between `apply` and `with`?** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
+
+* **How to choose between `switch` with `when`?**
+
+* **What are Coroutines in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
+
+* **What is Coroutine Scope?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
+
+* **What is Coroutine Context?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
+
+* **Launch vs Async in Kotlin Coroutines** - [Learn from here](https://amitshekhar.me/blog/launch-vs-async-in-kotlin-coroutines)
+
+* **When to use Kotlin sealed classes?**
+
+* **Explain function literals with receiver in Kotlin?**
+
+* **Tell about Kotlin DSL.**
+
+* **Tell about the Collections in Kotlin**
 
 ### Android
 
@@ -579,104 +677,6 @@ Android Interview Questions and Answers:
 * **What is obfuscation? What is it used for? What about minification?**
 
 * **How to change some parameters in an app without app update?**
-
-### Kotlin
-
-Android Interview Questions and Answers:
-
-* **What is the advantage of using `const` in Kotlin?** - [Video](https://www.youtube.com/watch?v=3G49ivVxfkU) and [Blog](https://amitshekhar.me/blog/const-in-kotlin)
-
-* **When to use `lateint` keyword used in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
-
-* **What is inline function in Kotlin?** - [Video](https://www.youtube.com/watch?v=GLLI8h67ryo) and [Blog](https://amitshekhar.me/blog/inline-function-in-kotlin)
-
-* **What are `companion objects` in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/companion-object-in-kotlin)
-
-* **Remove duplicates from an array in Kotlin** - [Learn from here](https://amitshekhar.me/blog/remove-duplicates-from-an-array-in-kotlin)
-
-* **What is a JvmStatic Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=qBBbOhY_pv4) and [Blog](https://amitshekhar.me/blog/jvmstatic-annotation-in-kotlin)
-
-* **What is a JvmField Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=bx8OZcMbeUE) and [Blog](https://amitshekhar.me/blog/jvmfield-annotation-in-kotlin)
-
-* **What is a JvmOverloads Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=fHGsBV9Za8M) and [Blog](https://amitshekhar.me/blog/jvmoverloads-annotation-in-kotlin)
-
-* **noinline in Kotlin** - [Learn from here](https://amitshekhar.me/blog/noinline-in-kotlin)
-
-* **crossinline in Kotlin** - [Learn from here](https://amitshekhar.me/blog/crossinline-in-kotlin)
-
-* **scope functions in Kotlin** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
-
-* **lateinit vs lazy in Kotlin** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
-
-* **What is an `init` block in Kotlin?** - [Video](https://www.youtube.com/watch?v=cb3jOFozJns) and [Blog](https://amitshekhar.me/blog/init-block-in-kotlin)
-
-* **Difference between == and === in Kotlin** - [Video](https://www.youtube.com/watch?v=lJtgxT2OIgQ) and [Blog](https://amitshekhar.me/blog/structural-and-referential-equality-in-kotlin)
-
-* **Advantage of using const in Kotlin** - [Learn from here](https://www.youtube.com/watch?v=3G49ivVxfkU)
-
-* **What are higher-order functions in Kotlin?** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin)
-
-* **What are Lambdas in Kotlin** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin)
-
-* **AssociateBy - List to Map in Kotlin** - [Learn from here](https://amitshekhar.me/blog/associateby-list-to-map-in-kotlin)
-
-* **Open keyword in Kotlin** - [Learn from here](https://amitshekhar.me/blog/open-keyword-in-kotlin)
-
-* **Companion object in Kotlin** - [Learn from here](https://amitshekhar.me/blog/companion-object-in-kotlin)
-
-* **internal visibility modifier in Kotlin** - [Learn from here](https://youtu.be/wOHpuf74-cI)
-
-* **partition - filtering function in Kotlin** - [Learn from here](https://amitshekhar.me/blog/partition-filtering-function-in-kotlin)
-
-* **Infix notation in Kotlin** - [Learn from here](https://amitshekhar.me/blog/infix-notation-in-kotlin)
-
-* **How does the Kotlin Multiplatform work?** - [Learn from here](https://youtu.be/nwfNh6Kd5hI)
-
-* **Tell some advantages of Kotlin.**
-
-* **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
-
-* **How to check if a `lateinit` variable has been initialized?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
-
-* **How to do lazy initialization of variables in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
-
-* **What are the visibility modifiers in Kotlin?**
-
-* **What is the equivalent of Java static methods in Kotlin?**
-
-* **What is a data class in Kotlin?**
-
-* **How to create a Singleton class in Kotlin?**
-
-* **What is the difference between `open` and `public` in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/open-keyword-in-kotlin)
-
-* **Explain the use-case of `let`, `run`, `with`, `also`, `apply` in Kotlin.** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
-
-* **Difference between List and Array types in Kotlin**
-
-* **What are `Labels` in Kotlin?**
-
-* **Explain `pair` and `triple` in Kotlin.**
-
-* **How to choose between `apply` and `with`?** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
-
-* **How to choose between `switch` with `when`?**
-
-* **What are Coroutines in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
-
-* **What is Coroutine Scope?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
-
-* **What is Coroutine Context?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
-
-* **Launch vs Async in Kotlin Coroutines** - [Learn from here](https://amitshekhar.me/blog/launch-vs-async-in-kotlin-coroutines)
-
-* **When to use Kotlin sealed classes?**
-
-* **Explain function literals with receiver in Kotlin?**
-
-* **Tell about Kotlin DSL.**
-
-* **Tell about the Collections in Kotlin**
 
 ### Java
 
