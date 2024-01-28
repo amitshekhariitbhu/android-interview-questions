@@ -189,7 +189,9 @@ Android Interview Questions and Answers:
 
 * **How does the Kotlin Multiplatform work?** - [Learn from here](https://youtu.be/nwfNh6Kd5hI)
 
-* **Tell some advantages of Kotlin.**
+* **Suspending vs Blocking in Kotlin Coroutines** - [Learn from here](https://www.youtube.com/watch?v=V2lL_aJp17I)
+
+* **Tell some advantages of Kotlin.** - [Learn from here](https://developer.android.com/kotlin/first)
 
 * **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
 
@@ -197,13 +199,13 @@ Android Interview Questions and Answers:
 
 * **How to do lazy initialization of variables in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
 
-* **What are the visibility modifiers in Kotlin?**
+* **What are the visibility modifiers in Kotlin?** - [Learn from here](https://kotlinlang.org/docs/visibility-modifiers.html)
 
 * **What is the equivalent of Java static methods in Kotlin?**
 
-* **What is a data class in Kotlin?**
+* **What is a data class in Kotlin?** - [Learn from here](https://kotlinlang.org/docs/data-classes.html)
 
-* **How to create a Singleton class in Kotlin?**
+* **How to create a Singleton class in Kotlin?** - [Learn from here](https://stackoverflow.com/questions/51834996/singleton-class-in-kotlin)
 
 * **What is the difference between `open` and `public` in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/open-keyword-in-kotlin)
 
@@ -234,6 +236,8 @@ Android Interview Questions and Answers:
 * **Tell about Kotlin DSL.**
 
 * **Tell about the Collections in Kotlin**
+
+* **Extension functions** - [Learn from here](https://kotlinlang.org/docs/extensions.html#declaring-extensions-as-members)
 
 ### Android
 
