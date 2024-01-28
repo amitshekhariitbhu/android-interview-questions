@@ -21,7 +21,7 @@ You can connect with me on:
 
 ## **Join my program and get high paying tech job: [amitshekhar.me](https://amitshekhar.me)**
 
-### YouTube Video Playlist: Android Interview Questions and Answers
+### YouTube Video Playlist: [Android Interview Questions and Answers](https://www.youtube.com/playlist?list=PL_I3TGB7aK6jNBMZkw3FYdJXyf7quHdI8)
 
 - **Question**: What is an inline function in Kotlin?
     - **Answer**: [What is an inline function in Kotlin?](https://www.youtube.com/watch?v=GLLI8h67ryo)
