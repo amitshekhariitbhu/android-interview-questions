@@ -209,13 +209,13 @@ Android Interview Questions and Answers:
 
 * **What is the difference between `open` and `public` in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/open-keyword-in-kotlin)
 
-* **Explain the use-case of `let`, `run`, `with`, `also`, `apply` in Kotlin.** - [Learn from here](https://stackoverflow.com/questions/45977011/example-of-when-should-we-use-run-let-apply-also-and-with-on-kotlin)
+* **Explain the use-case of `let`, `run`, `with`, `also`, `apply` in Kotlin.** - Learn from [here](https://kotlinlang.org/docs/scope-functions.html) and [here](https://stackoverflow.com/questions/45977011/example-of-when-should-we-use-run-let-apply-also-and-with-on-kotlin)
+* 
+* **How to choose between `apply` and `with`?** - Learn from [here](https://kotlinlang.org/docs/scope-functions.html) and [here](https://stackoverflow.com/questions/45977011/example-of-when-should-we-use-run-let-apply-also-and-with-on-kotlin)
 
 * **Difference between List and Array types in Kotlin** - [Learn from here](https://stackoverflow.com/questions/36262305/difference-between-list-and-array-types-in-kotlin)
 
 * **What are `Labels` in Kotlin?** - [Learn from here](https://kotlinlang.org/docs/returns.html)
-
-* **How to choose between `apply` and `with`?** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
 
 * **What are Coroutines in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
 
