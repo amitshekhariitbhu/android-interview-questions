@@ -229,7 +229,7 @@ Android Interview Questions and Answers:
 
 * **Tell about the Collections in Kotlin** - [Learn from here](https://kotlinlang.org/docs/collections-overview.html)
 
-* **Extension functions** - [Learn from here](https://kotlinlang.org/docs/extensions.html#declaring-extensions-as-members)
+* **Extension functions** - [Learn from here](https://kotlinlang.org/docs/extensions.html)
 
 * **What does ?: do in Kotlin? (Elvis Operator)** - [Learn from here](https://stackoverflow.com/questions/48253107/what-does-do-in-kotlin-elvis-operator)
 
