@@ -528,6 +528,8 @@ Android Interview Questions and Answers:
 
 * **How does the Dagger work?**
 
+* **How will you choose between Dagger 2 and Dagger-Hilt?**
+
 * **What is a Component in Dagger?**
 
 * **What is Module in Dagger?**
