@@ -391,9 +391,9 @@ Android Interview Questions and Answers:
 
 * **How to share ViewModel between Fragments in Android?**
 
-* **Explain WorkManager and its use-cases.**
+* **Explain WorkManager and its use cases.**
 
-* **How ViewModel work internally?**
+* **How does ViewModel work internally?**
 
 #### Others
 
@@ -401,7 +401,7 @@ Android Interview Questions and Answers:
 
 * **How do you troubleshoot a crashing application?** - [Learn from here](https://developer.android.com/topic/performance/vitals/crash)
 
-* **Explain Android notification system?** Learn from here: [How does the Android notification system work?](https://youtu.be/810IFG2sWlc)
+* **Explain the Android push notification system?** Learn from here: [How does the Android push notification system work?](https://youtu.be/810IFG2sWlc)
 
 * **What is the difference between Serializable and Parcelable? Which is the best approach in Android?** 
     - Use the Parcelable class instead of Serializable when passing data in Intents or Bundles. The serialization of an object that implements the Parcelable interface is much faster than using Java’s default serialization. A class that implements the Serializable interface is marked as serializable, and Java serializes it using reflection (which makes it slow). When using the Parcelable interface, the whole object doesn’t get serialized automatically. Rather, you can selectively add data from the object to a Parcel using which the object is later deserialized. Similarly, you can consider the Parcelable in Kotlin.
@@ -432,7 +432,7 @@ Android Interview Questions and Answers:
 
 * **How does the Dagger work?**
 
-* **What is Component in Dagger?**
+* **What is a Component in Dagger?**
 
 * **What is Module in Dagger?**
 
@@ -504,9 +504,9 @@ Android Interview Questions and Answers:
 
 * **Design Caching Library.**
 
-* **Design problems based on location based app**
+* **Design problems based on location-based app**
 
-* **How to build offline-first app? Explain the architecture**
+* **How to build an offline-first app? Explain the architecture**
 
 * **Design LRU Cache**
 
@@ -526,7 +526,7 @@ Android Interview Questions and Answers:
 
 * **Unit Testing ViewModel with Kotlin Flow and StateFlow** - [Learn from here](https://amitshekhar.me/blog/unit-testing-viewmodel-with-kotlin-flow-and-stateflow)
 
-* **What is Espresso?** - [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
+* **What is Espresso?** - [Learn from here](https://developer.android.com/training/testing/espresso/basics)
 
 * **What is Robolectric?** - [Learn from here](http://robolectric.org/)
 
@@ -534,7 +534,7 @@ Android Interview Questions and Answers:
 
 * **What is UI-Automator?** - [Learn from here](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
 
-* **Explain unit test.** - [Learn from here](https://developer.android.com/training/testing/unit-testing/local-unit-tests)
+* **Explain the unit test.** - [Learn from here](https://developer.android.com/training/testing/unit-testing/local-unit-tests)
 
 * **Explain instrumented test.** - [Learn from here](https://developer.android.com/training/testing/unit-testing/instrumented-unit-tests)
 
