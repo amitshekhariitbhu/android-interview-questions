@@ -83,7 +83,7 @@ You can connect with me on:
 
 ### Kotlin Coroutines
 
-Topics you should know in Kotlin Coroutines for Android Interview:
+Topics you should know in **Kotlin Coroutines** for Android Interview:
 
 * coroutines
 * suspend
@@ -94,7 +94,7 @@ Topics you should know in Kotlin Coroutines for Android Interview:
 * suspendCoroutine, suspendCancellableCoroutine
 * coroutineScope, supervisorScope
 
-You can learn all of the above mentioned topics from the following links:
+Learn the above-mentioned from the following links:
 
 - [Master Kotlin Coroutines](https://amitshekhar.me/blog/kotlin-coroutines)
 - [Suspending vs Blocking in Kotlin Coroutines](https://www.youtube.com/watch?v=V2lL_aJp17I)
@@ -111,7 +111,7 @@ You can learn all of the above mentioned topics from the following links:
 
 ### Kotlin Flow API
 
-Topics you should know in Kotlin Flow API for Android Interview:
+Topics you should know in **Kotlin Flow API** for Android Interview:
 
 * Flow Builder, Operator, Collector
 * flowOn, dispatchers
@@ -120,7 +120,7 @@ Topics you should know in Kotlin Flow API for Android Interview:
 * Cold Flow vs Hot Flow
 * StateFlow, SharedFlow, callbackFlow, channelFlow
 
-You can learn all of the above mentioned topics from the following links:
+Learn the above-mentioned from the following links:
 
 - [Mastering Flow API in Kotlin](https://amitshekhar.me/blog/flow-api-in-kotlin)
 - [Creating Flow Using Flow Builder in Kotlin](https://amitshekhar.me/blog/creating-flow-using-flow-builder-in-kotlin)
@@ -153,12 +153,12 @@ Android Interview Questions and Answers:
 
 * **What is `AndroidManifest.xml`?** - [Learn from here](https://developer.android.com/guide/topics/manifest/manifest-intro)
 
-* **What is `Application` class?**
+* **What is the `Application` class?**
     - The Application class in Android is the base class within an Android app that contains all other components such as activities and services. The Application class, or any subclass of the Application class, is instantiated before any other class when the process for your application/package is created.
 
 #### Activity and Fragment
 
-* **Why is it recommended to use only the default constructor to create a `Fragment`?** - [Learn from here](https://www.youtube.com/watch?v=CitBt0FZFIc)
+* **Why is it recommended to use only the default constructor to create a `Fragment`?** - Learn from [video](https://www.youtube.com/watch?v=CitBt0FZFIc) and [blog](https://amitshekhar.me/blog/default-constructor-to-create-a-fragment)
 
 * **What is `Activity` and its lifecycle?** - [Learn from here](https://developer.android.com/guide/components/activities/activity-lifecycle)
 
@@ -170,7 +170,7 @@ Android Interview Questions and Answers:
 
 * **What is onSavedInstanceState() and onRestoreInstanceState() in activity?**
     - onSavedInstanceState() - This method is used to store data before pausing the activity.
-    - onRestoreInstanceState() - This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the onRestoreInstanceState() receive the bundle that contains the instance state information.
+    - onRestoreInstanceState() - This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the onRestoreInstanceState() receives the bundle that contains the instance state information.
 
 * **What is `Fragment` and its lifecycle?** - [Learn from here](https://developer.android.com/guide/fragments/lifecycle)
 
@@ -178,11 +178,9 @@ Android Interview Questions and Answers:
 
 * **What is the difference between a `Fragment` and an `Activity`? Explain the relationship between the two.** - [Learn from here](https://stackoverflow.com/questions/10478233/why-fragments-and-when-to-use-fragments-instead-of-activities)
 
-* **Why is it recommended to use only the default constructor to create a Fragment?** - [Learn from here](https://amitshekhar.me/blog/default-constructor-to-create-a-fragment)
-
 * **When should you use a Fragment rather than an Activity?**
     - When you have some UI components to be used across various activities
-    - When multiple view can be displayed side by side just like ViewPager
+    - When multiple views can be displayed side by side just like ViewPager
 
 * **What is the difference between FragmentPagerAdapter vs FragmentStatePagerAdapter?**
     - FragmentPagerAdapter: Each fragment visited by the user will be stored in the memory but the view will be destroyed. When the page is revisited, then the view will be created not the instance of the fragment.
@@ -193,7 +191,7 @@ Android Interview Questions and Answers:
 * **How would you communicate between two Fragments?**
 
 * **What is retained `Fragment`?**
-    - By default, Fragments are destroyed and recreated along with their parent Activity’s when a configuration change occurs. Calling setRetainInstance(true) allows us to bypass this destroy-and-recreate cycle, signaling the system to retain the current instance of the fragment when the activity is recreated.
+    - By default, Fragments are destroyed and recreated along with their parent Activities when a configuration change occurs. Calling setRetainInstance(true) allows us to bypass this destroy-and-recreate cycle, signaling the system to retain the current instance of the fragment when the activity is recreated.
 
 * **What is the purpose of `addToBackStack()` while commiting fragment transaction?**
     - By calling addToBackStack(), the replace transaction is saved to the back stack so the user can reverse the transaction and bring back the previous fragment by pressing the Back button. For more [Learn from here](https://stackoverflow.com/questions/22984950/what-is-the-meaning-of-addtobackstack-with-null-parameter)
@@ -821,7 +819,7 @@ Android Interview Questions and Answers:
 
 ### Jetpack Compose
 
-Topics you should know in Jetpack Compose for Android Interview:
+Topics you should know in **Jetpack Compose** for Android Interview:
 
 * Compose
 * State: remember, rememberSaveable, MutableState
@@ -834,7 +832,7 @@ Topics you should know in Jetpack Compose for Android Interview:
 * Gestures, Animation
 * CompositionLocal
 
-You can learn all of the above mentioned topics from the following links:
+Learn the above-mentioned from the following links:
 
 - [Getting Started with Compose](https://developer.android.com/jetpack/compose/tutorial)
 - [Thinking in Compose](https://developer.android.com/jetpack/compose/mental-model)
