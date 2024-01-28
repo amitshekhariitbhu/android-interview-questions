@@ -201,7 +201,7 @@ Android Interview Questions and Answers:
 
 * **What are the visibility modifiers in Kotlin?** - [Learn from here](https://kotlinlang.org/docs/visibility-modifiers.html)
 
-* **What is the equivalent of Java static methods in Kotlin?**
+* **What is the equivalent of Java static methods in Kotlin?** - [Learn from here](https://stackoverflow.com/questions/40352684/what-is-the-equivalent-of-java-static-methods-in-kotlin)
 
 * **What is a data class in Kotlin?** - [Learn from here](https://kotlinlang.org/docs/data-classes.html)
 
@@ -211,15 +211,11 @@ Android Interview Questions and Answers:
 
 * **Explain the use-case of `let`, `run`, `with`, `also`, `apply` in Kotlin.** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
 
-* **Difference between List and Array types in Kotlin**
+* **Difference between List and Array types in Kotlin** - [Learn from here](https://stackoverflow.com/questions/36262305/difference-between-list-and-array-types-in-kotlin)
 
-* **What are `Labels` in Kotlin?**
-
-* **Explain `pair` and `triple` in Kotlin.**
+* **What are `Labels` in Kotlin?** - [Learn from here](https://kotlinlang.org/docs/returns.html)
 
 * **How to choose between `apply` and `with`?** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
-
-* **How to choose between `switch` with `when`?**
 
 * **What are Coroutines in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
 
@@ -229,15 +225,13 @@ Android Interview Questions and Answers:
 
 * **Launch vs Async in Kotlin Coroutines** - [Learn from here](https://amitshekhar.me/blog/launch-vs-async-in-kotlin-coroutines)
 
-* **When to use Kotlin sealed classes?**
+* **When to use Kotlin sealed classes?** - [Learn from here](https://kotlinlang.org/docs/sealed-classes.html)
 
-* **Explain function literals with receiver in Kotlin?**
-
-* **Tell about Kotlin DSL.**
-
-* **Tell about the Collections in Kotlin**
+* **Tell about the Collections in Kotlin** - [Learn from here](https://kotlinlang.org/docs/collections-overview.html)
 
 * **Extension functions** - [Learn from here](https://kotlinlang.org/docs/extensions.html#declaring-extensions-as-members)
+
+* **What does ?: do in Kotlin? (Elvis Operator)** - [Learn from here](https://stackoverflow.com/questions/48253107/what-does-do-in-kotlin-elvis-operator)
 
 ### Android
 
