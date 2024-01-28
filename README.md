@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="Android Interview Questions" src="https://raw.githubusercontent.com/amitshekhariitbhu/android-interview-questions/master/assets/banner-android-interview-questions.jpg">
+    <img alt="Android Interview Questions" src="https://raw.githubusercontent.com/amitshekhariitbhu/android-interview-questions/master/assets/banner-android-interview-questions.jpg">
 </p>
 
 # Android Interview Questions and Answers
@@ -10,7 +10,7 @@
 
 ## About me
 
-Hi, I am [**Amit Shekhar**](https://amitshekhar.me), I have mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
+Hi, I am [**Amit Shekhar**](https://amitshekhar.me), I have taught and mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
 
 You can connect with me on:
 
@@ -21,7 +21,24 @@ You can connect with me on:
 
 ## **Join my program and get high paying tech job: [amitshekhar.me](https://amitshekhar.me)**
 
-### YouTube Video Playlist: [Android Interview Questions and Answers](https://www.youtube.com/playlist?list=PL_I3TGB7aK6jNBMZkw3FYdJXyf7quHdI8)
+## Contents - Android Interview Questions
+
+* [Android Interview Questions and Answers Playlist](#android-interview-questions-and-answers-playlist)
+* [Kotlin Coroutines](#kotlin-coroutines)
+* [Kotlin Flow API](#kotlin-flow-api)
+* [Android](#android)
+* [Android Libraries](#android-libraries)
+* [Android Architecture](#android-architecture)
+* [Android System Design](#android-system-design)
+* [Android Unit Testing](#android-unit-testing)
+* [Android Tools And Technologies](#android-tools-and-technologies)
+* [Kotlin](#kotlin)
+* [Java](#java)
+* [Jetpack Compose](#jetpack-compose)
+* [Other Topics](#other-topics)
+* [Data Structures and Algorithms](#data-structures-and-algorithms)
+
+### Android Interview Questions and Answers Playlist
 
 - **Question**: What is an inline function in Kotlin?
     - **Answer**: [What is an inline function in Kotlin?](https://www.youtube.com/watch?v=GLLI8h67ryo)
@@ -64,61 +81,6 @@ You can connect with me on:
 - **Question**: When only onDestroy is called for an activity without onPause() and onStop()?
     - **Answer**: [When only onDestroy is called for an activity without onPause() and onStop()?](https://www.youtube.com/watch?v=B2kY_ckZa-g)
 
-### Things to know in Kotlin for Android Interview
-
-- [Mastering Kotlin Coroutines](https://amitshekhar.me/blog/kotlin-coroutines) - Mastering Kotlin Coroutines
-- [Suspending vs Blocking in Kotlin Coroutines](https://www.youtube.com/watch?v=V2lL_aJp17I) - Suspending vs Blocking in Kotlin Coroutines
-- [Launch vs Async in Kotlin Coroutines](https://amitshekhar.me/blog/launch-vs-async-in-kotlin-coroutines) - Launch vs Async in Kotlin Coroutines
-- [Dispatchers in Kotlin Coroutines](https://amitshekhar.me/blog/dispatchers-in-kotlin-coroutines) - Dispatchers in Kotlin Coroutines
-- [coroutineScope vs supervisorScope](https://amitshekhar.me/blog/coroutinescope-vs-supervisorscope) - coroutineScope vs supervisorScope
-- [What is Flow API in Kotlin?](https://amitshekhar.me/blog/flow-api-in-kotlin) - What is Flow API in Kotlin?
-- [Long-running tasks in parallel with Kotlin Flow](https://amitshekhar.me/blog/long-running-tasks-in-parallel-with-kotlin-flow) - Long-running tasks in parallel with Kotlin Flow
-- [Retry Operator in Kotlin Flow](https://amitshekhar.me/blog/retry-operator-in-kotlin-flow) - Retry Operator in Kotlin Flow
-- [Callback to Coroutines in Kotlin](https://amitshekhar.me/blog/callback-to-coroutines-in-kotlin) - Callback to Coroutines in Kotlin
-- [callbackFlow - Callback to Flow API in Kotlin](https://amitshekhar.me/blog/callback-to-flow-api-in-kotlin) - callbackFlow - Callback to Flow API in Kotlin
-- [StateFlow and SharedFlow](https://amitshekhar.me/blog/stateflow-and-sharedflow) - StateFlow and SharedFlow
-- [Cold Flow vs Hot Flow](https://amitshekhar.me/blog/cold-flow-vs-hot-flow) - Cold Flow vs Hot Flow
-- [Retrofit with Kotlin Flow](https://amitshekhar.me/blog/retrofit-with-kotlin-flow) - Retrofit with Kotlin Flow
-- [Room Database with Kotlin Flow](https://amitshekhar.me/blog/room-database-with-kotlin-flow) - Room Database with Kotlin Flow
-- [Remove duplicates from an array](https://amitshekhar.me/blog/remove-duplicates-from-an-array-in-kotlin) - Remove duplicates from an array in Kotlin
-- [JvmStatic Annotation in Kotlin](https://www.youtube.com/watch?v=qBBbOhY_pv4) - JvmStatic Annotation in Kotlin
-- [JvmOverloads Annotation in Kotlin](https://www.youtube.com/watch?v=fHGsBV9Za8M) - JvmOverloads Annotation in Kotlin
-- [JvmField Annotation in Kotlin](https://www.youtube.com/watch?v=bx8OZcMbeUE) - JvmField Annotation in Kotlin
-- [inline function in Kotlin](https://www.youtube.com/watch?v=GLLI8h67ryo) - inline function in Kotlin
-- [noinline in Kotlin](https://amitshekhar.me/blog/noinline-in-kotlin) - noinline in Kotlin
-- [crossinline in Kotlin](https://amitshekhar.me/blog/crossinline-in-kotlin) - crossinline in Kotlin
-- [scope functions in Kotlin](https://kotlinlang.org/docs/scope-functions.html) - scope functions in Kotlin
-- [lateinit vs lazy in Kotlin](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin) - lateinit vs lazy in Kotlin
-- [init block in Kotlin](https://www.youtube.com/watch?v=cb3jOFozJns) - init block in Kotlin
-- [Difference between == and === in Kotlin](https://amitshekhar.me/blog/structural-and-referential-equality-in-kotlin) - Difference between == and === in Kotlin
-- [Retrofit with Kotlin Coroutines](https://amitshekhar.me/blog/retrofit-with-kotlin-coroutines) - Retrofit with Kotlin Coroutines
-- [Advantage of using const in Kotlin](https://www.youtube.com/watch?v=3G49ivVxfkU) - Advantage of using const in Kotlin
-- [suspend function in Kotlin Coroutines](https://amitshekhar.me/blog/suspend-function-in-kotlin-coroutines) - suspend function in Kotlin Coroutines
-- [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin) - Higher-Order Functions and Lambdas in Kotlin
-- [Parallel Multiple Network Calls Using Kotlin Coroutines](https://amitshekhar.me/blog/parallel-multiple-network-calls-using-kotlin-coroutines) - Parallel Multiple Network Calls Using Kotlin Coroutines
-- [AssociateBy - List to Map in Kotlin](https://amitshekhar.me/blog/associateby-list-to-map-in-kotlin) - Kotlin Collection Functions - associateBy that converts a list into a map
-- [partition - filtering function in Kotlin](https://amitshekhar.me/blog/partition-filtering-function-in-kotlin) - partition - filtering function in Kotlin
-- [Infix notation in Kotlin](https://amitshekhar.me/blog/infix-notation-in-kotlin) - Infix notation in Kotlin
-- [Open keyword in Kotlin](https://amitshekhar.me/blog/open-keyword-in-kotlin) - Open keyword in Kotlin
-- [Companion object in Kotlin](https://amitshekhar.me/blog/companion-object-in-kotlin) - Companion object in Kotlin
-- [How does the Kotlin Multiplatform work?](https://youtu.be/nwfNh6Kd5hI) - How does the Kotlin Multiplatform work?
-- [internal visibility modifier in Kotlin](https://youtu.be/wOHpuf74-cI) - internal visibility modifier in Kotlin
-
-## Contents - Android Interview Questions
-
-* [Kotlin Coroutines](#kotlin-coroutines)
-* [Kotlin Flow API](#kotlin-flow-api)
-* [Jetpack Compose](#jetpack-compose)
-* [Android](#android)
-* [Android Libraries](#android-libraries)
-* [Android Architecture](#android-architecture)
-* [Android Design Problem](#android-design-problem)
-* [Android Unit Testing](#android-unit-testing)
-* [Android Tools And Technologies](#android-tools-and-technologies)
-* [Java and Kotlin](#java-and-kotlin)
-* [Other Topics](#other-topics)
-* [Data Structures and Algorithms](#data-structures-and-algorithms)
-
 ### Kotlin Coroutines
 
 Topics you should know in Kotlin Coroutines for Android Interview:
@@ -147,7 +109,6 @@ You can learn all of the above mentioned topics from the following links:
 - [Room Database with Kotlin Coroutines](https://amitshekhar.me/blog/room-database-with-kotlin-coroutines)
 - [Unit Testing ViewModel with Kotlin Coroutines and LiveData](https://amitshekhar.me/blog/unit-testing-viewmodel-with-kotlin-coroutines-and-livedata)
 
-
 ### Kotlin Flow API
 
 Topics you should know in Kotlin Flow API for Android Interview:
@@ -175,33 +136,6 @@ You can learn all of the above mentioned topics from the following links:
 - [callbackFlow - Callback to Flow API in Kotlin](https://amitshekhar.me/blog/callback-to-flow-api-in-kotlin)
 - [Exception Handling in Kotlin Flow](https://amitshekhar.me/blog/exception-handling-in-kotlin-flow)
 - [Unit Testing ViewModel with Kotlin Flow and StateFlow](https://amitshekhar.me/blog/unit-testing-viewmodel-with-kotlin-flow-and-stateflow)
-
-### Jetpack Compose
-
-Topics you should know in Jetpack Compose for Android Interview:
-
-* Compose
-* State: remember, rememberSaveable, MutableState
-* Recomposition
-* State hoisting
-* Side-effects
-* Modifier
-* Theme
-* Layout, List
-* Gestures, Animation
-* CompositionLocal
-
-You can learn all of the above mentioned topics from the following links:
-
-- [Getting Started with Compose](https://developer.android.com/jetpack/compose/tutorial)
-- [Thinking in Compose](https://developer.android.com/jetpack/compose/mental-model)
-- [State](https://developer.android.com/jetpack/compose/state)
-- [Lifecycle](https://developer.android.com/jetpack/compose/lifecycle)
-- [Modifiers](https://developer.android.com/jetpack/compose/modifiers)
-- [Side-effects](https://developer.android.com/jetpack/compose/side-effects)
-- [Phases](https://developer.android.com/jetpack/compose/phases)
-- [Semantics](https://developer.android.com/jetpack/compose/semantics)
-- [CompositionLocal](https://developer.android.com/jetpack/compose/compositionlocal)
 
 ### Android
 
@@ -238,15 +172,17 @@ Android Interview Questions and Answers:
     - onSavedInstanceState() - This method is used to store data before pausing the activity.
     - onRestoreInstanceState() - This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the onRestoreInstanceState() receive the bundle that contains the instance state information.
 
-* **What is `Fragment` and its lifecycle.**
+* **What is `Fragment` and its lifecycle?** - [Learn from here](https://developer.android.com/guide/fragments/lifecycle)
 
 * **What are "launchMode"?** - [Learn from here](https://amitshekhar.me/blog/singletask-launchmode-in-android) and [singleTask launchMode in Android](https://youtu.be/WYkQEnm4jeI)
 
 * **What is the difference between a `Fragment` and an `Activity`? Explain the relationship between the two.** - [Learn from here](https://stackoverflow.com/questions/10478233/why-fragments-and-when-to-use-fragments-instead-of-activities)
 
+* **Why is it recommended to use only the default constructor to create a Fragment?** - [Learn from here](https://amitshekhar.me/blog/default-constructor-to-create-a-fragment)
+
 * **When should you use a Fragment rather than an Activity?**
     - When you have some UI components to be used across various activities
-    - When multiple view can be displayed side by side just like viewPager
+    - When multiple view can be displayed side by side just like ViewPager
 
 * **What is the difference between FragmentPagerAdapter vs FragmentStatePagerAdapter?**
     - FragmentPagerAdapter: Each fragment visited by the user will be stored in the memory but the view will be destroyed. When the page is revisited, then the view will be created not the instance of the fragment.
@@ -284,15 +220,11 @@ Android Interview Questions and Answers:
 
 * **Do you know what is the view tree? How can you optimize its depth?** - [Learn from here](https://developer.android.com/reference/android/view/ViewTreeObserver)
 
-* **How does the Touch Control and Events work in Android?**
-
 #### Displaying Lists of Content
 
 * **What is the difference between `ListView` and `RecyclerView`?** - [Learn from here](https://stackoverflow.com/questions/26728651/recyclerview-vs-listview)
 
 * **How does RecyclerView work internally?**
-
-* **What is the ViewHolder pattern? Why should we use it?** - [Learn from here](https://stackoverflow.com/questions/21501316/what-is-the-benefit-of-viewholder-pattern-in-android)
 
 * **RecyclerView Optimization - Scrolling Performance Improvement** - [Learn from here](https://amitshekhar.me/blog/recyclerview-optimization)
 
@@ -310,17 +242,13 @@ Android Interview Questions and Answers:
 
 #### Intents and Broadcasting
 
-* **What is `Intent`?**
+* **What is `Intent`?** - [Learn from here](https://developer.android.com/guide/components/intents-filters)
 
-* **What is an Implicit `Intent`?**
+* **What is an Implicit `Intent`?** - [Learn from here](https://developer.android.com/guide/components/intents-filters)
         
-* **What is an Explicit `Intent`?**
+* **What is an Explicit `Intent`?** - [Learn from here](https://developer.android.com/guide/components/intents-filters)
 
 * **What is a `BroadcastReceiver`?** - [Learn from here](https://developer.android.com/guide/components/broadcasts)
-
-* **What is a `LocalBroadcastManager`?**
-
-* **What is the function of an `IntentFilter`?** - [Learn from here](https://developer.android.com/reference/android/content/IntentFilter)
 
 * **What is a Sticky `Intent`?**
     - Sticky Intents allows communication between a function and a service. sendStickyBroadcast() performs a sendBroadcast(Intent) known as sticky, i.e. the Intent you are sending stays around after the broadcast is complete, so that others can quickly retrieve that data through the return value of registerReceiver(BroadcastReceiver, IntentFilter). For example, if you take an intent for ACTION_BATTERY_CHANGED to get battery change events: When you call registerReceiver() for that action — even with a null BroadcastReceiver — you get the Intent that was last Broadcast for that action. Hence, you can use this to find the state of the battery without necessarily registering for all future state changes in the battery.
@@ -334,9 +262,11 @@ Android Interview Questions and Answers:
 
 #### Services
 
-* **What is `Service`?** - [Learn from here](https://developer.android.com/guide/components/services)
+* **What is Service?** - [Learn from here](https://developer.android.com/guide/components/services)
 
-* **`Service` vs `IntentService`.**
+* **Service vs IntentService** - [Learn from here](https://stackoverflow.com/questions/15524280/service-vs-intentservice-in-the-android-platform)
+
+* **What is a Foreground Service?** - [Learn from here](https://developer.android.com/develop/background-work/services/foreground-services)
 
 * **What is a `JobScheduler`?** - [Learn from here](https://developer.android.com/reference/android/app/job/JobScheduler)
 
@@ -364,21 +294,6 @@ Android Interview Questions and Answers:
 
 * **What are the problems in AsyncTask?**
 
-* **When would you use java thread instead of an AsyncTask?** - [Learn from here](https://stackoverflow.com/questions/18480206/asynctask-vs-thread-in-android)
-
-* **What is a `Loader`? (Deprecated)** - [Learn from here](https://developer.android.com/guide/components/loaders)
-
-* **What is the relationship between the life cycle of an `AsyncTask` and an `Activity`? What problems can this result in? How can these problems be avoided?**
-    - An AsyncTask is not tied to the life cycle of the Activity that contains it. So, for example, if you start an AsyncTask inside an Activity and the user rotates the device, the Activity will be destroyed (and a new Activity instance will be created) but the AsyncTask will not die but instead goes on living until it completes.
-    
-    - Then, when the AsyncTask does complete, rather than updating the UI of the new Activity, it updates the former instance of the Activity (i.e., the one in which it was created but that is not displayed anymore!). This can lead to an Exception (of the type java.lang.IllegalArgumentException: View not attached to window manager if you use, for instance, findViewById to retrieve a view inside the Activity).
-    
-    - There’s also the potential for this to result in a memory leak since the AsyncTask maintains a reference to the Activity, which prevents the Activity from being garbage collected as long as the AsyncTask remains alive.
-
-    - For these reasons, using AsyncTasks for long-running background tasks is generally a bad idea . Rather, for long-running background tasks, a different mechanism (such as a service) should be employed.
-    
-    - Note: AsyncTasks by default run on a single thread using a serial executor, meaning it has only 1 thread and each task runs one after the other.
-
 * **Explain `Looper`, `Handler` and `HandlerThread`.**
 
 * **Android Memory Leak and Garbage Collection**
@@ -387,20 +302,17 @@ Android Interview Questions and Answers:
 
 * **How do you handle bitmaps in Android as it takes too much memory?** - [Learn from here](https://developer.android.com/topic/performance/graphics/load-bitmap) and [here](https://developer.android.com/topic/performance/graphics/manage-memory)
 
-* **What is the difference between a regular `Bitmap` and a nine-patch image?**
-    - In general, a Nine-patch image allows resizing that can be used as background or other image size requirements for the target device. The Nine-patch refers to the way you can resize the image: 4 corners that are unscaled, 4 edges that are scaled in 1 axis, and the middle one that can be scaled into both axes.
-
 * **Tell about the `Bitmap` pool.** - [Learn from here](https://amitshekhar.me/blog/bitmap-pool)
-
-* **How image compression is preformed?**
 
 #### Data Saving
 
+* **Jetpack DataStore Preferences** - [Learn from here](https://amitshekhar.me/blog/jetpack-datastore-preferences)
+
 * **How to persist data in an Android app?**
 
-* **What is ORM? How does it work?** 
+* **What is ORM? How does it work?**
 
-* **How would you preserve `Activity` state during a screen rotation?** - [Learn from here](https://stackoverflow.com/questions/3915952/how-to-save-state-during-orientation-change-in-android-if-the-state-is-made-of-m)
+* **How would you preserve `Activity` state during a screen rotation?** - [Learn from here](https://www.youtube.com/watch?v=ORtieK5f_zg)
 
 * **What are different ways to store data in your Android app?**
 
@@ -423,15 +335,11 @@ Android Interview Questions and Answers:
 
 * **How to implement Dark mode in any application?**
 
-* **How to generate dynamic colors based in image?**
-
-* **Explain about Density Independence Pixel**
-
 #### Memory Optimizations
 
 * **What is the `onTrimMemory()` method?** - [Learn from here](https://developer.android.com/topic/performance/memory)
 
-* **How does the OutOfMemory happens?**
+* **How to identify and fix OutOfMemory issues?**
 
 * **How do you find memory leaks in Android applications?**
 
@@ -467,6 +375,8 @@ Android Interview Questions and Answers:
 
 * **What is DEX?** - [Learn from here](https://developer.android.com/reference/dalvik/system/DexFile)
 
+* **What is Multidex in Android?** - [Learn from here](https://www.youtube.com/watch?v=R0zd8lmHnmE)
+
 * **Can you manually call the Garbage collector?** - [Is it possible to force Garbage Collection in Android?](https://www.youtube.com/watch?v=fPEjpFKo1-Q)
 
 #### Android Jetpack
@@ -485,9 +395,7 @@ Android Interview Questions and Answers:
 
 * **How to share ViewModel between Fragments in Android?**
 
-* **Explain Work Manager in Android.**
-
-* **Use-cases of WorkManager in Android.**
+* **Explain WorkManager and its use-cases.**
 
 * **How ViewModel work internally?**
 
@@ -499,29 +407,22 @@ Android Interview Questions and Answers:
 
 * **Explain Android notification system?** Learn from here: [How does the Android notification system work?](https://youtu.be/810IFG2sWlc)
 
-* **What is the difference between Serializable and Parcelable? Which is the best approach in Android?**
+* **What is the difference between Serializable and Parcelable? Which is the best approach in Android?** 
+    - Use the Parcelable class instead of Serializable when passing data in Intents or Bundles. The serialization of an object that implements the Parcelable interface is much faster than using Java’s default serialization. A class that implements the Serializable interface is marked as serializable, and Java serializes it using reflection (which makes it slow). When using the Parcelable interface, the whole object doesn’t get serialized automatically. Rather, you can selectively add data from the object to a Parcel using which the object is later deserialized. Similarly, you can consider the Parcelable in Kotlin.
 
 * **What is AAPT?** - [Learn from here](https://developer.android.com/studio/command-line/aapt2)
 
-* **What is the best way to update the screen periodically?** - [Learn from here](https://stackoverflow.com/questions/5452394/best-way-to-perform-an-action-periodically-while-an-app-is-running-handler)
-
 * **FlatBuffers vs JSON.**
 
-* **`HashMap`, `ArrayMap` and `SparseArray`**
+* **`HashMap`, `ArrayMap` and `SparseArray`** - [Learn from here](https://amitshekhar.me/blog/optimization-using-arraymap-and-sparsearray)
 
-* **What are Annotations?**
+* **What are Annotations?** - [Learn from here](https://amitshekhar.me/blog/creating-custom-annotations)
 
-* **How to create custom Annotation?**
-
-* **How to handle multi-touch in android?**
+* **How to create custom Annotation?** - [Learn from here](https://amitshekhar.me/blog/creating-custom-annotations)
 
 * **What is the support library? Why was it introduced?**
 
 * **What is Android Data Binding?**
-
-* **How to check if Software keyboard is visible or not?**
-
-* **How to take screenshot in Android programmatically?**
 
 ### Android Libraries
 
@@ -530,6 +431,24 @@ Android Interview Questions and Answers:
 * **Explain OkHttp Interceptor** - [Learn from here](https://amitshekhar.me/blog/okhttp-interceptor)
 
 * **OkHttp - HTTP Caching** - [Learn from here](https://amitshekhar.me/blog/caching-with-okhttp-interceptor-and-retrofit)
+
+* **Why do we use the Dependency Injection Framework like Dagger in Android?**
+
+* **How does the Dagger work?**
+
+* **What is Component in Dagger?**
+
+* **What is Module in Dagger?**
+
+* **How does the custom scope work in Dagger?**
+
+* **When to call dispose and clear on CompositeDisposable in RxJava?** - [Learn from here](https://amitshekhar.me/blog/dispose-vs-clear-compositedisposable-rxjava)
+
+* **What is Multipart Request in Networking?**
+
+* **What is Flow in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/flow-api-in-kotlin)
+
+* **App Startup Library** - [Learn from here](https://amitshekhar.me/blog/app-startup-library)
 
 * **Tell me something about RxJava.**
 
@@ -559,79 +478,57 @@ Android Interview Questions and Answers:
 
 * **Difference between Schedulers.io() and Schedulers.computation() in RxJava.**
 
-* **Why do we use the Dependency Injection Framework like Dagger in Android?**
-
-* **How does the Dagger work?**
-
-* **What is Component in Dagger?**
-
-* **What is Module in Dagger?**
-
-* **How does the custom scope work in Dagger?**
-
-* **When to call dispose and clear on CompositeDisposable in RxJava?** - [Learn from here](https://amitshekhar.me/blog/dispose-vs-clear-compositedisposable-rxjava)
-
-* **What is Multipart Request in Networking?**
-
-* **What is Flow in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/flow-api-in-kotlin)
-
 ### Android Architecture
 
 Android Interview Questions and Answers:
 
 * **Describe the architecture of your last app.**
 
-* **Describe MVP.**
-
 * **Describe MVVM.** - [MVVM Architecture](https://amitshekhar.me/blog/mvvm-architecture-android)
 
 * **MVC vs MVP vs MVVM architecture.**
 
-* **What is presenter?**
+* **Clean Architecture**
 
-* **What is model?**
-
-* **Describe MVC.**
-
-* **Describe MVI**
-
-* **Describe the repository pattern**
-
-* **What is controller?**
-
-* **Tell something about clean code**
-
-### Android Design Problem
+### Android System Design
 
 Android Interview Questions and Answers:
 
-* **Design Uber App.** - [Learn from here](https://github.com/amitshekhariitbhu/ridesharing-uber-lyft-app)
-
-* **Design Facebook App.**
-
-* **Design Facebook Near-By Friends App.**
-
-* **Design WhatsApp.**
-
-* **Design SnapChat.**
-
-* **Design problems based on location based app.**
-
-* **How to build offline-first app? Explain the architecture.**
-
-* **Design LRU Cache.**
-
-* **Design File Downloader** - [Learn from here](https://github.com/amitshekhariitbhu/PRDownloader)
-
 * **Design an Image Loading Library** - [Learn from here](https://amitshekhar.me/blog/android-image-loading-library-optimize-memory-usage), [here](https://amitshekhar.me/blog/android-image-loading-library-use-bitmap-pool-for-responsive-ui) and [here](https://amitshekhar.me/blog/android-image-loading-library-solve-the-slow-loading-issue)
+
+* **Design File Downloader Library** - [Learn from here](https://github.com/amitshekhariitbhu/PRDownloader)
+
+* **Design WhatsApp**
+
+* **Design Instagram Stories**
+
+* **Design Networking Library**
+
+* **Design Facebook Near-By Friends App**
+
+* **Design Caching Library.**
+
+* **Design problems based on location based app**
+
+* **How to build offline-first app? Explain the architecture**
+
+* **Design LRU Cache**
+
+* **Design Analytics Library**
 
 * **HTTP Request vs HTTP Long-Polling vs WebSockets** - [Learn from blog](https://amitshekhar.me/blog/http-request-long-polling-websocket-sse) and [Video - HTTP Request vs HTTP Long-Polling vs WebSocket vs Server-Sent Events](https://www.youtube.com/watch?v=8ksWRX4xV-s)
 
 * **How do Voice And Video Call Work?** - [Learn from here](https://amitshekhar.me/blog/voice-and-video-call)
 
+* **Design Uber App** - [Learn from here](https://github.com/amitshekhariitbhu/ridesharing-uber-lyft-app)
+
 ### Android Unit Testing
 
 Android Interview Questions and Answers:
+
+* **Unit Testing ViewModel with Kotlin Coroutines and LiveData** - [Learn from here](https://amitshekhar.me/blog/unit-testing-viewmodel-with-kotlin-coroutines-and-livedata)
+
+* **Unit Testing ViewModel with Kotlin Flow and StateFlow** - [Learn from here](https://amitshekhar.me/blog/unit-testing-viewmodel-with-kotlin-flow-and-stateflow)
 
 * **What is Espresso?** - [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
 
@@ -645,11 +542,7 @@ Android Interview Questions and Answers:
 
 * **Explain instrumented test.** - [Learn from here](https://developer.android.com/training/testing/unit-testing/instrumented-unit-tests)
 
-* **Have you done unit testing or automatic testing?**
-
 * **Why Mockito is used?** - [Learn from here](http://site.mockito.org/)
-
-* **Describe JUnit test.** - [Learn from here](https://en.wikipedia.org/wiki/JUnit)
 
 * **Describe code coverage.**
 
@@ -659,15 +552,11 @@ Android Interview Questions and Answers:
 
 * **What is ADB?** - [Learn from here](https://developer.android.com/studio/command-line/adb)
 
-* **What is DDMS and what can you do with it?** - [Learn from here](https://developer.android.com/studio/profile/monitor)
-
 * **What is the StrictMode?** - Learn from here: [StrictMode](https://amitshekhar.me/blog/strictmode-in-android-development)
 
 * **What is Lint? What is it used for?**
 
 * **Git.**
-
-* **Android Development Useful Tools.**
 
 * **Firebase.** - [Learn from here](https://firebase.google.com/)
 
@@ -677,11 +566,7 @@ Android Interview Questions and Answers:
 
 * **What are things that we need to take care while using Proguard?**
 
-* **What is Multidex in Android?**
-
 * **How to use Android Studio Memory Profiler?**
-
-* **How to use Firebase realtime database in your app?**
 
 * **What is Gradle?**
 
@@ -699,50 +584,112 @@ Android Interview Questions and Answers:
 
 * **How to change some parameters in an app without app update?**
 
-### Java and Kotlin
+### Kotlin
+
+Android Interview Questions and Answers:
+
+* **What is the advantage of using `const` in Kotlin?** - [Video](https://www.youtube.com/watch?v=3G49ivVxfkU) and [Blog](https://amitshekhar.me/blog/const-in-kotlin)
+
+* **When to use `lateint` keyword used in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
+
+* **What is inline function in Kotlin?** - [Video](https://www.youtube.com/watch?v=GLLI8h67ryo) and [Blog](https://amitshekhar.me/blog/inline-function-in-kotlin)
+
+* **What are `companion objects` in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/companion-object-in-kotlin)
+
+* **Remove duplicates from an array in Kotlin** - [Learn from here](https://amitshekhar.me/blog/remove-duplicates-from-an-array-in-kotlin)
+
+* **What is a JvmStatic Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=qBBbOhY_pv4) and [Blog](https://amitshekhar.me/blog/jvmstatic-annotation-in-kotlin)
+
+* **What is a JvmField Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=bx8OZcMbeUE) and [Blog](https://amitshekhar.me/blog/jvmfield-annotation-in-kotlin)
+
+* **What is a JvmOverloads Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=fHGsBV9Za8M) and [Blog](https://amitshekhar.me/blog/jvmoverloads-annotation-in-kotlin)
+
+* **noinline in Kotlin** - [Learn from here](https://amitshekhar.me/blog/noinline-in-kotlin)
+
+* **crossinline in Kotlin** - [Learn from here](https://amitshekhar.me/blog/crossinline-in-kotlin)
+
+* **scope functions in Kotlin** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
+
+* **lateinit vs lazy in Kotlin** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
+
+* **What is an `init` block in Kotlin?** - [Video](https://www.youtube.com/watch?v=cb3jOFozJns) and [Blog](https://amitshekhar.me/blog/init-block-in-kotlin)
+
+* **Difference between == and === in Kotlin** - [Video](https://www.youtube.com/watch?v=lJtgxT2OIgQ) and [Blog](https://amitshekhar.me/blog/structural-and-referential-equality-in-kotlin)
+
+* **Advantage of using const in Kotlin** - [Learn from here](https://www.youtube.com/watch?v=3G49ivVxfkU)
+
+* **What are higher-order functions in Kotlin?** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin)
+
+* **What are Lambdas in Kotlin** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin)
+
+* **AssociateBy - List to Map in Kotlin** - [Learn from here](https://amitshekhar.me/blog/associateby-list-to-map-in-kotlin)
+
+* **Open keyword in Kotlin** - [Learn from here](https://amitshekhar.me/blog/open-keyword-in-kotlin)
+
+* **Companion object in Kotlin** - [Learn from here](https://amitshekhar.me/blog/companion-object-in-kotlin)
+
+* **internal visibility modifier in Kotlin** - [Learn from here](https://youtu.be/wOHpuf74-cI)
+
+* **partition - filtering function in Kotlin** - [Learn from here](https://amitshekhar.me/blog/partition-filtering-function-in-kotlin)
+
+* **Infix notation in Kotlin** - [Learn from here](https://amitshekhar.me/blog/infix-notation-in-kotlin)
+
+* **How does the Kotlin Multiplatform work?** - [Learn from here](https://youtu.be/nwfNh6Kd5hI)
+
+* **Tell some advantages of Kotlin.**
+
+* **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
+
+* **How to check if a `lateinit` variable has been initialized?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
+
+* **How to do lazy initialization of variables in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
+
+* **What are the visibility modifiers in Kotlin?**
+
+* **What is the equivalent of Java static methods in Kotlin?**
+
+* **What is a data class in Kotlin?**
+
+* **How to create a Singleton class in Kotlin?**
+
+* **What is the difference between `open` and `public` in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/open-keyword-in-kotlin)
+
+* **Explain the use-case of `let`, `run`, `with`, `also`, `apply` in Kotlin.** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
+
+* **Difference between List and Array types in Kotlin**
+
+* **What are `Labels` in Kotlin?**
+
+* **Explain `pair` and `triple` in Kotlin.**
+
+* **How to choose between `apply` and `with`?** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
+
+* **How to choose between `switch` with `when`?**
+
+* **What are Coroutines in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
+
+* **What is Coroutine Scope?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
+
+* **What is Coroutine Context?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
+
+* **Launch vs Async in Kotlin Coroutines** - [Learn from here](https://amitshekhar.me/blog/launch-vs-async-in-kotlin-coroutines)
+
+* **When to use Kotlin sealed classes?**
+
+* **Explain function literals with receiver in Kotlin?**
+
+* **Tell about Kotlin DSL.**
+
+* **Tell about the Collections in Kotlin**
+
+### Java
 
 Android Interview Questions and Answers:
 
 #### OOP
 
 * **Explain OOP Concepts.**
-    - Object-Oriented Programming is a methodology of designing a program using classes, objects, 
-    [inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)),
-    [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)),
-    [abstraction](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)), and
-    [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)).
 
-* **What is the difference between a constructor and a method?**
-    - The name of the constructor is same as that of the class name, whereas the name of the method can be anything.
-    - There is no return type of a constructor.
-    - When you make an object of a class, then the constructor of that class will be called automatically. 
-      But for methods, we need to call it explicitely.
-    - Constructors can't be inherited but you can call the constructor of the parent class by calling `super()`.
-    - Constructor and a method they both run a block of code but the difference is in calling them.
-    - We can call method directly using their name.
-    - Constructor Syntax -
-        ```java
-        public class SomeClassName{
-            SomeClassName(parameter_list){ 
-                ...
-            } 
-            ...
-        }
-        ```
-    - Note:
-        In the above syntax, the name of the constructor is the same as that of class
-        and it has no return type.
-        
-    - Method Syntax 
-        ```java
-        public class SomeClassName{
-            public void someMethodName(parameter_list){
-                ...
-            }
-            // call method
-            someMethodName(parameter_list)
-        }
-        ```
 * **Differences between abstract classes and interfaces?** 
     - An abstract class, is a class that contains both concrete and abstract methods 
     (methods without implementations). An abstract method must be implemented by the abstract class
@@ -751,74 +698,9 @@ Android Interview Questions and Answers:
     represent, what all of its subclasses should have in common. The subclasses provide the 
     implementation for each of these methods. Interfaces are implemented.
 
-* **What is the difference between iterator and enumeration in java?**
-    - In Enumeration we don't have remove() method and we can only read and traverse through a collection.
-    - Iterators can be applied to any collection. In Iterator, we can read and remove items from a collection.
-
-* **Do you agree we use composition over inheritance?**
-
 * **Difference between method overloading and overriding.**
-        <p align="center">
-        <img alt="Overloading and Overriding" src="https://raw.githubusercontent.com/amitshekhariitbhu/android-interview-questions/master/assets/overloading-vs-overriding.png">
-        </p>
-    - Overloading happens at compile-time while Overriding happens at runtime: The binding of overloaded method call to its definition happens at compile-time however binding of overridden method call to its definition happens at runtime.
-    More info on static vs. dynamic binding: [StackOverflow](https://stackoverflow.com/questions/19017258/static-vs-dynamic-binding-in-java).
-    - Static methods can be overloaded which means a class can have more than one static method of same name. Static methods cannot be overridden, even if you declare a same static method in child class it has nothing to do with the same method of parent class as overridden static methods are chosen by the reference class and not by the class of the object.
 
-        So, for example:
-        ```java
-        public class Animal {
-            public static void testClassMethod() {
-                System.out.println("The static method in Animal");
-            }
-
-            public void testInstanceMethod() {
-                System.out.println("The instance method in Animal");
-            }
-        }
-
-        public class Cat extends Animal {
-            public static void testClassMethod() {
-                System.out.println("The static method in Cat");
-            }
-
-            public void testInstanceMethod() {
-                System.out.println("The instance method in Cat");
-            }
-
-            public static void main(String[] args) {
-                Cat myCat = new Cat();
-                myCat.testClassMethod();
-                Animal myAnimal = myCat;
-                myAnimal.testClassMethod();
-                myAnimal.testInstanceMethod();
-            }
-        }
-        ```
-        Will output:
-        ```java
-        The static method in Cat    // testClassMethod() is called from "Cat" reference
-
-        The static method in Animal // testClassMethod() is called from "Animal" reference,
-                                    // ignoring actual object inside it (Cat)
-
-        The instance method in Cat  // testInstanceMethod() is called from "Animal" reference,
-                                    // but from "Cat" object underneath
-        ```
-
-        The most basic difference is that overloading is being done in the same class while for overriding base and child classes are required. Overriding is all about giving a specific implementation to the inherited method of parent class.
-
-        Static binding is being used for overloaded methods and dynamic binding is being used for overridden/overriding methods.
-        Performance: Overloading gives better performance compared to overriding. The reason is that the binding of overridden methods is being done at runtime.
-
-        Private and final methods can be overloaded but they cannot be overridden. It means a class can have more than one private/final methods of same name but a child class cannot override the private/final methods of their base class.
-
-        Return type of method does not matter in case of method overloading, it can be same or different. However in case of method overriding the overriding method can have more specific return type (meaning if, for example, base method returns an instance of Number class, all overriding methods can return any class that is extended from Number, but not a class that is higher in the hierarchy, like, for example, Object is in this particular case).
-
-        Argument list should be different while doing method overloading. Argument list should be same in method Overriding.
-        It is also a good practice to annotate overridden methods with `@Override` to make the compiler be able to notify you if child is, indeed, overriding parent's class method during compile-time.
-
-* **What are the access modifiers you know? What does each one do?** <br>
+* **What are the access modifiers you know? What does each one do?**
    - There are four access modifiers in Java language (from strictest to the most lenient):
         1. `private` *variables*, *methods*, *constructors* or *inner classes* are only visible to its' containing class and its' methods. This modifier is most commonly used, for example, to allow variable access only through getters and setters or to hide underlying implementation of classes that should not be used by user and therefore maintain encapsulation. Singleton constructor is also marked `private` to avoid unwanted instantiation from outside.
         2. `Default` (no keyword is used) this modifier can be applied to *classes*, *variables*, *constructors* and *methods* and allows access from classes and methods inside the same package.
@@ -829,44 +711,6 @@ Android Interview Questions and Answers:
   - Yes, an interface can implement another interface (and more than one), but it needs to use `extends`, rather than `implements` keyword. And while you can not remove methods from parent interface, you can add new ones freely to your sub-interface.
 
 * **What is Polymorphism? What about Inheritance?**
-  - Polymorphism in Java has two types: Compile time polymorphism (static binding) and Runtime polymorphism (dynamic binding). Method overloading is an example of static polymorphism, while method overriding is an example of dynamic polymorphism.
-
-    An important example of polymorphism is how a parent class refers to a child class object.  In fact, any object that satisfies more than one IS-A relationship is polymorphic in nature.
-
-    For instance, let’s consider a class `Animal` and let `Cat` be a subclass of `Animal`. So, any cat IS animal. Here, Cat satisfies the IS-A relationship for its own type as well as its super class Animal.
-  - Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another. With the use of inheritance the information is made manageable in a hierarchical order.
-
-    The class which inherits the properties of other is known as subclass (derived class, child class) and the class whose properties are inherited is known as superclass (base class, parent class).
-
-    Inheritance uses the keyword `extends` to inherit the properties of a class. Following is the syntax of extends keyword.
-    ```java
-    class Super {
-       .....
-       .....
-    }
-    class Sub extends Super {
-       .....
-       .....
-    }
-    ```
-
-* **Multiple inheritance in Classes and Interfaces in java**
-
-* **What are the design patterns?**
-    - Creational patterns
-        - Builder [Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern?oldformat=true)
-        - Factory [Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern?oldformat=true)
-        - Singleton [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
-        - Monostate [Wikipedia](http://wiki.c2.com/?MonostatePattern)
-        - Fluent Interface Pattern [Wikipedia](https://martinfowler.com/bliki/FluentInterface.html)
-    - Structural patterns
-        - Adapter [Wikipedia](https://en.wikipedia.org/wiki/Adapter_pattern?oldformat=true)
-        - Decorator [Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern?oldformat=true)
-        - Facade [Wikipedia](https://en.wikipedia.org/wiki/Facade_pattern?oldformat=true)
-    - Behavioural patterns
-        - Chain of responsibility [Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern?oldformat=true)
-        - Iterator [Wikipedia](https://en.wikipedia.org/wiki/Iterator_pattern?oldformat=true)
-        - Strategy [Wikipedia](https://en.wikipedia.org/wiki/Strategy_pattern?oldformat=true)
 
 #### Collections and Generics
 
@@ -876,22 +720,7 @@ Android Interview Questions and Answers:
 
 * **HashMap Vs Set** - [Learn from here](https://stackoverflow.com/questions/2773824/difference-between-hashset-and-hashmap)
 
-* **Stack Vs Queue**
-
 * **Explain Generics in Java?**
-    - Generics were included in Java language to provide stronger type checks, by allowing the programmer to define, which classes can be used with other classes
-        > In a nutshell, generics enable types (classes and interfaces) to be parameters when defining classes, interfaces and methods. Much like the more familiar formal parameters used in method declarations, type parameters provide a way for you to re-use the same code with different inputs. The difference is that the inputs to formal parameters are values, while the inputs to type parameters are types. ([Official Java Documentation](https://docs.oracle.com/javase/tutorial/java/generics/why.html))
-
-    - This means that, for example, you can define:
-        ```java
-        List<Integer> list = new ArrayList<>();
-        ```
-        And let the compiler take care of noticing, if you put some object, of type other than `Integer` into this list and warn you.
-    - It should be noted that standard class hierarchy *does not* apply to generic types. It means that `Integer` in `List<Integer>` is not inherited from `<Number>` - it is actually inherited directly from `<Object>`. You can still put some constraints on what classes can be passed as a parameter into a generic by using [wildcards](https://docs.oracle.com/javase/tutorial/extra/generics/wildcards.html) like `<?>`, `<? extends MyCustomClass>` or `<? super Number>`.
-    - While generics are very useful, late inclusion into Java language has put some restraints on their implementation - backward compatibility required them to remain just "syntactic sugar" - they are erased ([type erasure](https://docs.oracle.com/javase/tutorial/java/generics/erasure.html)) during compile-time and replaced with `object` class.
-
-* **What is Java PriorityQueue?**
-        - In Priority Queue, each element is having some priority and all the elements are present in a queue. The operations are performed based on the priority.
 
 #### Objects and Primitives
 
@@ -913,9 +742,6 @@ Android Interview Questions and Answers:
 * **What does it means to say that a `String` is immutable?**
     - It means that once created, `String` object's `char[]` (its' containing value) is declared `final` and, therefore, it can not be changed during runtime.
 
-* **What is `String.intern()`? When and why should it be used?**
-    - `String.intern()` is used to mange memory in Java code. It is used when we have duplicates value in different strings. When you call the `String.intern()`, then if in the String pool that string is present then the `equals()` method will return true and it will return that string only.
-
 * **Can you list 8 primitive types in java?**
     - `byte`
     - `short`
@@ -929,80 +755,7 @@ Android Interview Questions and Answers:
 * **What is the difference between an Integer and int?**
   - `int` is a primitive data type (with `boolean`, `byte`, `char`, `short`, `long`, `float` and `double`), while `Integer` (with `Boolean`, `Byte`, `Character`, `Short`,`Long`, `Float` and `Double`) is a [wrapper](https://docs.oracle.com/javase/tutorial/java/data/numberclasses.html) class that encapsulates primitive data type, while providing useful methods to perform different tasks with it.
 
-* **What is Autoboxing and Unboxing?**
-  - Autoboxing and Unboxing is the process of automatic wrapping (putting in a box) and unwrapping (getting the value out) of primitive data types, that have "wrapper" classes. So `int` and `Integer` can (almost always) be used interchangeably in Java language, meaning a method `void giveMeInt(int i) { ... }` can take `int` as well as `Integer` as a parameter.
-
-* **Typecast in Java**
-    - In Java, you can use casts to polymorph one class into another, compatible one. For example:
-        ```java
-            long i = 10l;
-            int j = (int) i;
-            long k = j;
-        ```
-        Here we see, that, while narrowing (`long i` -> `int j`) requires an explicit cast to make sure the programmer realizes, that there may be some data or precision loss, widening (`int j` -> `long k`) does not require an explicit cast, because there can be no data loss (`long` can take larger numbers than `int` allows).
-
 * **Do objects get passed by reference or value in Java? Elaborate on that.**
-    - In Java all primitives and objects are passed by value, meaning that their copy will be manipulated in the receiving method. But there is a caveat - when you pass an object reference into a method, a *copy of this reference* is made, so it still points to the same object. This means, that any changes that you make to the insides of this object are retained, when the method exits.
-        ```java
-        public class Pointer {
-
-            int innerField;
-
-            public Pointer(int a) {
-                this.innerField = a;
-            }
-        }
-        ```
-        ```java
-        public class ValueAndReference {
-
-            public static void main(String[] args) {
-
-                Pointer a = new Pointer(0);
-                int b = 1;
-
-                print("Before:");
-                print("b = " + b);
-                print("a.innerField = " + a.innerField);
-                exampleMethod(a, b);
-                print("After:");
-                print("b = " + b);
-                print("a.innerField = " + a.innerField);
-            }
-
-            static void exampleMethod(Pointer a, int b) {
-                a.innerField = 2;
-                b = 10;
-            }
-
-            static void print(String text) {
-                System.out.println(text);
-            }
-        }
-        ```
-        Will output:
-        ```java
-            Before:
-
-            b = 1
-
-            a.innerField = 0
-
-            After:
-
-            b = 1        // a new local int variable was created and operated on, so "b" didn't change
-
-            a.innerField = 2 // Pointer a got its' innerField variable changed
-                             //  from 0 to 2, because method was operating on
-                             //  the same reference to an instance
-        ```
-
-* **What is the difference between instantiation and initialization of an object?**
-
-* **What the difference between local, instance and class variables?**
-  - Local variables exist only in methods that created them, they are stored separately in their respected Thread Stack (for more information, see question about Java Memory Model) and cannot have their reference passed outside of the method scope. That also means that they cannot be assigned any access modifier or made `static` - because they only exist during enclosing method's execution and those modifiers just do not make sense, since no other outside method can get them anyway.
-  - Instance variables are the ones, that are declared in classes and their value can be different from one instance of the class to another, but they always require that class' instance to exist.
-  - Class variables are those, that are marked with `static` keyword in their class' body. They can only have one value across all instances of that class (changing it in one place will change it in their class and, therefore, in all instances) and can even be retrieved without that class' instance (if their access modifier allows it).
 
 #### Java Memory Model and Garbage Collector
 
@@ -1011,12 +764,6 @@ Android Interview Questions and Answers:
   As long as an object is being referenced, the JVM considers it alive.
   Once an object is no longer referenced and therefore is not reachable by the application code,
   the garbage collector removes it and reclaims the unused memory.
-
-* **What is Java Memory Model? What contracts does it guarantee? How are its' Heap and Stack organized?**
-
-* **What is memory leak and how does Java handle it?**
-
-* **What are strong, soft, weak and phantom references in Java?**
 
 #### Concurrency
 
@@ -1037,116 +784,6 @@ Android Interview Questions and Answers:
 #### Others
 
 * **What is serialization? How do you implement it?**
-    - Serialization is the process of converting an object into a stream of bytes in order to store
-    an object into memory, so that it can be recreated at a later time, while still keeping the
-    object's original state and data. In Android you may use either the Serializable, Externalizable (implements Serializable) or Parcelable interfaces.
-    - While Serializable is the easiest to implement, Externalizable may be used if you need to insert custom logic into the process of serialization (although it is almost never used nowadays as it is considered a relic from early versions of Java). But it is highly recommended to use Parcelable in Android instead, as Parcelable was created exclusively for Android and it performs about 10x faster than Serializable, because Serializable uses reflection, which is a slow process and tends to create a lot of temporary objects and it may cause garbage collection to occur more often.
-    - To use Serializable all you have to do is implement the interface:
-        ```java
-        // Implementing the Serializable interface is all that is required
-        public class User implements Serializable {
-
-            private String name;
-            private String email;
-
-                public User() {
-                }
-
-                public String getName() {
-                    return name;
-                }
-
-                public void setName(final String name) {
-                    this.name = name;
-                }
-
-                public String getEmail() {
-                    return email;
-                }
-
-                public void setEmail(final String email) {
-                    this.email = email;
-                }
-            }
-        ```
-    - Parcelable requires a bit more work:
-        ```java
-            public class User implements Parcelable {
-
-                private String name;
-                private String email;
-
-                /**
-                 * Interface that must be implemented and provided as a public CREATOR field
-                 * that generates instances of your Parcelable class from a Parcel.
-                 */
-                public static final Creator<User> CREATOR = new Creator<User>() {
-
-                    /**
-                     * Creates a new USer object from the Parcel. This is the reason why
-                     * the constructor that takes a Parcel is needed.
-                     */
-                    @Override
-                    public User createFromParcel(Parcel in) {
-                        return new User(in);
-                    }
-
-                    /**
-                     * Create a new array of the Parcelable class.
-                     * @return an array of the Parcelable class,
-                     * with every entry initialized to null.
-                     */
-                    @Override
-                    public User[] newArray(int size) {
-                        return new User[size];
-                    }
-                };
-
-                public User() {
-                }
-
-                /**
-                 * Parcel overloaded constructor required for
-                 * Parcelable implementation used in the CREATOR
-                 */
-                private User(Parcel in) {
-                    name = in.readString();
-                    email = in.readString();
-                }
-
-                public String getName() {
-                    return name;
-                }
-
-                public void setName(final String name) {
-                    this.name = name;
-                }
-
-                public String getEmail() {
-                    return email;
-                }
-
-                public void setEmail(final String email) {
-                    this.email = email;
-                }
-
-                @Override
-                public int describeContents() {
-                    return 0;
-                }
-
-                /**
-                 * This is where the parcel is performed.
-                 */
-                @Override
-                public void writeToParcel(final Parcel parcel, final int i) {
-                    parcel.writeString(name);
-                    parcel.writeString(email);
-                }
-            }
-        ```
-        Note: For a full explanation of the <b>describeContents()</b> method see [StackOverflow](https://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799).
-        In Android Studio, you can have all of the parcelable code auto generated for you, but like with everything else, it is always a good thing to try and understand everything that is happening.
 
 * **What is `transient` modifier?**
 
@@ -1156,50 +793,9 @@ Android Interview Questions and Answers:
 
 * **What is the `hashCode()` and `equals()` used for?**
 
-* **Why would you not call abstract method in constructor?** - [Learn from here](https://stackoverflow.com/questions/15327417/is-it-ok-to-call-abstract-method-from-constructor-in-java)
-
 * **When would you make an object value `final`?**
 
 * **What are these `final`, `finally` and `finalize` keywords?**
-  - `final` is a keyword in the java language. It is used to apply restrictions on class, method and variable. Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
-    ```java
-    class FinalExample {
-        public static void main(String[] args) {
-            final int x=100;
-            x=200;//Compile Time Error because x is final
-        }
-    }
-    ```
-  - `finally` is a code block and is used to place important code, it will be executed whether exception is handled or not.
-    ```java
-    class FinallyExample {
-        public static void main(String[] args) {
-            try {
-                int x=300;
-            }catch(Exception e) {
-                System.out.println(e.getMessage());            }
-            finally {
-                System.out.println("finally block is executed");
-            }
-        }
-    }
-    ```
-  - `Finalize` is a method used to perform clean up processing just before object is garbage collected.
-    ```java
-    class FinalizeExample {
-        public void finalize() {
-            System.out.println("finalize called");
-        }
-
-        public static void main(String[] args) {
-            FinalizeExample f1=new FinalizeExample();
-            FinalizeExample f2=new FinalizeExample();
-            f1=null;
-            f2=null;
-            System.gc();
-        }
-    }
-    ```
 
 * **What is the difference between "throw" and "throws" keyword in Java?**
     - `throws` is just used to indicated which exception is to be thrown. But the `throw` keyword is used to throw some exception from any static block or any method.
@@ -1214,88 +810,41 @@ Android Interview Questions and Answers:
     - Code inside static block is executed only once: the first time you make an object of that class or the first time you access a static member of that class (even if you never make an object of that class).
 
 * **What is reflection?**
-    - You can inspect classes, interfaces, fields, and method at runtime with the help of reflection and the best part is that you need not know the names of these classes, methods, etc.
 
 * **What is Dependency Injection?**
-
-* **How is a `StringBuilder` implemented to avoid the immutable string allocation problem?** - [Learn from here](https://stackoverflow.com/questions/54023816/how-is-a-stringbuilder-implemented-to-avoid-the-immutable-string-allocation-prob)
 
 * **Difference between `StringBuffer` and `StringBuilder`?**
 
 * **What is the difference between fail-fast and fail-safe iterators in Java?**
-    - Fail-safe iterator will not throw any exception even if the collection is modified while iteration over it. But in Fail-safe iterator, it throws a ConcurrentModificationException when you try to modify the collection while using it.
 
 * **Monitor and Synchronization**
 
-* **Tell some advantages of Kotlin.**
+### Jetpack Compose
 
-* **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
+Topics you should know in Jetpack Compose for Android Interview:
 
-* **What is the advantage of using `const` in Kotlin?** - [Video](https://www.youtube.com/watch?v=3G49ivVxfkU) and [Blog](https://amitshekhar.me/blog/const-in-kotlin)
+* Compose
+* State: remember, rememberSaveable, MutableState
+* Recomposition
+* State hoisting
+* Side-effects
+* Modifier
+* Theme
+* Layout, List
+* Gestures, Animation
+* CompositionLocal
 
-* **What is a JvmStatic Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=qBBbOhY_pv4) and [Blog](https://amitshekhar.me/blog/jvmstatic-annotation-in-kotlin)
+You can learn all of the above mentioned topics from the following links:
 
-* **What is a JvmField Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=bx8OZcMbeUE) and [Blog](https://amitshekhar.me/blog/jvmfield-annotation-in-kotlin)
-
-* **What is a JvmOverloads Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=fHGsBV9Za8M) and [Blog](https://amitshekhar.me/blog/jvmoverloads-annotation-in-kotlin)
-
-* **How to ensure `null` safety in Kotlin?**
-
-* **When to use `lateint` keyword used in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
-
-* **How to check if a `lateinit` variable has been initialized?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
-
-* **How to do lazy initialization of variables in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
-
-* **What are `companion objects` in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/companion-object-in-kotlin)
-
-* **Difference between == and === in Kotlin** - [Video](https://www.youtube.com/watch?v=lJtgxT2OIgQ) and [Blog](https://amitshekhar.me/blog/structural-and-referential-equality-in-kotlin)
-
-* **What are the visibility modifiers in Kotlin?**
-
-* **What is the equivalent of Java static methods in Kotlin?**
-
-* **What is a data class in Kotlin?**
-
-* **How to create a Singleton class in Kotlin?**
-
-* **What is the difference between `open` and `public` in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/open-keyword-in-kotlin)
-
-* **Explain the use-case of `let`, `run`, `with`, `also`, `apply` in Kotlin.**
-
-* **Difference between List and Array types in Kotlin**
-
-* **What are `Labels` in Kotlin?**
-
-* **What is an `init` block in Kotlin?** - [Video](https://www.youtube.com/watch?v=cb3jOFozJns) and [Blog](https://amitshekhar.me/blog/init-block-in-kotlin)
-
-* **Explain `pair` and `triple` in Kotlin.**
-
-* **How to choose between `apply` and `with`?**
-
-* **How to choose between `switch` with `when`?**
-
-* **What are Coroutines in Kotlin?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
-
-* **What is Coroutine Scope?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
-
-* **What is Coroutine Context?** - [Learn from here](https://amitshekhar.me/blog/kotlin-coroutines)
-
-* **Launch vs Async in Kotlin Coroutines** - [Learn from here](https://amitshekhar.me/blog/launch-vs-async-in-kotlin-coroutines)
-
-* **What is inline function in Kotlin?** - [Video](https://www.youtube.com/watch?v=GLLI8h67ryo) and [Blog](https://amitshekhar.me/blog/inline-function-in-kotlin)
-
-* **When to use Kotlin sealed classes?**
-
-* **Explain function literals with receiver in Kotlin?**
-
-* **Tell about Kotlin DSL.**
-
-* **What are higher-order functions in Kotlin?** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin)
-
-* **What are Lambdas in Kotlin** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://amitshekhar.me/blog/higher-order-functions-and-lambdas-in-kotlin)
-
-* **Tell about the Collections in Kotlin**
+- [Getting Started with Compose](https://developer.android.com/jetpack/compose/tutorial)
+- [Thinking in Compose](https://developer.android.com/jetpack/compose/mental-model)
+- [State](https://developer.android.com/jetpack/compose/state)
+- [Lifecycle](https://developer.android.com/jetpack/compose/lifecycle)
+- [Modifiers](https://developer.android.com/jetpack/compose/modifiers)
+- [Side-effects](https://developer.android.com/jetpack/compose/side-effects)
+- [Phases](https://developer.android.com/jetpack/compose/phases)
+- [Semantics](https://developer.android.com/jetpack/compose/semantics)
+- [CompositionLocal](https://developer.android.com/jetpack/compose/compositionlocal)
 
 ### Other Topics
 
