@@ -6,7 +6,7 @@
 
 > Android Interview Questions and Answers - Your Cheat Sheet For Android Interview
 
-### Prepared and maintained by [Amit Shekhar](https://amitshekhar.me)
+### Prepared and maintained by [Amit Shekhar](https://amitshekhar.me) - Coder | Teacher | Mentor | Open Source | IIT 2010-14
 
 ## About me
 
@@ -64,10 +64,6 @@ You can connect with me on:
 - **Question**: When only onDestroy is called for an activity without onPause() and onStop()?
     - **Answer**: [When only onDestroy is called for an activity without onPause() and onStop()?](https://www.youtube.com/watch?v=B2kY_ckZa-g)
 
-### High-quality videos to prepare for Android Interview - [Amit Shekhar YouTube Channel](https://www.youtube.com/@amitshekhar)
-
-### High-quality blogs to prepare for Android Interview - [Check here - Blog by Amit Shekhar](https://amitshekhar.me/blog)
-
 ### Things to know in Kotlin for Android Interview
 
 - [Mastering Kotlin Coroutines](https://amitshekhar.me/blog/kotlin-coroutines) - Mastering Kotlin Coroutines
@@ -108,26 +104,108 @@ You can connect with me on:
 - [How does the Kotlin Multiplatform work?](https://youtu.be/nwfNh6Kd5hI) - How does the Kotlin Multiplatform work?
 - [internal visibility modifier in Kotlin](https://youtu.be/wOHpuf74-cI) - internal visibility modifier in Kotlin
 
-## **Get High Paying Tech Job: [amitshekhar.me](https://amitshekhar.me)**
-
 ## Contents - Android Interview Questions
 
-* [Core Android](#core-android)
+* [Kotlin Coroutines](#kotlin-coroutines)
+* [Kotlin Flow API](#kotlin-flow-api)
+* [Jetpack Compose](#jetpack-compose)
+* [Android](#android)
 * [Android Libraries](#android-libraries)
 * [Android Architecture](#android-architecture)
 * [Android Design Problem](#android-design-problem)
 * [Android Unit Testing](#android-unit-testing)
 * [Android Tools And Technologies](#android-tools-and-technologies)
 * [Java and Kotlin](#java-and-kotlin)
-* [Kotlin Coroutines](#kotlin-coroutines)
-* [Kotlin Flow API](#kotlin-flow-api)
-* [Jetpack Compose](#jetpack-compose)
 * [Other Topics](#other-topics)
 * [Data Structures and Algorithms](#data-structures-and-algorithms)
 
-### Core Android
+### Kotlin Coroutines
 
-Android Interview Questions:
+Topics you should know in Kotlin Coroutines for Android Interview:
+
+* coroutines
+* suspend
+* launch, async-await, withContext
+* dispatchers
+* scope, context, job
+* lifecycleScope, viewModelScope, GlobalScope
+* suspendCoroutine, suspendCancellableCoroutine
+* coroutineScope, supervisorScope
+
+You can learn all of the above mentioned topics from the following links:
+
+- [Master Kotlin Coroutines](https://amitshekhar.me/blog/kotlin-coroutines)
+- [Suspending vs Blocking in Kotlin Coroutines](https://www.youtube.com/watch?v=V2lL_aJp17I)
+- [Launch vs Async in Kotlin Coroutines](https://www.youtube.com/watch?v=B4AfTPpCU5o)
+- [Dispatchers in Kotlin Coroutines](https://amitshekhar.me/blog/dispatchers-in-kotlin-coroutines)
+- [coroutineScope vs supervisorScope](https://amitshekhar.me/blog/coroutinescope-vs-supervisorscope)
+- [suspend function in Kotlin Coroutines](https://amitshekhar.me/blog/suspend-function-in-kotlin-coroutines)
+- [Kotlin withContext vs Async-await](https://amitshekhar.me/blog/kotlin-withcontext-vs-async-await)
+- [Callback to Coroutines in Kotlin](https://amitshekhar.me/blog/callback-to-coroutines-in-kotlin)
+- [Retrofit with Kotlin Coroutines](https://amitshekhar.me/blog/retrofit-with-kotlin-coroutines)
+- [Parallel Multiple Network Calls Using Kotlin Coroutines](https://amitshekhar.me/blog/parallel-multiple-network-calls-using-kotlin-coroutines)
+- [Room Database with Kotlin Coroutines](https://amitshekhar.me/blog/room-database-with-kotlin-coroutines)
+- [Unit Testing ViewModel with Kotlin Coroutines and LiveData](https://amitshekhar.me/blog/unit-testing-viewmodel-with-kotlin-coroutines-and-livedata)
+
+
+### Kotlin Flow API
+
+Topics you should know in Kotlin Flow API for Android Interview:
+
+* Flow Builder, Operator, Collector
+* flowOn, dispatchers
+* Operators such as filter, map, zip, flatMapConcat, retry, debounce, distinctUntilChanged, flatMapLatest
+* Terminal operators
+* Cold Flow vs Hot Flow
+* StateFlow, SharedFlow, callbackFlow, channelFlow
+
+You can learn all of the above mentioned topics from the following links:
+
+- [Mastering Flow API in Kotlin](https://amitshekhar.me/blog/flow-api-in-kotlin)
+- [Creating Flow Using Flow Builder in Kotlin](https://amitshekhar.me/blog/creating-flow-using-flow-builder-in-kotlin)
+- [Terminal Operators in Kotlin Flow](https://amitshekhar.me/blog/terminal-operators-in-kotlin-flow)
+- [Cold Flow vs Hot Flow](https://amitshekhar.me/blog/cold-flow-vs-hot-flow)
+- [StateFlow and SharedFlow](https://amitshekhar.me/blog/stateflow-and-sharedflow)
+- [Long-running tasks in parallel with Kotlin Flow](https://amitshekhar.me/blog/long-running-tasks-in-parallel-with-kotlin-flow)
+- [Retry Operator in Kotlin Flow](https://amitshekhar.me/blog/retry-operator-in-kotlin-flow)
+- [Retrofit with Kotlin Flow](https://amitshekhar.me/blog/retrofit-with-kotlin-flow)
+- [Room Database with Kotlin Flow](https://amitshekhar.me/blog/room-database-with-kotlin-flow)
+- [Kotlin Flow Zip Operator for Parallel Multiple Network Calls](https://amitshekhar.me/blog/kotlin-flow-zip-operator-parallel-multiple-network-calls)
+- [Instant Search Using Kotlin Flow Operators](https://amitshekhar.me/blog/instant-search-using-kotlin-flow-operators)
+- [callbackFlow - Callback to Flow API in Kotlin](https://amitshekhar.me/blog/callback-to-flow-api-in-kotlin)
+- [Exception Handling in Kotlin Flow](https://amitshekhar.me/blog/exception-handling-in-kotlin-flow)
+- [Unit Testing ViewModel with Kotlin Flow and StateFlow](https://amitshekhar.me/blog/unit-testing-viewmodel-with-kotlin-flow-and-stateflow)
+
+### Jetpack Compose
+
+Topics you should know in Jetpack Compose for Android Interview:
+
+* Compose
+* State: remember, rememberSaveable, MutableState
+* Recomposition
+* State hoisting
+* Side-effects
+* Modifier
+* Theme
+* Layout, List
+* Gestures, Animation
+* CompositionLocal
+
+You can learn all of the above mentioned topics from the following links:
+
+- [Getting Started with Compose](https://developer.android.com/jetpack/compose/tutorial)
+- [Thinking in Compose](https://developer.android.com/jetpack/compose/mental-model)
+- [State](https://developer.android.com/jetpack/compose/state)
+- [Lifecycle](https://developer.android.com/jetpack/compose/lifecycle)
+- [Modifiers](https://developer.android.com/jetpack/compose/modifiers)
+- [Side-effects](https://developer.android.com/jetpack/compose/side-effects)
+- [Phases](https://developer.android.com/jetpack/compose/phases)
+- [Semantics](https://developer.android.com/jetpack/compose/semantics)
+- [CompositionLocal](https://developer.android.com/jetpack/compose/compositionlocal)
+
+### Android
+
+Android Interview Questions and Answers:
 
 #### Base
 
@@ -139,7 +217,7 @@ Android Interview Questions:
 
 * **What is the project structure of an Android Application?** - [Learn from here](https://developer.android.com/studio/projects)
 
-* **What is `AndroidManifest.xml`?**
+* **What is `AndroidManifest.xml`?** - [Learn from here](https://developer.android.com/guide/topics/manifest/manifest-intro)
 
 * **What is `Application` class?**
     - The Application class in Android is the base class within an Android app that contains all other components such as activities and services. The Application class, or any subclass of the Application class, is instantiated before any other class when the process for your application/package is created.
@@ -148,9 +226,9 @@ Android Interview Questions:
 
 * **Why is it recommended to use only the default constructor to create a `Fragment`?** - [Learn from here](https://www.youtube.com/watch?v=CitBt0FZFIc)
 
-* **What is `Activity` and its lifecycle?**
+* **What is `Activity` and its lifecycle?** - [Learn from here](https://developer.android.com/guide/components/activities/activity-lifecycle)
 
-* **What is the difference between onCreate() and onStart()**
+* **What is the difference between onCreate() and onStart()** - [Learn from here](https://developer.android.com/guide/components/activities/activity-lifecycle)
 
 * **When only onDestroy is called for an activity without onPause() and onStop()?** - [Learn from here](https://www.youtube.com/watch?v=B2kY_ckZa-g)
 
@@ -447,7 +525,7 @@ Android Interview Questions:
 
 ### Android Libraries
 
-Android Interview Questions:
+Android Interview Questions and Answers:
 
 * **Explain OkHttp Interceptor** - [Learn from here](https://amitshekhar.me/blog/okhttp-interceptor)
 
@@ -499,7 +577,7 @@ Android Interview Questions:
 
 ### Android Architecture
 
-Android Interview Questions:
+Android Interview Questions and Answers:
 
 * **Describe the architecture of your last app.**
 
@@ -525,7 +603,7 @@ Android Interview Questions:
 
 ### Android Design Problem
 
-Android Interview Questions:
+Android Interview Questions and Answers:
 
 * **Design Uber App.** - [Learn from here](https://github.com/amitshekhariitbhu/ridesharing-uber-lyft-app)
 
@@ -553,7 +631,7 @@ Android Interview Questions:
 
 ### Android Unit Testing
 
-Android Interview Questions:
+Android Interview Questions and Answers:
 
 * **What is Espresso?** - [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
 
@@ -577,7 +655,7 @@ Android Interview Questions:
 
 ### Android Tools And Technologies
 
-Android Interview Questions:
+Android Interview Questions and Answers:
 
 * **What is ADB?** - [Learn from here](https://developer.android.com/studio/command-line/adb)
 
@@ -623,7 +701,7 @@ Android Interview Questions:
 
 ### Java and Kotlin
 
-Android Interview Questions:
+Android Interview Questions and Answers:
 
 #### OOP
 
@@ -1219,103 +1297,47 @@ Android Interview Questions:
 
 * **Tell about the Collections in Kotlin**
 
-### Kotlin Coroutines
-
-Topics you should know in Kotlin Coroutines for Android Interview:
-
-* coroutines
-* suspend
-* launch, async-await, withContext
-* dispatchers
-* scope, context, job
-* lifecycleScope, viewModelScope, GlobalScope
-* suspendCoroutine, suspendCancellableCoroutine
-* coroutineScope, supervisorScope
-
-You can learn these topics here: [Master Kotlin Coroutines](https://amitshekhar.me/blog/kotlin-coroutines)
-
-
-### Kotlin Flow API
-
-Topics you should know in Kotlin Flow API for Android Interview:
-
-* Flow Builder, Operator, Collector
-* flowOn, dispatchers
-* Operators such as filter, map, zip, flatMapConcat, retry, debounce, distinctUntilChanged, flatMapLatest
-* Terminal operators
-* Cold Flow vs Hot Flow: [Cold Flow vs Hot Flow](https://amitshekhar.me/blog/cold-flow-vs-hot-flow)
-* [StateFlow, SharedFlow](https://amitshekhar.me/blog/stateflow-and-sharedflow), callbackFlow, channelFlow
-
-You can learn these topics here: [Kotlin Flow API](https://amitshekhar.me/blog/flow-api-in-kotlin)
-
-### Jetpack Compose
-
-Topics you should know in Jetpack Compose for Android Interview:
-
-* Compose
-* State: remember, rememberSaveable, MutableState
-* Recomposition
-* State hoisting
-* Side-effects
-* Modifier
-* Theme
-* Layout, List
-* Gestures, Animation
-* CompositionLocal
-
 ### Other Topics
 
-Android Interview Questions:
-
-* **Describe how REST APIs work. What is REST?**
+Android Interview Questions and Answers:
 
 * **Describe SQLite.**
 
-* **Describe database.**
+* **Have you used Room-Database?**
 
-* **How do you control the application version update to specific number of users?**
-
-* **Can we identify users who have uninstalled our application?**
+* **Can we identify the users who have uninstalled our application?**
 
 * **Android Development Best Practices.** - Learn from here: [Android Development Best Practices](https://amitshekhar.me/blog/android-development-best-practices)
 
 * **React Native vs Flutter** - Learn from here: [React Native vs Flutter](https://amitshekhar.me/blog/react-native-vs-flutter)
 
-* **Have you tried Kotlin?**
-
 * **What are the metrics that you should measure continuously while android application development?** - Learn from here: [Android App Performance Metrics](https://amitshekhar.me/blog/android-app-performance-metrics)
-
-* **What is Chrome Custom Tabs? How to display web content in your app?**
 
 * **How to avoid API keys from check-in into VCS?**
 
-* **How does the Kotlin Multiplatform work?** - [Blog](https://amitshekhar.me/blog/how-does-the-kotlin-multiplatform-work) and [Video](https://youtu.be/nwfNh6Kd5hI)
+* **How does the Kotlin Multiplatform work?** - [Blog](https://amitshekhar.me/blog/how-does-the-kotlin-multiplatform-work)
 
 * **How to use Memory Heap Dumps data?**
 
 * **How to implement Dark Theme in your app?**
 
-* **Have you tried Jetpack compose?**
-
-* **How to secure the API keys used in an app?**
-
-* **How to convert check Java equivalent code of Kotlin?**
+* **How to secure the API keys used in an Android App?**
 
 * **Tell something about memory usage in Android.**
 
-* **Can you create transparent activity in Android?**
-
 * **Explain Annotation processing.**
 
-* **How to increase the Notification delivery rate?**
-
-* **How does the notification system work?** Learn from here: [How does the Android notification system work?](https://youtu.be/810IFG2sWlc)
+* **How does the Android Push Notification system work?** Learn from here: [How does the Android Push Notification system work?](https://youtu.be/810IFG2sWlc)
 
 * **How to show local Notification at an exact time?**
 
 ### Data Structures and Algorithms
 
 * **Android Developer should know these Data Structures for Next Interview** - [Check here](https://amitshekhar.me/blog/android-developer-should-know-these-data-structures-for-next-interview)
+
+### High-quality videos to prepare for Android Interview - [Amit Shekhar YouTube Channel](https://www.youtube.com/@amitshekhar)
+
+### High-quality blogs to prepare for Android Interview - [Check here - Blog by Amit Shekhar](https://amitshekhar.me/blog)
 
 ### Found this project useful :heart:
 
@@ -1330,7 +1352,7 @@ You can connect with me on:
 
 ### License
 ```
-   Copyright (C) 2022 Amit Shekhar
+   Copyright (C) 2024 Amit Shekhar
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -1344,6 +1366,3 @@ You can connect with me on:
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-
-### Contributing to Android Interview Questions
-Just make pull request. You are in!
