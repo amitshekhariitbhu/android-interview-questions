@@ -48,6 +48,8 @@ You can connect with me on:
     - **Answer**: [Suspending vs Blocking in Kotlin Coroutines](https://www.youtube.com/watch?v=V2lL_aJp17I)
 - **Question**: What is the advantage of using const in Kotlin?
     - **Answer**: [What is the advantage of using const in Kotlin?](https://www.youtube.com/watch?v=3G49ivVxfkU)
+- **Question**: What is a reified keyword in Kotlin?
+    - **Answer**: [What is a reified keyword in Kotlin?](https://www.youtube.com/watch?v=kD2T84FnTck)
 - **Question**: lateinit vs lazy in Kotlin
     - **Answer**: [lateinit vs lazy in Kotlin](https://www.youtube.com/watch?v=IU2ZktdM-fo)
 - **Question**: internal visibility modifier in Kotlin
@@ -162,6 +164,8 @@ Android Interview Questions and Answers:
 * **crossinline in Kotlin** - [Learn from here](https://amitshekhar.me/blog/crossinline-in-kotlin)
 
 * **scope functions in Kotlin** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
+
+* **What is a reified keyword in Kotlin?** - [Learn from here](https://www.youtube.com/watch?v=kD2T84FnTck)
 
 * **lateinit vs lazy in Kotlin** - [Learn from here](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin)
 
