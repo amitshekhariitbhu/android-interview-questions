@@ -42,18 +42,20 @@ You can connect with me on:
 
 - **Question**: What is an inline function in Kotlin?
     - **Answer**: [What is an inline function in Kotlin?](https://www.youtube.com/watch?v=GLLI8h67ryo)
-- **Question**: Launch vs Async in Kotlin Coroutines
-    - **Answer**: [Launch vs Async in Kotlin Coroutines](https://www.youtube.com/watch?v=B4AfTPpCU5o)
-- **Question**: Suspending vs Blocking in Kotlin Coroutines
-    - **Answer**: [Suspending vs Blocking in Kotlin Coroutines](https://www.youtube.com/watch?v=V2lL_aJp17I)
 - **Question**: What is the advantage of using const in Kotlin?
     - **Answer**: [What is the advantage of using const in Kotlin?](https://www.youtube.com/watch?v=3G49ivVxfkU)
 - **Question**: What is a reified keyword in Kotlin?
     - **Answer**: [What is a reified keyword in Kotlin?](https://www.youtube.com/watch?v=kD2T84FnTck)
-- **Question**: lateinit vs lazy in Kotlin
-    - **Answer**: [lateinit vs lazy in Kotlin](https://www.youtube.com/watch?v=IU2ZktdM-fo)
+- **Question**: Suspending vs Blocking in Kotlin Coroutines
+    - **Answer**: [Suspending vs Blocking in Kotlin Coroutines](https://www.youtube.com/watch?v=V2lL_aJp17I)
+- **Question**: Launch vs Async in Kotlin Coroutines
+    - **Answer**: [Launch vs Async in Kotlin Coroutines](https://www.youtube.com/watch?v=B4AfTPpCU5o)
 - **Question**: internal visibility modifier in Kotlin
     - **Answer**: [internal visibility modifier in Kotlin](https://www.youtube.com/watch?v=wOHpuf74-cI)
+- **Question**: open keyword in Kotlin
+    - **Answer**: [open keyword in Kotlin](https://www.youtube.com/watch?v=bfpNDWNE6I0)
+- **Question**: lateinit vs lazy in Kotlin
+    - **Answer**: [lateinit vs lazy in Kotlin](https://www.youtube.com/watch?v=IU2ZktdM-fo)
 - **Question**: What is Multidex in Android?
     - **Answer**: [What is Multidex in Android?](https://www.youtube.com/watch?v=R0zd8lmHnmE)
 - **Question**: How does the Android Push Notification system work?
