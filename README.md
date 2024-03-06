@@ -841,6 +841,7 @@ Learn the above-mentioned from the following links:
 - [Getting Started with Compose](https://developer.android.com/jetpack/compose/tutorial)
 - [Thinking in Compose](https://developer.android.com/jetpack/compose/mental-model)
 - [State](https://developer.android.com/jetpack/compose/state)
+- [remember vs rememberSaveable](https://amitshekhar.me/blog/remember-vs-remembersaveable)
 - [Lifecycle](https://developer.android.com/jetpack/compose/lifecycle)
 - [Modifiers](https://developer.android.com/jetpack/compose/modifiers)
 - [Side-effects](https://developer.android.com/jetpack/compose/side-effects)
