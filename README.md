@@ -622,6 +622,8 @@ Android Interview Questions and Answers:
 
 * **Design Uber App** - [Learn from here](https://github.com/amitshekhariitbhu/ridesharing-uber-lyft-app)
 
+* **Database Normalization vs Denormalization** - [Database Normalization vs Denormalization](https://outcomeschool.com/blog/database-normalization-vs-denormalization)
+
 ### Android Unit Testing
 
 Android Interview Questions and Answers:
