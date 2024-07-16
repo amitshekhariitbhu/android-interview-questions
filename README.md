@@ -682,7 +682,7 @@ Android Interview Questions and Answers:
 
 * **About multiple apk for android application.**
 
-* **What is proguard used for?**
+* **What is ProGuard used for?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-activity-7218840466283220993-afVr)
 
 * **What is obfuscation? What is it used for? What about minification?**
 
