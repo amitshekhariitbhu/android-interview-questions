@@ -394,6 +394,8 @@ Android Interview Questions and Answers:
 
 * **What are the problems in AsyncTask?**
 
+* **Daemon Threads vs. User Threads** - [Learn from here](https://x.com/amitiitbhu/status/1817783254885478872)
+
 * **Explain `Looper`, `Handler`, and `HandlerThread`.**
 
 * **Android Memory Leak and Garbage Collection**
