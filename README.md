@@ -781,6 +781,8 @@ Android Interview Questions and Answers:
 
 * **What is `volatile` modifier?**
 
+* **Object Level Lock vs Class Level Lock in Java** - [Learn from here](https://x.com/amitiitbhu/status/1818156936413778332)
+
 * **The classes in the atomic package expose a common set of methods: `get`, `set,`, `lazyset`, `compareAndSet`, and `weakCompareAndSet`. Please describe them.**
 
 #### Exceptions
