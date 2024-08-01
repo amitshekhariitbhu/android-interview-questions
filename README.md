@@ -789,6 +789,8 @@ Android Interview Questions and Answers:
 
 #### Others
 
+* **Shallow vs. Deep Copy in Java** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineering-activity-7224635014641016834-j8X1)
+
 * **What is serialization? How do you implement it?**
 
 * **What is `transient` modifier?**
