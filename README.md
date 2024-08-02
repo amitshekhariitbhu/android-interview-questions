@@ -821,7 +821,7 @@ Android Interview Questions and Answers:
 * **When is a `static` block run?**
     - Code inside static block is executed only once: the first time you make an object of that class or the first time you access a static member of that class (even if you never make an object of that class).
 
-* **What is reflection?**
+* **Explain Reflection in Java** - [Learn from here](https://x.com/amitiitbhu/status/1819234916812341567)
 
 * **What is Dependency Injection?**
 
