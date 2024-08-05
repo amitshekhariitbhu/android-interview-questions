@@ -783,6 +783,8 @@ Android Interview Questions and Answers:
 
 * **Object Level Lock vs Class Level Lock in Java** - [Learn from here](https://x.com/amitiitbhu/status/1818156936413778332)
 
+* **Concurrency vs Parallelism** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_outcomeschool-softwareengineering-activity-7226208648115404801-u8uu)
+
 * **The classes in the atomic package expose a common set of methods: `get`, `set,`, `lazyset`, `compareAndSet`, and `weakCompareAndSet`. Please describe them.**
 
 #### Exceptions
