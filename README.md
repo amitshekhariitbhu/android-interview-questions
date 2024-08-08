@@ -628,6 +628,8 @@ Android Interview Questions and Answers:
 
 * **Database Normalization vs Denormalization** - [Database Normalization vs Denormalization](https://outcomeschool.com/blog/database-normalization-vs-denormalization)
 
+* **Hash vs Encrypt vs Encode** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_outcomeschool-softwareengineering-activity-7227173077665660929--KD8)
+
 ### Android Unit Testing
 
 Android Interview Questions and Answers:
