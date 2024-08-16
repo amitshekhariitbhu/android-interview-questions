@@ -209,7 +209,7 @@ Android Interview Questions and Answers:
 
 * **What is the equivalent of Java static methods in Kotlin?** - [Learn from here](https://stackoverflow.com/questions/40352684/what-is-the-equivalent-of-java-static-methods-in-kotlin)
 
-* **What is a data class in Kotlin?** - [Learn from here](https://kotlinlang.org/docs/data-classes.html)
+* **What is a data class in Kotlin?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-kotlin-outcomeschool-activity-7230064492678721538-nmIw)
 
 * **How to create a Singleton class in Kotlin?** - [Learn from here](https://stackoverflow.com/questions/51834996/singleton-class-in-kotlin)
 
