@@ -594,6 +594,8 @@ Android Interview Questions and Answers:
 
 * **Clean Architecture**
 
+* **Software Architecture vs Software Design** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7230434583584858112-mMEG)
+
 ### Android System Design
 
 Android Interview Questions and Answers:
