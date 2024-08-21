@@ -155,6 +155,8 @@ Android Interview Questions and Answers:
 
 * **Extension functions** - [Learn from here](https://outcomeschool.com/blog/extension-function-in-kotlin)
 
+* **What is a data class in Kotlin?** - [Learn from here](https://outcomeschool.com/blog/data-class-in-kotlin)
+
 * **Remove duplicates from an array in Kotlin** - [Learn from here](https://outcomeschool.com/blog/remove-duplicates-from-an-array-in-kotlin)
 
 * **What is a JvmStatic Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=qBBbOhY_pv4) and [Blog](https://outcomeschool.com/blog/jvmstatic-annotation-in-kotlin)
@@ -210,8 +212,6 @@ Android Interview Questions and Answers:
 * **What are the visibility modifiers in Kotlin?** - [Learn from here](https://kotlinlang.org/docs/visibility-modifiers.html)
 
 * **What is the equivalent of Java static methods in Kotlin?** - [Learn from here](https://stackoverflow.com/questions/40352684/what-is-the-equivalent-of-java-static-methods-in-kotlin)
-
-* **What is a data class in Kotlin?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-kotlin-outcomeschool-activity-7230064492678721538-nmIw)
 
 * **How to create a Singleton class in Kotlin?** - [Learn from here](https://stackoverflow.com/questions/51834996/singleton-class-in-kotlin)
 
