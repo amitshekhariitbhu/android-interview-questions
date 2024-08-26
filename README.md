@@ -201,7 +201,7 @@ Android Interview Questions and Answers:
 
 * **Suspending vs Blocking in Kotlin Coroutines** - [Learn from here](https://www.youtube.com/watch?v=V2lL_aJp17I)
 
-* **Tell some advantages of Kotlin.** - [Learn from here](https://developer.android.com/kotlin/first)
+* **String vs StringBuffer vs StringBuilder** - [Learn from here](https://outcomeschool.com/blog/string-vs-stringbuffer-vs-stringbuilder)
 
 * **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
 
@@ -833,7 +833,7 @@ Android Interview Questions and Answers:
 
 * **What is Dependency Injection?**
 
-* **Difference between `StringBuffer` and `StringBuilder`?**
+* **Difference between `StringBuffer` and `StringBuilder`?** - [Learn from here](https://outcomeschool.com/blog/string-vs-stringbuffer-vs-stringbuilder)
 
 * **What is the difference between fail-fast and fail-safe iterators in Java?**
 
