@@ -866,6 +866,7 @@ Learn the above-mentioned from the following links:
 - [Phases](https://developer.android.com/jetpack/compose/phases)
 - [Semantics](https://developer.android.com/jetpack/compose/semantics)
 - [CompositionLocal](https://developer.android.com/jetpack/compose/compositionlocal)
+- [Can we use traditional Android Views and Compose together?](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineering-tech-activity-7235142707138961408-40hQ)
 
 ### Other Topics
 
