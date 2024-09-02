@@ -503,14 +503,13 @@ Android Interview Questions and Answers:
 
 #### Others
 
+* **What is the difference between Serializable and Parcelable? Which is the best approach in Android?** - [Learn from here](https://outcomeschool.com/blog/parcelable-vs-serializable)
+
 * **Why Bundle class is used for data passing and why cannot we use simple Map data structure?** - [Learn from here](https://developer.android.com/guide/components/activities/parcelables-and-bundles)
 
 * **How do you troubleshoot a crashing application?** - [Learn from here](https://developer.android.com/topic/performance/vitals/crash)
 
 * **Explain the Android push notification system?** Learn from here: [How does the Android push notification system work?](https://youtu.be/810IFG2sWlc)
-
-* **What is the difference between Serializable and Parcelable? Which is the best approach in Android?** 
-    - Use the Parcelable class instead of Serializable when passing data in Intents or Bundles. The serialization of an object that implements the Parcelable interface is much faster than using Java’s default serialization. A class that implements the Serializable interface is marked as serializable, and Java serializes it using reflection (which makes it slow). When using the Parcelable interface, the whole object doesn’t get serialized automatically. Rather, you can selectively add data from the object to a Parcel using which the object is later deserialized. Similarly, you can consider the Parcelable in Kotlin.
 
 * **What is AAPT?** - [Learn from here](https://developer.android.com/studio/command-line/aapt2)
 
