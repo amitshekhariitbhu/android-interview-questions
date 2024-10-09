@@ -333,6 +333,22 @@ Android Interview Questions and Answers:
 
 * **Optimizing Nested RecyclerView** - [Learn from here](https://outcomeschool.com/blog/setrecycledviewpool-for-optimizing-nested-recyclerview)
 
+* **How does RecyclerView improve performance over ListView?**
+
+* **What are the components of a RecyclerView?**
+
+* **Explain the role of RecyclerView.Adapter and RecyclerView.ViewHolder**
+
+* **What is a LayoutManager in RecyclerView?**
+
+* **How do you handle multiple view types in a single RecyclerView?**
+
+* **What is DiffUtil and how does it improve RecyclerView performance?**
+
+* **What is the purpose of RecyclerView.setHasFixedSize(true)?**
+
+* **How do you update a specific item in RecyclerView?**
+
 * **What is `SnapHelper`?** - Learn from here: [SnapHelper](https://outcomeschool.com/blog/snaphelper)
 
 #### Dialogs and Toasts
