@@ -236,6 +236,8 @@ Android Interview Questions and Answers:
 
 * **Thread.sleep() vs delay() in Kotlin** - [Learn from here](https://x.com/amitiitbhu/status/1812806101944946962)
 
+* **Explain inline classes in Kotlin** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineering-tech-activity-7251812269804724224-TR6Y)
+
 * **When to use Kotlin sealed classes?** - [Learn from here](https://kotlinlang.org/docs/sealed-classes.html)
 
 * **Tell about the Collections in Kotlin** - [Learn from here](https://kotlinlang.org/docs/collections-overview.html)
