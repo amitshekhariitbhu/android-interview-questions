@@ -712,6 +712,8 @@ Android Interview Questions and Answers:
 
 * **How to change some parameters in an app without app update?**
 
+* **What is Write-Ahead Logging (WAL) and why it is used internally in databases?** - [Learn from here](https://outcomeschool.com/blog/write-ahead-logging)
+
 ### Java
 
 Android Interview Questions and Answers:
