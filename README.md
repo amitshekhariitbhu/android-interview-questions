@@ -506,6 +506,8 @@ Android Interview Questions and Answers:
 
 * **What is a ViewModel and how is it useful?** Learn: [What is a ViewModel and how is it useful?](https://youtu.be/ORtieK5f_zg)
 
+* **SharedViewModel in Android** Learn: [SharedViewModel in Android](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7262328327531577344-fwSE)
+
 * **What are Android Architecture Components?**
 
 * **What is LiveData in Android?**
