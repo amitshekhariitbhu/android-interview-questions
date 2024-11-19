@@ -516,7 +516,7 @@ Android Interview Questions and Answers:
 
 * **What is the difference between setValue and postValue in LiveData?**
 
-* **How to share ViewModel between Fragments in Android?**
+* **How to share ViewModel between Fragments in Android?** Learn: [SharedViewModel in Android](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7262328327531577344-fwSE)
 
 * **Explain WorkManager and its use cases.**
 
