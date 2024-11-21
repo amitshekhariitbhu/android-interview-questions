@@ -383,6 +383,8 @@ Android Interview Questions and Answers:
 
 #### Services
 
+* **Explain Android Service Lifecycle** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7265212180570992640-CJn_)
+
 * **What is Service?** - [Learn from here](https://developer.android.com/guide/components/services)
 
 * **Service vs IntentService** - [Learn from here](https://stackoverflow.com/questions/15524280/service-vs-intentservice-in-the-android-platform)
