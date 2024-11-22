@@ -300,7 +300,7 @@ Android Interview Questions and Answers:
 * **What is retained `Fragment`?**
     - By default, Fragments are destroyed and recreated along with their parent Activities when a configuration change occurs. Calling setRetainInstance(true) allows us to bypass this destroy-and-recreate cycle, signaling the system to retain the current instance of the fragment when the activity is recreated.
 
-* **What is the purpose of `addToBackStack()` while commiting fragment transaction?**
+* **What is the purpose of `addToBackStack()` while committing fragment transaction?**
     - By calling addToBackStack(), the replace transaction is saved to the back stack so the user can reverse the transaction and bring back the previous fragment by pressing the Back button. For more [Learn from here](https://stackoverflow.com/questions/22984950/what-is-the-meaning-of-addtobackstack-with-null-parameter)
 
 #### Views and ViewGroups
