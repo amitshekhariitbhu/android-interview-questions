@@ -244,6 +244,8 @@ Android Interview Questions and Answers:
 
 * **What does ?: do in Kotlin? (Elvis Operator)** - [Learn from here](https://stackoverflow.com/questions/48253107/what-does-do-in-kotlin-elvis-operator)
 
+* **timeouts in Kotlin Coroutines** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7265684677770846208-Ug0Y)
+
 ### Android
 
 Android Interview Questions and Answers:
