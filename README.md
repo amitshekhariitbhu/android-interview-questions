@@ -655,6 +655,8 @@ Android Interview Questions and Answers:
 
 * **Hash vs Encrypt vs Encode** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_outcomeschool-softwareengineering-activity-7227173077665660929--KD8)
 
+* **Webhook vs Polling** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-activity-7265962230553223168-fsPx)
+
 ### Android Unit Testing
 
 Android Interview Questions and Answers:
