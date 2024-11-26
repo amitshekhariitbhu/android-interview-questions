@@ -202,6 +202,8 @@ Android Interview Questions and Answers:
 
 * **Suspending vs Blocking in Kotlin Coroutines** - [Learn from here](https://www.youtube.com/watch?v=V2lL_aJp17I)
 
+* **What is runBlocking in Coroutines?** - [Learn from here](https://x.com/outcome_school/status/1861455930061156797)
+
 * **String vs StringBuffer vs StringBuilder** - [Learn from here](https://outcomeschool.com/blog/string-vs-stringbuffer-vs-stringbuilder)
 
 * **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
