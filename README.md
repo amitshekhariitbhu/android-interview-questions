@@ -204,6 +204,8 @@ Android Interview Questions and Answers:
 
 * **What is runBlocking in Coroutines?** - [Learn from here](https://x.com/outcome_school/status/1861455930061156797)
 
+* **What is the meaning of structured concurrency in Kotlin Coroutines?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7267476661967683584-wDCh/)
+
 * **String vs StringBuffer vs StringBuilder** - [Learn from here](https://outcomeschool.com/blog/string-vs-stringbuffer-vs-stringbuilder)
 
 * **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
