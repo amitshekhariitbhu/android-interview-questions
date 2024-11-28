@@ -465,7 +465,7 @@ Android Interview Questions and Answers:
 
 #### Memory Optimizations
 
-* **What is the `onTrimMemory()` method?** - [Learn from here](https://developer.android.com/topic/performance/memory)
+* **What is the `onTrimMemory()` method?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7267752779727679488--kk4)
 
 * **How to identify and fix OutOfMemory issues?**
 
