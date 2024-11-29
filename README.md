@@ -410,7 +410,7 @@ Android Interview Questions and Answers:
 
 * **What can you use for background processing in Android?** - [Learn from here](https://developer.android.com/guide/background)
 
-* **What is a `ContentProvider` and what is it typically used for?** - [Learn from here](https://developer.android.com/guide/topics/providers/content-provider-basics) and [here](https://developer.android.com/guide/topics/providers/content-providers)
+* **What is a `ContentProvider` and what is it typically used for?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7268117553040764931-64fI)
 
 #### Long-running Operations
 
