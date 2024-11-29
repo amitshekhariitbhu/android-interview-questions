@@ -336,7 +336,7 @@ Android Interview Questions and Answers:
 
 * **What is the difference between `ListView` and `RecyclerView`?** - [Learn from here](https://stackoverflow.com/questions/26728651/recyclerview-vs-listview)
 
-* **How does RecyclerView work internally?**
+* **How does the RecyclerView work?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7268187299811606528-u2_w)
 
 * **RecyclerView Optimization - Scrolling Performance Improvement** - [Learn from here](https://outcomeschool.com/blog/recyclerview-optimization)
 
