@@ -184,6 +184,8 @@ Android Interview Questions and Answers:
 
 * **What are higher-order functions in Kotlin?** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://outcomeschool.com/blog/higher-order-functions-and-lambdas-in-kotlin)
 
+* **Write a function(Higher-Order Function) that returns a function.** - [Check solution here](https://x.com/amitiitbhu/status/1862721662208155800)
+
 * **What are Lambdas in Kotlin** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://outcomeschool.com/blog/higher-order-functions-and-lambdas-in-kotlin)
 
 * **AssociateBy - List to Map in Kotlin** - [Learn from here](https://outcomeschool.com/blog/associateby-list-to-map-in-kotlin)
