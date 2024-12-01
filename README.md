@@ -254,6 +254,8 @@ Android Interview Questions and Answers:
 
 * **How do you combine multiple coroutine results?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7267827335393873920-v6t3)
 
+* **What is a Job in Coroutines?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7268842850140721153-vw9E)
+
 ### Android
 
 Android Interview Questions and Answers:
