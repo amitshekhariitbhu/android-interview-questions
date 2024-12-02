@@ -316,6 +316,8 @@ Android Interview Questions and Answers:
 
 #### Views and ViewGroups
 
+* **Optimizing layouts in Android** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7269208182390951936-dAg3)
+
 * **What is `View` in Android?**
 
 * **Difference between `View.GONE` and `View.INVISIBLE`?** - [Learn from here](https://stackoverflow.com/questions/11556607/android-difference-between-invisible-and-gone)
