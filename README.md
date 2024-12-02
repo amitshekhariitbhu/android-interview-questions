@@ -248,7 +248,7 @@ Android Interview Questions and Answers:
 
 * **Tell about the Collections in Kotlin** - [Learn from here](https://kotlinlang.org/docs/collections-overview.html)
 
-* **What does ?: do in Kotlin? (Elvis Operator)** - [Learn from here](https://stackoverflow.com/questions/48253107/what-does-do-in-kotlin-elvis-operator)
+* **What does ?: do in Kotlin? (Elvis Operator)** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7269313270669295618-g6kJ)
 
 * **timeouts in Kotlin Coroutines** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7265684677770846208-Ug0Y)
 
