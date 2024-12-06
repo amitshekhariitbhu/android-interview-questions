@@ -30,6 +30,7 @@ You can connect with me on:
 * [Android](#android)
 * [Android Libraries](#android-libraries)
 * [Android Architecture](#android-architecture)
+* [Design Pattern](#design-pattern)
 * [Android System Design](#android-system-design)
 * [Android Unit Testing](#android-unit-testing)
 * [Android Tools And Technologies](#android-tools-and-technologies)
@@ -629,9 +630,23 @@ Android Interview Questions and Answers:
 
 * **Clean Architecture**
 
-* **Kotlin Optional Parameters vs Builder Pattern** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7270656113845370881-LDW8)
+* **MVI**
 
 * **Software Architecture vs Software Design** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7230434583584858112-mMEG)
+
+### Design Pattern
+
+Android Interview Questions and Answers
+
+* **Builder**
+* **Singleton**
+* **Factory**
+* **Observer**
+* **Repository**
+* **Adapter**
+* **Facade**
+* **Dependency Injection**
+* **Kotlin Optional Parameters vs Builder Pattern** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7270656113845370881-LDW8)
 
 ### Android System Design
 
