@@ -629,6 +629,8 @@ Android Interview Questions and Answers:
 
 * **Clean Architecture**
 
+* **Kotlin Optional Parameters vs Builder Pattern** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7270656113845370881-LDW8)
+
 * **Software Architecture vs Software Design** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7230434583584858112-mMEG)
 
 ### Android System Design
