@@ -530,7 +530,7 @@ Android Interview Questions and Answers:
 
 * **How LiveData is different from ObservableField?**
 
-* **What is the difference between setValue and postValue in LiveData?**
+* **What is the difference between setValue and postValue in LiveData?** Learn: [setValue() vs postValue() in LiveData](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7274283452563107840-SXXl)
 
 * **How to share ViewModel between Fragments in Android?** Learn: [SharedViewModel in Android](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7262328327531577344-fwSE)
 
