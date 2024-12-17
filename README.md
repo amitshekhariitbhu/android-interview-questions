@@ -570,6 +570,8 @@ Android Interview Questions and Answers:
 
 * **OkHttp - HTTP Caching** - [Learn from here](https://outcomeschool.com/blog/caching-with-okhttp-interceptor-and-retrofit)
 
+* **How to enable logging in OkHttp?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7274652524433850368-qC4D)
+
 * **Why do we use the Dependency Injection Framework like Dagger in Android?**
 
 * **How does the Dagger work?**
