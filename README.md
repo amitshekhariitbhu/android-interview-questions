@@ -353,7 +353,7 @@ Android Interview Questions and Answers:
 
 * **What are the components of a RecyclerView?**
 
-* **Explain the role of RecyclerView.Adapter and RecyclerView.ViewHolder**
+* **Explain the role of RecyclerView.Adapter and RecyclerView.ViewHolder** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7274733205927182337-hvTG)
 
 * **What is a LayoutManager in RecyclerView?**
 
