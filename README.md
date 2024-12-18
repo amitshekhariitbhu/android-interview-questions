@@ -572,7 +572,7 @@ Android Interview Questions and Answers:
 
 * **How to enable logging in OkHttp?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7274652524433850368-qC4D)
 
-* **Why do we use the Dependency Injection Framework like Dagger in Android?**
+* **Why do we use the Dependency Injection Framework like Dagger in Android?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-activity-7038019147737276417-tH4s)
 
 * **How does the Dagger work?**
 
