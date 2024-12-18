@@ -722,6 +722,8 @@ Android Interview Questions and Answers:
 
 * **What is Lint? What is it used for?**
 
+* **Android App Release Checklist For The Production Launch** - Learn from here: [Android App Release Checklist For The Production Launch](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-android-activity-7275029928692080640-HIhx)
+
 * **Git.**
 
 * **Firebase.** - [Learn from here](https://firebase.google.com/)
