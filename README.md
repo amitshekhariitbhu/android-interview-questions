@@ -558,7 +558,7 @@ Android Interview Questions and Answers:
 
 * **How to create custom Annotation?** - [Learn from here](https://outcomeschool.com/blog/creating-custom-annotations)
 
-* **What is the support library? Why was it introduced?**
+* **What is the Android Support Library? Why was it introduced?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_androiddev-activity-7275725268680392705-waUi)
 
 * **What is Android Data Binding?**
 
