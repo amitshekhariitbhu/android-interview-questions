@@ -31,13 +31,13 @@ You can connect with me on:
 * [Android Libraries](#android-libraries)
 * [Android Architecture](#android-architecture)
 * [Design Pattern](#design-pattern)
-* [Android System Design](#android-system-design)
+* [Android System Design](#android-system-design) and check [Android System Design Interviews](https://outcomeschool.com/blog/android-system-design-interviews) 
 * [Android Unit Testing](#android-unit-testing)
 * [Android Tools And Technologies](#android-tools-and-technologies)
 * [Java](#java)
 * [Jetpack Compose](#jetpack-compose)
 * [Other Topics](#other-topics)
-* [Data Structures and Algorithms](#data-structures-and-algorithms)
+* [Data Structures and Algorithms](#data-structures-and-algorithms) 
 
 ### Android Interview Questions and Answers Playlist
 
@@ -653,6 +653,8 @@ Android Interview Questions and Answers
 ### Android System Design
 
 Android Interview Questions and Answers:
+
+Refer to this blog: [**Android System Design Interviews**](https://outcomeschool.com/blog/android-system-design-interviews) 
 
 * **Design an Image Loading Library** - [Learn from here](https://outcomeschool.com/blog/android-image-loading-library-optimize-memory-usage), [here](https://outcomeschool.com/blog/android-image-loading-library-use-bitmap-pool-for-responsive-ui) and [here](https://outcomeschool.com/blog/android-image-loading-library-solve-the-slow-loading-issue)
 
