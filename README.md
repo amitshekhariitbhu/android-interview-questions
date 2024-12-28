@@ -237,6 +237,8 @@ Android Interview Questions and Answers:
 
 * **What is Coroutine Scope?** - [Learn from here](https://outcomeschool.com/blog/kotlin-coroutines)
 
+* **Scopes in Kotlin Coroutines Used in Android** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7278639980053217280-8eZO)
+
 * **What is Coroutine Context?** - [Learn from here](https://outcomeschool.com/blog/coroutinecontext-in-kotlin)
 
 * **Launch vs Async in Kotlin Coroutines** - [Learn from here](https://outcomeschool.com/blog/launch-vs-async-in-kotlin-coroutines)
