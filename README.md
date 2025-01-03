@@ -437,6 +437,8 @@ Android Interview Questions and Answers:
 
 * **Android Memory Leak and Garbage Collection**
 
+* **Can you explain the difference between a Runnable and a Thread in Android?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7279784055284420609-Xa8b)
+
 #### Working With Multimedia Content
 
 * **How do you handle bitmaps in Android as it takes too much memory?** - [Learn from here](https://developer.android.com/topic/performance/graphics/load-bitmap) and [here](https://developer.android.com/topic/performance/graphics/manage-memory)
