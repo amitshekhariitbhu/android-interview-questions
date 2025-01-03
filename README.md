@@ -361,7 +361,7 @@ Android Interview Questions and Answers:
 
 * **How do you handle multiple view types in a single RecyclerView?**
 
-* **What is DiffUtil and how does it improve RecyclerView performance?**
+* **What is DiffUtil and how does it improve RecyclerView performance?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7279435764973686785-pfiQ)
 
 * **What is the purpose of RecyclerView.setHasFixedSize(true)?**
 
