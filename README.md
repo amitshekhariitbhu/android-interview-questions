@@ -1024,6 +1024,8 @@ Android Interview Questions and Answers:
 
 * **How to secure the API keys used in an Android App?**
 
+* **What is Cleartext traffic?** Learn from here: [What is Cleartext traffic?](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7281879316601126913-x1az)
+
 * **Tell something about memory usage in Android.**
 
 * **Explain Annotation processing.**
