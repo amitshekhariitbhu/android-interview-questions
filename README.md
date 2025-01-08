@@ -742,6 +742,8 @@ Android Interview Questions and Answers:
 
 * **How to use Android Studio Memory Profiler?**
 
+* **What is Kotlin DSL for Gradle?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7282624364695404546-BvbS)
+
 * **What is Gradle?**
 
 * **APK Size Reduction.**
