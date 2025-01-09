@@ -746,6 +746,8 @@ Android Interview Questions and Answers:
 
 * **What is Gradle?**
 
+* **How do you create a custom task in Gradle?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7282991795133685760-uUxE/)
+
 * **APK Size Reduction.**
 
 * **How can you speed up the Gradle build?**
