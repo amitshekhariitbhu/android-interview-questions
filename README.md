@@ -403,6 +403,8 @@ Android Interview Questions and Answers:
 
 * **What is Service?** - [Learn from here](https://developer.android.com/guide/components/services)
 
+* **On which thread does a Service run in Android?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7283717741130215424-Vn39)
+
 * **Service vs IntentService** - [Learn from here](https://stackoverflow.com/questions/15524280/service-vs-intentservice-in-the-android-platform)
 
 * **What is a Foreground Service?** - [Learn from here](https://developer.android.com/develop/background-work/services/foreground-services)
