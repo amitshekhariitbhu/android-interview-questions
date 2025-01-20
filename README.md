@@ -1040,7 +1040,7 @@ Android Interview Questions and Answers:
 
 * **How does the Android Push Notification system work?** Learn from here: [How does the Android Push Notification system work?](https://youtu.be/810IFG2sWlc)
 
-* **Android Push Notification Flow using FCM.** Learn from here: [Android Push Notification Flow using FCM](https://www.linkedin.com/posts/pallavi-shekhar_backend-android-activity-7280513305733971968-1WO9/)
+* **Android Push Notification Flow using FCM.** Learn from here: [Android Push Notification Flow using FCM](https://outcomeschool.com/blog/android-push-notification-flow-using-fcm)
 
 * **How to show local Notification at an exact time?**
 
