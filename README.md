@@ -698,6 +698,8 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 
 * **Webhook vs Polling** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-activity-7265962230553223168-fsPx)
 
+* **Options for real-time updates in an Android App** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-android-activity-7287460425212866560-dJNB)
+
 ### Android Unit Testing
 
 Android Interview Questions and Answers:
