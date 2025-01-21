@@ -700,6 +700,8 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 
 * **Options for real-time updates in an Android App** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-android-activity-7287460425212866560-dJNB)
 
+* **Options for Network Optimization in a Mobile App** - [Options for Network Optimization in a Mobile App](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7287470994447900672-XYM9)
+
 ### Android Unit Testing
 
 Android Interview Questions and Answers:
