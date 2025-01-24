@@ -705,6 +705,8 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 
 * **Options for Network Optimization in a Mobile App** - [Options for Network Optimization in a Mobile App](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7287470994447900672-XYM9)
 
+* **Firebase Remote Config in Android** - [Firebase Remote Config in Android](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7288408601944043520-pHZX)
+
 ### Android Unit Testing
 
 Android Interview Questions and Answers:
