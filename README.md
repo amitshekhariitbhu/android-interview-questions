@@ -988,7 +988,7 @@ Questions
   
 * **Explain rememberUpdatedState.**
   
-* **Difference between remember and rememberSaveable.**
+* **Difference between remember and rememberSaveable.** - [Learn from here](https://outcomeschool.com/blog/remember-vs-remembersaveable)
   
 * **Explain the Lifecycle of a Composable in Jetpack Compose.**
   
@@ -1024,7 +1024,7 @@ Android Interview Questions and Answers:
 
 * **Describe SQLite.**
 
-* **Have you used Room-Database?**
+* **Have you used Room?**
 
 * **Can we identify the users who have uninstalled our application?**
 
