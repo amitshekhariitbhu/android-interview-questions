@@ -736,6 +736,8 @@ Android Interview Questions and Answers:
 
 Android Interview Questions and Answers:
 
+* **CI/CD Pipeline for Android** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7294600775178063872-Q0oY/)
+
 * **What is ADB?** - [Learn from here](https://developer.android.com/studio/command-line/adb)
 
 * **What is the StrictMode?** - Learn from here: [StrictMode](https://outcomeschool.com/blog/strictmode-in-android-development)
