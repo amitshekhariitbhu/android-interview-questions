@@ -768,6 +768,8 @@ Android Interview Questions and Answers:
 
 * **How do you create a custom task in Gradle?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7282991795133685760-uUxE/)
 
+* **annotationProcessor, kapt, ksp in Gradle** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7296566489803866112-DnT8)
+
 * **APK Size Reduction.**
 
 * **How can you speed up the Gradle build?**
