@@ -652,7 +652,7 @@ Android Interview Questions and Answers:
 
 Android Interview Questions and Answers
 
-* **Builder**
+* **Builder** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_outcomeschool-softwareengineer-tech-activity-7297905207080800256-sRuJ)
 * **Singleton**
 * **Factory**
 * **Observer**
