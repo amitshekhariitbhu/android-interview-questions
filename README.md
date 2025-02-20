@@ -714,6 +714,8 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 
 * **Firebase Remote Config in Android** - [Firebase Remote Config in Android](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7288408601944043520-pHZX)
 
+* **Accurate time in Android** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineer-tech-activity-7298341712634990592-tgyR)
+
 ### Android Unit Testing
 
 Android Interview Questions and Answers:
