@@ -774,13 +774,15 @@ Android Interview Questions and Answers:
 
 * **annotationProcessor, kapt, ksp in Gradle** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7296566489803866112-DnT8)
 
+* **Build Variants in Android** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7298197111030824962-6vW0)
+
 * **APK Size Reduction.**
 
 * **How can you speed up the Gradle build?**
 
 * **About gradle build system.**
 
-* **About multiple apk for android application.**
+* **About multiple apk for Android Apps.**
 
 * **What is ProGuard used for?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-activity-7218840466283220993-afVr)
 
