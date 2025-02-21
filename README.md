@@ -738,7 +738,7 @@ Android Interview Questions and Answers:
 
 * **Why Mockito is used?** - [Learn from here](http://site.mockito.org/)
 
-* **Describe code coverage.**
+* **Describe code coverage.** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineer-tech-activity-7298564060105609217-8zXA)
 
 ### Android Tools And Technologies
 
