@@ -790,7 +790,7 @@ Android Interview Questions and Answers:
 
 * **What is obfuscation? What is it used for? What about minification?**
 
-* **How to change some parameters in an app without app update?**
+* **How to change some parameters in an app without app update?** - [Firebase Remote Config in Android](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7288408601944043520-pHZX)
 
 * **What is Write-Ahead Logging (WAL) and why it is used internally in databases?** - [Learn from here](https://outcomeschool.com/blog/write-ahead-logging)
 
