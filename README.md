@@ -644,7 +644,7 @@ Android Interview Questions and Answers:
 
 * **MVC vs MVP vs MVVM architecture.**
 
-* **Clean Architecture**
+* **Clean Architecture** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-kotlin-activity-7123192186627571714-6143)
 
 * **MVI** - [MVI (Model-View-Intent) Architecture in Android](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineering-tech-activity-7288428333430644738-muDc)
 
