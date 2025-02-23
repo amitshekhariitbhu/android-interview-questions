@@ -718,6 +718,8 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 
 * **Accurate time in Android** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineer-tech-activity-7298341712634990592-tgyR)
 
+* **Query Optimization in SQLite for Better Performance** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7299289876846284801-3gfH)
+
 ### Android Unit Testing
 
 Android Interview Questions and Answers:
