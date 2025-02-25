@@ -658,7 +658,7 @@ Android Interview Questions and Answers
 
 * **Builder** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_outcomeschool-softwareengineer-tech-activity-7297905207080800256-sRuJ)
 * **Singleton**
-* **Factory**
+* **Factory** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7300164529571733505-MYfP)
 * **Observer** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineer-tech-activity-7298657173910233089-3qzw)
 * **Repository**
 * **Adapter**
