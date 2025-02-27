@@ -804,6 +804,14 @@ Android Interview Questions and Answers:
 
 Android Interview Questions and Answers:
 
+#### Solid Principles
+
+* **“S” in SOLID Principles: The Single Responsibility Principle** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7234425076308164611-sY57)
+* **"O" in SOLID Principles: Open/Closed Principle** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7287026079851061248-bjdM)
+* **“L” in SOLID Principles: Liskov Substitution Principle (LSP)** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7300845161725448193-iCnO)
+* **“I” in SOLID Principles: Interface Segregation Principle (ISP)**
+* **“D” in SOLID Principles: Dependency Inversion Principle (DIP)**
+
 #### OOP
 
 * **Explain OOP Concepts.**
