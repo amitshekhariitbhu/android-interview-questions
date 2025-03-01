@@ -343,7 +343,7 @@ Android Interview Questions and Answers:
     - View: View objects are the basic building blocks of User Interface(UI) elements in Android. View is a simple rectangle box which responds to the user’s actions. Examples are EditText, Button, CheckBox etc. View refers to the android.view.View class, which is the base class of all UI classes.
     - ViewGroup: ViewGroup is the invisible container. It holds View and ViewGroup. For example, LinearLayout is the ViewGroup that contains Button(View), and other Layouts also. ViewGroup is the base class for Layouts.
 
-* **What is a Canvas?**
+* **What is a Canvas?** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_androiddev-android-activity-7301608732671520771-7WLF)
 
 * **What is a `SurfaceView`?** - [Learn from here](https://developer.android.com/reference/android/view/SurfaceView)
 
