@@ -463,7 +463,7 @@ Android Interview Questions and Answers:
 
 * **Jetpack DataStore Preferences** - [Learn from here](https://outcomeschool.com/blog/jetpack-datastore-preferences)
 
-* **How to persist data in an Android app?**
+* **Persisting Data in an Android App** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7301836718003888128-oNi2)
 
 * **What is ORM? How does it work?**
 
