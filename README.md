@@ -698,7 +698,7 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 
 * **Design Analytics Library**
 
-* **HTTP Request vs HTTP Long-Polling vs WebSockets** - [Learn from blog](https://outcomeschool.com/blog/http-request-long-polling-websocket-sse) and [Video - HTTP Request vs HTTP Long-Polling vs WebSocket vs Server-Sent Events](https://www.youtube.com/watch?v=8ksWRX4xV-s)
+* **HTTP Request vs HTTP Long-Polling vs WebSocket vs Server-Sent Events** - [Learn from blog](https://outcomeschool.com/blog/http-request-long-polling-websocket-sse) and [Video - HTTP Request vs HTTP Long-Polling vs WebSocket vs Server-Sent Events](https://www.youtube.com/watch?v=8ksWRX4xV-s)
 
 * **How do Voice And Video Call Work?** - [Learn from here](https://outcomeschool.com/blog/voice-and-video-call)
 
