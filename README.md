@@ -281,7 +281,7 @@ Android Interview Questions and Answers:
 
 * **What is `Context`? How is it used?** - [Context In Android Application](https://outcomeschool.com/blog/context-in-android-application)
 
-* **Tell all the Android application components.** - [Learn from here](https://developer.android.com/guide/components/fundamentals.html#Components)
+* **Tell all the Android application components.** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineer-tech-activity-7302543942028251137-S3vJ)
 
 * **What is the project structure of an Android Application?** - [Learn from here](https://developer.android.com/studio/projects)
 
