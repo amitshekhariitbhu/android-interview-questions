@@ -285,7 +285,7 @@ Android Interview Questions and Answers:
 
 * **Tell all the Android application components.** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineer-tech-activity-7302543942028251137-S3vJ)
 
-* **What is the project structure of an Android Application?** - [Learn from here](https://developer.android.com/studio/projects)
+* **What is the project structure of an Android Application?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_android-app-project-structure-activity-7302902092812226560-bM8D)
 
 * **What is `AndroidManifest.xml`?** - [Learn from here](https://developer.android.com/guide/topics/manifest/manifest-intro)
 
