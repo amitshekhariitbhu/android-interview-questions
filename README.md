@@ -419,7 +419,7 @@ Android Interview Questions and Answers:
 
 * **Service vs IntentService** - [Learn from here](https://stackoverflow.com/questions/15524280/service-vs-intentservice-in-the-android-platform)
 
-* **What is a Foreground Service?** - [Learn from here](https://developer.android.com/develop/background-work/services/foreground-services)
+* **What is a Foreground Service?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_foreground-service-in-android-activity-7303268432030879745-TFVI)
 
 * **What is a `JobScheduler`?** - [Learn from here](https://developer.android.com/reference/android/app/job/JobScheduler)
 
