@@ -349,7 +349,7 @@ Android Interview Questions and Answers:
 
 * **Relative Layout vs Linear Layout.**
 
-* **Tell about Constraint Layout**
+* **Tell about Constraint Layout optimization** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_constraintlayout-in-android-uses-the-cassowary-activity-7303624644165545993-xUBG)
 
 * **Do you know what is the view tree? How can you optimize its depth?** - [Learn from here](https://developer.android.com/reference/android/view/ViewTreeObserver)
 
