@@ -814,7 +814,7 @@ Android Interview Questions and Answers:
 * **"O" in SOLID Principles: Open/Closed Principle** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7287026079851061248-bjdM)
 * **“L” in SOLID Principles: Liskov Substitution Principle (LSP)** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7300845161725448193-iCnO)
 * **“I” in SOLID Principles: Interface Segregation Principle (ISP)** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineer-tech-activity-7301459048292397056--9bL)
-* **“D” in SOLID Principles: Dependency Inversion Principle (DIP)**
+* **“D” in SOLID Principles: Dependency Inversion Principle (DIP)** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineer-tech-activity-7303987022493270016-VrZL)
 
 #### OOP
 
