@@ -721,6 +721,8 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 
 * **Query Optimization in SQLite for Better Performance** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7299289876846284801-3gfH)
 
+* **WebSocket vs Socket.IO** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_outcomeschool-softwareengineer-tech-activity-7305902742537916416-C5b9)
+
 ### Android Unit Testing
 
 Android Interview Questions and Answers:
