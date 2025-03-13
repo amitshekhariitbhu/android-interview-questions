@@ -237,7 +237,7 @@ Android Interview Questions and Answers:
 
 * **Difference between List and Array types in Kotlin** - [Learn from here](https://stackoverflow.com/questions/36262305/difference-between-list-and-array-types-in-kotlin)
 
-* **What are `Labels` in Kotlin?** - [Learn from here](https://kotlinlang.org/docs/returns.html)
+* **What are `Labels` in Kotlin?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineer-tech-activity-7305796789159215105-oEUj)
 
 * **What are Coroutines in Kotlin?** - [Learn from here](https://outcomeschool.com/blog/kotlin-coroutines)
 
