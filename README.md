@@ -440,6 +440,8 @@ Android Interview Questions and Answers:
 
 * **What is ANR? How can the ANR be prevented?** - [Learn from here](https://developer.android.com/topic/performance/vitals/anr.html)
 
+* **ThreadPool Advantages** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_outcomeschool-softwareengineer-tech-activity-7308034827574816768-RwEE)
+
 * **What is an `AsyncTask`(Deprecated in API level 30) ?**
 
 * **What are the problems in AsyncTask?**
