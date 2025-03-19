@@ -450,7 +450,9 @@ Android Interview Questions and Answers:
 
 * **Explain `Looper`, `Handler`, and `HandlerThread`.**
 
-* **Android Memory Leak and Garbage Collection**
+* **Garbage Collection** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_java-tech-softwareengineer-activity-7308111597581799425-qZN0)
+
+* **Android Memory Leak**
 
 * **Can you explain the difference between a Runnable and a Thread in Android?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7279784055284420609-Xa8b)
 
@@ -894,11 +896,7 @@ Android Interview Questions and Answers:
 
 #### Java Memory Model and Garbage Collector
 
-* **What is garbage collector? How does it work?**
-  - All objects are allocated on the heap area managed by the JVM.
-  As long as an object is being referenced, the JVM considers it alive.
-  Once an object is no longer referenced and therefore is not reachable by the application code,
-  the garbage collector removes it and reclaims the unused memory.
+* **What is garbage collector? How does it work?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_java-tech-softwareengineer-activity-7308111597581799425-qZN0/)
 
 #### Concurrency
 
