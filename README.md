@@ -729,6 +729,8 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 
 * **WebSocket vs Socket.IO** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_outcomeschool-softwareengineer-tech-activity-7305902742537916416-C5b9)
 
+* **Symmetric vs Asymmetric Encryption** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_symmetric-vs-asymmetric-encryption-activity-7308873320894996481-a43E)
+
 ### Android Unit Testing
 
 Android Interview Questions and Answers:
