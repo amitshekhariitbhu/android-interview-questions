@@ -731,6 +731,8 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 
 * **Symmetric vs Asymmetric Encryption** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_symmetric-vs-asymmetric-encryption-activity-7308873320894996481-a43E)
 
+* **SMS Retriever API in Android** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_sms-retriever-api-in-android-activity-7309171578796224513-YRab)
+
 ### Android Unit Testing
 
 Android Interview Questions and Answers:
