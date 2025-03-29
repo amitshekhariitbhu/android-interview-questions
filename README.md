@@ -253,7 +253,7 @@ Android Interview Questions and Answers:
 
 * **Explain inline classes in Kotlin** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineering-tech-activity-7251812269804724224-TR6Y)
 
-* **When to use Kotlin sealed classes?** - [Learn from here](https://kotlinlang.org/docs/sealed-classes.html)
+* **Sealed Classes in Kotlin** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_sealed-classes-in-kotlin-activity-7311611732269887488-nKZI)
 
 * **Tell about the Collections in Kotlin** - [Learn from here](https://kotlinlang.org/docs/collections-overview.html)
 
