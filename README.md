@@ -495,6 +495,8 @@ Android Interview Questions and Answers:
 
 #### Memory Optimizations
 
+* **Improve Android App Performance** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineer-tech-activity-7314877712815345664-iB7z)
+
 * **What is the `onTrimMemory()` method?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7267752779727679488--kk4)
 
 * **How to identify and fix OutOfMemory issues?**
