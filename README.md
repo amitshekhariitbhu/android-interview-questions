@@ -275,7 +275,9 @@ Android Interview Questions and Answers:
 
 * **stateIn vs shareIn in Kotlin Flow** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_statein-vs-sharein-in-kotlin-flow-activity-7315963238318321664-BdYk)
 
-* **flatMapConcat, flatMapMerge, and flatMapLatest in Kotlin Flow** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7316049746022801409-OoTY/)
+* **flatMapConcat, flatMapMerge, and flatMapLatest in Kotlin Flow** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7316049746022801409-OoTY)
+
+* **collect vs collectLatest in Kotlin Flow** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_kotlin-androiddev-activity-7316095893273788417-BJSn)
 
 ### Android
 
