@@ -557,6 +557,8 @@ Android Interview Questions and Answers:
 
 * **What are Android Architecture Components?**
 
+* **StateFlow vs LiveData in Android Development** Learn: [StateFlow vs LiveData](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7316320147646885888-ZpyD)
+
 * **What is LiveData in Android?**
 
 * **How is LiveData different from ObservableField?**
