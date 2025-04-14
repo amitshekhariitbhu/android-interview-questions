@@ -673,6 +673,8 @@ Android Interview Questions and Answers:
 
 * **Benefits of Multi-Module Architecture** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_androiddev-activity-7307324491402027008-BqC4)
 
+* **Multi-Module Project: Why and When?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineer-tech-activity-7317400201558663173-n-LA)
+
 ### Design Pattern
 
 Android Interview Questions and Answers
