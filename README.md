@@ -609,6 +609,8 @@ Android Interview Questions and Answers:
 
 * **Why do we use the Dependency Injection Framework like Dagger in Android?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-activity-7038019147737276417-tH4s)
 
+* **Explain @ Inject, @ Module, @ Provides, @ Component Annotations in Dagger 2** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_androiddev-android-kotlin-activity-7318124163481628673-EAYM)
+
 * **How does the Dagger work?**
 
 * **How will you choose between Dagger 2 and Dagger-Hilt?**
