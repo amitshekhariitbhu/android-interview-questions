@@ -513,7 +513,7 @@ Android Interview Questions and Answers:
 
 * **How to reduce battery usage in an Android application?**
 
-* **What is Doze? What about App Standby?** - [Learn from here](https://developer.android.com/training/monitoring-device-state/doze-standby)
+* **What is Doze? What about App Standby?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_androiddev-activity-7319939901418795008-KRql)
 
 * **What is `overdraw`?** - [Learn from here](https://developer.android.com/topic/performance/rendering/overdraw.html)
 
