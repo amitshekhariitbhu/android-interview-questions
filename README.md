@@ -428,6 +428,8 @@ Android Interview Questions and Answers:
 
 * **What is a `JobScheduler`?** - [Learn from here](https://developer.android.com/reference/android/app/job/JobScheduler)
 
+* **How Does WorkManager Guarantee Task Execution?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_how-does-workmanager-guarantee-task-execution-activity-7320301933691310080-GpCR)
+
 #### Inter-process Communication
 
 * **How can two distinct Android apps interact?** - [Learn from here](https://developer.android.com/training/basics/intents)
