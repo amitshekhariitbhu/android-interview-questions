@@ -573,6 +573,8 @@ Android Interview Questions and Answers:
 
 * **Minimum repeat interval allowed when scheduling a PeriodicWorkRequest using WorkManager** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_androiddev-kotlin-activity-7314239540246810625-Xu0T)
 
+* **How Does WorkManager Guarantee Task Execution?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_how-does-workmanager-guarantee-task-execution-activity-7320301933691310080-GpCR)
+
 * **How does ViewModel work internally?**
 
 #### Others
