@@ -480,7 +480,7 @@ Android Interview Questions and Answers:
 
 * **How would you preserve the `Activity` state during a screen rotation?** - [Learn from here](https://www.youtube.com/watch?v=ORtieK5f_zg)
 
-* **What are different ways to store data in your Android app?**
+* **What are different ways to store data in your Android app?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7301836718003888128-oNi2)
 
 * **Explain Scoped Storage in Android.**
 
