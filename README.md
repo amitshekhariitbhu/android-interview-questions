@@ -19,7 +19,9 @@ You can connect with me on:
 - [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
 - [GitHub](https://github.com/amitshekhariitbhu)
 
-## **Join Outcome School and get high paying tech job: [Outcome School](https://outcomeschool.com)**
+## **Join Outcome School and get high-paying tech job: [Outcome School](https://outcomeschool.com)**
+
+## For knowledge-packed content: Subscribe to our [Outcome School YouTube Channel](https://www.youtube.com/@OutcomeSchool)
 
 ## Contents - Android Interview Questions
 
