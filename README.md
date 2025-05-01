@@ -43,6 +43,8 @@ You can connect with me on:
 
 ### Android Interview Questions and Answers Playlist
 
+- **Question**: Android Push Notification Flow using FCM
+    - **Answer**: [Android Push Notification Flow using FCM](https://www.youtube.com/watch?v=TrufwW4ILHg)
 - **Question**: What is an inline function in Kotlin?
     - **Answer**: [What is an inline function in Kotlin?](https://www.youtube.com/watch?v=GLLI8h67ryo)
 - **Question**: What is the advantage of using const in Kotlin?
