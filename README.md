@@ -1131,6 +1131,8 @@ Android Interview Questions and Answers:
 
 ### High-quality blogs to prepare for Android Interview - [Check here - Outcome School Blog](https://outcomeschool.com/blog)
 
+### Prepare for Machine Learning Interview: [Machine Learning Interview Questions](https://github.com/amitshekhariitbhu/machine-learning-interview-questions)
+
 ### Found this project useful :heart:
 
 * Support by clicking the :star: button on the upper right of this page. :v:
