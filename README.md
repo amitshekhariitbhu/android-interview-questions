@@ -23,6 +23,8 @@ You can connect with me on:
 
 ## For knowledge-packed content: Subscribe to our [Outcome School YouTube Channel](https://www.youtube.com/@OutcomeSchool)
 
+## Prepare for Machine Learning Interview: [Machine Learning Interview Questions](https://github.com/amitshekhariitbhu/machine-learning-interview-questions)
+
 ## Contents - Android Interview Questions
 
 * [Android Interview Questions and Answers Playlist](#android-interview-questions-and-answers-playlist)
