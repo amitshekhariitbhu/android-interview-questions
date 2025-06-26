@@ -466,7 +466,7 @@ Android Interview Questions and Answers:
 
 * **Garbage Collection** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_java-tech-softwareengineer-activity-7308111597581799425-qZN0)
 
-* **Android Memory Leak**
+* **Memory Leak vs Out of Memory(OOM) Error** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7344037400857219072-O_pe)
 
 * **Can you explain the difference between a Runnable and a Thread in Android?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7279784055284420609-Xa8b)
 
