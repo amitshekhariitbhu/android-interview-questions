@@ -567,7 +567,7 @@ Android Interview Questions and Answers:
 
 * **StateFlow vs LiveData in Android Development** Learn: [StateFlow vs LiveData](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7316320147646885888-ZpyD)
 
-* **What is LiveData in Android?**
+* **What is LiveData in Android?** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_outcomeschool-softwareengineer-tech-activity-7344218327172435969-hx7l/)
 
 * **How is LiveData different from ObservableField?**
 
