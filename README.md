@@ -19,9 +19,17 @@ You can connect with me on:
 - [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
 - [GitHub](https://github.com/amitshekhariitbhu)
 
-## **Join Outcome School and get high-paying tech job: [Outcome School](https://outcomeschool.com)**
+## Live session on "Android Developer Interview Preparation for Product-based Companies"
 
-## For knowledge-packed content: Subscribe to our [Outcome School YouTube Channel](https://www.youtube.com/@OutcomeSchool)
+I conducted a live session on "Android Developer Interview Preparation for Product-based Companies."
+
+Interacted with over **500 Android Developers**.
+
+Guided, motivated, and inspired them to aim higher and achieve more.
+
+**Recording Link**: https://drive.google.com/file/d/1VWW3l_itH6vYbNYzNer6XW5_x0jzOF4O/view?usp=sharing
+
+**Document Link**: https://docs.google.com/document/d/14UdD7Gd1j3no583ALx2t2Ggt3G_CECYhenLE-m-bkzA/edit?usp=sharing
 
 ## Contents - Android Interview Questions
 
