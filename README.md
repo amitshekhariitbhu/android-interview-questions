@@ -21,7 +21,7 @@ You can connect with me on:
 
 ## Live session on "Android Developer Interview Preparation for Product-based Companies"
 
-I conducted a live session on "Android Developer Interview Preparation for Product-based Companies."
+I conducted a live session on "Android Developer Interview Preparation for Product-based Companies"
 
 Interacted with over **500 Android Developers**.
 
