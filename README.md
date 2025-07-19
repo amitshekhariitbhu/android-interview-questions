@@ -801,6 +801,8 @@ Android Interview Questions and Answers:
 
 * **What is ADB?** - [Learn from here](https://developer.android.com/studio/command-line/adb)
 
+* **16 KB page size for Android Apps** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7352176600236351489-ACm6)
+
 * **What is the StrictMode?** - Learn from here: [StrictMode](https://outcomeschool.com/blog/strictmode-in-android-development)
 
 * **What is Lint? What is it used for?**
