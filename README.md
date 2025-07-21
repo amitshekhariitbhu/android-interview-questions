@@ -835,6 +835,8 @@ Android Interview Questions and Answers:
 
 * **Build Variants in Android** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7298197111030824962-6vW0)
 
+* **Desugaring in Android** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7352908041224118272-JkCu)
+
 * **APK Size Reduction.**
 
 * **How can you speed up the Gradle build?**
