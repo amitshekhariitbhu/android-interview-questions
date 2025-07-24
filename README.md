@@ -887,6 +887,8 @@ Android Interview Questions and Answers:
 
 * **Difference between method overloading and overriding.**
 
+* **Explain "String Pool" in Java** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineer-tech-activity-7354122537204666368-HwxH)
+
 * **What are the access modifiers you know? What does each one do?**
    - There are four access modifiers in Java language (from strictest to the most lenient):
         1. `private` *variables*, *methods*, *constructors* or *inner classes* are only visible to its' containing class and its' methods. This modifier is most commonly used, for example, to allow variable access only through getters and setters or to hide underlying implementation of classes that should not be used by user and therefore maintain encapsulation. Singleton constructor is also marked `private` to avoid unwanted instantiation from outside.
