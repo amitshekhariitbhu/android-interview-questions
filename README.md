@@ -267,6 +267,8 @@ Android Interview Questions and Answers:
 
 * **Sealed Classes in Kotlin** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_sealed-classes-in-kotlin-activity-7311611732269887488-nKZI)
 
+* **Sealed classes common use-cases in Android** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_androiddev-kotlin-activity-7354033880942735361-ZPgD)
+
 * **Tell about the Collections in Kotlin** - [Learn from here](https://kotlinlang.org/docs/collections-overview.html)
 
 * **What does ?: do in Kotlin? (Elvis Operator)** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7269313270669295618-g6kJ)
