@@ -611,6 +611,8 @@ Android Interview Questions and Answers:
 
 * **`HashMap`, `ArrayMap` and `SparseArray`** - [Learn from here](https://outcomeschool.com/blog/optimization-using-arraymap-and-sparsearray)
 
+* **Advantages of SparseArray in Android** - [Learn from here](https://www.linkedin.com/posts/pallavi-shekhar_outcomeschool-softwareengineer-tech-activity-7355482371799863297-OACQ)
+
 * **What are Annotations?** - [Learn from here](https://outcomeschool.com/blog/creating-custom-annotations)
 
 * **How to create custom Annotation?** - [Learn from here](https://outcomeschool.com/blog/creating-custom-annotations)
