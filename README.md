@@ -1093,7 +1093,7 @@ Questions
   
 * **Explain CompositionLocal**
   
-* **Explain Jetpack Compose Phases.**
+* **Explain Jetpack Compose Phases.** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_androiddev-compose-jetpack-activity-7359438711530426369-IQ8S)
   
 * **What is the role of the Modifier in Jetpack Compose?**
   
