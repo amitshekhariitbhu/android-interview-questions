@@ -1030,6 +1030,7 @@ Topics you should know in **Jetpack Compose** for Android Interview:
 * Layout, List
 * Gestures, Animation
 * CompositionLocal
+* Phases
 
 Learn the above-mentioned from the following links:
 
