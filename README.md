@@ -1041,7 +1041,7 @@ Learn the above-mentioned from the following links:
 - [Lifecycle](https://developer.android.com/jetpack/compose/lifecycle)
 - [Modifiers](https://developer.android.com/jetpack/compose/modifiers)
 - [Side-effects](https://developer.android.com/jetpack/compose/side-effects)
-- [Phases](https://developer.android.com/jetpack/compose/phases)
+- [Phases](https://www.linkedin.com/posts/outcomeschool_androiddev-compose-jetpack-activity-7359438711530426369-IQ8S)
 - [Semantics](https://developer.android.com/jetpack/compose/semantics)
 - [CompositionLocal](https://developer.android.com/jetpack/compose/compositionlocal)
 - [Can we use traditional Android Views and Compose together?](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineering-tech-activity-7235142707138961408-40hQ)
