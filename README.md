@@ -753,6 +753,8 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 
 * **How do Voice And Video Call Work?** - [Learn from here](https://outcomeschool.com/blog/voice-and-video-call)
 
+* **In an Android App, how do you handle data syncing when the network isn’t stable?** - [Handling Android Data Sync on Unstable Networks](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-interview-activity-7369017963754029056-G8Gv)
+
 * **Design Uber App** - [Learn from here](https://github.com/amitshekhariitbhu/ridesharing-uber-lyft-app)
 
 * **Database Normalization vs Denormalization** - [Database Normalization vs Denormalization](https://outcomeschool.com/blog/database-normalization-vs-denormalization)
