@@ -14,7 +14,7 @@ Hi, I am Amit Shekhar, Founder @ [Outcome School](https://outcomeschool.com) •
 
 You can connect with me on:
 
-- [Twitter](https://x.com/amitiitbhu)
+- [X/Twitter](https://x.com/amitiitbhu)
 - [YouTube](https://www.youtube.com/@amitshekhar)
 - [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
 - [GitHub](https://github.com/amitshekhariitbhu)
