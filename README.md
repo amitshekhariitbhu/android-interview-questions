@@ -44,8 +44,8 @@ Guided, motivated, and inspired them to aim higher and achieve more.
 * [Android System Design](#android-system-design) and check [Android System Design Interviews](https://outcomeschool.com/blog/android-system-design-interviews) 
 * [Android Unit Testing](#android-unit-testing)
 * [Android Tools And Technologies](#android-tools-and-technologies)
-* [Java](#java)
 * [Jetpack Compose](#jetpack-compose)
+* [Java](#java)
 * [Other Topics](#other-topics)
 * [Data Structures and Algorithms](#data-structures-and-algorithms) 
 
@@ -862,6 +862,100 @@ Android Interview Questions and Answers:
 
 * **What is Write-Ahead Logging (WAL) and why it is used internally in databases?** - [Learn from here](https://outcomeschool.com/blog/write-ahead-logging)
 
+### Jetpack Compose
+
+Topics you should know in **Jetpack Compose** for Android Interview:
+
+* Compose
+* State: remember, rememberSaveable, MutableState
+* Recomposition
+* State hoisting
+* Side-effects
+* Modifier
+* Theme
+* Layout, List
+* Gestures, Animation
+* CompositionLocal
+* Phases
+
+Learn the above-mentioned from the following links:
+
+- [Getting Started with Compose](https://developer.android.com/jetpack/compose/tutorial)
+- [Thinking in Compose](https://developer.android.com/jetpack/compose/mental-model)
+- [State](https://developer.android.com/jetpack/compose/state)
+- [remember vs rememberSaveable](https://outcomeschool.com/blog/remember-vs-remembersaveable)
+- [Lifecycle](https://developer.android.com/jetpack/compose/lifecycle)
+- [Modifiers](https://developer.android.com/jetpack/compose/modifiers)
+- [Side-effects](https://developer.android.com/jetpack/compose/side-effects)
+- [Phases](https://www.linkedin.com/posts/outcomeschool_androiddev-compose-jetpack-activity-7359438711530426369-IQ8S)
+- [Semantics](https://developer.android.com/jetpack/compose/semantics)
+- [CompositionLocal](https://developer.android.com/jetpack/compose/compositionlocal)
+- [Can we use traditional Android Views and Compose together?](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineering-tech-activity-7235142707138961408-40hQ)
+
+Questions
+
+* **Jetpack Compose vs Android View System**
+  
+* **Explain the concept of declarative UI in Jetpack Compose.**
+  
+* **Declarative UI vs Imperative UI**
+  
+* **What are Composable functions?**
+  
+* **What is Recomposition?**
+  
+* **What is State in Compose?**
+  
+* **How does state management work in Jetpack Compose?**
+  
+* **Stateful composable vs Stateless composable**
+  
+* **What are the side effects?**
+  
+* **Difference between LaunchedEffect and DisposableEffect**.
+  
+* **What is rememberCoroutineScope and its use cases?**
+  
+* **How to observe Flows, and LiveData states in Compose UI?**
+  
+* **How can we handle asynchronous operations in Jetpack Compose?**
+  
+* **How can we convert a non-compose state into a Compose state?**
+  
+* **Explain derivedStateOf.**
+  
+* **Explain rememberUpdatedState.**
+  
+* **Difference between remember and rememberSaveable.** - [Learn from here](https://outcomeschool.com/blog/remember-vs-remembersaveable)
+  
+* **Explain the Lifecycle of a Composable in Jetpack Compose.**
+  
+* **How do you handle lifecycle events in Compose functions?**
+  
+* **What are the best practices for performance optimization in Jetpack Compose?**
+  
+* **Can we use both Jetpack Compose and Android View in a Single App?**
+  
+* **What is State Hoisting?**
+  
+* **Explain CompositionLocal**
+  
+* **Explain Jetpack Compose Phases.** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_androiddev-compose-jetpack-activity-7359438711530426369-IQ8S)
+  
+* **What is the role of the Modifier in Jetpack Compose?**
+  
+* **What are Semantics?**
+  
+* **How can you handle user input and events in Jetpack Compose?**
+  
+* **How do you handle navigation in Jetpack Compose?**
+  
+* **How do you handle orientation changes in Jetpack Compose?**
+  
+* **Explain the concept of unidirectional data flow in Jetpack Compose.**
+  
+* **How to create Custom Layouts in Compose?**
+
 ### Java
 
 Android Interview Questions and Answers:
@@ -1012,100 +1106,6 @@ Android Interview Questions and Answers:
 * **What is the difference between fail-fast and fail-safe iterators in Java?**
 
 * **Monitor and Synchronization**
-
-### Jetpack Compose
-
-Topics you should know in **Jetpack Compose** for Android Interview:
-
-* Compose
-* State: remember, rememberSaveable, MutableState
-* Recomposition
-* State hoisting
-* Side-effects
-* Modifier
-* Theme
-* Layout, List
-* Gestures, Animation
-* CompositionLocal
-* Phases
-
-Learn the above-mentioned from the following links:
-
-- [Getting Started with Compose](https://developer.android.com/jetpack/compose/tutorial)
-- [Thinking in Compose](https://developer.android.com/jetpack/compose/mental-model)
-- [State](https://developer.android.com/jetpack/compose/state)
-- [remember vs rememberSaveable](https://outcomeschool.com/blog/remember-vs-remembersaveable)
-- [Lifecycle](https://developer.android.com/jetpack/compose/lifecycle)
-- [Modifiers](https://developer.android.com/jetpack/compose/modifiers)
-- [Side-effects](https://developer.android.com/jetpack/compose/side-effects)
-- [Phases](https://www.linkedin.com/posts/outcomeschool_androiddev-compose-jetpack-activity-7359438711530426369-IQ8S)
-- [Semantics](https://developer.android.com/jetpack/compose/semantics)
-- [CompositionLocal](https://developer.android.com/jetpack/compose/compositionlocal)
-- [Can we use traditional Android Views and Compose together?](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineering-tech-activity-7235142707138961408-40hQ)
-
-Questions
-
-* **Jetpack Compose vs Android View System**
-  
-* **Explain the concept of declarative UI in Jetpack Compose.**
-  
-* **Declarative UI vs Imperative UI**
-  
-* **What are Composable functions?**
-  
-* **What is Recomposition?**
-  
-* **What is State in Compose?**
-  
-* **How does state management work in Jetpack Compose?**
-  
-* **Stateful composable vs Stateless composable**
-  
-* **What are the side effects?**
-  
-* **Difference between LaunchedEffect and DisposableEffect**.
-  
-* **What is rememberCoroutineScope and its use cases?**
-  
-* **How to observe Flows, and LiveData states in Compose UI?**
-  
-* **How can we handle asynchronous operations in Jetpack Compose?**
-  
-* **How can we convert a non-compose state into a Compose state?**
-  
-* **Explain derivedStateOf.**
-  
-* **Explain rememberUpdatedState.**
-  
-* **Difference between remember and rememberSaveable.** - [Learn from here](https://outcomeschool.com/blog/remember-vs-remembersaveable)
-  
-* **Explain the Lifecycle of a Composable in Jetpack Compose.**
-  
-* **How do you handle lifecycle events in Compose functions?**
-  
-* **What are the best practices for performance optimization in Jetpack Compose?**
-  
-* **Can we use both Jetpack Compose and Android View in a Single App?**
-  
-* **What is State Hoisting?**
-  
-* **Explain CompositionLocal**
-  
-* **Explain Jetpack Compose Phases.** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_androiddev-compose-jetpack-activity-7359438711530426369-IQ8S)
-  
-* **What is the role of the Modifier in Jetpack Compose?**
-  
-* **What are Semantics?**
-  
-* **How can you handle user input and events in Jetpack Compose?**
-  
-* **How do you handle navigation in Jetpack Compose?**
-  
-* **How do you handle orientation changes in Jetpack Compose?**
-  
-* **Explain the concept of unidirectional data flow in Jetpack Compose.**
-  
-* **How to create Custom Layouts in Compose?**
 
 ### Other Topics
 
