@@ -715,6 +715,7 @@ Android Interview Questions and Answers
 * **Examples of the Observer pattern used in Android** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-activity-7288114509120970752-Z6c8)
 * **Design Pattern Used in Retrofit Library Source Code** - [Learn from here](https://outcomeschool.substack.com/p/design-patterns-in-android-libraries)
 * **Design Pattern used in Glide (Image Loading Library)** - [Learn from here](https://outcomeschool.substack.com/p/design-patterns-in-android-libraries)
+* **Design Patterns used in AOSP (Android Open Source Project)** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7373202625908936704-7FKH)
 
 ### Android System Design
 
