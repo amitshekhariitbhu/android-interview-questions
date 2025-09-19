@@ -564,6 +564,8 @@ Android Interview Questions and Answers:
 
 * **Can you manually call the Garbage collector?** - [Is it possible to force Garbage Collection in Android?](https://www.youtube.com/watch?v=fPEjpFKo1-Q)
 
+* **Android App Starts: Hot, Warm & Cold** - [Android App Starts: Hot, Warm & Cold](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-activity-7374668708679462912-DPH3)
+
 #### Android Jetpack
 
 * **What is Android Jetpack and why to use this?**
