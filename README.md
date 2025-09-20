@@ -528,6 +528,8 @@ Android Interview Questions and Answers:
 
 #### Battery Life Optimizations
 
+* **How Android Implements Adaptive Battery Using ML?** - [How Android Implements Adaptive Battery Using ML?](https://www.linkedin.com/posts/amit-shekhar-iitbhu_machinelearning-android-mobiledevelopment-activity-7375026631951917056-k0CB)
+
 * **How to reduce battery usage in an Android application?**
 
 * **What is Doze? What about App Standby?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_androiddev-activity-7319939901418795008-KRql)
