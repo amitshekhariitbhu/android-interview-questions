@@ -285,7 +285,7 @@ Android Interview Questions and Answers:
 
 * **What happens if an exception is thrown inside an async coroutine, but await() is never called?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_kotlin-androiddev-activity-7353980436689145856-CTeE)
 
-* **How to Implement Debounce Using Coroutines?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7285163906686164994-tOUK)
+* **How to Implement Debounce Using Coroutines?** - [Learn from here](https://outcomeschool.substack.com/p/how-to-implement-debounce-using-coroutines)
 
 * **Kotlin code snippet demonstrating how to run two coroutines in series and parallel** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7297944609614139392-h9NZ/)
 
