@@ -714,6 +714,7 @@ Android Interview Questions and Answers
 * **Adapter**
 * **Facade**
 * **Dependency Injection**
+* **Strategy Pattern** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-android-activity-7396043401357533184-a6OQ)
 * **Design Pattern used in Android** - [Learn from here](https://outcomeschool.substack.com/p/design-patterns-in-android-libraries)
 * **Kotlin Optional Parameters vs Builder Pattern** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7270656113845370881-LDW8)
 * **Examples of the Observer pattern used in Android** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-activity-7288114509120970752-Z6c8)
