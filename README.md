@@ -558,7 +558,7 @@ Android Interview Questions and Answers:
 
 * **What are the differences between Dalvik and ART?** - [Difference between Dalvik and ART](https://outcomeschool.com/blog/dalvik-art-jit-aot)
 
-* **Baseline Profiles** - [Learn from here](https://outcomeschool.com/blog/dalvik-art-jit-aot)
+* **Baseline Profiles** - [Learn from here](https://outcomeschool.substack.com/p/baseline-profiles-in-android)
 
 * **What is DEX?** - [Learn from here](https://developer.android.com/reference/dalvik/system/DexFile)
 
