@@ -758,6 +758,8 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 
 * **Design Uber App** - [Learn from here](https://github.com/amitshekhariitbhu/ridesharing-uber-lyft-app)
 
+* **How "Where Is My Train" Works Without Internet?** - [How "Where Is My Train" Works Without Internet?](https://outcomeschool.substack.com/p/how-where-is-my-train-works-without)
+
 * **Database Normalization vs Denormalization** - [Database Normalization vs Denormalization](https://outcomeschool.com/blog/database-normalization-vs-denormalization)
 
 * **Hash vs Encrypt vs Encode** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-activity-7249769459790323712-ZF0O)
