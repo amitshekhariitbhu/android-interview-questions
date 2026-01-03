@@ -750,6 +750,8 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 
 * **Design Analytics Library**
 
+* **Design Logging Library** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-android-interview-activity-7413072570452717568-K2Pb)
+
 * **HTTP Request vs HTTP Long-Polling vs WebSocket vs Server-Sent Events** - [Learn from blog](https://outcomeschool.com/blog/http-request-long-polling-websocket-sse) and [Video - HTTP Request vs HTTP Long-Polling vs WebSocket vs Server-Sent Events](https://www.youtube.com/watch?v=8ksWRX4xV-s)
 
 * **How do Voice And Video Call Work?** - [Learn from here](https://outcomeschool.com/blog/voice-and-video-call)
