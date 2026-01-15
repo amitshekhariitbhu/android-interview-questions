@@ -47,7 +47,14 @@ Guided, motivated, and inspired them to aim higher and achieve more.
 * [Jetpack Compose](#jetpack-compose)
 * [Java](#java)
 * [Other Topics](#other-topics)
-* [Data Structures and Algorithms](#data-structures-and-algorithms) 
+* [Data Structures and Algorithms](#data-structures-and-algorithms)
+
+## I teach at Outcome School
+
+- AI and Machine Learning
+- Android
+
+Join Outcome School and get a high-paying tech job: [Outcome School](https://outcomeschool.com)
 
 ### Android Interview Questions and Answers Playlist
 
