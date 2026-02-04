@@ -56,7 +56,7 @@ Guided, motivated, and inspired them to aim higher and achieve more.
 
 Join Outcome School and get a high-paying tech job: [Outcome School](https://outcomeschool.com)
 
-## Fast-Track Android Interview Preparation: [Join Outcome School](https://outcomeschool.com)
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
 
 ### Android Interview Questions and Answers Playlist
 
@@ -106,6 +106,8 @@ Join Outcome School and get a high-paying tech job: [Outcome School](https://out
     - **Answer**: [Why do we need to call setContentView() in onCreate() of Activity class?](https://www.youtube.com/watch?v=U1aHAt7XC5I)
 - **Question**: When only onDestroy is called for an activity without onPause() and onStop()?
     - **Answer**: [When only onDestroy is called for an activity without onPause() and onStop()?](https://www.youtube.com/watch?v=B2kY_ckZa-g)
+
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
 
 ### Kotlin Coroutines
 
@@ -307,6 +309,8 @@ Android Interview Questions and Answers:
 * **flatMapConcat, flatMapMerge, and flatMapLatest in Kotlin Flow** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineer-tech-activity-7316049746022801409-OoTY)
 
 * **collect vs collectLatest in Kotlin Flow** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-kotlin-activity-7371769230389731328-UXPY)
+
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
 
 ### Android
 
@@ -527,6 +531,8 @@ Android Interview Questions and Answers:
 
 * **How to implement Dark mode in any application?**
 
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
+
 #### Memory Optimizations
 
 * **Improve Android App Performance** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineer-tech-activity-7314877712815345664-iB7z)
@@ -693,6 +699,8 @@ Android Interview Questions and Answers:
 
 * **Difference between Schedulers.io() and Schedulers.computation() in RxJava.**
 
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
+
 ### Android Architecture
 
 Android Interview Questions and Answers:
@@ -794,6 +802,8 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 * **Symmetric vs Asymmetric Encryption** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_symmetric-vs-asymmetric-encryption-activity-7308873320894996481-a43E)
 
 * **SMS Retriever API in Android** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_sms-retriever-api-in-android-activity-7309171578796224513-YRab)
+
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
 
 ### Android Unit Testing
 
@@ -976,6 +986,8 @@ Questions
 * **Explain the concept of unidirectional data flow in Jetpack Compose.**
   
 * **How to create Custom Layouts in Compose?**
+
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
 
 ### Java
 
@@ -1175,6 +1187,8 @@ Android Interview Questions and Answers:
 ### High-quality blogs to prepare for Android Interview - [Check here - Outcome School Blog](https://outcomeschool.com/blog)
 
 ### Prepare for Machine Learning Interview: [Machine Learning Interview Questions](https://github.com/amitshekhariitbhu/machine-learning-interview-questions)
+
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
 
 ### Found this project useful :heart:
 
