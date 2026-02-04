@@ -56,7 +56,7 @@ Guided, motivated, and inspired them to aim higher and achieve more.
 
 Join Outcome School and get a high-paying tech job: [Outcome School](https://outcomeschool.com)
 
-## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/program/android)
 
 ### Android Interview Questions and Answers Playlist
 
@@ -107,7 +107,7 @@ Join Outcome School and get a high-paying tech job: [Outcome School](https://out
 - **Question**: When only onDestroy is called for an activity without onPause() and onStop()?
     - **Answer**: [When only onDestroy is called for an activity without onPause() and onStop()?](https://www.youtube.com/watch?v=B2kY_ckZa-g)
 
-## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/program/android)
 
 ### Kotlin Coroutines
 
@@ -310,7 +310,7 @@ Android Interview Questions and Answers:
 
 * **collect vs collectLatest in Kotlin Flow** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_androiddev-kotlin-activity-7371769230389731328-UXPY)
 
-## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/program/android)
 
 ### Android
 
@@ -531,7 +531,7 @@ Android Interview Questions and Answers:
 
 * **How to implement Dark mode in any application?**
 
-## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/program/android)
 
 #### Memory Optimizations
 
@@ -699,7 +699,7 @@ Android Interview Questions and Answers:
 
 * **Difference between Schedulers.io() and Schedulers.computation() in RxJava.**
 
-## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/program/android)
 
 ### Android Architecture
 
@@ -803,7 +803,7 @@ Refer to this blog: [**Android System Design Interviews**](https://outcomeschool
 
 * **SMS Retriever API in Android** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_sms-retriever-api-in-android-activity-7309171578796224513-YRab)
 
-## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/program/android)
 
 ### Android Unit Testing
 
@@ -987,7 +987,7 @@ Questions
   
 * **How to create Custom Layouts in Compose?**
 
-## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/program/android)
 
 ### Java
 
@@ -1188,7 +1188,7 @@ Android Interview Questions and Answers:
 
 ### Prepare for Machine Learning Interview: [Machine Learning Interview Questions](https://github.com/amitshekhariitbhu/machine-learning-interview-questions)
 
-## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/programs/android)
+## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/program/android)
 
 ### Found this project useful :heart:
 
