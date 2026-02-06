@@ -49,6 +49,9 @@ Guided, motivated, and inspired them to aim higher and achieve more.
 * [Other Topics](#other-topics)
 * [Data Structures and Algorithms](#data-structures-and-algorithms)
 
+---
+* **For Android Machine Coding Round Interview, Check**: [Android Machine Coding Round Interview](https://outcomeschool.substack.com/p/android-machine-coding-round-interview)
+---
 ## I teach at Outcome School
 
 - AI and Machine Learning
