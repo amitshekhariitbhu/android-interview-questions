@@ -63,6 +63,8 @@ Join Outcome School and get a high-paying tech job: [Outcome School](https://out
 
 ### Android Interview Questions and Answers Playlist
 
+- **Question**: Retrofit vs OkHttp
+    - **Answer**: [Retrofit vs OkHttp](https://www.youtube.com/watch?v=-6m2D2KTIpE)
 - **Question**: Android Push Notification Flow using FCM
     - **Answer**: [Android Push Notification Flow using FCM](https://www.youtube.com/watch?v=TrufwW4ILHg)
 - **Question**: What is an inline function in Kotlin?
