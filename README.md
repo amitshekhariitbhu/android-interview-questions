@@ -27,7 +27,7 @@ Interacted with over **500 Android Developers**.
 
 Guided, motivated, and inspired them to aim higher and achieve more.
 
-**Recording Link**: https://drive.google.com/file/d/1VWW3l_itH6vYbNYzNer6XW5_x0jzOF4O/view?usp=sharing
+**Recording Link**: https://www.youtube.com/watch?v=Yby0AA7ZSUE
 
 **Document Link**: https://docs.google.com/document/d/14UdD7Gd1j3no583ALx2t2Ggt3G_CECYhenLE-m-bkzA/edit?usp=sharing
 
@@ -62,6 +62,8 @@ Join Outcome School and get a high-paying tech job: [Outcome School](https://out
 ## Fast-Track Android Interview Preparation: [Join Outcome School Android Program](https://outcomeschool.com/program/android)
 
 ### Android Interview Questions and Answers Playlist
+
+Watch this video on "Android Developer Interview Preparation for Product-Based Companies": [Android Developer Interview Preparation for Product-Based Companies](https://www.youtube.com/watch?v=Yby0AA7ZSUE) 
 
 - **Question**: Retrofit vs OkHttp
     - **Answer**: [Retrofit vs OkHttp](https://www.youtube.com/watch?v=-6m2D2KTIpE)
