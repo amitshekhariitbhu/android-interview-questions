@@ -378,6 +378,8 @@ Android Interview Questions and Answers:
 * **What is the purpose of `addToBackStack()` while commiting fragment transaction?**
     - By calling addToBackStack(), the replace transaction is saved to the back stack so the user can reverse the transaction and bring back the previous fragment by pressing the Back button. For more [Learn from here](https://stackoverflow.com/questions/22984950/what-is-the-meaning-of-addtobackstack-with-null-parameter)
 
+* **Suppose Activity B is started from Activity A, tell the sequence in which the lifecycle methods will be called for each Activities**
+
 #### Views and ViewGroups
 
 * **Optimizing layouts in Android** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7269208182390951936-dAg3)
