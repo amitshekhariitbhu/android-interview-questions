@@ -65,8 +65,6 @@ Join Outcome School and get a high-paying tech job: [Outcome School](https://out
 
 Watch this video on "Android Developer Interview Preparation for Product-Based Companies": [Android Developer Interview Preparation for Product-Based Companies](https://www.youtube.com/watch?v=Yby0AA7ZSUE) 
 
-- **Question**: Retrofit vs OkHttp
-    - **Answer**: [Retrofit vs OkHttp](https://www.youtube.com/watch?v=-6m2D2KTIpE)
 - **Question**: Android Push Notification Flow using FCM
     - **Answer**: [Android Push Notification Flow using FCM](https://www.youtube.com/watch?v=TrufwW4ILHg)
 - **Question**: What is an inline function in Kotlin?
@@ -77,6 +75,8 @@ Watch this video on "Android Developer Interview Preparation for Product-Based C
     - **Answer**: [What is a reified keyword in Kotlin?](https://www.youtube.com/watch?v=kD2T84FnTck)
 - **Question**: Suspending vs Blocking in Kotlin Coroutines
     - **Answer**: [Suspending vs Blocking in Kotlin Coroutines](https://www.youtube.com/watch?v=V2lL_aJp17I)
+- **Question**: Retrofit vs OkHttp
+    - **Answer**: [Retrofit vs OkHttp](https://www.youtube.com/watch?v=-6m2D2KTIpE)
 - **Question**: Launch vs Async in Kotlin Coroutines
     - **Answer**: [Launch vs Async in Kotlin Coroutines](https://www.youtube.com/watch?v=B4AfTPpCU5o)
 - **Question**: internal visibility modifier in Kotlin
