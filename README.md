@@ -375,7 +375,7 @@ Android Interview Questions and Answers:
 
 * **What is retained `Fragment`?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7265620144289193984-hlpH)
 
-* **What is the purpose of `addToBackStack()` while commiting fragment transaction?**
+* **What is the purpose of `addToBackStack()` while committing fragment transaction?**
     - By calling addToBackStack(), the replace transaction is saved to the back stack so the user can reverse the transaction and bring back the previous fragment by pressing the Back button. For more [Learn from here](https://stackoverflow.com/questions/22984950/what-is-the-meaning-of-addtobackstack-with-null-parameter)
 
 #### Views and ViewGroups
