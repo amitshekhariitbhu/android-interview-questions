@@ -1189,6 +1189,11 @@ Android Interview Questions and Answers:
 
 * **Android Developer should know these Data Structures for Next Interview** - [Check here](https://outcomeschool.com/blog/android-developer-should-know-these-data-structures-for-next-interview)
 
+### Android Project Profiling 
+* **Improving Battery, Memory, UI & Overall App Performance** - [Pinankh Blog](https://www.linkedin.com/pulse/mastering-android-profiling-complete-guide-battery-memory-patel-gflef/?trackingId=ZagRTyjETQa8%2Ff%2B1fFO1qw%3D%3D)
+* **Beyond Android Studio Profiler: Perfetto, Thread Leaks, and Hidden Performance Traps** [Pinankh Blog](https://www.linkedin.com/pulse/android-performance-beyond-studio-profiler-perfetto-thread-patel-6rgpf/?trackingId=eJVDuxrTJzOYQmHVP56O6g%3D%3D)
+
+
 ### High-quality videos to prepare for Android Interview - [Amit Shekhar YouTube Channel](https://www.youtube.com/@amitshekhar)
 
 ### High-quality blogs to prepare for Android Interview - [Check here - Outcome School Blog](https://outcomeschool.com/blog)
