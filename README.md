@@ -1135,7 +1135,7 @@ Android Interview Questions and Answers:
     - While child class can override a static method with another static method with the same signature (return type can be down-casted), it is not truly overridden - it becomes "hidden", but both methods can still be accessed under right circumstances (see question about overloading/overriding above).
 
 * **When is a `static` block run?**
-    - Code inside static block is executed only once: the first time you make an object of that class or the first time you access a static member of that class (even if you never make an object of that class).
+    - A static block runs during class initialization, once per class as defined by its class loader. Initialization occurs before the first instance is created, a static method declared by the class is invoked, or a non-constant static field declared by the class is read or assigned. Reading a compile-time constant does not trigger initialization. Accessing an inherited static field initializes its declaring class, not the subclass used to qualify it. See [JLS 12.4.1: When Initialization Occurs](https://docs.oracle.com/javase/specs/jls/se25/html/jls-12.html#jls-12.4.1).
 
 * **Explain Reflection in Java** - [Learn from here](https://x.com/amitiitbhu/status/1819234916812341567)
 
